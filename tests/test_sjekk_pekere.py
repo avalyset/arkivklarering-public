@@ -82,6 +82,8 @@ def test_uten_den_private_historikken_proves_bare_merking_og_linjer_i_treet(lite
     assert [b.split(": ", 1)[1] for b in sp.sjekk()] == ["ikke i treet og ikke merket (i git-historikken): KLAR-ARK-0001 v1.0"]
 
 
+@pytest.mark.skipif(subprocess.run(["git", "cat-file", "-e", f"{sp.BUNDLE_COMMIT}^{{commit}}"], cwd=REPO, capture_output=True).returncode != 0,
+                    reason="bundle-commiten e7ee2fc finnes bare i det private repoet; det offentlige repoet er laget fra et rent tre")
 def test_det_private_repoet_har_bundle_commiten():
     tøm_cacher()
     assert sp.har_historikk() is True
