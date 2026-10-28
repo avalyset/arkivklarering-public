@@ -6,7 +6,7 @@ decision-makers: Eirik Botten Nicolaysen
 
 # KLAR-ADR-0020: AGPL-3.0-or-later med kommersiell lisens som tillegg; full historikk i tilgangsstyrt deponering
 
-Versjon 1.3, 2026-10-28 (v1.3: DOI for den tilgangsstyrte historikken er satt inn: 10.5281/zenodo.23723450 (steg 4.5); v1.2: A3 er endret (Eiriks beslutning 2026-10-28, AV-34): offentlig repo fra rent tre, full historikk i tilgangsstyrt deponering; tittelen, A3, begrunnelsen, alternativene og konsekvensene er oppdatert; v1.1: pekere til versjoner som ikke er i treet er merket «(i git-historikken)», og pekere med linjenummer til forrige versjon av et dokument med ny versjon viser til den nye versjonen, samme linje; kontrollert med `scripts/sjekk_pekere.py`, 0 brudd (KLAR-LOG-0005, restfunn etter kontrollen); v1.0: første versjon; fører Eiriks beslutninger A2 og A3 2026-10-27 fra KLAR-ARK-0008 v1.3).
+Versjon 1.4, 2026-10-28 (v1.4: plassholderen for publiseringsdatoen er utfylt (2026-10-28); v1.3: DOI for den tilgangsstyrte historikken er satt inn: 10.5281/zenodo.23723450 (steg 4.5); v1.2: A3 er endret (Eiriks beslutning 2026-10-28, AV-34): offentlig repo fra rent tre, full historikk i tilgangsstyrt deponering; tittelen, A3, begrunnelsen, alternativene og konsekvensene er oppdatert; v1.1: pekere til versjoner som ikke er i treet er merket «(i git-historikken)», og pekere med linjenummer til forrige versjon av et dokument med ny versjon viser til den nye versjonen, samme linje; kontrollert med `scripts/sjekk_pekere.py`, 0 brudd (KLAR-LOG-0005, restfunn etter kontrollen); v1.0: første versjon; fører Eiriks beslutninger A2 og A3 2026-10-27 fra KLAR-ARK-0008 v1.3).
 
 ## Kontekst
 
@@ -38,5 +38,5 @@ Ordrett: «Stopp beslutningsteateret og lever hel ved» = godkjenning av chat-Cl
 ## Konsekvenser
 
 - `LICENSE`, `NOTICE`, `pyproject.toml` (`license = "AGPL-3.0-or-later"`), `CITATION.cff`, `.zenodo.json`, README («Lisens») og `CONTRIBUTING.md` er endret i samme commit, rett oppå `57dedaf` (`testkjoring-v6`). Ingen kode er endret.
-- `LICENSING-HISTORY.md` beholder plassholderen `[PUBLISERINGSDATO]` til publiseringen. Erklæringen er ikke juridisk vurdert. Commit-SHA-ene som PREREG, `kjoring_meta`-filene, kodetaggene og stemplene viser til, finnes i den tilgangsstyrte historikken (DOI 10.5281/zenodo.23723450); KLAR-MANUS-0002 v1.2 (i git-historikken), som OSF-registreringen låser med sha256, kan etterprøves der.
+- `LICENSING-HISTORY.md` beholdt plassholderen `[PUBLISERINGSDATO]` til publiseringen; den er utfylt med 2026-10-28. Erklæringen er ikke juridisk vurdert. Commit-SHA-ene som PREREG, `kjoring_meta`-filene, kodetaggene og stemplene viser til, finnes i den tilgangsstyrte historikken (DOI 10.5281/zenodo.23723450); KLAR-MANUS-0002 v1.2 (i git-historikken), som OSF-registreringen låser med sha256, kan etterprøves der.
 - Bidrag lisensieres under AGPL-3.0-or-later (`CONTRIBUTING.md`). Kode fra andre bidragsytere kan bare inngå i en kommersiell lisens etter egen avtale med bidragsyteren; det finnes ingen bidragsavtale ennå.

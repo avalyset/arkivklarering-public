@@ -3,8 +3,10 @@ message: "Hvis du bruker arkivklarering, siter det slik. If you use arkivklareri
 title: "arkivklarering: klarering før publisering av norske lydarkiv (utkast og maskinforslag for menneskelig vurdering)"
 type: software
 version: 1.0.0
-date-released: 2026-10-27
+date-released: 2026-10-28
 license: AGPL-3.0-or-later
+doi: 10.5281/zenodo.23723667
+repository-code: "https://github.com/avalyset/arkivklarering-public"
 authors:
   - family-names: Botten Nicolaysen
     given-names: Eirik
@@ -14,6 +16,15 @@ abstract: >-
   Lokalt verktøy som foreslår hva et menneske må vurdere før et norsk lokalradio- eller fortellerarkiv publiseres:
   segmentering, transkripsjon i to lag, personvernflagg og utkast til katalogpost. Verktøyet klarerer ikke noe selv.
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23723667
+    description: "Zenodo, versjon 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23723666
+    description: "Zenodo, alle versjoner (konsept-DOI)"
+  - type: doi
+    value: 10.5281/zenodo.23723450
+    description: "Full git-historikk (git bundle), tilgangsstyrt: tilgang på forespørsel"
   - type: url
     value: "https://osf.io/hc83q/"
     description: "OSF-preregistrering av målingene på testdelene, KLAR-PREREG-0001 (under embargo til 2027-10-26)"
