@@ -1,0 +1,142 @@
+[
+  {
+    "lag": "ra",
+    "modell": "nb-whisper-large-verbatim.ggml-model.bin",
+    "sha256": "0227866ef47189f79d04347a080c73fcd8267c8e2255da5f77803506ab4ffc7d",
+    "lyd": "stillhet (digital nuller)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "."
+      ]
+    ],
+    "sek": 3.4
+  },
+  {
+    "lag": "ra",
+    "modell": "nb-whisper-large-verbatim.ggml-model.bin",
+    "sha256": "0227866ef47189f79d04347a080c73fcd8267c8e2255da5f77803506ab4ffc7d",
+    "lyd": "svak hvit støy (amplitude 0,01)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "."
+      ]
+    ],
+    "sek": 3.8
+  },
+  {
+    "lag": "ra",
+    "modell": "nb-whisper-large-verbatim.ggml-model.bin",
+    "sha256": "0227866ef47189f79d04347a080c73fcd8267c8e2255da5f77803506ab4ffc7d",
+    "lyd": "hvit støy (amplitude 0,2)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "."
+      ]
+    ],
+    "sek": 3.6
+  },
+  {
+    "lag": "ra",
+    "modell": "nb-whisper-large-verbatim.ggml-model.bin",
+    "sha256": "0227866ef47189f79d04347a080c73fcd8267c8e2255da5f77803506ab4ffc7d",
+    "lyd": "rosa støy (1/f, toppverdi 0,5)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "."
+      ]
+    ],
+    "sek": 3.4
+  },
+  {
+    "lag": "ra",
+    "modell": "nb-whisper-large-verbatim.ggml-model.bin",
+    "sha256": "0227866ef47189f79d04347a080c73fcd8267c8e2255da5f77803506ab4ffc7d",
+    "lyd": "syntetisk musikk (arpeggio)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "."
+      ]
+    ],
+    "sek": 3.5
+  },
+  {
+    "lag": "normalisert",
+    "modell": "nb-whisper-large.ggml-model.bin",
+    "sha256": "0f2f66f22e11a7c7da3c582d8e5c89cb2c0011753ba9c7c9731e320a4ba33e76",
+    "lyd": "stillhet (digital nuller)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "<|nocaptions|>"
+      ]
+    ],
+    "sek": 2.8
+  },
+  {
+    "lag": "normalisert",
+    "modell": "nb-whisper-large.ggml-model.bin",
+    "sha256": "0f2f66f22e11a7c7da3c582d8e5c89cb2c0011753ba9c7c9731e320a4ba33e76",
+    "lyd": "svak hvit støy (amplitude 0,01)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "<|nocaptions|>"
+      ]
+    ],
+    "sek": 3.4
+  },
+  {
+    "lag": "normalisert",
+    "modell": "nb-whisper-large.ggml-model.bin",
+    "sha256": "0f2f66f22e11a7c7da3c582d8e5c89cb2c0011753ba9c7c9731e320a4ba33e76",
+    "lyd": "hvit støy (amplitude 0,2)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "<|nocaptions|>"
+      ]
+    ],
+    "sek": 3.1
+  },
+  {
+    "lag": "normalisert",
+    "modell": "nb-whisper-large.ggml-model.bin",
+    "sha256": "0f2f66f22e11a7c7da3c582d8e5c89cb2c0011753ba9c7c9731e320a4ba33e76",
+    "lyd": "rosa støy (1/f, toppverdi 0,5)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "<|nocaptions|>"
+      ]
+    ],
+    "sek": 3.0
+  },
+  {
+    "lag": "normalisert",
+    "modell": "nb-whisper-large.ggml-model.bin",
+    "sha256": "0f2f66f22e11a7c7da3c582d8e5c89cb2c0011753ba9c7c9731e320a4ba33e76",
+    "lyd": "syntetisk musikk (arpeggio)",
+    "cuer": [
+      [
+        0.0,
+        30.0,
+        "<|nocaptions|>"
+      ]
+    ],
+    "sek": 4.4
+  }
+]

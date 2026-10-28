@@ -1,0 +1,992 @@
+{
+  "merknad": "DEV, ikke pilot",
+  "seed": 20261026,
+  "modeller": {
+    "ra": {
+      "modell": "nb-whisper-large-verbatim.ggml-model.bin",
+      "sha256": "0227866ef47189f79d04347a080c73fcd8267c8e2255da5f77803506ab4ffc7d"
+    },
+    "normalisert": {
+      "modell": "nb-whisper-large.ggml-model.bin",
+      "sha256": "0f2f66f22e11a7c7da3c582d8e5c89cb2c0011753ba9c7c9731e320a4ba33e76"
+    }
+  },
+  "wer": {
+    "ra/nn": {
+      "e": 0.221,
+      "e_n": 12,
+      "n": 0.3114,
+      "n_n": 12,
+      "sw": 0.297,
+      "sw_n": 12,
+      "t": 0.213,
+      "t_n": 12,
+      "w": 0.1808,
+      "w_n": 12,
+      "totalt": 0.248,
+      "totalt_n": 60,
+      "skrift:bm": 0.2725,
+      "skrift:bm_n": 38,
+      "skrift:nn": 0.2085,
+      "skrift:nn_n": 22
+    },
+    "ra/matchet": {
+      "e": 0.0994,
+      "e_n": 12,
+      "n": 0.1003,
+      "n_n": 12,
+      "sw": 0.2376,
+      "sw_n": 12,
+      "t": 0.1006,
+      "t_n": 12,
+      "w": 0.1423,
+      "w_n": 12,
+      "totalt": 0.1353,
+      "totalt_n": 60,
+      "skrift:bm": 0.0898,
+      "skrift:bm_n": 38,
+      "skrift:nn": 0.2085,
+      "skrift:nn_n": 22
+    },
+    "normalisert/nn": {
+      "e": 0.4033,
+      "e_n": 12,
+      "n": 0.5986,
+      "n_n": 12,
+      "sw": 0.5,
+      "sw_n": 12,
+      "t": 0.3136,
+      "t_n": 12,
+      "w": 0.4231,
+      "w_n": 12,
+      "totalt": 0.4632,
+      "totalt_n": 60,
+      "skrift:bm": 0.4919,
+      "skrift:bm_n": 38,
+      "skrift:nn": 0.4171,
+      "skrift:nn_n": 22
+    },
+    "normalisert/matchet": {
+      "e": 0.2044,
+      "e_n": 12,
+      "n": 0.4187,
+      "n_n": 12,
+      "sw": 0.4604,
+      "sw_n": 12,
+      "t": 0.1657,
+      "t_n": 12,
+      "w": 0.4,
+      "w_n": 12,
+      "totalt": 0.3479,
+      "totalt_n": 60,
+      "skrift:bm": 0.3049,
+      "skrift:bm_n": 38,
+      "skrift:nn": 0.4171,
+      "skrift:nn_n": 22
+    }
+  },
+  "segmenter": [
+    {
+      "id": "nb-12_0573349-0575627",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 2.278,
+      "dekket_av_tale_s": 2.28,
+      "flagg": [],
+      "fasit": "ja, finnes det alternativer til det?",
+      "hyp": {
+        "ra/nn": "finst det alternativ til det",
+        "ra/matchet": "finnes det alternativer til det",
+        "normalisert/nn": "Finst det alternativ til det?",
+        "normalisert/matchet": "Fins det alternativer til det?"
+      }
+    },
+    {
+      "id": "nb-22_1200080-1202315",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 2.235,
+      "dekket_av_tale_s": 1.96,
+      "flagg": [],
+      "fasit": "det er i en kalender aller først.",
+      "hyp": {
+        "ra/nn": "det er kalender aller først",
+        "ra/matchet": "det er kalender aller først",
+        "normalisert/nn": "Det er kalender aller først.",
+        "normalisert/matchet": "Det er kalender aller først."
+      }
+    },
+    {
+      "id": "nb-5_2153953-2162645",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 8.692,
+      "dekket_av_tale_s": 7.78,
+      "flagg": [],
+      "fasit": "fordi i Christianias adressebok over 1858 så er ikke Camilla Collett oppført som enkefru Collett.",
+      "hyp": {
+        "ra/nn": "fordi i christianias adressebok over 1858 så er ikkje camilla collett oppført som enkefru collett",
+        "ra/matchet": "fordi i christianias adressebok over 1858 så er ikke camilla collett oppført som enkefru collett",
+        "normalisert/nn": "I Christianias adressebok over 1858 er Camilla Collett oppført som enkefru Collett.",
+        "normalisert/matchet": "I Christianias adressebok over 1858 er Camilla Collett oppført som enkefru Collett."
+      }
+    },
+    {
+      "id": "nb-13_0586185-0596752",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 10.567,
+      "dekket_av_tale_s": 10.57,
+      "flagg": [],
+      "fasit": "vi kunne skjønne hvordan det faktisk var og sitte der isolert, og det er annerledes enn å bare høre tall og høre liksom forskning på det for eksempel.",
+      "hyp": {
+        "ra/nn": "vi kunne skjønne korleis det faktisk var å sitte der isolert og det er annleis enn å berre høyre tal og høyre liksom f forskning på det f eks",
+        "ra/matchet": "vi kunne skjønne hvordan det faktisk var å sitte der isolert og det er annerledes enn å bare høre tall og høre liksom f forskning på det f eks",
+        "normalisert/nn": "Vi kunne skjønne korleis det var å sitte der isolert. Og det er annleis enn å berre høyre tal og forsking på det, f.eks.",
+        "normalisert/matchet": "Vi kunne skjønne hvordan det var å sitte der isolert. Og det er annerledes enn å bare høre tall og forskning på det, f.eks."
+      }
+    },
+    {
+      "id": "nb-3_1868765-1875040",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 6.275,
+      "dekket_av_tale_s": 6.06,
+      "flagg": [],
+      "fasit": "det er jo ikke sånn at liksom Bjørg og og og Arne Mykle, det er jo ikke deres felt liksom.",
+      "hyp": {
+        "ra/nn": "det er jo ikkje sånn at liksom bjørg og og og arne mykjelie det er jo ikkje deira felt liksom",
+        "ra/matchet": "det er jo ikke sånn at liksom bjørg og og og arne myklie det er jo ikke deres felt liksom",
+        "normalisert/nn": "Det er jo ikkje sånn at Bjørg og Arne Myklie ... Det er jo ikkje deira felt, liksom.",
+        "normalisert/matchet": "Det er jo ikke sånn at Bjørg og Arne Myklie ... Det er jo ikke deres felt, liksom."
+      }
+    },
+    {
+      "id": "nb-27_1400610-1408275",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 7.665,
+      "dekket_av_tale_s": 7.42,
+      "flagg": [],
+      "fasit": "og verden er kanskje gården, bygda, grenda, landsbyen, skogen, fjellet, ørkenen du forholder deg til.",
+      "hyp": {
+        "ra/nn": "og verden er kanskje gården bygda grenda landsbyen skogen fjellet ørkenen du forholder deg til",
+        "ra/matchet": "og verden er kanskje gården bygda grenda landsbyen skogen fjellet ørkenen du forholder deg til",
+        "normalisert/nn": "Og verda er kanskje gården, bygda, grenda, landsbyen, skogen, fjellet, ørkenen.",
+        "normalisert/matchet": "Og verden er kanskje gården, bygda, grenda, landsbyen, skogen, fjellet, ørkenen."
+      }
+    },
+    {
+      "id": "nb-30_1957204-1961408",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 4.204,
+      "dekket_av_tale_s": 2.48,
+      "flagg": [],
+      "fasit": "det dritskummelt og det er også.",
+      "hyp": {
+        "ra/nn": "det er jo dritskummelt og det er også",
+        "ra/matchet": "det er jo dritskummelt og det er også",
+        "normalisert/nn": "Det er dritskummelt.",
+        "normalisert/matchet": "Det er dritskummelt, og det er også ..."
+      }
+    },
+    {
+      "id": "nb-12_0038680-0043036",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 4.356,
+      "dekket_av_tale_s": 3.6,
+      "flagg": [],
+      "fasit": "vi skal nærme oss hva Norden er og kanskje t.o.m. hva Norden skal bli.",
+      "hyp": {
+        "ra/nn": "vi skal nærme oss kva norden er og kanskje t o m kva norden skal bli",
+        "ra/matchet": "vi skal nærme oss hva norden er og kanskje til og med hva norden skal bli",
+        "normalisert/nn": "Vi skal nærme oss kva Norden er, og kanskje til og med kva Norden skal bli.",
+        "normalisert/matchet": "Vi skal nærme oss hva Norden er, og kanskje til og med hva Norden skal bli."
+      }
+    },
+    {
+      "id": "50f-34_0700930-0710140",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 9.21,
+      "dekket_av_tale_s": 8.12,
+      "flagg": [],
+      "fasit": "og det er et det er et signal som vi kanskje ikke tenker over men som underbevisstheten din, kan vi heller si, ville ha fanget opp.",
+      "hyp": {
+        "ra/nn": "og det er eit det er eit signal som vi kanskje ikkje tenker over men som underbevisstheten din kan vi heller seie ville ha fanga opp",
+        "ra/matchet": "og det er et det er et signal som vi kanskje ikke tenker over men som underbevisstheten din kan vi heller si ville ha fanget opp",
+        "normalisert/nn": "Det er eit signal som underbevisstheten din ville ha fanga opp.",
+        "normalisert/matchet": "Det er et signal som vi kanskje ikke tenker over, men som underbevisstheten din ville ha fanget opp."
+      }
+    },
+    {
+      "id": "nb-27_1284895-1295198",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 10.303,
+      "dekket_av_tale_s": 9.84,
+      "flagg": [],
+      "fasit": "fra antikken og frem til Kopernikus 1543 med hans bok så opererte man med et geosentrisk verdensbilde.",
+      "hyp": {
+        "ra/nn": "frå antikken og frem til copernicus 1543 med hans bok så opererte ein med eit geosentrisk verdsbilde",
+        "ra/matchet": "fra antikken og frem til copernicus 1543 med hans bok så opererte man med et geosentrisk verdensbilde",
+        "normalisert/nn": "Frå antikken til Kopernikus' \"1543\" opererte ein med eit geosentrisk verdsbilde.",
+        "normalisert/matchet": "Fra antikken og frem til Kopernikus' \"1543\" med hans bok. Så opererte man med et geosentrisk verdensbilde."
+      }
+    },
+    {
+      "id": "nb-33_2350240-2357030",
+      "dialect": "e",
+      "orthography": "nn",
+      "duration": 6.79,
+      "dekket_av_tale_s": 5.66,
+      "flagg": [
+        "musikk under tale – vurder rettigheter"
+      ],
+      "fasit": "og han sa seinare at han torde ikkje komma ut fordi ho hadde tjukklegger som ein mann.",
+      "hyp": {
+        "ra/nn": "og han sa seinare at han torde ikkje komme ut for å vere tjukklegger som ein mann",
+        "ra/matchet": "og han sa seinare at han torde ikkje komme ut for å vere tjukklegger som ein mann",
+        "normalisert/nn": "Og ... Han sa seinare at han torde ikkje komme ut før å vere tjukklegger som ein mann.",
+        "normalisert/matchet": "Og ... Han sa seinare at han torde ikkje komme ut før å vere tjukklegger som ein mann."
+      }
+    },
+    {
+      "id": "nb-24_2284000-2286140",
+      "dialect": "e",
+      "orthography": "bm",
+      "duration": 2.14,
+      "dekket_av_tale_s": 2.14,
+      "flagg": [],
+      "fasit": "se på Hamsun som gjør så mye rart.",
+      "hyp": {
+        "ra/nn": "tenk på hamsun som gjør så mykje rart",
+        "ra/matchet": "se på hamsun som gjør så mye rart",
+        "normalisert/nn": "Se på Hamsun, som gjør så mykje rart.",
+        "normalisert/matchet": "Se på Hamsun, som gjør så mye rart."
+      }
+    },
+    {
+      "id": "50f-17_0153187-0162201",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 9.014,
+      "dekket_av_tale_s": 8.7,
+      "flagg": [],
+      "fasit": "og nettopp som du sa samlet inn planter, presset i herbarium, lagt i Tromsø-herbariet f.eks. i Oslo tilsvarende Trondheim og Bergen.",
+      "hyp": {
+        "ra/nn": "og nettopp som du sa samla inn plant planter pressa i herbarium lagt i tromsø herbarium f eks i oslo tilsvarande trondheim og bergen",
+        "ra/matchet": "og nettopp som du sa samlet inn plant planter presset i herbarium lagt i tromsø herbarium f eks i oslo tilsvarende trondheim og bergen",
+        "normalisert/nn": "Og nettopp som du sa, samla inn planter, prestet i herbarium, lagt i Tromsø herbarium.",
+        "normalisert/matchet": "Og nettopp som du sa, samlet inn planter, prestet i herbarium, lagt i Tromsø herbarium, f.eks. i Oslo og tilsvarende Trondheim og Bergen."
+      }
+    },
+    {
+      "id": "50f-17_0223701-0231310",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 7.609,
+      "dekket_av_tale_s": 7.2,
+      "flagg": [],
+      "fasit": "alt som vokser rundt der over årtusener vil liksom lagres litt av det vil lagres på bunn av innsjøen.",
+      "hyp": {
+        "ra/nn": "alt som voks rundt der over årtusener vil liksom lagrast litt av det vil lagrast på botnen av innsjøen",
+        "ra/matchet": "alt som vokser rundt der over årtusener vil liksom lagres litt av det vil lagres på bunnen av innsjøen",
+        "normalisert/nn": "Alt som veks rundt der over årtusenar, vil lagrast på botnen av innsjøen.",
+        "normalisert/matchet": "Alt som vokser rundt der over årtusener, vil lagres ... Litt av det vil lagres på bunnen av innsjøen."
+      }
+    },
+    {
+      "id": "50f-16_0174830-0181970",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 7.14,
+      "dekket_av_tale_s": 7.14,
+      "flagg": [],
+      "fasit": "så skreiv jeg et brev til institusjonene, så sier jeg kan dere sende meg rutinene deres og fortelle meg hva er det dere meiner at skal skje i disse situasjonene?",
+      "hyp": {
+        "ra/nn": "så har eg skrive eit brev til institusjonane og så seier eg kan de sende meg rutinane dykkar så fortel meg kva er det dykkar meiner at skal skje i desse situasjonane",
+        "ra/matchet": "så har jeg skrevet brev til institusjonene og så sier jeg kan dere sende meg rutinene deres og fortelle meg hva er det dere meiner at skal skje i disse situasjonene",
+        "normalisert/nn": "Kan de sjå med rutinane dykkar, og fortel meg kva de meiner skal skje i desse situasjonane?",
+        "normalisert/matchet": "Jeg har skrevet brev til institusjoner som sier hva de mener skal skje i disse situasjonene."
+      }
+    },
+    {
+      "id": "50f-7_0046906-0054600",
+      "dialect": "n",
+      "orthography": "nn",
+      "duration": 7.694,
+      "dekket_av_tale_s": 7.69,
+      "flagg": [],
+      "fasit": "du er postdoktor ved Institutt for samfunnsmedisin, opphavleg feltbiolog %eee.",
+      "hyp": {
+        "ra/nn": "du er postdoktor ved institutt for samfunnsmedisin opprinnelig feltbiolog",
+        "ra/matchet": "du er postdoktor ved institutt for samfunnsmedisin opprinnelig feltbiolog",
+        "normalisert/nn": "Du er postdoktor ved Institutt for samfunnsmedisin, opprinnelig feltbiolog.",
+        "normalisert/matchet": "Du er postdoktor ved Institutt for samfunnsmedisin, opprinnelig feltbiolog."
+      }
+    },
+    {
+      "id": "50f-6_0816695-0827100",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 10.405,
+      "dekket_av_tale_s": 6.58,
+      "flagg": [],
+      "fasit": "men også hvordan kan denne teknologien etter hvert kanskje videreformidles altså brukes av andre?",
+      "hyp": {
+        "ra/nn": "men også korleis kan denne teknologien etter kvart kanskje vidareformidles altså brukast av andre",
+        "ra/matchet": "men også hvordan kan denne teknologien etter hvert kanskje videreformidles altså brukes av andre",
+        "normalisert/nn": "Men også hvordan kan denne teknologien etter hvert kanskje ...",
+        "normalisert/matchet": "Men også hvordan kan denne teknologien etter hvert kanskje ..."
+      }
+    },
+    {
+      "id": "50f-16_1201530-1208013",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 6.483,
+      "dekket_av_tale_s": 6.24,
+      "flagg": [],
+      "fasit": "har du hatt tilgang til materiale hvor pasienter har beskrevet virkeligheten, bortsett fra denne kameraten din?",
+      "hyp": {
+        "ra/nn": "har du hatt tilgang til materiale kor pasientar beskreiv virkeligheten bortsett frå denne kameraten din",
+        "ra/matchet": "har du hatt tilgang til materiale hvor pasienter beskrev virkeligheten bortsett fra denne kameraten",
+        "normalisert/nn": "Har du hatt tilgang til materialet hvor pasienter beskriver virkeligheten?",
+        "normalisert/matchet": "Har du hatt tilgang til materialet hvor pasienter beskriver virkeligheten?"
+      }
+    },
+    {
+      "id": "50f-25_1193460-1201083",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 7.623,
+      "dekket_av_tale_s": 7.62,
+      "flagg": [],
+      "fasit": "så det så det kan godt være en av grunnene til at man blir så at det blir en sånn myte om at samer drikker så mye.",
+      "hyp": {
+        "ra/nn": "så det så det kan godt vere ein av grunnane til at ein blir så s at det blir ein sånn myte om at samar drikk så mykje",
+        "ra/matchet": "så det så det kan godt være en av grunnene til at man blir så s at det blir en sånn myte om at samer drikker så mye",
+        "normalisert/nn": "Det kan vere ein av grunnane til at det blir ein myte om at samar drikk så mykje.",
+        "normalisert/matchet": "Det kan være en av grunnene til at det blir en myte om at samer drikker så mye."
+      }
+    },
+    {
+      "id": "50f-9_1023585-1035165",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 11.581,
+      "dekket_av_tale_s": 11.3,
+      "flagg": [],
+      "fasit": "så jeg ga forøvrig den derre ene sida bare med den stipla linja som eksamensoppgave til studentene en gang og og les den eller tolk den dette diktutdraget.",
+      "hyp": {
+        "ra/nn": "så eg gav for øvrig den derre eine sida berre med den stipla linja som eksamensoppgave til studentane min ein gong og og altså s les den eller tolk den dette diktutdraget",
+        "ra/matchet": "så jeg ga for øvrig den derre ene sida bare med den stipla linja som eksamensoppgave til studentene min en gang og og altså s les den eller tolk den dette diktutdraget",
+        "normalisert/nn": "Jeg gav for øvrig den ene sida med den stipla linja som eksamensoppgave til studenter, og leste eller tolka dette diktutdraget.",
+        "normalisert/matchet": "Jeg ga for øvrig den ene sida med den stipla linja som eksamensoppgave til studenter, og lest den eller tolk dette diktutdraget."
+      }
+    },
+    {
+      "id": "50f-9_1012680-1023585",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 10.905,
+      "dekket_av_tale_s": 10.36,
+      "flagg": [],
+      "fasit": "og og til slutt så så så den siste sida eller den nest siste sida der er det altså bare sånn stipla linjer altså spor etter en reinflokk som har vandra sånn i på snø.",
+      "hyp": {
+        "ra/nn": "og og til slutt så så så de den siste sida eller nest siste sida der i dag så bare sånn stipla linjer og nede altså spor etter en reinflokk som har vandra sånn i på snø",
+        "ra/matchet": "og og til slutt så så så de den siste sida eller nest siste sida der i dag så bare sånn stipla linjer og nede altså spor etter en reinflokk som har vandra sånn i på snø",
+        "normalisert/nn": "Nest siste sida er det bare stipla linjer og spor etter en reinflokk som har vandra på snøen.",
+        "normalisert/matchet": "Og til slutt så den siste sida, eller nest siste sida der i dag, som bare stipla linjer, og spor etter en reinflokk som har vandra på snøen."
+      }
+    },
+    {
+      "id": "50f-17_0785093-0793793",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 8.7,
+      "dekket_av_tale_s": 8.18,
+      "flagg": [],
+      "fasit": "så hvis det kommer hvis det blir varmere og og en høyere art vokser ved siden av den så tar den alt sollyset, den tar næringen, de blir utkonkurrert.",
+      "hyp": {
+        "ra/nn": "så viss det kjem viss det blir varmare og og ein høgare art voks ved sida av den så tar den alt sollyset den tar næringa dei blir utkonkurrert",
+        "ra/matchet": "så hvis det kommer hvis det blir varmere og og en høyere art vokser ved siden av den så tar den alt sollyset den tar næringen de blir utkonkurrert",
+        "normalisert/nn": "Blir det varmare og ein høgare art veks ved sida av han, tar han sollyset og næringa.",
+        "normalisert/matchet": "Hvis det blir varmere og en høyere art vokser ved siden av den, så tar den alt sollyset og næringen."
+      }
+    },
+    {
+      "id": "50f-11_1150695-1156260",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 5.565,
+      "dekket_av_tale_s": 5.57,
+      "flagg": [],
+      "fasit": "så det responsstil som gir som handler om å ta seg bedre tid altså tenke seg om.",
+      "hyp": {
+        "ra/nn": "altså ein responsstil som gir som handlar om å ta seg betre tid altså tenke seg om",
+        "ra/matchet": "altså en responsstil som gir som handler om å ta seg bedre tid altså tenke seg om",
+        "normalisert/nn": "Ein responsstil som handlar om å ta seg betre tid?",
+        "normalisert/matchet": "En responsstil som handler om å ta seg bedre tid."
+      }
+    },
+    {
+      "id": "50f-16_0405553-0413160",
+      "dialect": "n",
+      "orthography": "bm",
+      "duration": 7.607,
+      "dekket_av_tale_s": 7.61,
+      "flagg": [],
+      "fasit": "men så problemet er at man lager til ei rutine som gjelder alle sammen, og det er jo fordi at man da skal slippe å si til pasienten at nei, vet du hva, vi tør faktisk ikke å sleppe deg ut.",
+      "hyp": {
+        "ra/nn": "men så er problemet at ein lagar til ei rutine som gjeld alle saman og det er jo fordi at ein da skal slippe å seie til pasienten at nei veit du kva vi tør faktisk ikkje å sleppe deg ut",
+        "ra/matchet": "men så er problemet at man lager til ei rutine som gjelder alle sammen og det er jo fordi at man da skal slippe å si til pasienten at nei vet du hva vi tør faktisk ikke å slippe deg ut",
+        "normalisert/nn": "Men så er problemet at ein lagar til ei rutine som gjeld alle saman.",
+        "normalisert/matchet": "Men så er problemet at man lager til en rutine som gjelder alle sammen."
+      }
+    },
+    {
+      "id": "nb-22_4330585-4333333",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 2.748,
+      "dekket_av_tale_s": 1.7,
+      "flagg": [],
+      "fasit": "kven er kven er denne teikninga meint for?",
+      "hyp": {
+        "ra/nn": "det med det der teikninga meint for",
+        "ra/matchet": "det med det der teikninga meint for",
+        "normalisert/nn": "",
+        "normalisert/matchet": ""
+      }
+    },
+    {
+      "id": "nb-4_6986980-6990408",
+      "dialect": "sw",
+      "orthography": "bm",
+      "duration": 3.428,
+      "dekket_av_tale_s": 3.43,
+      "flagg": [],
+      "fasit": "jeg synes de der eiendomssakene er de mest sexy bare så det er sagt.",
+      "hyp": {
+        "ra/nn": "og eg synest dei der eigedomssakene er dei mest veks berre så det er sagt",
+        "ra/matchet": "og jeg syns de der eiendomssakene er de mest veks bare så det er sagt",
+        "normalisert/nn": "Eg synest eigedomssakene er dei mest eksakte.",
+        "normalisert/matchet": "Jeg syns de eiendomssakene er de mest eksakte."
+      }
+    },
+    {
+      "id": "50f-18_1563160-1566086",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 2.926,
+      "dekket_av_tale_s": 2.93,
+      "flagg": [],
+      "fasit": "og viss folk sluttar å prøva då kjem me då kjem me ikkje vidare.",
+      "hyp": {
+        "ra/nn": "og viss folk sluttar å prøve då kjem vi då kjem vi ikkje vidare",
+        "ra/matchet": "og viss folk sluttar å prøve då kjem vi då kjem vi ikkje vidare",
+        "normalisert/nn": "Og viss folk sluttar å prøve, då kjem vi ikkje vidare.",
+        "normalisert/matchet": "Og viss folk sluttar å prøve, då kjem vi ikkje vidare."
+      }
+    },
+    {
+      "id": "nb-5_3313160-3315610",
+      "dialect": "sw",
+      "orthography": "bm",
+      "duration": 2.45,
+      "dekket_av_tale_s": 2.45,
+      "flagg": [],
+      "fasit": "hvordan kan man trykke, hvordan kan man osv. altså?",
+      "hyp": {
+        "ra/nn": "korleis kan ein trykke korleis kan ein osv altså",
+        "ra/matchet": "hvordan kan man trykke hvordan kan man osv altså",
+        "normalisert/nn": "Korleis kan ein trykke, korleis kan ein ...?",
+        "normalisert/matchet": "Hvordan kan man trykke, hvordan kan man ..."
+      }
+    },
+    {
+      "id": "50f-18_0857780-0860440",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 2.66,
+      "dekket_av_tale_s": 2.18,
+      "flagg": [],
+      "fasit": "og der trong eg berre møte opp ein gong i året og ta eksamen.",
+      "hyp": {
+        "ra/nn": "der trur eg berre møter opp éin gong i året og tar eksamen",
+        "ra/matchet": "der trur eg berre møter opp éin gong i året og tar eksamen",
+        "normalisert/nn": "Berre møte opp éin gong i året og ta eksamen.",
+        "normalisert/matchet": "Berre møte opp éin gong i året og ta eksamen."
+      }
+    },
+    {
+      "id": "nb-27_0315157-0317186",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 2.029,
+      "dekket_av_tale_s": 2.03,
+      "flagg": [],
+      "fasit": "dokker skal me få det opp på skjerm.",
+      "hyp": {
+        "ra/nn": "de skal få det opp på skjerm",
+        "ra/matchet": "de skal få det opp på skjerm",
+        "normalisert/nn": "Skal vi få det opp på skjerm?",
+        "normalisert/matchet": "Skal vi få det opp på skjerm?"
+      }
+    },
+    {
+      "id": "nb-27_2163006-2169401",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 6.395,
+      "dekket_av_tale_s": 6.13,
+      "flagg": [],
+      "fasit": "dei er jo ikkje ennå ein del av de Jodes eller Ortelius' eller Europas verd.",
+      "hyp": {
+        "ra/nn": "dei er jo ikkje enno ein del av det jodes eller åthelis eller europas verden",
+        "ra/matchet": "dei er jo ikkje enno ein del av det jodes eller åthelis eller europas verden",
+        "normalisert/nn": "Dei er jo ikkje enno ein del av de jodes eller othelis eller Europas verd.",
+        "normalisert/matchet": "Dei er jo ikkje enno ein del av de jodes eller othelis eller Europas verd."
+      }
+    },
+    {
+      "id": "nb-22_2996442-3002640",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 6.198,
+      "dekket_av_tale_s": 6.08,
+      "flagg": [],
+      "fasit": "sjølv om liturgien er nokolunde lik så er det manuskript, handskrifter variasjonar, aldersforskjellar og så vidare.",
+      "hyp": {
+        "ra/nn": "sjøl om liturgien er nokolunde lik så er det manuskripter handskrifter variasjonar aldersforskjellar osv",
+        "ra/matchet": "sjøl om liturgien er nokolunde lik så er det manuskripter handskrifter variasjonar aldersforskjellar osv",
+        "normalisert/nn": "Er det manuskripter, handskrifter, variasjoner, aldersforskjeller osv.?",
+        "normalisert/matchet": "Er det manuskripter, handskrifter, variasjoner, aldersforskjeller osv.?"
+      }
+    },
+    {
+      "id": "nb-1_1384537-1388501",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 3.964,
+      "dekket_av_tale_s": 3.96,
+      "flagg": [],
+      "fasit": "det var ein butikk i Stavanger som het Middleton som var ein gammaldags kolonialbutikk.",
+      "hyp": {
+        "ra/nn": "det var ein butikk i stavanger som heitt middeltårn som var ein gammaldags kolonialbutikk",
+        "ra/matchet": "det var ein butikk i stavanger som heitt middeltårn som var ein gammaldags kolonialbutikk",
+        "normalisert/nn": "Det var ein butikk i Stavanger som heitte Middeltårn.",
+        "normalisert/matchet": "Det var ein butikk i Stavanger som heitte Middeltårn."
+      }
+    },
+    {
+      "id": "nb-4_8680050-8683538",
+      "dialect": "sw",
+      "orthography": "bm",
+      "duration": 3.488,
+      "dekket_av_tale_s": 3.49,
+      "flagg": [],
+      "fasit": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på han.",
+      "hyp": {
+        "ra/nn": "grunnen til at me har fått tilbake kodeksen er ikkje for at me skulle forska på han",
+        "ra/matchet": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+        "normalisert/nn": "Grunnen til at vi har fått tilbake kodeksen, er ikkje for at vi skulle forske på han.",
+        "normalisert/matchet": "Grunnen til at vi har fått tilbake kodeksen, er ikke for at vi skulle forske på den."
+      }
+    },
+    {
+      "id": "nb-27_1438679-1445834",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 7.155,
+      "dekket_av_tale_s": 6.72,
+      "flagg": [],
+      "fasit": "men du eg trur eigentleg at eg tru det eller ei avbraut deg på eit tidspunkt for du sa at det var ein annan ting du synst var kjekt med dette kartet òg?",
+      "hyp": {
+        "ra/nn": "men du eg trur eigentleg at eg trur du hadde ei avbreidd deg på eit tidspunkt for du seier at det var ein annan ting du synest var kjekt med dette kartet òg",
+        "ra/matchet": "men du eg trur eigentleg at eg trur du hadde ei avbreidd deg på eit tidspunkt for du seier at det var ein annan ting du synest var kjekt med dette kartet òg",
+        "normalisert/nn": "Men eg trur du hadde avbreidd deg. For det var ein annan ting du syntest var kjekt.",
+        "normalisert/matchet": "Men eg trur du hadde avbreidd deg. For det var ein annan ting du syntest var kjekt."
+      }
+    },
+    {
+      "id": "nb-27_4392382-4404345",
+      "dialect": "sw",
+      "orthography": "nn",
+      "duration": 11.963,
+      "dekket_av_tale_s": 11.72,
+      "flagg": [],
+      "fasit": "men alt det andre vil me visa fram og gjere tilgjengeleg til oss skal etablera og med det så må me slutta dagens samtale om kart så me seier tusen takk til Benedicte Briså som har komme her hos oss.",
+      "hyp": {
+        "ra/nn": "men alt det andre vil vi visa fram og gjer tilgjengeleg til her og skal etablere og med det så må vi slutta dagens samtale om kart så vil eg seie tusen takk til benedicte brisa som har kome til her hos oss",
+        "ra/matchet": "men alt det andre vil vi visa fram og gjer tilgjengeleg til her og skal etablere og med det så må vi slutta dagens samtale om kart så vil eg seie tusen takk til benedicte brisa som har kome til her hos oss",
+        "normalisert/nn": "Men alt det andre vil vi vise fram og skal etablere. Og med det må vi slutte dagens samtale om kart. Tusen takk til Benedicte Brisaa.",
+        "normalisert/matchet": "Men alt det andre vil vi vise fram og skal etablere. Og med det må vi slutte dagens samtale om kart. Tusen takk til Benedicte Brisaa."
+      }
+    },
+    {
+      "id": "tr-31_0414716-0420715",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 5.999,
+      "dekket_av_tale_s": 6.0,
+      "flagg": [],
+      "fasit": "det er jo 27 enheter så det her ja det er litt det er ganske stor variasjon.",
+      "hyp": {
+        "ra/nn": "det er jo 27 einheiter så det her ja det er litt det er ganske stor variasjon",
+        "ra/matchet": "det er jo 27 enheter så det her ja det er litt det er ganske stor f variasjon",
+        "normalisert/nn": "Det er 27 einingar, så det er ganske stor variasjon.",
+        "normalisert/matchet": "Det er jo 27 enheter, så det her ... Ja, det er litt ... Det er ganske stor variasjon."
+      }
+    },
+    {
+      "id": "tr-31_0019850-0022397",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 2.547,
+      "dekket_av_tale_s": 2.55,
+      "flagg": [],
+      "fasit": "fra det store studioet i rådhuskjelleren.",
+      "hyp": {
+        "ra/nn": "frå det store studioet i rådhusfjelleren",
+        "ra/matchet": "fra det store studioet i rådhusfjelleren",
+        "normalisert/nn": "Frå det store studioet i Rådhusfjelleren.",
+        "normalisert/matchet": "Fra det store studioet i Rådhusfjelleren."
+      }
+    },
+    {
+      "id": "50f-7_1332180-1343733",
+      "dialect": "t",
+      "orthography": "nn",
+      "duration": 11.553,
+      "dekket_av_tale_s": 10.8,
+      "flagg": [],
+      "fasit": "ja det er ingen rett strek for min del iallfall, men det er statistikken som verktøy som har vore med meg dit eg er i dag.",
+      "hyp": {
+        "ra/nn": "ja det er ingen rett strek for min del i kvart fall men det er statistikken som verktøy som har vore med meg dit eg er i dag",
+        "ra/matchet": "ja det er ingen rett strek for min del i kvart fall men det er statistikken som verktøy som har vore med meg dit eg er i dag",
+        "normalisert/nn": "Ja, det er ingen rett strek for min del iallfall. Men det er statistikken som verktøy som har vore med meg dit eg er i dag.",
+        "normalisert/matchet": "Ja, det er ingen rett strek for min del iallfall. Men det er statistikken som verktøy som har vore med meg dit eg er i dag."
+      }
+    },
+    {
+      "id": "tr-8_1253360-1255910",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 2.55,
+      "dekket_av_tale_s": 1.78,
+      "flagg": [],
+      "fasit": "kan du si navnet på en spiller da?",
+      "hyp": {
+        "ra/nn": "kan du seie namnet på ein spelar da",
+        "ra/matchet": "kan du si navnet på en spiller da",
+        "normalisert/nn": "Kan du seie namnet på ein spelar, da?",
+        "normalisert/matchet": "Kan du si navnet på en spiller, da?"
+      }
+    },
+    {
+      "id": "tr-31_0763656-0769603",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 5.947,
+      "dekket_av_tale_s": 5.95,
+      "flagg": [],
+      "fasit": "vi har bl.a. deltatt i plangruppa for bygging av nye Risvollan helse- og velferdssenter.",
+      "hyp": {
+        "ra/nn": "vi har bl a deltatt i plangruppa for bygging av nye risvolan helse- og velferdssenter",
+        "ra/matchet": "vi har bl a deltatt i plangruppa for bygging av nye risvolan helse- og velferdssenter",
+        "normalisert/nn": "Vi har bl.a. deltatt i plangruppa for bygging av nye Risvålan helse- og velferdssenter.",
+        "normalisert/matchet": "Vi har bl.a. deltatt i plangruppa for bygging av nye Risvålan helse- og velferdssenter."
+      }
+    },
+    {
+      "id": "nb-21_0946545-0953400",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 6.855,
+      "dekket_av_tale_s": 6.66,
+      "flagg": [],
+      "fasit": "dem var nødt til å gjøre noe med helsesituasjonen for at for å bedre økonomien òg i landet.",
+      "hyp": {
+        "ra/nn": "dei var nøydde til å gjera noko med helsesituasjonen for at dere for for å bedre økonomien òg i landet",
+        "ra/matchet": "dem var nødt til å gjøre noe med helsesituasjonen for at dere for for å bedre økonomien òg i landet",
+        "normalisert/nn": "Dei måtte gjere noko med helsesituasjonen for å betre økonomien i landet.",
+        "normalisert/matchet": "De måtte gjøre noe med helsesituasjonen for å bedre økonomien."
+      }
+    },
+    {
+      "id": "nb-21_1124060-1131216",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 7.156,
+      "dekket_av_tale_s": 4.2,
+      "flagg": [],
+      "fasit": "det er av liten råd til avveksling med annen kraftigere næring.",
+      "hyp": {
+        "ra/nn": "det er ei liten råd til avveksling med annan kraftigare næring",
+        "ra/matchet": "det er ei liten råd til avveksling med annen kraftigere næring",
+        "normalisert/nn": "Det er ein liten råd til avveksling. Med anna kraftigare næring.",
+        "normalisert/matchet": "Det er en liten råd til avveksling. Med annen, kraftigere næring."
+      }
+    },
+    {
+      "id": "nb-21_0981400-0991608",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 10.208,
+      "dekket_av_tale_s": 9.38,
+      "flagg": [],
+      "fasit": "på på attenhundretallet så var det særlig difteri som var den store store store problemet %qqq.",
+      "hyp": {
+        "ra/nn": "og det på på så attenhundretalet så var det særleg difteri som var den store store store problemet",
+        "ra/matchet": "og det på på så 1800-tallet så var det særlig difteri som var den store store store problemet",
+        "normalisert/nn": "På 1800-talet var det særleg difteri som var det store problemet.",
+        "normalisert/matchet": "På 1800-tallet var det særlig difteri som var det store problemet."
+      }
+    },
+    {
+      "id": "tr-8_0055280-0060950",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 5.67,
+      "dekket_av_tale_s": 4.86,
+      "flagg": [],
+      "fasit": "gjesten vår i dag er Grethe Hennissen fra byplankontoret.",
+      "hyp": {
+        "ra/nn": "gjesten vår i dag er grete hennissen frå byplankontoret",
+        "ra/matchet": "gjesten vår i dag er grete hennissen fra byplankontoret",
+        "normalisert/nn": "Gjesten vår i dag er Grete Hennissen frå Byplankontoret.",
+        "normalisert/matchet": "Gjesten vår i dag er Grete Hennissen fra Byplankontoret."
+      }
+    },
+    {
+      "id": "tr-8_1042040-1047037",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 4.997,
+      "dekket_av_tale_s": 5.0,
+      "flagg": [],
+      "fasit": "betyr det at noen skal begynne å bygge utafor vinduet mitt i morgen eller?",
+      "hyp": {
+        "ra/nn": "betyr det at nokon skal begynne å bygge utafor vindauget mitt i morgon eller",
+        "ra/matchet": "betyr det at noen skal begynne å bygge utafor vinduet mitt i morgen eller",
+        "normalisert/nn": "Betyr det at nokon skal begynne å bygge utafor vindauget mitt i morgon?",
+        "normalisert/matchet": "Betyr det at noen skal begynne å bygge utafor vinduet mitt i morgen, eller?"
+      }
+    },
+    {
+      "id": "nb-21_2788286-2792913",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 4.627,
+      "dekket_av_tale_s": 4.32,
+      "flagg": [],
+      "fasit": "dem er samme på i middelalderen som dem er i til moderne mennesker i dag.",
+      "hyp": {
+        "ra/nn": "dei er sommaren på i middelalderen som dei er i til moderne menneske i dag",
+        "ra/matchet": "dem er sommeren på i middelalderen som dem er i til moderne mennesker i dag",
+        "normalisert/nn": "Dei er same i mellomalderen som dei er til moderne menneske i dag.",
+        "normalisert/matchet": "De er sammen i middelalderen som de er til moderne mennesker i dag."
+      }
+    },
+    {
+      "id": "tr-31_0985797-0990645",
+      "dialect": "t",
+      "orthography": "bm",
+      "duration": 4.848,
+      "dekket_av_tale_s": 4.28,
+      "flagg": [],
+      "fasit": "men vi liker jo også herre her og så snu lyset mot oss selv.",
+      "hyp": {
+        "ra/nn": "men vi liker jo også herre her og så snu lyset mot oss sjøl",
+        "ra/matchet": "men vi liker jo også herre her og så snu lyset mot oss selv",
+        "normalisert/nn": "Men vi liker jo også, herre, her oss å snu lyset mot oss sjøl.",
+        "normalisert/matchet": "Men vi liker jo også, herre, her oss å snu lyset mot oss selv."
+      }
+    },
+    {
+      "id": "nb-4_1070615-1081500",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 10.885,
+      "dekket_av_tale_s": 10.88,
+      "flagg": [],
+      "fasit": "og det er derfor dei har den der giftingsalliansen og som altså fører lovgivingsideen eller ideen var nok her men du dei kan studere at dette er mogleg når dei er der.",
+      "hyp": {
+        "ra/nn": "og det er derfor dei har denne giftingsalliansen og som altså fører lovgjevingsideen eller ideen var nok her men det du dei kan studere at dette er mulig når dei er der",
+        "ra/matchet": "og det er derfor dei har denne giftingsalliansen og som altså fører lovgjevingsideen eller ideen var nok her men det du dei kan studere at dette er mulig når dei er der",
+        "normalisert/nn": "Det er derfor dei har denne giftingsalliansen. Og som altså før lovgjevingsideen ... Eller ideen var nok her, men dei kan studere at dette er mogleg.",
+        "normalisert/matchet": "Det er derfor dei har denne giftingsalliansen. Og som altså før lovgjevingsideen ... Eller ideen var nok her, men dei kan studere at dette er mogleg."
+      }
+    },
+    {
+      "id": "nb-4_0519760-0531266",
+      "dialect": "w",
+      "orthography": "bm",
+      "duration": 11.506,
+      "dekket_av_tale_s": 9.79,
+      "flagg": [],
+      "fasit": "så jeg skal da ikke snakke om om publikasjonslisten hans men han jeg kan nevne at han skrev tre bøker i 2015 to om høyesterett og en om om Rosendal.",
+      "hyp": {
+        "ra/nn": "så eg skal då ikkje snakke om om plukasjonslisten hans men han eg kan nemne at han skreiv tre bøker i 2015 to om høgsterett og éin om om rosendal",
+        "ra/matchet": "så jeg skal da ikke snakke om om plukasjonslisten hans men han jeg kan nevne at han skrev tre bøker i 2015 to om høyesterett og én om om rosendal",
+        "normalisert/nn": "Eg skal ikkje snakke om plukasjonslista hans, men han skreiv tre bøker i 2015. To om Høgsterett og éin om Rosendal.",
+        "normalisert/matchet": "Jeg skal ikke snakke om plukasjonslisten hans. Han skrev tre bøker i 2015. To om Høyesterett og én om Rosendal."
+      }
+    },
+    {
+      "id": "nb-23_0212400-0220800",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 8.4,
+      "dekket_av_tale_s": 8.1,
+      "flagg": [],
+      "fasit": "men sjølve kategorien historiespel den er jo fyrst og fremst noko som redaktøren av folieutgåva gav oss.",
+      "hyp": {
+        "ra/nn": "men sjølve kategorien historiespel den er jo fyrst og fremst noko som redaktøren av folioutgåva gav oss",
+        "ra/matchet": "men sjølve kategorien historiespel den er jo fyrst og fremst noko som redaktøren av folioutgåva gav oss",
+        "normalisert/nn": "Men sjølve kategorien historiespel er noko redaktøren av folioutgåva gav oss.",
+        "normalisert/matchet": "Men sjølve kategorien historiespel er noko redaktøren av folioutgåva gav oss."
+      }
+    },
+    {
+      "id": "50f-11_0497826-0500500",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 2.674,
+      "dekket_av_tale_s": 2.67,
+      "flagg": [],
+      "fasit": "mens bokmålet har ein annan eit anna hav.",
+      "hyp": {
+        "ra/nn": "mens bokmålet har ein annan eit anna opphav hav",
+        "ra/matchet": "mens bokmålet har ein annan eit anna opphav hav",
+        "normalisert/nn": "Mens bokmålet har eit anna opphav.",
+        "normalisert/matchet": "Mens bokmålet har eit anna opphav."
+      }
+    },
+    {
+      "id": "nb-20_0747601-0749853",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 2.252,
+      "dekket_av_tale_s": 1.36,
+      "flagg": [],
+      "fasit": "ja nei det er rått.",
+      "hyp": {
+        "ra/nn": "ja nei det er rått",
+        "ra/matchet": "ja nei det er rått",
+        "normalisert/nn": "Ja, det er rått.",
+        "normalisert/matchet": "Ja, det er rått."
+      }
+    },
+    {
+      "id": "nb-4_3248580-3258035",
+      "dialect": "w",
+      "orthography": "bm",
+      "duration": 9.455,
+      "dekket_av_tale_s": 9.21,
+      "flagg": [],
+      "fasit": "mens Magnus du har vært professor i norrøn filologi både i i Bergen og i Oslo og har vært leder for Nova sant.",
+      "hyp": {
+        "ra/nn": "mens magnus du har vore professor i norrøn filologi både i i bergen og i oslo og har vore leiar for nova sant",
+        "ra/matchet": "mens magnus du har vært professor i norrøn filologi både i i bergen og i oslo og har vært leder for nova sant",
+        "normalisert/nn": "Mens Magnus har vore professor i norrøn filologi i Bergen og i Oslo, og har vore leiar for NOVA.",
+        "normalisert/matchet": "Mens Magnus har vært professor i norrøn filologi i Bergen og i Oslo, og har vært leder for NOVA."
+      }
+    },
+    {
+      "id": "nb-23_0635190-0644340",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 9.15,
+      "dekket_av_tale_s": 8.73,
+      "flagg": [],
+      "fasit": "det er ein viss eit element av konstruksjon over det, for dei vart nok ikkje skrive heilt som sekvensar som såleis av Shakespeare.",
+      "hyp": {
+        "ra/nn": "det er ein viss eit element av konstruksjon over det for dei vart nok ikkje skrive heilt som sekvensar som sådan av shakespeare",
+        "ra/matchet": "det er ein viss eit element av konstruksjon over det for dei vart nok ikkje skrive heilt som sekvensar som sådan av shakespeare",
+        "normalisert/nn": "Det er eit element av konstruksjon over det. For dei vart skrivne som sekvensar av Shakespeare.",
+        "normalisert/matchet": "Det er eit element av konstruksjon over det. For dei vart skrivne som sekvensar av Shakespeare."
+      }
+    },
+    {
+      "id": "nb-4_3302200-3313800",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 11.6,
+      "dekket_av_tale_s": 10.26,
+      "flagg": [],
+      "fasit": "vi kunne då begynne med handskriftsakene på nittensekstitalet der islendingane kravde utlevert i islandske mellomalderhandskrifta som låg i København.",
+      "hyp": {
+        "ra/nn": "vi kunne jo då begynne med handskriftsaker på 1960-talet der islendingane kravde utleverte islandske mellomaldehandskrifter som låg i københavn",
+        "ra/matchet": "vi kunne jo då begynne med handskriftsaker på 1960-talet der islendingane kravde utleverte islandske mellomaldehandskrifter som låg i københavn",
+        "normalisert/nn": "Vi kunne begynne med handskriftsaker på 1960-talet, der islendingane kravde utleverte islandske mellomaldehandskrifter.",
+        "normalisert/matchet": "Vi kunne begynne med handskriftsaker på 1960-talet, der islendingane kravde utleverte islandske mellomaldehandskrifter."
+      }
+    },
+    {
+      "id": "nb-4_6930310-6941793",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 11.483,
+      "dekket_av_tale_s": 10.96,
+      "flagg": [],
+      "fasit": "du du har no no fått den evige rolla som som biskopen her Erling, beklagar biskop Erling, men men du sit der da med med jordeboka di og og da kan jo eg gå inn i dag og ta fatt i den.",
+      "hyp": {
+        "ra/nn": "du har jo no fått den evige rolla som som biskopen herr erling beklagar biskop erling men men du sit der med med jordebu-boka di og og da kan jo eg gå inn i dag og ta fatt i den",
+        "ra/matchet": "du har jo no fått den evige rolla som som biskopen herr erling beklagar biskop erling men men du sit der med med jordebu-boka di og og da kan jo eg gå inn i dag og ta fatt i den",
+        "normalisert/nn": "Du har fått den evige rolla som biskop her, Erling. Beklagar. Men du sit der med jordboka di, og da kan eg gå inn og ta fatt i den.",
+        "normalisert/matchet": "Du har fått den evige rolla som biskop her, Erling. Beklagar. Men du sit der med jordboka di, og da kan eg gå inn og ta fatt i den."
+      }
+    },
+    {
+      "id": "nb-23_1151583-1157120",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 5.537,
+      "dekket_av_tale_s": 5.54,
+      "flagg": [],
+      "fasit": "hun er ganske vond men ho er veldig veldig eller sånn ho er en ho er en veldig fasinerande figur.",
+      "hyp": {
+        "ra/nn": "ho er ganske ond men ho er veldig veldig morosam ho er ein ho er ein veldig fascinerande figur",
+        "ra/matchet": "ho er ganske ond men ho er veldig veldig morosam ho er ein ho er ein veldig fascinerande figur",
+        "normalisert/nn": "Ho er ganske ond, men ho er ein veldig fascinerande figur.",
+        "normalisert/matchet": "Ho er ganske ond, men ho er ein veldig fascinerande figur."
+      }
+    },
+    {
+      "id": "nb-4_1681735-1686499",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 4.764,
+      "dekket_av_tale_s": 4.38,
+      "flagg": [],
+      "fasit": "det har ikkje vore så altså tinget har drive å endra retten men det er berre stykkevis og delt.",
+      "hyp": {
+        "ra/nn": "det har ikkje vore så altså tinget har drive og endra retten men det er berre stykkevis og delt",
+        "ra/matchet": "det har ikkje vore så altså tinget har drive og endra retten men det er berre stykkevis og delt",
+        "normalisert/nn": "Tinget har endra retten, men det er berre stykkevis og delt.",
+        "normalisert/matchet": "Tinget har endra retten, men det er berre stykkevis og delt."
+      }
+    },
+    {
+      "id": "nb-23_2107641-2114270",
+      "dialect": "w",
+      "orthography": "nn",
+      "duration": 6.629,
+      "dekket_av_tale_s": 6.63,
+      "flagg": [],
+      "fasit": "og det som er er at Rikard den andre det er òg strukturert som ein tragedie som følger tittelkarakterens vekst og fall.",
+      "hyp": {
+        "ra/nn": "og det som er at ricard den andre det er òg strukturert som ein tragedie eit sånn følg tittelkarakteriens vekst og fall",
+        "ra/matchet": "og det som er at ricard den andre det er òg strukturert som ein tragedie eit sånn følg tittelkarakteriens vekst og fall",
+        "normalisert/nn": "Det er også krevert som ein tragedie, som følgjer tittelkarakterens vekst og fall.",
+        "normalisert/matchet": "Det er også krevert som ein tragedie, som følgjer tittelkarakterens vekst og fall."
+      }
+    }
+  ]
+}

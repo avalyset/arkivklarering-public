@@ -1,0 +1,1714 @@
+{
+  "merknad": "SYNTETISK – kjede og flagglogikk, ikke talekvalitet",
+  "stemme": "Nora (nb_NO; ingen nynorskstemme tilgjengelig)",
+  "manus": "KLAR-MANUS-0001_arkivklarering_justeringsmanus_v1.1_2026-10-26.tsv",
+  "resultat": {
+    "matchet": {
+      "elementer": {
+        "ra|nb": {
+          "person": {
+            "n": 13,
+            "tekst": 8,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 8
+          },
+          "alle": {
+            "n": 123,
+            "tekst": 96,
+            "flagg": 77,
+            "flagg_gitt_tekst": 77,
+            "tekst_n_for_flagg": 96
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 17,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 17
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 2,
+            "flagg": 2,
+            "flagg_gitt_tekst": 2,
+            "tekst_n_for_flagg": 2
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 3,
+            "flagg_gitt_tekst": 3,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 2,
+            "flagg": 1,
+            "flagg_gitt_tekst": 1,
+            "tekst_n_for_flagg": 2
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 12,
+            "flagg": 12,
+            "flagg_gitt_tekst": 12,
+            "tekst_n_for_flagg": 12
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 14,
+            "tekst": 14,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 14
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 7,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 7
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "normalisert|nb": {
+          "person": {
+            "n": 13,
+            "tekst": 8,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 8
+          },
+          "alle": {
+            "n": 123,
+            "tekst": 106,
+            "flagg": 101,
+            "flagg_gitt_tekst": 101,
+            "tekst_n_for_flagg": 106
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 17,
+            "flagg": 17,
+            "flagg_gitt_tekst": 17,
+            "tekst_n_for_flagg": 17
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 14,
+            "tekst": 14,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 14
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 8,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 8
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "union|nb": {
+          "person": {
+            "n": 13,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          },
+          "alle": {
+            "n": 123,
+            "tekst": 108,
+            "flagg": 105,
+            "flagg_gitt_tekst": 105,
+            "tekst_n_for_flagg": 108
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 17,
+            "flagg": 17,
+            "flagg_gitt_tekst": 17,
+            "tekst_n_for_flagg": 17
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 14,
+            "tekst": 14,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 14
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 8,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 8
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "ra|nn": {
+          "person": {
+            "n": 13,
+            "tekst": 7,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 7
+          },
+          "alle": {
+            "n": 121,
+            "tekst": 89,
+            "flagg": 68,
+            "flagg_gitt_tekst": 68,
+            "tekst_n_for_flagg": 89
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 14,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 14
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 2,
+            "flagg": 2,
+            "flagg_gitt_tekst": 2,
+            "tekst_n_for_flagg": 2
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 5,
+            "flagg": 3,
+            "flagg_gitt_tekst": 3,
+            "tekst_n_for_flagg": 5
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 1,
+            "flagg": 1,
+            "flagg_gitt_tekst": 1,
+            "tekst_n_for_flagg": 1
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 12,
+            "tekst": 12,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 12
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 7,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 7
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "normalisert|nn": {
+          "person": {
+            "n": 13,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          },
+          "alle": {
+            "n": 121,
+            "tekst": 102,
+            "flagg": 92,
+            "flagg_gitt_tekst": 91,
+            "tekst_n_for_flagg": 102
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 16,
+            "flagg": 16,
+            "flagg_gitt_tekst": 16,
+            "tekst_n_for_flagg": 16
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 7,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 12,
+            "tekst": 11,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 11
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 7,
+            "flagg": 4,
+            "flagg_gitt_tekst": 4,
+            "tekst_n_for_flagg": 7
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "union|nn": {
+          "person": {
+            "n": 13,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          },
+          "alle": {
+            "n": 121,
+            "tekst": 104,
+            "flagg": 93,
+            "flagg_gitt_tekst": 92,
+            "tekst_n_for_flagg": 104
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 16,
+            "flagg": 16,
+            "flagg_gitt_tekst": 16,
+            "tekst_n_for_flagg": 16
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 7,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 12,
+            "tekst": 12,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 12
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 8,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 8
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          }
+        }
+      },
+      "malformfeil": {
+        "ra|nb": {
+          "n": 78,
+          "feil": 2
+        },
+        "normalisert|nb": {
+          "n": 78,
+          "feil": 2
+        },
+        "ra|nn": {
+          "n": 78,
+          "feil": 0
+        },
+        "normalisert|nn": {
+          "n": 78,
+          "feil": 5
+        }
+      },
+      "bom_i_union": [
+        {
+          "id": "per02nb",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "per02nn",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "per05nb",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "per05nn",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste02nb",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste02nn",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste05nb",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste05nn",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste06nn",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "tel05nn",
+          "klasse": "telefon",
+          "type": "telefon",
+          "tekst_treff": true
+        },
+        {
+          "id": "fnr06nb",
+          "klasse": "fødselsnummer",
+          "type": "fødselsnummer",
+          "tekst_treff": false
+        },
+        {
+          "id": "fnr06nn",
+          "klasse": "fødselsnummer",
+          "type": "fødselsnummer",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo01nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo01nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo02nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo02nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo03nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo03nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo04nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo04nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo05nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo05nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo06nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo06nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "hel01nb",
+          "klasse": "helse",
+          "type": "fødselsår",
+          "tekst_treff": true
+        },
+        {
+          "id": "hel01nn",
+          "klasse": "helse",
+          "type": "fødselsår",
+          "tekst_treff": true
+        },
+        {
+          "id": "oko03nb",
+          "klasse": "økonomi",
+          "type": "økonomi",
+          "tekst_treff": false
+        },
+        {
+          "id": "oko03nn",
+          "klasse": "økonomi",
+          "type": "økonomi",
+          "tekst_treff": false
+        },
+        {
+          "id": "oko05nn",
+          "klasse": "økonomi",
+          "type": "økonomi",
+          "tekst_treff": true
+        },
+        {
+          "id": "kon02nn",
+          "klasse": "konflikt",
+          "type": "konflikt",
+          "tekst_treff": true
+        },
+        {
+          "id": "kon02nn",
+          "klasse": "konflikt",
+          "type": "konflikt",
+          "tekst_treff": true
+        },
+        {
+          "id": "kon05nb",
+          "klasse": "konflikt",
+          "type": "konflikt",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel01nb",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel01nn",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel03nn",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel05nn",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "pol05nn",
+          "klasse": "politikk",
+          "type": "politikk",
+          "tekst_treff": true
+        },
+        {
+          "id": "pol06nn",
+          "klasse": "politikk",
+          "type": "politikk",
+          "tekst_treff": true
+        },
+        {
+          "id": "kom02nn",
+          "klasse": "kombinert",
+          "type": "telefon",
+          "tekst_treff": true
+        },
+        {
+          "id": "kom03nb",
+          "klasse": "kombinert",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom03nn",
+          "klasse": "kombinert",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom04nb",
+          "klasse": "kombinert",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom04nn",
+          "klasse": "kombinert",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom05nb",
+          "klasse": "kombinert",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom05nn",
+          "klasse": "kombinert",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom06nn",
+          "klasse": "kombinert",
+          "type": "konflikt",
+          "tekst_treff": true
+        }
+      ],
+      "segmenter": 156
+    },
+    "nn": {
+      "elementer": {
+        "ra|nb": {
+          "person": {
+            "n": 13,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          },
+          "alle": {
+            "n": 123,
+            "tekst": 96,
+            "flagg": 78,
+            "flagg_gitt_tekst": 78,
+            "tekst_n_for_flagg": 96
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 16,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 16
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 2,
+            "flagg": 2,
+            "flagg_gitt_tekst": 2,
+            "tekst_n_for_flagg": 2
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 3,
+            "flagg_gitt_tekst": 3,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 1,
+            "flagg": 1,
+            "flagg_gitt_tekst": 1,
+            "tekst_n_for_flagg": 1
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 14,
+            "tekst": 14,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 14
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 7,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 7
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "normalisert|nb": {
+          "person": {
+            "n": 13,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "alle": {
+            "n": 123,
+            "tekst": 109,
+            "flagg": 105,
+            "flagg_gitt_tekst": 105,
+            "tekst_n_for_flagg": 109
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 17,
+            "flagg": 17,
+            "flagg_gitt_tekst": 17,
+            "tekst_n_for_flagg": 17
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 14,
+            "tekst": 14,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 14
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 8,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 8
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "union|nb": {
+          "person": {
+            "n": 13,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "alle": {
+            "n": 123,
+            "tekst": 110,
+            "flagg": 105,
+            "flagg_gitt_tekst": 105,
+            "tekst_n_for_flagg": 110
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 18,
+            "flagg": 17,
+            "flagg_gitt_tekst": 17,
+            "tekst_n_for_flagg": 18
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 14,
+            "tekst": 14,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 14
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 8,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 8
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "ra|nn": {
+          "person": {
+            "n": 13,
+            "tekst": 9,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 9
+          },
+          "alle": {
+            "n": 121,
+            "tekst": 92,
+            "flagg": 70,
+            "flagg_gitt_tekst": 70,
+            "tekst_n_for_flagg": 92
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 14,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 14
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 3,
+            "flagg": 2,
+            "flagg_gitt_tekst": 2,
+            "tekst_n_for_flagg": 3
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 3,
+            "flagg_gitt_tekst": 3,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 1,
+            "flagg": 1,
+            "flagg_gitt_tekst": 1,
+            "tekst_n_for_flagg": 1
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 12,
+            "tekst": 12,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 12
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 6,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 6
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "normalisert|nn": {
+          "person": {
+            "n": 13,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "alle": {
+            "n": 121,
+            "tekst": 103,
+            "flagg": 94,
+            "flagg_gitt_tekst": 93,
+            "tekst_n_for_flagg": 103
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 16,
+            "flagg": 16,
+            "flagg_gitt_tekst": 16,
+            "tekst_n_for_flagg": 16
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 7,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 12,
+            "tekst": 11,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 11
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 7,
+            "flagg": 4,
+            "flagg_gitt_tekst": 4,
+            "tekst_n_for_flagg": 7
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          }
+        },
+        "union|nn": {
+          "person": {
+            "n": 13,
+            "tekst": 10,
+            "flagg": 10,
+            "flagg_gitt_tekst": 10,
+            "tekst_n_for_flagg": 10
+          },
+          "alle": {
+            "n": 121,
+            "tekst": 105,
+            "flagg": 95,
+            "flagg_gitt_tekst": 94,
+            "tekst_n_for_flagg": 105
+          },
+          "sted": {
+            "n": 20,
+            "tekst": 16,
+            "flagg": 16,
+            "flagg_gitt_tekst": 16,
+            "tekst_n_for_flagg": 16
+          },
+          "dato": {
+            "n": 7,
+            "tekst": 6,
+            "flagg": 7,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 6
+          },
+          "fødselsår": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 8,
+            "flagg_gitt_tekst": 8,
+            "tekst_n_for_flagg": 9
+          },
+          "telefon": {
+            "n": 7,
+            "tekst": 7,
+            "flagg": 6,
+            "flagg_gitt_tekst": 6,
+            "tekst_n_for_flagg": 7
+          },
+          "fødselsnummer": {
+            "n": 6,
+            "tekst": 5,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 5
+          },
+          "e-post": {
+            "n": 6,
+            "tekst": 0,
+            "flagg": 0,
+            "flagg_gitt_tekst": 0,
+            "tekst_n_for_flagg": 0
+          },
+          "helse": {
+            "n": 13,
+            "tekst": 13,
+            "flagg": 13,
+            "flagg_gitt_tekst": 13,
+            "tekst_n_for_flagg": 13
+          },
+          "økonomi": {
+            "n": 11,
+            "tekst": 10,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 10
+          },
+          "konflikt": {
+            "n": 12,
+            "tekst": 12,
+            "flagg": 9,
+            "flagg_gitt_tekst": 9,
+            "tekst_n_for_flagg": 12
+          },
+          "religion": {
+            "n": 8,
+            "tekst": 8,
+            "flagg": 5,
+            "flagg_gitt_tekst": 5,
+            "tekst_n_for_flagg": 8
+          },
+          "politikk": {
+            "n": 9,
+            "tekst": 9,
+            "flagg": 7,
+            "flagg_gitt_tekst": 7,
+            "tekst_n_for_flagg": 9
+          }
+        }
+      },
+      "malformfeil": {
+        "ra|nb": {
+          "n": 78,
+          "feil": 14
+        },
+        "normalisert|nb": {
+          "n": 78,
+          "feil": 5
+        },
+        "ra|nn": {
+          "n": 78,
+          "feil": 0
+        },
+        "normalisert|nn": {
+          "n": 78,
+          "feil": 4
+        }
+      },
+      "bom_i_union": [
+        {
+          "id": "per02nb",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "per02nn",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "per05nb",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "per05nn",
+          "klasse": "person",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste02nb",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste02nn",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste04nb",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": true
+        },
+        {
+          "id": "ste05nb",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste05nn",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "ste06nn",
+          "klasse": "sted",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "tel05nb",
+          "klasse": "telefon",
+          "type": "telefon",
+          "tekst_treff": true
+        },
+        {
+          "id": "tel05nn",
+          "klasse": "telefon",
+          "type": "telefon",
+          "tekst_treff": true
+        },
+        {
+          "id": "fnr06nb",
+          "klasse": "fødselsnummer",
+          "type": "fødselsnummer",
+          "tekst_treff": false
+        },
+        {
+          "id": "fnr06nn",
+          "klasse": "fødselsnummer",
+          "type": "fødselsnummer",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo01nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo01nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo02nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo02nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo03nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo03nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo04nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo04nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo05nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo05nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo06nb",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "epo06nn",
+          "klasse": "e-post",
+          "type": "e-post",
+          "tekst_treff": false
+        },
+        {
+          "id": "hel01nb",
+          "klasse": "helse",
+          "type": "fødselsår",
+          "tekst_treff": true
+        },
+        {
+          "id": "hel01nn",
+          "klasse": "helse",
+          "type": "fødselsår",
+          "tekst_treff": true
+        },
+        {
+          "id": "oko03nb",
+          "klasse": "økonomi",
+          "type": "økonomi",
+          "tekst_treff": false
+        },
+        {
+          "id": "oko03nn",
+          "klasse": "økonomi",
+          "type": "økonomi",
+          "tekst_treff": false
+        },
+        {
+          "id": "oko05nn",
+          "klasse": "økonomi",
+          "type": "økonomi",
+          "tekst_treff": true
+        },
+        {
+          "id": "kon02nn",
+          "klasse": "konflikt",
+          "type": "konflikt",
+          "tekst_treff": true
+        },
+        {
+          "id": "kon02nn",
+          "klasse": "konflikt",
+          "type": "konflikt",
+          "tekst_treff": true
+        },
+        {
+          "id": "kon05nb",
+          "klasse": "konflikt",
+          "type": "konflikt",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel01nb",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel01nn",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel03nn",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "rel05nn",
+          "klasse": "religion",
+          "type": "religion",
+          "tekst_treff": true
+        },
+        {
+          "id": "pol05nn",
+          "klasse": "politikk",
+          "type": "politikk",
+          "tekst_treff": true
+        },
+        {
+          "id": "pol06nn",
+          "klasse": "politikk",
+          "type": "politikk",
+          "tekst_treff": true
+        },
+        {
+          "id": "kom03nn",
+          "klasse": "kombinert",
+          "type": "sted",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom04nb",
+          "klasse": "kombinert",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom04nn",
+          "klasse": "kombinert",
+          "type": "person",
+          "tekst_treff": false
+        },
+        {
+          "id": "kom06nn",
+          "klasse": "kombinert",
+          "type": "konflikt",
+          "tekst_treff": true
+        }
+      ],
+      "segmenter": 156
+    }
+  },
+  "manus_tidligere_navn": "KLAR-MANUS-0001_arkivklarering_kategorier_v1.0_2026-10-26.tsv"
+}

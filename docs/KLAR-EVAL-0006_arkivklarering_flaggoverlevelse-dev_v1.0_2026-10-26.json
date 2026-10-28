@@ -1,0 +1,336 @@
+{
+  "merknad": "DEV, ikke pilot",
+  "datasett": "Sprakbanken/nb_samtale, validation, 60 segmenter (KLAR-EVAL-0003)",
+  "referanseflagg": {
+    "person": 17,
+    "sted": 14,
+    "organisasjon": 3
+  },
+  "segmenter_med_referanseflagg": {
+    "person": 13,
+    "sted": 9,
+    "organisasjon": 3
+  },
+  "resultat": {
+    "nn|ra|organisasjon": {
+      "ref": 3,
+      "overlevd_a": 1,
+      "overlevelse_a": 0.333,
+      "overlevelse_a_ki95": [
+        0.061,
+        0.792
+      ],
+      "overlevd_b": 1,
+      "overlevelse_b": 0.333,
+      "pipeline": 1,
+      "ekstra_a": 0,
+      "ekstra_andel_a": 0.0,
+      "ekstra_b": 0,
+      "ekstra_andel_b": 0.0
+    },
+    "nn|ra|person": {
+      "ref": 17,
+      "overlevd_a": 12,
+      "overlevelse_a": 0.706,
+      "overlevelse_a_ki95": [
+        0.469,
+        0.867
+      ],
+      "overlevd_b": 10,
+      "overlevelse_b": 0.588,
+      "pipeline": 12,
+      "ekstra_a": 2,
+      "ekstra_andel_a": 0.167,
+      "ekstra_b": 4,
+      "ekstra_andel_b": 0.333
+    },
+    "nn|ra|sted": {
+      "ref": 14,
+      "overlevd_a": 10,
+      "overlevelse_a": 0.714,
+      "overlevelse_a_ki95": [
+        0.454,
+        0.883
+      ],
+      "overlevd_b": 9,
+      "overlevelse_b": 0.643,
+      "pipeline": 10,
+      "ekstra_a": 0,
+      "ekstra_andel_a": 0.0,
+      "ekstra_b": 1,
+      "ekstra_andel_b": 0.1
+    },
+    "nn|normalisert|organisasjon": {
+      "ref": 3,
+      "overlevd_a": 3,
+      "overlevelse_a": 1.0,
+      "overlevelse_a_ki95": [
+        0.438,
+        1.0
+      ],
+      "overlevd_b": 3,
+      "overlevelse_b": 1.0,
+      "pipeline": 5,
+      "ekstra_a": 2,
+      "ekstra_andel_a": 0.4,
+      "ekstra_b": 2,
+      "ekstra_andel_b": 0.4
+    },
+    "nn|normalisert|person": {
+      "ref": 17,
+      "overlevd_a": 12,
+      "overlevelse_a": 0.706,
+      "overlevelse_a_ki95": [
+        0.469,
+        0.867
+      ],
+      "overlevd_b": 12,
+      "overlevelse_b": 0.706,
+      "pipeline": 17,
+      "ekstra_a": 4,
+      "ekstra_andel_a": 0.235,
+      "ekstra_b": 6,
+      "ekstra_andel_b": 0.353
+    },
+    "nn|normalisert|sted": {
+      "ref": 14,
+      "overlevd_a": 13,
+      "overlevelse_a": 0.929,
+      "overlevelse_a_ki95": [
+        0.685,
+        0.987
+      ],
+      "overlevd_b": 9,
+      "overlevelse_b": 0.643,
+      "pipeline": 12,
+      "ekstra_a": 1,
+      "ekstra_andel_a": 0.083,
+      "ekstra_b": 3,
+      "ekstra_andel_b": 0.25
+    },
+    "nn|normalisert|økonomi": {
+      "ref": 0,
+      "overlevd_a": 0,
+      "overlevelse_a": null,
+      "overlevelse_a_ki95": [
+        null,
+        null
+      ],
+      "overlevd_b": 0,
+      "overlevelse_b": null,
+      "pipeline": 1,
+      "ekstra_a": 1,
+      "ekstra_andel_a": 1.0,
+      "ekstra_b": 1,
+      "ekstra_andel_b": 1.0
+    },
+    "nn|union|organisasjon": {
+      "ref": 3,
+      "overlevd_a": 3,
+      "overlevelse_a": 1.0,
+      "overlevelse_a_ki95": [
+        0.438,
+        1.0
+      ],
+      "overlevd_b": 3,
+      "overlevelse_b": 1.0,
+      "pipeline": 5,
+      "ekstra_a": 2,
+      "ekstra_andel_a": 0.4,
+      "ekstra_b": 2,
+      "ekstra_andel_b": 0.4
+    },
+    "nn|union|person": {
+      "ref": 17,
+      "overlevd_a": 14,
+      "overlevelse_a": 0.824,
+      "overlevelse_a_ki95": [
+        0.59,
+        0.938
+      ],
+      "overlevd_b": 13,
+      "overlevelse_b": 0.765,
+      "pipeline": 20,
+      "ekstra_a": 5,
+      "ekstra_andel_a": 0.25,
+      "ekstra_b": 8,
+      "ekstra_andel_b": 0.4
+    },
+    "nn|union|sted": {
+      "ref": 14,
+      "overlevd_a": 14,
+      "overlevelse_a": 1.0,
+      "overlevelse_a_ki95": [
+        0.785,
+        1.0
+      ],
+      "overlevd_b": 13,
+      "overlevelse_b": 0.929,
+      "pipeline": 16,
+      "ekstra_a": 1,
+      "ekstra_andel_a": 0.062,
+      "ekstra_b": 3,
+      "ekstra_andel_b": 0.188
+    },
+    "nn|union|økonomi": {
+      "ref": 0,
+      "overlevd_a": 0,
+      "overlevelse_a": null,
+      "overlevelse_a_ki95": [
+        null,
+        null
+      ],
+      "overlevd_b": 0,
+      "overlevelse_b": null,
+      "pipeline": 1,
+      "ekstra_a": 1,
+      "ekstra_andel_a": 1.0,
+      "ekstra_b": 1,
+      "ekstra_andel_b": 1.0
+    },
+    "matchet|ra|organisasjon": {
+      "ref": 3,
+      "overlevd_a": 1,
+      "overlevelse_a": 0.333,
+      "overlevelse_a_ki95": [
+        0.061,
+        0.792
+      ],
+      "overlevd_b": 1,
+      "overlevelse_b": 0.333,
+      "pipeline": 2,
+      "ekstra_a": 1,
+      "ekstra_andel_a": 0.5,
+      "ekstra_b": 1,
+      "ekstra_andel_b": 0.5
+    },
+    "matchet|ra|person": {
+      "ref": 17,
+      "overlevd_a": 11,
+      "overlevelse_a": 0.647,
+      "overlevelse_a_ki95": [
+        0.413,
+        0.827
+      ],
+      "overlevd_b": 10,
+      "overlevelse_b": 0.588,
+      "pipeline": 9,
+      "ekstra_a": 0,
+      "ekstra_andel_a": 0.0,
+      "ekstra_b": 1,
+      "ekstra_andel_b": 0.111
+    },
+    "matchet|ra|sted": {
+      "ref": 14,
+      "overlevd_a": 10,
+      "overlevelse_a": 0.714,
+      "overlevelse_a_ki95": [
+        0.454,
+        0.883
+      ],
+      "overlevd_b": 9,
+      "overlevelse_b": 0.643,
+      "pipeline": 10,
+      "ekstra_a": 0,
+      "ekstra_andel_a": 0.0,
+      "ekstra_b": 1,
+      "ekstra_andel_b": 0.1
+    },
+    "matchet|normalisert|organisasjon": {
+      "ref": 3,
+      "overlevd_a": 3,
+      "overlevelse_a": 1.0,
+      "overlevelse_a_ki95": [
+        0.438,
+        1.0
+      ],
+      "overlevd_b": 3,
+      "overlevelse_b": 1.0,
+      "pipeline": 5,
+      "ekstra_a": 2,
+      "ekstra_andel_a": 0.4,
+      "ekstra_b": 2,
+      "ekstra_andel_b": 0.4
+    },
+    "matchet|normalisert|person": {
+      "ref": 17,
+      "overlevd_a": 12,
+      "overlevelse_a": 0.706,
+      "overlevelse_a_ki95": [
+        0.469,
+        0.867
+      ],
+      "overlevd_b": 12,
+      "overlevelse_b": 0.706,
+      "pipeline": 15,
+      "ekstra_a": 3,
+      "ekstra_andel_a": 0.2,
+      "ekstra_b": 4,
+      "ekstra_andel_b": 0.267
+    },
+    "matchet|normalisert|sted": {
+      "ref": 14,
+      "overlevd_a": 13,
+      "overlevelse_a": 0.929,
+      "overlevelse_a_ki95": [
+        0.685,
+        0.987
+      ],
+      "overlevd_b": 12,
+      "overlevelse_b": 0.857,
+      "pipeline": 15,
+      "ekstra_a": 1,
+      "ekstra_andel_a": 0.067,
+      "ekstra_b": 3,
+      "ekstra_andel_b": 0.2
+    },
+    "matchet|union|organisasjon": {
+      "ref": 3,
+      "overlevd_a": 3,
+      "overlevelse_a": 1.0,
+      "overlevelse_a_ki95": [
+        0.438,
+        1.0
+      ],
+      "overlevd_b": 3,
+      "overlevelse_b": 1.0,
+      "pipeline": 6,
+      "ekstra_a": 3,
+      "ekstra_andel_a": 0.5,
+      "ekstra_b": 3,
+      "ekstra_andel_b": 0.5
+    },
+    "matchet|union|person": {
+      "ref": 17,
+      "overlevd_a": 14,
+      "overlevelse_a": 0.824,
+      "overlevelse_a_ki95": [
+        0.59,
+        0.938
+      ],
+      "overlevd_b": 13,
+      "overlevelse_b": 0.765,
+      "pipeline": 17,
+      "ekstra_a": 3,
+      "ekstra_andel_a": 0.176,
+      "ekstra_b": 5,
+      "ekstra_andel_b": 0.294
+    },
+    "matchet|union|sted": {
+      "ref": 14,
+      "overlevd_a": 14,
+      "overlevelse_a": 1.0,
+      "overlevelse_a_ki95": [
+        0.785,
+        1.0
+      ],
+      "overlevd_b": 13,
+      "overlevelse_b": 0.929,
+      "pipeline": 16,
+      "ekstra_a": 1,
+      "ekstra_andel_a": 0.062,
+      "ekstra_b": 3,
+      "ekstra_andel_b": 0.188
+    }
+  }
+}

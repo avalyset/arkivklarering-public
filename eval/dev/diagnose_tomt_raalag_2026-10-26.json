@@ -1,0 +1,1375 @@
+{
+ "dato": "2026-10-26",
+ "whisper_cpp": "4834a232",
+ "ider": [
+  "nb-12_0038680-0043036",
+  "nb-22_4330585-4333333",
+  "nb-5_3313160-3315610",
+  "nb-4_8680050-8683538",
+  "nb-21_1124060-1131216",
+  "nb-21_2788286-2792913"
+ ],
+ "referanse": {
+  "nb-12_0038680-0043036": "vi skal nærme oss hva norden er og kanskje t o m hva norden skal bli",
+  "nb-22_4330585-4333333": "kven er kven er denne teikninga meint for",
+  "nb-5_3313160-3315610": "hvordan kan man trykke hvordan kan man osv altså",
+  "nb-4_8680050-8683538": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på han",
+  "nb-21_1124060-1131216": "det er av liten råd til avveksling med annen kraftigere næring",
+  "nb-21_2788286-2792913": "dem er samme på i middelalderen som dem er i til moderne mennesker i dag"
+ },
+ "rorledningen": {
+  "nb-12_0038680-0043036": {
+   "for": "skal bli",
+   "etter": "vi skal nærme oss hva norden er og kanskje til og med hva norden skal bli"
+  },
+  "nb-22_4330585-4333333": {
+   "for": "",
+   "etter": ""
+  },
+  "nb-5_3313160-3315610": {
+   "for": "osv altså",
+   "etter": "hvordan kan man trykke hvordan kan man osv altså"
+  },
+  "nb-4_8680050-8683538": {
+   "for": "",
+   "etter": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på"
+  },
+  "nb-21_1124060-1131216": {
+   "for": "med annen kraftigere næring",
+   "etter": "det er en liten råd til avveksling med annen kraftigere næring"
+  },
+  "nb-21_2788286-2792913": {
+   "for": "",
+   "etter": "dem er sommeren på i middelalderen som dem er i til moderne mennesker i dag"
+  }
+ },
+ "varianter": {
+  "V0 slik rørledningen kjører, én fil per prosess, debug-bygget whisper-cli": {
+   "hypotese": "referanse (med beslutningslinjer)",
+   "per_id": {
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "skal bli",
+      "ord": 2,
+      "argv": "/Volumes/Vault/arkivklarering/tmp/whisper-debug-build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav",
+      "segmenter": 1,
+      "feil": null,
+      "whisper_cpp_linjer": [
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.08457, result_len =   1, avg_logprobs = -0.08457, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.08457, result_len =   1, avg_logprobs = -0.08457, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.08457, result_len =   1, avg_logprobs = -0.08457, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.08457, result_len =   1, avg_logprobs = -0.08457, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.08457, result_len =   1, avg_logprobs = -0.08457, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.02824, result_len =   1, avg_logprobs = -0.02824, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.02824, result_len =   1, avg_logprobs = -0.02824, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.02824, result_len =   1, avg_logprobs = -0.02824, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.02824, result_len =   1, avg_logprobs = -0.02824, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.02824, result_len =   1, avg_logprobs = -0.02824, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.02611, result_len =   1, avg_logprobs = -0.02611, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.02611, result_len =   1, avg_logprobs = -0.02611, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.02611, result_len =   1, avg_logprobs = -0.02611, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.02611, result_len =   1, avg_logprobs = -0.02611, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.02611, result_len =   1, avg_logprobs = -0.02611, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.14400, result_len =   1, avg_logprobs = -0.14400, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.14400, result_len =   1, avg_logprobs = -0.14400, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.14400, result_len =   1, avg_logprobs = -0.14400, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.14400, result_len =   1, avg_logprobs = -0.14400, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.14400, result_len =   1, avg_logprobs = -0.14400, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.11687, result_len =   1, avg_logprobs = -0.11687, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.11687, result_len =   1, avg_logprobs = -0.11687, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.11687, result_len =   1, avg_logprobs = -0.11687, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.11687, result_len =   1, avg_logprobs = -0.11687, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.11687, result_len =   1, avg_logprobs = -0.11687, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.12288, result_len =   1, avg_logprobs = -0.12288, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.12288, result_len =   1, avg_logprobs = -0.12288, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.12288, result_len =   1, avg_logprobs = -0.12288, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.12288, result_len =   1, avg_logprobs = -0.12288, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.12288, result_len =   1, avg_logprobs = -0.12288, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.07814, result_len =   1, avg_logprobs = -0.07814, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.07814, result_len =   1, avg_logprobs = -0.07814, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.07814, result_len =   1, avg_logprobs = -0.07814, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.07814, result_len =   1, avg_logprobs = -0.07814, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.07814, result_len =   1, avg_logprobs = -0.07814, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.09390, result_len =   1, avg_logprobs = -0.09390, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.09390, result_len =   1, avg_logprobs = -0.09390, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.09390, result_len =   1, avg_logprobs = -0.09390, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.09390, result_len =   1, avg_logprobs = -0.09390, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.09390, result_len =   1, avg_logprobs = -0.09390, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.12331, result_len =   1, avg_logprobs = -0.12331, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.12331, result_len =   1, avg_logprobs = -0.12331, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.12331, result_len =   1, avg_logprobs = -0.12331, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.12331, result_len =   1, avg_logprobs = -0.12331, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.12331, result_len =   1, avg_logprobs = -0.12331, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.08669, result_len =   1, avg_logprobs = -0.08669, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.08669, result_len =   1, avg_logprobs = -0.08669, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.08669, result_len =   1, avg_logprobs = -0.08669, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.08669, result_len =   1, avg_logprobs = -0.08669, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.08669, result_len =   1, avg_logprobs = -0.08669, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.18185, result_len =   1, avg_logprobs = -0.18185, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.18185, result_len =   1, avg_logprobs = -0.18185, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.18185, result_len =   1, avg_logprobs = -0.18185, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.18185, result_len =   1, avg_logprobs = -0.18185, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.18185, result_len =   1, avg_logprobs = -0.18185, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.03599, result_len =   1, avg_logprobs = -0.03599, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.03599, result_len =   1, avg_logprobs = -0.03599, entropy =  0.00000"
+      ],
+      "cuer_uten_ordtider": "skal bli",
+      "cuer_med_ordtider": "skal bli",
+      "varighet_s": 3.6
+     },
+     "_sammenslatt_wer_mot_referanse": 0.875
+    },
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Volumes/Vault/arkivklarering/tmp/whisper-debug-build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null,
+      "whisper_cpp_linjer": [
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.08858, result_len =   1, avg_logprobs = -0.08858, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.08858, result_len =   1, avg_logprobs = -0.08858, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.08858, result_len =   1, avg_logprobs = -0.08858, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.08858, result_len =   1, avg_logprobs = -0.08858, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.08858, result_len =   1, avg_logprobs = -0.08858, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.10212, result_len =   1, avg_logprobs = -0.10212, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.10212, result_len =   1, avg_logprobs = -0.10212, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.10212, result_len =   1, avg_logprobs = -0.10212, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.10212, result_len =   1, avg_logprobs = -0.10212, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.10212, result_len =   1, avg_logprobs = -0.10212, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.10266, result_len =   1, avg_logprobs = -0.10266, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.10266, result_len =   1, avg_logprobs = -0.10266, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.10266, result_len =   1, avg_logprobs = -0.10266, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.10266, result_len =   1, avg_logprobs = -0.10266, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.10266, result_len =   1, avg_logprobs = -0.10266, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.15716, result_len =   1, avg_logprobs = -0.15716, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.15716, result_len =   1, avg_logprobs = -0.15716, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.15716, result_len =   1, avg_logprobs = -0.15716, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.15716, result_len =   1, avg_logprobs = -0.15716, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.15716, result_len =   1, avg_logprobs = -0.15716, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.25898, result_len =   1, avg_logprobs = -0.25898, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.25898, result_len =   1, avg_logprobs = -0.25898, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.25898, result_len =   1, avg_logprobs = -0.25898, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.25898, result_len =   1, avg_logprobs = -0.25898, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.25898, result_len =   1, avg_logprobs = -0.25898, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.19548, result_len =   1, avg_logprobs = -0.19548, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.19548, result_len =   1, avg_logprobs = -0.19548, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.19548, result_len =   1, avg_logprobs = -0.19548, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.19548, result_len =   1, avg_logprobs = -0.19548, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.19548, result_len =   1, avg_logprobs = -0.19548, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.16016, result_len =   1, avg_logprobs = -0.16016, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.16016, result_len =   1, avg_logprobs = -0.16016, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.16016, result_len =   1, avg_logprobs = -0.16016, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.16016, result_len =   1, avg_logprobs = -0.16016, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.16016, result_len =   1, avg_logprobs = -0.16016, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.16712, result_len =   1, avg_logprobs = -0.16712, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.16712, result_len =   1, avg_logprobs = -0.16712, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.16712, result_len =   1, avg_logprobs = -0.16712, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.16712, result_len =   1, avg_logprobs = -0.16712, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.16712, result_len =   1, avg_logprobs = -0.16712, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -1.22981, result_len =   1, avg_logprobs = -1.22981, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -1.22981, result_len =   1, avg_logprobs = -1.22981, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -1.22981, result_len =   1, avg_logprobs = -1.22981, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -1.22981, result_len =   1, avg_logprobs = -1.22981, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -1.22981, result_len =   1, avg_logprobs = -1.22981, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: failed due to avg_logprobs -1.22981 < -1.00000 and no_speech_prob  0.00000 <  0.60000",
+       "whisper_full_with_state: failed to decode with temperature = 0.00",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.20",
+       "whisper_full_with_state: decoder  0: score = -0.00082, result_len =   1, avg_logprobs = -0.00082, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.00082, result_len =   1, avg_logprobs = -0.00082, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.00082, result_len =   1, avg_logprobs = -0.00082, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.00082, result_len =   1, avg_logprobs = -0.00082, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.00082, result_len =   1, avg_logprobs = -0.00082, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -1.48549, result_len =   1, avg_logprobs = -1.48549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -1.48549, result_len =   1, avg_logprobs = -1.48549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -1.48549, result_len =   1, avg_logprobs = -1.48549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -1.48549, result_len =   1, avg_logprobs = -1.48549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -1.48549, result_len =   1, avg_logprobs = -1.48549, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: failed due to avg_logprobs -1.48549 < -1.00000 and no_speech_prob  0.00000 <  0.60000"
+      ],
+      "cuer_uten_ordtider": "",
+      "cuer_med_ordtider": "",
+      "varighet_s": 1.7
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "osv altså",
+      "ord": 2,
+      "argv": "/Volumes/Vault/arkivklarering/tmp/whisper-debug-build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav",
+      "segmenter": 1,
+      "feil": null,
+      "whisper_cpp_linjer": [
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.20234, result_len =   1, avg_logprobs = -0.20234, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.20234, result_len =   1, avg_logprobs = -0.20234, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.20234, result_len =   1, avg_logprobs = -0.20234, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.20234, result_len =   1, avg_logprobs = -0.20234, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.20234, result_len =   1, avg_logprobs = -0.20234, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.18427, result_len =   1, avg_logprobs = -0.18427, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.18427, result_len =   1, avg_logprobs = -0.18427, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.18427, result_len =   1, avg_logprobs = -0.18427, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.18427, result_len =   1, avg_logprobs = -0.18427, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.18427, result_len =   1, avg_logprobs = -0.18427, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.42530, result_len =   1, avg_logprobs = -0.42530, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.42530, result_len =   1, avg_logprobs = -0.42530, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.42530, result_len =   1, avg_logprobs = -0.42530, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.42530, result_len =   1, avg_logprobs = -0.42530, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.42530, result_len =   1, avg_logprobs = -0.42530, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.39022, result_len =   1, avg_logprobs = -0.39022, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.39022, result_len =   1, avg_logprobs = -0.39022, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.39022, result_len =   1, avg_logprobs = -0.39022, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.39022, result_len =   1, avg_logprobs = -0.39022, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.39022, result_len =   1, avg_logprobs = -0.39022, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.26715, result_len =   1, avg_logprobs = -0.26715, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.26715, result_len =   1, avg_logprobs = -0.26715, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.26715, result_len =   1, avg_logprobs = -0.26715, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.26715, result_len =   1, avg_logprobs = -0.26715, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.26715, result_len =   1, avg_logprobs = -0.26715, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.30525, result_len =   1, avg_logprobs = -0.30525, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.30525, result_len =   1, avg_logprobs = -0.30525, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.30525, result_len =   1, avg_logprobs = -0.30525, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.30525, result_len =   1, avg_logprobs = -0.30525, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.30525, result_len =   1, avg_logprobs = -0.30525, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.25710, result_len =   1, avg_logprobs = -0.25710, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.25710, result_len =   1, avg_logprobs = -0.25710, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.25710, result_len =   1, avg_logprobs = -0.25710, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.25710, result_len =   1, avg_logprobs = -0.25710, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.25710, result_len =   1, avg_logprobs = -0.25710, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.60735, result_len =   1, avg_logprobs = -0.60735, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.60735, result_len =   1, avg_logprobs = -0.60735, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.60735, result_len =   1, avg_logprobs = -0.60735, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.60735, result_len =   1, avg_logprobs = -0.60735, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.60735, result_len =   1, avg_logprobs = -0.60735, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.54411, result_len =   1, avg_logprobs = -0.54411, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.54411, result_len =   1, avg_logprobs = -0.54411, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.54411, result_len =   1, avg_logprobs = -0.54411, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.54411, result_len =   1, avg_logprobs = -0.54411, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.54411, result_len =   1, avg_logprobs = -0.54411, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.72512, result_len =   1, avg_logprobs = -0.72512, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.72512, result_len =   1, avg_logprobs = -0.72512, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.72512, result_len =   1, avg_logprobs = -0.72512, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.72512, result_len =   1, avg_logprobs = -0.72512, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.72512, result_len =   1, avg_logprobs = -0.72512, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.88085, result_len =   1, avg_logprobs = -0.88085, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.88085, result_len =   1, avg_logprobs = -0.88085, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.88085, result_len =   1, avg_logprobs = -0.88085, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.88085, result_len =   1, avg_logprobs = -0.88085, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.88085, result_len =   1, avg_logprobs = -0.88085, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.97550, result_len =   1, avg_logprobs = -0.97550, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.97550, result_len =   1, avg_logprobs = -0.97550, entropy =  0.00000"
+      ],
+      "cuer_uten_ordtider": "osv altså",
+      "cuer_med_ordtider": "osv altså",
+      "varighet_s": 2.45
+     },
+     "_sammenslatt_wer_mot_referanse": 0.778
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Volumes/Vault/arkivklarering/tmp/whisper-debug-build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav",
+      "segmenter": 1,
+      "feil": null,
+      "whisper_cpp_linjer": [
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.32446, result_len =   1, avg_logprobs = -0.32446, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.32446, result_len =   1, avg_logprobs = -0.32446, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.32446, result_len =   1, avg_logprobs = -0.32446, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.32446, result_len =   1, avg_logprobs = -0.32446, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.32446, result_len =   1, avg_logprobs = -0.32446, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.41127, result_len =   1, avg_logprobs = -0.41127, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.41127, result_len =   1, avg_logprobs = -0.41127, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.41127, result_len =   1, avg_logprobs = -0.41127, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.41127, result_len =   1, avg_logprobs = -0.41127, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.41127, result_len =   1, avg_logprobs = -0.41127, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.66485, result_len =   1, avg_logprobs = -0.66485, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.66485, result_len =   1, avg_logprobs = -0.66485, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.66485, result_len =   1, avg_logprobs = -0.66485, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.35770, result_len =  31, avg_logprobs = -0.35770, entropy =  3.29983",
+       "whisper_full_with_state: decoder  4: score = -0.66485, result_len =   1, avg_logprobs = -0.66485, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 3"
+      ],
+      "cuer_uten_ordtider": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "cuer_med_ordtider": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "varighet_s": 3.49
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "",
+      "ord": 0,
+      "argv": "/Volumes/Vault/arkivklarering/tmp/whisper-debug-build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav",
+      "segmenter": 0,
+      "feil": null,
+      "whisper_cpp_linjer": [
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.31760, result_len =   1, avg_logprobs = -0.31760, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.31760, result_len =   1, avg_logprobs = -0.31760, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.31760, result_len =   1, avg_logprobs = -0.31760, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.31760, result_len =   1, avg_logprobs = -0.31760, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.31760, result_len =   1, avg_logprobs = -0.31760, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.14928, result_len =   1, avg_logprobs = -0.14928, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.14928, result_len =   1, avg_logprobs = -0.14928, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.14928, result_len =   1, avg_logprobs = -0.14928, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.14928, result_len =   1, avg_logprobs = -0.14928, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.14928, result_len =   1, avg_logprobs = -0.14928, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.09665, result_len =   1, avg_logprobs = -0.09665, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.09665, result_len =   1, avg_logprobs = -0.09665, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.09665, result_len =   1, avg_logprobs = -0.09665, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.09665, result_len =   1, avg_logprobs = -0.09665, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.09665, result_len =   1, avg_logprobs = -0.09665, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.15499, result_len =   1, avg_logprobs = -0.15499, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.15499, result_len =   1, avg_logprobs = -0.15499, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.15499, result_len =   1, avg_logprobs = -0.15499, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.15499, result_len =   1, avg_logprobs = -0.15499, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.15499, result_len =   1, avg_logprobs = -0.15499, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.61545, result_len =   1, avg_logprobs = -0.61545, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.61545, result_len =   1, avg_logprobs = -0.61545, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.61545, result_len =   1, avg_logprobs = -0.61545, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.61545, result_len =   1, avg_logprobs = -0.61545, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.61545, result_len =   1, avg_logprobs = -0.61545, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.45660, result_len =   1, avg_logprobs = -0.45660, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.45660, result_len =   1, avg_logprobs = -0.45660, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.45660, result_len =   1, avg_logprobs = -0.45660, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.45660, result_len =   1, avg_logprobs = -0.45660, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.45660, result_len =   1, avg_logprobs = -0.45660, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.15752, result_len =   1, avg_logprobs = -0.15752, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.15752, result_len =   1, avg_logprobs = -0.15752, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.15752, result_len =   1, avg_logprobs = -0.15752, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.15752, result_len =   1, avg_logprobs = -0.15752, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.15752, result_len =   1, avg_logprobs = -0.15752, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.25549, result_len =   1, avg_logprobs = -0.25549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.25549, result_len =   1, avg_logprobs = -0.25549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.25549, result_len =   1, avg_logprobs = -0.25549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.25549, result_len =   1, avg_logprobs = -0.25549, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.25549, result_len =   1, avg_logprobs = -0.25549, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -1.18901, result_len =   1, avg_logprobs = -1.18901, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -1.18901, result_len =   1, avg_logprobs = -1.18901, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -1.18901, result_len =   1, avg_logprobs = -1.18901, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -1.18901, result_len =   1, avg_logprobs = -1.18901, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -1.18901, result_len =   1, avg_logprobs = -1.18901, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: failed due to avg_logprobs -1.18901 < -1.00000 and no_speech_prob  0.00000 <  0.60000",
+       "whisper_full_with_state: failed to decode with temperature = 0.00",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.20",
+       "whisper_full_with_state: decoder  0: score = -0.00001, result_len =   1, avg_logprobs = -0.00001, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.00001, result_len =   1, avg_logprobs = -0.00001, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.00001, result_len =   1, avg_logprobs = -0.00001, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.00001, result_len =   1, avg_logprobs = -0.00001, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.00001, result_len =   1, avg_logprobs = -0.00001, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -1.81990, result_len =   1, avg_logprobs = -1.81990, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -1.81990, result_len =   1, avg_logprobs = -1.81990, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -1.81990, result_len =   1, avg_logprobs = -1.81990, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -1.81990, result_len =   1, avg_logprobs = -1.81990, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -1.81990, result_len =   1, avg_logprobs = -1.81990, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: failed due to avg_logprobs -1.81990 < -1.00000 and no_speech_prob  0.00000 <  0.60000"
+      ],
+      "cuer_uten_ordtider": "",
+      "cuer_med_ordtider": "",
+      "varighet_s": 2.42
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Volumes/Vault/arkivklarering/tmp/whisper-debug-build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav",
+      "segmenter": 1,
+      "feil": null,
+      "whisper_cpp_linjer": [
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.40066, result_len =  12, avg_logprobs = -0.40066, entropy =  2.48491",
+       "whisper_full_with_state: decoder  1: score = -3.88219, result_len =   1, avg_logprobs = -3.88219, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -4.14738, result_len =   1, avg_logprobs = -4.14738, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -3.88219, result_len =   1, avg_logprobs = -3.88219, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.51092, result_len =  13, avg_logprobs = -0.51092, entropy =  2.56495",
+       "whisper_full_with_state: best decoder = 0"
+      ],
+      "cuer_uten_ordtider": "med annen kraftigere næring",
+      "cuer_med_ordtider": "med annen kraftigere næring",
+      "varighet_s": 1.78
+     },
+     "_sammenslatt_wer_mot_referanse": 0.636
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": "det er mennesker i dag",
+      "ord": 5,
+      "argv": "/Volumes/Vault/arkivklarering/tmp/whisper-debug-build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null,
+      "whisper_cpp_linjer": [
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.12169, result_len =   1, avg_logprobs = -0.12169, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.12169, result_len =   1, avg_logprobs = -0.12169, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.12169, result_len =   1, avg_logprobs = -0.12169, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.12169, result_len =   1, avg_logprobs = -0.12169, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.12169, result_len =   1, avg_logprobs = -0.12169, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.15948, result_len =   1, avg_logprobs = -0.15948, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.15948, result_len =   1, avg_logprobs = -0.15948, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.15948, result_len =   1, avg_logprobs = -0.15948, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.15948, result_len =   1, avg_logprobs = -0.15948, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.15948, result_len =   1, avg_logprobs = -0.15948, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.22301, result_len =   1, avg_logprobs = -0.22301, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.22301, result_len =   1, avg_logprobs = -0.22301, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.22301, result_len =   1, avg_logprobs = -0.22301, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.22301, result_len =   1, avg_logprobs = -0.22301, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.22301, result_len =   1, avg_logprobs = -0.22301, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.18839, result_len =   1, avg_logprobs = -0.18839, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.18839, result_len =   1, avg_logprobs = -0.18839, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.18839, result_len =   1, avg_logprobs = -0.18839, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.18839, result_len =   1, avg_logprobs = -0.18839, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.18839, result_len =   1, avg_logprobs = -0.18839, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.10861, result_len =   1, avg_logprobs = -0.10861, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.10861, result_len =   1, avg_logprobs = -0.10861, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.10861, result_len =   1, avg_logprobs = -0.10861, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.10861, result_len =   1, avg_logprobs = -0.10861, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.10861, result_len =   1, avg_logprobs = -0.10861, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.13230, result_len =   1, avg_logprobs = -0.13230, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.13230, result_len =   1, avg_logprobs = -0.13230, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.13230, result_len =   1, avg_logprobs = -0.13230, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.13230, result_len =   1, avg_logprobs = -0.13230, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.13230, result_len =   1, avg_logprobs = -0.13230, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.14166, result_len =   1, avg_logprobs = -0.14166, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.14166, result_len =   1, avg_logprobs = -0.14166, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.14166, result_len =   1, avg_logprobs = -0.14166, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.14166, result_len =   1, avg_logprobs = -0.14166, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.14166, result_len =   1, avg_logprobs = -0.14166, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.09921, result_len =   1, avg_logprobs = -0.09921, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.09921, result_len =   1, avg_logprobs = -0.09921, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.09921, result_len =   1, avg_logprobs = -0.09921, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.09921, result_len =   1, avg_logprobs = -0.09921, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.09921, result_len =   1, avg_logprobs = -0.09921, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.13870, result_len =   1, avg_logprobs = -0.13870, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.13870, result_len =   1, avg_logprobs = -0.13870, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.13870, result_len =   1, avg_logprobs = -0.13870, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.13870, result_len =   1, avg_logprobs = -0.13870, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.13870, result_len =   1, avg_logprobs = -0.13870, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.09307, result_len =   1, avg_logprobs = -0.09307, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.09307, result_len =   1, avg_logprobs = -0.09307, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.09307, result_len =   1, avg_logprobs = -0.09307, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.09307, result_len =   1, avg_logprobs = -0.09307, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.09307, result_len =   1, avg_logprobs = -0.09307, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.06030, result_len =   1, avg_logprobs = -0.06030, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.06030, result_len =   1, avg_logprobs = -0.06030, entropy =  0.00000",
+       "whisper_full_with_state: decoder  2: score = -0.06030, result_len =   1, avg_logprobs = -0.06030, entropy =  0.00000",
+       "whisper_full_with_state: decoder  3: score = -0.06030, result_len =   1, avg_logprobs = -0.06030, entropy =  0.00000",
+       "whisper_full_with_state: decoder  4: score = -0.06030, result_len =   1, avg_logprobs = -0.06030, entropy =  0.00000",
+       "whisper_full_with_state: best decoder = 0",
+       "whisper_full_with_state: strategy = 1, decoding with 5 decoders, temperature = 0.00",
+       "whisper_full_with_state: decoder  0: score = -0.11537, result_len =   1, avg_logprobs = -0.11537, entropy =  0.00000",
+       "whisper_full_with_state: decoder  1: score = -0.11537, result_len =   1, avg_logprobs = -0.11537, entropy =  0.00000"
+      ],
+      "cuer_uten_ordtider": "det er mennesker i dag",
+      "cuer_med_ordtider": "det er mennesker i dag",
+      "varighet_s": 4.32
+     },
+     "_sammenslatt_wer_mot_referanse": 0.733
+    }
+   }
+  },
+  "V0b alle filer i én prosess, -mc 0 (ingen kontekst)": {
+   "hypotese": "kontroll: gir batch uten kontekst samme som isolert?",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "skal bli",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.875
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "osv altså",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.778
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 0,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.636
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    }
+   }
+  },
+  "V8 alle filer i én prosess, standard kontekst": {
+   "hypotese": "g: tekstkontekst fra forrige fil",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "skal bli",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.875
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "osv altså",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.778
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 0,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.636
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    }
+   }
+  },
+  "V1 uten DTW (-mc 0)": {
+   "hypotese": "e: ordtidsstempel-modus",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "skal bli",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.875
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "osv. altså",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.778
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.636
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    }
+   }
+  },
+  "V5 språk auto (-mc 0)": {
+   "hypotese": "c: språk",
+   "per_id": {
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "skal bli",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l auto -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.875
+    },
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": "hva med den der tegningen meint for",
+      "ord": 7,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l auto -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.75
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "osv altså",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l auto -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.778
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l auto -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l auto -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 0,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l auto -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.636
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l auto -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    }
+   }
+  },
+  "V9 normalisert lag (-mc 0)": {
+   "hypotese": "sammenligning",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": "<|nocaptions|>",
+      "ord": 1,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "Vi skal nærme oss hva Norden er, og kanskje til og med hva Norden skal bli.",
+      "ord": 16,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.188
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "Hvordan kan man trykke? Osv.",
+      "ord": 5,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.444
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "Grunnen til at vi har fått tilbake kodeksen, er ikke for at vi skulle forske på den.",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "Det er en liten råd til avveksling.",
+      "ord": 7,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "Med annen kraftigere næring.",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.091
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": "De er sammen i middelalderen som de er til moderne mennesker i dag.",
+      "ord": 13,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.333
+    }
+   }
+  },
+  "V10 grådig dekoding (-bs 1, -mc 0)": {
+   "hypotese": "h: beam search velger kort sekvens",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "skal bli",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.875
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "osv altså",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.778
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 0,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.636
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    }
+   }
+  },
+  "V11 normalisert lag, grådig (-bs 1, -mc 0)": {
+   "hypotese": "h: sammenligning",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": "<|nocaptions|>",
+      "ord": 1,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "Vi skal nærme oss hva Norden er, og kanskje til og med hva Norden skal bli.",
+      "ord": 16,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.188
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "Hvordan kan man trykke? Osv.",
+      "ord": 5,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.444
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "Grunnen til at vi har fått tilbake kodeksen, er ikke for at vi skulle forske på den.",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "Det er en liten råd til avveksling.",
+      "ord": 7,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "Med annen kraftigere næring.",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.091
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": "De er sammen i middelalderen som de er til moderne mennesker i dag.",
+      "ord": 13,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -bs 1 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.333
+    }
+   }
+  },
+  "V12 0,5 s stillhet foran segmentet (-mc 0)": {
+   "hypotese": "f: segmentgrense uten innledning (kun diagnose)",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0_pad.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": ". vi skal nærme oss hva norden er og kanskje til og med hva norden skal bli",
+      "ord": 16,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0_pad.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.188
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "hvordan kan man trykke hvordan kan man osv altså",
+      "ord": 9,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0_pad.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.0
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0_pad.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "det er ei liten råd til avveksling",
+      "ord": 7,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0_pad.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0_pad.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.091
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": "dem er sommeren på i middelalderen som dem er i til moderne mennesker i dag",
+      "ord": 15,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1_pad.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0_pad.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.067
+    }
+   }
+  },
+  "V13 VAD foran Whisper (--vad, silero-v6.2.0, -mc 0)": {
+   "hypotese": "i: whisper.cpps innebygde VAD",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": ".",
+      "ord": 0,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 --vad -vm /Volumes/Vault/arkivklarering/tmp/ggml-silero-v6.2.0.bin -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "skal bli",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 --vad -vm /Volumes/Vault/arkivklarering/tmp/ggml-silero-v6.2.0.bin -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.875
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "osv altså",
+      "ord": 2,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 --vad -vm /Volumes/Vault/arkivklarering/tmp/ggml-silero-v6.2.0.bin -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.778
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 --vad -vm /Volumes/Vault/arkivklarering/tmp/ggml-silero-v6.2.0.bin -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "råd til avveksling",
+      "ord": 3,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 --vad -vm /Volumes/Vault/arkivklarering/tmp/ggml-silero-v6.2.0.bin -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 --vad -vm /Volumes/Vault/arkivklarering/tmp/ggml-silero-v6.2.0.bin -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.364
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": "i middelalderen som dem er i til moderne mennesker i dag",
+      "ord": 11,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 --vad -vm /Volumes/Vault/arkivklarering/tmp/ggml-silero-v6.2.0.bin -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.267
+    }
+   }
+  },
+  "V14 uten tidsstempeltokens (-nt), DTW beholdt (-mc 0)": {
+   "hypotese": "j: -nt: whisper.cpp beholder tekst etter siste tidsstempeltoken (result_len = i + 1)",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": "det med det der teikningen meint for",
+      "ord": 7,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.75
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "vi skal nærme oss hva norden er og kanskje til og med hva norden skal bli",
+      "ord": 16,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.188
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "hvordan kan man trykke hvordan kan man osv altså",
+      "ord": 9,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.0
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "grunnen til at vi har fått tilbake kodeksen er ikke for at vi skulle forske på den",
+      "ord": 17,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.059
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "det er ei liten råd til avveksling",
+      "ord": 7,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "med annen kraftigere næring",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.091
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": "dem er sommeren på i middelalderen som dem er i til moderne mennesker i dag",
+      "ord": 15,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large-verbatim.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.067
+    }
+   }
+  },
+  "V15 normalisert lag uten tidsstempeltokens (-nt, -mc 0)": {
+   "hypotese": "j: sammenligning",
+   "per_id": {
+    "nb-22_4330585-4333333": {
+     "4330585-4333333_0": {
+      "tekst": "<|nocaptions|>",
+      "ord": 1,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l nn -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-22_4330585-4333333_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 1.0
+    },
+    "nb-12_0038680-0043036": {
+     "0038680-0043036_0": {
+      "tekst": "Vi skal nærme oss hva Norden er, og kanskje til og med hva Norden skal bli.",
+      "ord": 16,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.188
+    },
+    "nb-5_3313160-3315610": {
+     "3313160-3315610_0": {
+      "tekst": "Hvordan kan man trykke, hvordan kan man ... osv.",
+      "ord": 8,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.111
+    },
+    "nb-4_8680050-8683538": {
+     "8680050-8683538_0": {
+      "tekst": "Grunnen til at vi har fått tilbake kodeksen,",
+      "ord": 8,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.529
+    },
+    "nb-21_1124060-1131216": {
+     "1124060-1131216_0": {
+      "tekst": "Det er en liten råd til avveksling.",
+      "ord": 7,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "1124060-1131216_1": {
+      "tekst": "Med annen kraftigere næring.",
+      "ord": 4,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.091
+    },
+    "nb-21_2788286-2792913": {
+     "2788286-2792913_0": {
+      "tekst": "De er sammen i middelalderen som de er til moderne mennesker i dag.",
+      "ord": 13,
+      "argv": "/Users/eirikbottennicolaysen/whisper.cpp/build/bin/whisper-cli -l no -m /Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin -oj -np -nfa -dtw large.v3 -ojf -mc 0 -nt -f /Volumes/Vault/arkivklarering/tmp/diag/nb-12_0038680-0043036_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-5_3313160-3315610_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-4_8680050-8683538_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_0.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_1124060-1131216_1.wav -f /Volumes/Vault/arkivklarering/tmp/diag/nb-21_2788286-2792913_0.wav",
+      "segmenter": 1,
+      "feil": null
+     },
+     "_sammenslatt_wer_mot_referanse": 0.333
+    }
+   }
+  }
+ }
+}

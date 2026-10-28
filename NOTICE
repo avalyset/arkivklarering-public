@@ -1,0 +1,45 @@
+arkivklarering
+Copyright 2026 Eirik Botten Nicolaysen, EcoDeco AS
+
+Lisensiert under GNU Affero General Public License v3.0 eller senere (SPDX: AGPL-3.0-or-later; se LICENSE).
+For bruk som ikke er forenlig med AGPL, tilbyr rettighetshaveren kommersiell lisens: eirik@ecodeco.no.
+Lisenshistorikken (commitene før lisensbyttet hadde Apache-2.0 eller ingen lisensfil): LICENSING-HISTORY.md.
+
+AGPL-lisensen gjelder egen kode. Tredjepartskomponentene og modellene under beholder sine egne lisenser.
+
+Dette produktet inneholder en uendret vendor-kopi av norm.py og score.py fra norsk-tale
+(https://github.com/avalyset/norsk-tale, Apache-2.0, Copyright 2026 Eirik Botten Nicolaysen, EcoDeco AS),
+commit bcfef63d1be49ac239956dfb67784c002cecf310, i arkivklarering/_vendor/norsk_tale/. Opphav og sjekksummer: ORIGIN.txt.
+
+Talerinndelingen (valgfri, `--taler`) bruker modellen pyannote/speaker-diarization-community-1
+(https://huggingface.co/pyannote/speaker-diarization-community-1), lisensiert CC BY 4.0, via pyannote.audio (MIT).
+Modellen er ikke endret av oss og ligger ikke i repoet; den lastes fra Hugging Face med brukerens eget token etter at vilkårene er godtatt.
+
+Personvernflaggene bruker modellen NbAiLab/nb-bert-base-ner (https://huggingface.co/NbAiLab/nb-bert-base-ner),
+utgitt av NbAiLab (NB AI-Lab), lisensiert CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/),
+via transformers. Modellen er ikke endret av oss og ligger ikke i repoet; den hentes fra Hugging Face ved kjøring.
+
+Kreditering etter CC BY 4.0 (navngivelse) for de to modellene over:
+- NbAiLab/nb-bert-base-ner, NbAiLab (NB AI-Lab), CC BY 4.0, ikke endret.
+- pyannote/speaker-diarization-community-1, pyannote, CC BY 4.0, ikke endret.
+Lisenskildene (modellkortenes YAML-hode, «license: cc-by-4.0») er ført i docs/KLAR-KILDE-0001 (NB-02 og PY-10, kilde K23 og K86).
+
+Segmentering:
+- Standard er inaSpeechSegmenter 0.8.0 (INA, https://github.com/ina-foss/inaSpeechSegmenter/blob/v0.8.0/LICENSE),
+  MIT-lisensiert for koden («Copyright (c) 2018 Ina (David Doukhan - […])»). Lisensen for modellvektene er uklar: ingen kilde oppgir en egen
+  lisens for dem (KLAR-ADR-0019 v1.2, «Vektlisensen»). Pakken og vektene ligger ikke i repoet; pakken installeres i et eget
+  venv fra requirements-inaseg.lock, og vektfila lastes ned fra GitHub-releases første gang.
+- inaVAMOS (INA, https://github.com/ina-foss/inaVAMOS) er ikke lenger en kjerneavhengighet. Den har Pantagruel Research-only
+  License (bare forskning; art. 3 forbyr bruk i kommersiell aktivitet) og er bare med som valgfritt tillegg
+  (reproduksjon-h1h2 i pyproject.toml) for å reprodusere de preregistrerte kjøringene H1 og H2 (KLAR-ADR-0019, AV-25 i
+  KLAR-LOG-0003). Den ligger ikke i repoet.
+
+Transkripsjonen bruker modellene NbAiLab/nb-whisper-large-verbatim og NbAiLab/nb-whisper-large (https://huggingface.co/NbAiLab/nb-whisper-large-verbatim,
+https://huggingface.co/NbAiLab/nb-whisper-large), lisensiert Apache-2.0 (modellkortenes YAML-hode, «license: apache-2.0»), via whisper.cpp.
+Modellene er ikke endret av oss og ligger ikke i repoet; de lastes ned separat (modeller.lock.json har forventet sha256).
+
+Katalogutkastet (valgfritt, lokal ollama) bruker som standard hf.co/NbAiLab/borealis-open-4b-gguf:Q4_K_M. Borealis-open er basert på
+google/gemma-3-4b-it, og Hugging Face-kortet oppgir lisensen «gemma» (egne vilkår). Vilkårene er ikke gjennomgått (KLAR-ADR-0013, «Lisens»).
+Modellen ligger ikke i repoet; den lastes ned separat av brukeren.
+
+Lisenskildene for alle komponentene over er ført i docs/KLAR-KILDE-0001 (NB-02, PY-10, NW-05, NW-15, NW-16, LI-15, IS-01, PG-01, PG-02).

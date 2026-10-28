@@ -1,0 +1,31 @@
+{
+  "del": "H1",
+  "commit": "279f301ded06dc88052451043dfb65a9e0cbf571",
+  "git_status_porcelain_ved_start": [],
+  "kommando": ".venv/bin/python eval/dev/kjor_dev.py --splitt test --prereg-id KLAR-PREREG-0001 --per-dialekt 60 --ut-mappe eval/test --etikett TEST --eval-nr KLAR-EVAL-0013 ",
+  "start_utc": "2026-10-27T07:42:54Z",
+  "slutt_utc": "2026-10-27T09:21:45Z",
+  "returkode": 0,
+  "resultatfil": "eval/test/KLAR-EVAL-0013_arkivklarering_test-nbsamtale-wer_v1.0_2026-10-27.json",
+  "nye_filer": [
+    "eval/test/KLAR-EVAL-0013_arkivklarering_test-nbsamtale-wer_v1.0_2026-10-27.json",
+    "eval/test/KLAR-EVAL-0013_arkivklarering_test-nbsamtale-wer_v1.0_2026-10-27.md",
+    "eval/test/KLAR-EVAL-0013_arkivklarering_test-nbsamtale-wer_v1.0_2026-10-27.utvalg.json"
+  ],
+  "tag_prereg_v1": "bfe647dbe27de68fcf4abd4bf563ecfbf63f8070",
+  "tag_h4_script_v2": "224bd0a497b4bbba73efd8840992162fef825afd",
+  "tag_testkjoring": {
+    "navn": "testkjoring-v2",
+    "commit": "c49d17463c14f7719f9f271ae3d4af4824436c35"
+  },
+  "tag_testkjoring_v1": "871dba942a665fc7401261153b6c7e0114289ac9",
+  "kode_uendret_siden_tagg": true,
+  "preregistrering": {
+    "fil": "docs/KLAR-PREREG-0001_arkivklarering_testdeler_v1.16_2026-10-27.md",
+    "sha256": "56b1cc80f4eece2dcb38b919085a5f495e9422c9a994b510a3a7473913f2b08a"
+  },
+  "manus": {
+    "fil": "kalibrering/KLAR-MANUS-0002_arkivklarering_testmanus_v1.2_2026-10-26.tsv",
+    "sha256": "9a3d12d1e2438b09f9fcb6aa43300ace406888732d058e3cbabf70cb0ad963b1"
+  }
+}

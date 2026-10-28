@@ -1,0 +1,51 @@
+{
+  "merknad": "DEV: modellvalg for katalogutkast (KLAR-ADR-0013)",
+  "sendinger": 4,
+  "resultat": {
+    "nb-llama-3.1-8b-instruct-cardtmpl:latest": {
+      "kall": 18,
+      "ugyldig_json_andel": 0.0,
+      "forkastede_forslag_per_sending": 0.0,
+      "emneord_ok": "0/4",
+      "tittel_ok": "0/4",
+      "sammendrag_tomme": "0/10",
+      "norske_stoppord_andel": 0.34,
+      "engelske_stoppord_andel": 0.094,
+      "tid_per_sending_s": 20.8,
+      "feil": "HTTPError: HTTP Error 500: Internal Server Error"
+    },
+    "normistral-7b-warm-instruct-cardtmpl:latest": {
+      "kall": 27,
+      "ugyldig_json_andel": 0.0,
+      "forkastede_forslag_per_sending": 1.0,
+      "emneord_ok": "3/4",
+      "tittel_ok": "4/4",
+      "sammendrag_tomme": "0/23",
+      "norske_stoppord_andel": 0.36,
+      "engelske_stoppord_andel": 0.039,
+      "tid_per_sending_s": 46.7
+    },
+    "hf.co/NbAiLab/borealis-open-4b-gguf:Q4_K_M": {
+      "kall": 27,
+      "ugyldig_json_andel": 0.037,
+      "forkastede_forslag_per_sending": 0.25,
+      "emneord_ok": "3/4",
+      "tittel_ok": "3/4",
+      "sammendrag_tomme": "0/23",
+      "norske_stoppord_andel": 0.376,
+      "engelske_stoppord_andel": 0.011,
+      "tid_per_sending_s": 51.4
+    },
+    "hf.co/NbAiLab/borealis-4b-gguf:Q4_K_M": {
+      "kall": 27,
+      "ugyldig_json_andel": 0.037,
+      "forkastede_forslag_per_sending": 0.5,
+      "emneord_ok": "3/4",
+      "tittel_ok": "3/4",
+      "sammendrag_tomme": "0/23",
+      "norske_stoppord_andel": 0.333,
+      "engelske_stoppord_andel": 0.016,
+      "tid_per_sending_s": 50.0
+    }
+  }
+}

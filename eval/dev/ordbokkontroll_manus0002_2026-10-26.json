@@ -1,0 +1,10187 @@
+{
+ "ordbok": {
+  "nn": "Nynorskordboka",
+  "nb": "Bokmålsordboka"
+ },
+ "api": "https://ord.uib.no/api",
+ "oppslag": "articles?w=<ord>&dict=<nn|bm>&scope=ei",
+ "dato": "2026-10-26",
+ "manus": "KLAR-MANUS-0002_arkivklarering_testmanus_v1.2_2026-10-26.tsv",
+ "manus_sha256": "9a3d12d1e2438b09f9fcb6aa43300ace406888732d058e3cbabf70cb0ad963b1",
+ "unike_oppslag": 593,
+ "ingen_treff": [
+  {
+   "malform": "nb",
+   "ord": "arkivspørsmål",
+   "setninger": [
+    "epo05nb"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nb",
+   "ord": "arvekrangel",
+   "setninger": [
+    "kon03nb"
+   ],
+   "forslag": [
+    "arvekonge",
+    "rektangel"
+   ]
+  },
+  {
+   "malform": "nb",
+   "ord": "arvestriden",
+   "setninger": [
+    "kom02nb"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nb",
+   "ord": "bygdekirken",
+   "setninger": [
+    "dat03nb"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nb",
+   "ord": "grensegjerdet",
+   "setninger": [
+    "kon01nb"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nb",
+   "ord": "mobilnummeret",
+   "setninger": [
+    "tel05nb"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nb",
+   "ord": "pasientens",
+   "setninger": [
+    "fnr06nb"
+   ],
+   "forslag": [
+    "pasientvenn",
+    "ascendens",
+    "parentes",
+    "pasient",
+    "sentens"
+   ]
+  },
+  {
+   "malform": "nb",
+   "ord": "ryggskaden",
+   "setninger": [
+    "hel06nb"
+   ],
+   "forslag": [
+    "ryggside"
+   ]
+  },
+  {
+   "malform": "nb",
+   "ord": "vaktsentralen",
+   "setninger": [
+    "tel03nb"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nn",
+   "ord": "arkivspørsmål",
+   "setninger": [
+    "epo05nn"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nn",
+   "ord": "arvekrangel",
+   "setninger": [
+    "kon03nn"
+   ],
+   "forslag": [
+    "arvekonge",
+    "rektangel"
+   ]
+  },
+  {
+   "malform": "nn",
+   "ord": "arvestriden",
+   "setninger": [
+    "kom02nn"
+   ],
+   "forslag": [
+    "angstriden"
+   ]
+  },
+  {
+   "malform": "nn",
+   "ord": "bygdekyrkja",
+   "setninger": [
+    "dat03nn"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nn",
+   "ord": "grensegjerdet",
+   "setninger": [
+    "kon01nn"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nn",
+   "ord": "mobilnummeret",
+   "setninger": [
+    "tel05nn"
+   ],
+   "forslag": []
+  },
+  {
+   "malform": "nn",
+   "ord": "ryggskaden",
+   "setninger": [
+    "hel06nn"
+   ],
+   "forslag": [
+    "ryggside"
+   ]
+  },
+  {
+   "malform": "nn",
+   "ord": "vaktsentralen",
+   "setninger": [
+    "tel03nn"
+   ],
+   "forslag": []
+  }
+ ],
+ "setninger": {
+  "per01nb": [
+   {
+    "ord": "Programleder",
+    "status": "treff",
+    "artikler": [
+     46429
+    ]
+   },
+   {
+    "ord": "Gunnhild",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Bjerkås",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "intervjuet",
+    "status": "treff",
+    "artikler": [
+     27022,
+     27021
+    ]
+   },
+   {
+    "ord": "bonden",
+    "status": "treff",
+    "artikler": [
+     6958
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "studio",
+    "status": "treff",
+    "artikler": [
+     57870
+    ]
+   }
+  ],
+  "per01nn": [
+   {
+    "ord": "Programleiar",
+    "status": "treff",
+    "artikler": [
+     58996
+    ]
+   },
+   {
+    "ord": "Gunnhild",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Bjerkås",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "intervjua",
+    "status": "treff",
+    "artikler": [
+     34692,
+     34690
+    ]
+   },
+   {
+    "ord": "bonden",
+    "status": "treff",
+    "artikler": [
+     7549
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "studio",
+    "status": "treff",
+    "artikler": [
+     74807
+    ]
+   }
+  ],
+  "per02nb": [
+   {
+    "ord": "Kirkekoret",
+    "status": "treff",
+    "artikler": [
+     29343
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "ledet",
+    "status": "treff",
+    "artikler": [
+     34196,
+     34167
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3340,
+     3341
+    ]
+   },
+   {
+    "ord": "Ivar",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Rustad",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "mange",
+    "status": "treff",
+    "artikler": [
+     36844
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     1055
+    ]
+   }
+  ],
+  "per02nn": [
+   {
+    "ord": "Kyrkjekoret",
+    "status": "treff",
+    "artikler": [
+     43869
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "leidd",
+    "status": "treff",
+    "artikler": [
+     45061
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3389,
+     3390
+    ]
+   },
+   {
+    "ord": "Ivar",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Rustad",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "mange",
+    "status": "treff",
+    "artikler": [
+     48119
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     92748,
+     92749,
+     92750
+    ]
+   }
+  ],
+  "per03nb": [
+   {
+    "ord": "Marit",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Sandbu",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "Knut",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Aaseth",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "sammen",
+    "status": "treff",
+    "artikler": [
+     49936
+    ]
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     42047,
+     42048,
+     42049
+    ]
+   },
+   {
+    "ord": "å",
+    "status": "treff",
+    "artikler": [
+     912,
+     914,
+     916,
+     915
+    ]
+   },
+   {
+    "ord": "starte",
+    "status": "treff",
+    "artikler": [
+     56716
+    ]
+   },
+   {
+    "ord": "lokallaget",
+    "status": "treff",
+    "artikler": [
+     35697
+    ]
+   }
+  ],
+  "per03nn": [
+   {
+    "ord": "Marit",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Sandbu",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "Knut",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Aaseth",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "stod",
+    "status": "treff",
+    "artikler": [
+     75236
+    ]
+   },
+   {
+    "ord": "saman",
+    "status": "treff",
+    "artikler": [
+     63548
+    ]
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     54255,
+     54256,
+     54257,
+     54289
+    ]
+   },
+   {
+    "ord": "å",
+    "status": "treff",
+    "artikler": [
+     92453,
+     92455,
+     92458,
+     92456,
+     92457
+    ]
+   },
+   {
+    "ord": "starte",
+    "status": "treff",
+    "artikler": [
+     73215
+    ]
+   },
+   {
+    "ord": "lokallaget",
+    "status": "treff",
+    "artikler": [
+     46392
+    ]
+   }
+  ],
+  "per04nb": [
+   {
+    "ord": "Mange",
+    "status": "treff",
+    "artikler": [
+     36844
+    ]
+   },
+   {
+    "ord": "husker",
+    "status": "treff",
+    "artikler": [
+     24686,
+     24687,
+     24680,
+     24685
+    ]
+   },
+   {
+    "ord": "læreren",
+    "status": "treff",
+    "artikler": [
+     36458
+    ]
+   },
+   {
+    "ord": "Synnøve",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Lien",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "fra",
+    "status": "treff",
+    "artikler": [
+     114329,
+     17426
+    ]
+   },
+   {
+    "ord": "småskolen",
+    "status": "treff",
+    "artikler": [
+     54994
+    ]
+   }
+  ],
+  "per04nn": [
+   {
+    "ord": "Mange",
+    "status": "treff",
+    "artikler": [
+     48119
+    ]
+   },
+   {
+    "ord": "hugsar",
+    "status": "treff",
+    "artikler": [
+     31710,
+     31708
+    ]
+   },
+   {
+    "ord": "læraren",
+    "status": "treff",
+    "artikler": [
+     47349
+    ]
+   },
+   {
+    "ord": "Synnøve",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Lien",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "frå",
+    "status": "treff",
+    "artikler": [
+     22617,
+     124787
+    ]
+   },
+   {
+    "ord": "småskulen",
+    "status": "treff",
+    "artikler": [
+     70893
+    ]
+   }
+  ],
+  "per05nb": [
+   {
+    "ord": "Vi",
+    "status": "treff",
+    "artikler": [
+     68146,
+     68226
+    ]
+   },
+   {
+    "ord": "hører",
+    "status": "treff",
+    "artikler": [
+     25201
+    ]
+   },
+   {
+    "ord": "nå",
+    "status": "treff",
+    "artikler": [
+     41678,
+     41205,
+     41676,
+     41677
+    ]
+   },
+   {
+    "ord": "et",
+    "status": "treff",
+    "artikler": [
+     13208,
+     12570,
+     12571
+    ]
+   },
+   {
+    "ord": "opptak",
+    "status": "treff",
+    "artikler": [
+     43105
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     37491,
+     37492
+    ]
+   },
+   {
+    "ord": "Halfdan",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Moen",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "fele",
+    "status": "treff",
+    "artikler": [
+     14178
+    ]
+   }
+  ],
+  "per05nn": [
+   {
+    "ord": "Vi",
+    "status": "treff",
+    "artikler": [
+     89691,
+     89785
+    ]
+   },
+   {
+    "ord": "høyrer",
+    "status": "treff",
+    "artikler": [
+     32752
+    ]
+   },
+   {
+    "ord": "no",
+    "status": "treff",
+    "artikler": [
+     52863,
+     52864,
+     52865
+    ]
+   },
+   {
+    "ord": "eit",
+    "status": "treff",
+    "artikler": [
+     14065,
+     14066
+    ]
+   },
+   {
+    "ord": "opptak",
+    "status": "treff",
+    "artikler": [
+     55071,
+     55069
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     48822,
+     48823,
+     48824,
+     48847
+    ]
+   },
+   {
+    "ord": "Halfdan",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Moen",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "fele",
+    "status": "treff",
+    "artikler": [
+     17135,
+     17134
+    ]
+   }
+  ],
+  "per06nb": [
+   {
+    "ord": "Sangen",
+    "status": "treff",
+    "artikler": [
+     50092
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "skrevet",
+    "status": "treff",
+    "artikler": [
+     53575,
+     53628,
+     53574
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3340,
+     3341
+    ]
+   },
+   {
+    "ord": "Berit",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Kolstad",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "bryllupet",
+    "status": "treff",
+    "artikler": [
+     7830
+    ]
+   }
+  ],
+  "per06nn": [
+   {
+    "ord": "Songen",
+    "status": "treff",
+    "artikler": [
+     71809
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "skriven",
+    "status": "treff",
+    "artikler": [
+     68793
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3389,
+     3390
+    ]
+   },
+   {
+    "ord": "Berit",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Kolstad",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "bryllaupet",
+    "status": "treff",
+    "artikler": [
+     8916
+    ]
+   }
+  ],
+  "ste01nb": [
+   {
+    "ord": "Været",
+    "status": "treff",
+    "artikler": [
+     69212,
+     69202,
+     69203
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "Dombås",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "blitt",
+    "status": "treff",
+    "artikler": [
+     6390,
+     6460
+    ]
+   },
+   {
+    "ord": "verre",
+    "status": "treff",
+    "artikler": [
+     67917,
+     11621,
+     25809,
+     42274,
+     69031
+    ]
+   },
+   {
+    "ord": "utover",
+    "status": "treff",
+    "artikler": [
+     65597
+    ]
+   },
+   {
+    "ord": "dagen",
+    "status": "treff",
+    "artikler": [
+     9074
+    ]
+   }
+  ],
+  "ste01nn": [
+   {
+    "ord": "Været",
+    "status": "treff",
+    "artikler": [
+     91164,
+     91165,
+     91168
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "Dombås",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     28084,
+     29137
+    ]
+   },
+   {
+    "ord": "vorte",
+    "status": "treff",
+    "artikler": [
+     90920,
+     6666,
+     89382
+    ]
+   },
+   {
+    "ord": "verre",
+    "status": "treff",
+    "artikler": [
+     89323,
+     13730,
+     33356,
+     90868
+    ]
+   },
+   {
+    "ord": "utover",
+    "status": "treff",
+    "artikler": [
+     86330
+    ]
+   },
+   {
+    "ord": "dagen",
+    "status": "treff",
+    "artikler": [
+     10708
+    ]
+   }
+  ],
+  "ste02nb": [
+   {
+    "ord": "Seterdrifta",
+    "status": "treff",
+    "artikler": [
+     51142
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "Øvre",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Rusten",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "lagt",
+    "status": "treff",
+    "artikler": [
+     34290
+    ]
+   },
+   {
+    "ord": "ned",
+    "status": "treff",
+    "artikler": [
+     40445
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     15906,
+     15907,
+     15909,
+     15910,
+     15908,
+     13855,
+     16106,
+     16107
+    ]
+   },
+   {
+    "ord": "lenge",
+    "status": "treff",
+    "artikler": [
+     34834,
+     34835
+    ]
+   },
+   {
+    "ord": "siden",
+    "status": "treff",
+    "artikler": [
+     115044,
+     51302,
+     51281
+    ]
+   }
+  ],
+  "ste02nn": [
+   {
+    "ord": "Seterdrifta",
+    "status": "treff",
+    "artikler": [
+     65236
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "Øvre",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Rusten",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "lagd",
+    "status": "treff",
+    "artikler": [
+     45016
+    ]
+   },
+   {
+    "ord": "ned",
+    "status": "treff",
+    "artikler": [
+     52300
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     19985,
+     19987,
+     19988,
+     19989,
+     19991,
+     19990,
+     19992,
+     16596,
+     20176,
+     20177,
+     20178
+    ]
+   },
+   {
+    "ord": "lenge",
+    "status": "treff",
+    "artikler": [
+     45264,
+     45263,
+     45257
+    ]
+   },
+   {
+    "ord": "sidan",
+    "status": "treff",
+    "artikler": [
+     125231,
+     65396
+    ]
+   }
+  ],
+  "ste03nb": [
+   {
+    "ord": "Toget",
+    "status": "treff",
+    "artikler": [
+     61340,
+     61336
+    ]
+   },
+   {
+    "ord": "stanset",
+    "status": "treff",
+    "artikler": [
+     56694,
+     56695
+    ]
+   },
+   {
+    "ord": "ved",
+    "status": "treff",
+    "artikler": [
+     67029,
+     67030
+    ]
+   },
+   {
+    "ord": "Tretten",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Øyer",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "Harpefoss",
+    "status": "hoppet over (egennavn)"
+   }
+  ],
+  "ste03nn": [
+   {
+    "ord": "Toget",
+    "status": "treff",
+    "artikler": [
+     79703
+    ]
+   },
+   {
+    "ord": "stoppa",
+    "status": "treff",
+    "artikler": [
+     74025,
+     74026,
+     74022,
+     74024
+    ]
+   },
+   {
+    "ord": "ved",
+    "status": "treff",
+    "artikler": [
+     88034,
+     88035,
+     88055
+    ]
+   },
+   {
+    "ord": "Tretten",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Øyer",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "Harpefoss",
+    "status": "hoppet over (egennavn)"
+   }
+  ],
+  "ste04nb": [
+   {
+    "ord": "Elva",
+    "status": "treff",
+    "artikler": [
+     12477
+    ]
+   },
+   {
+    "ord": "Sjoa",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "renner",
+    "status": "treff",
+    "artikler": [
+     48112,
+     48113,
+     48111
+    ]
+   },
+   {
+    "ord": "gjennom",
+    "status": "treff",
+    "artikler": [
+     19811
+    ]
+   },
+   {
+    "ord": "Heidal",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     18708,
+     114624,
+     18709,
+     18609,
+     18713
+    ]
+   },
+   {
+    "ord": "den",
+    "status": "treff",
+    "artikler": [
+     9728,
+     9729,
+     9730
+    ]
+   },
+   {
+    "ord": "møter",
+    "status": "treff",
+    "artikler": [
+     39910,
+     39909
+    ]
+   },
+   {
+    "ord": "Lågen",
+    "status": "hoppet over (egennavn)"
+   }
+  ],
+  "ste04nn": [
+   {
+    "ord": "Elva",
+    "status": "treff",
+    "artikler": [
+     15038
+    ]
+   },
+   {
+    "ord": "Sjoa",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "renn",
+    "status": "treff",
+    "artikler": [
+     61208,
+     61216,
+     61215
+    ]
+   },
+   {
+    "ord": "gjennom",
+    "status": "treff",
+    "artikler": [
+     25118
+    ]
+   },
+   {
+    "ord": "Heidal",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     23356,
+     124998,
+     23357,
+     23261,
+     23374
+    ]
+   },
+   {
+    "ord": "ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "møter",
+    "status": "treff",
+    "artikler": [
+     51523
+    ]
+   },
+   {
+    "ord": "Lågen",
+    "status": "hoppet over (egennavn)"
+   }
+  ],
+  "ste05nb": [
+   {
+    "ord": "Vi",
+    "status": "treff",
+    "artikler": [
+     68146,
+     68226
+    ]
+   },
+   {
+    "ord": "besøkte",
+    "status": "treff",
+    "artikler": [
+     5600
+    ]
+   },
+   {
+    "ord": "Vågå",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Lom",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "Skjåk",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "sommer",
+    "status": "treff",
+    "artikler": [
+     55572
+    ]
+   }
+  ],
+  "ste05nn": [
+   {
+    "ord": "Vi",
+    "status": "treff",
+    "artikler": [
+     89691,
+     89785
+    ]
+   },
+   {
+    "ord": "besøkte",
+    "status": "treff",
+    "artikler": [
+     5611
+    ]
+   },
+   {
+    "ord": "Vågå",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Lom",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "Skjåk",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "sommar",
+    "status": "treff",
+    "artikler": [
+     71733
+    ]
+   }
+  ],
+  "ste06nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "overnattet",
+    "status": "treff",
+    "artikler": [
+     43701
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "Follebu",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     18708,
+     114624,
+     18709,
+     18609,
+     18713
+    ]
+   },
+   {
+    "ord": "turen",
+    "status": "treff",
+    "artikler": [
+     62896,
+     62897,
+     62911
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "Lesja",
+    "status": "hoppet over (egennavn)"
+   }
+  ],
+  "ste06nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "overnatta",
+    "status": "treff",
+    "artikler": [
+     55836
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "Follebu",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     23356,
+     124998,
+     23357,
+     23261,
+     23374
+    ]
+   },
+   {
+    "ord": "turen",
+    "status": "treff",
+    "artikler": [
+     82351,
+     82352,
+     82353,
+     82354,
+     82369
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "Lesja",
+    "status": "hoppet over (egennavn)"
+   }
+  ],
+  "dat01nb": [
+   {
+    "ord": "Skolen",
+    "status": "treff",
+    "artikler": [
+     53307
+    ]
+   },
+   {
+    "ord": "åpnet",
+    "status": "treff",
+    "artikler": [
+     1043
+    ]
+   },
+   {
+    "ord": "17",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "oktober",
+    "status": "treff",
+    "artikler": [
+     41928
+    ]
+   },
+   {
+    "ord": "1957",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     37491,
+     37492
+    ]
+   },
+   {
+    "ord": "femti",
+    "status": "treff",
+    "artikler": [
+     14290
+    ]
+   },
+   {
+    "ord": "elever",
+    "status": "treff",
+    "artikler": [
+     12385,
+     12378
+    ]
+   }
+  ],
+  "dat01nn": [
+   {
+    "ord": "Skulen",
+    "status": "treff",
+    "artikler": [
+     100431
+    ]
+   },
+   {
+    "ord": "opna",
+    "status": "treff",
+    "artikler": [
+     54642
+    ]
+   },
+   {
+    "ord": "17",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "oktober",
+    "status": "treff",
+    "artikler": [
+     54101
+    ]
+   },
+   {
+    "ord": "1957",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     48822,
+     48823,
+     48824,
+     48847
+    ]
+   },
+   {
+    "ord": "femti",
+    "status": "treff",
+    "artikler": [
+     17299,
+     17300
+    ]
+   },
+   {
+    "ord": "elevar",
+    "status": "treff",
+    "artikler": [
+     14911
+    ]
+   }
+  ],
+  "dat02nb": [
+   {
+    "ord": "Dåpen",
+    "status": "treff",
+    "artikler": [
+     11606
+    ]
+   },
+   {
+    "ord": "står",
+    "status": "treff",
+    "artikler": [
+     58145
+    ]
+   },
+   {
+    "ord": "oppført",
+    "status": "treff",
+    "artikler": [
+     42422
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     37491,
+     37492
+    ]
+   },
+   {
+    "ord": "dato",
+    "status": "treff",
+    "artikler": [
+     9344
+    ]
+   },
+   {
+    "ord": "02.08.1984",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "kirkeboka",
+    "status": "treff",
+    "artikler": [
+     29319
+    ]
+   }
+  ],
+  "dat02nn": [
+   {
+    "ord": "Dåpen",
+    "status": "treff",
+    "artikler": [
+     13704
+    ]
+   },
+   {
+    "ord": "står",
+    "status": "treff",
+    "artikler": [
+     75236
+    ]
+   },
+   {
+    "ord": "oppført",
+    "status": "treff",
+    "artikler": [
+     54732
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     48822,
+     48823,
+     48824,
+     48847
+    ]
+   },
+   {
+    "ord": "dato",
+    "status": "treff",
+    "artikler": [
+     10999
+    ]
+   },
+   {
+    "ord": "02.08.1984",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "kyrkjeboka",
+    "status": "treff",
+    "artikler": [
+     43838
+    ]
+   }
+  ],
+  "dat03nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "giftet",
+    "status": "treff",
+    "artikler": [
+     19594,
+     19593
+    ]
+   },
+   {
+    "ord": "seg",
+    "status": "treff",
+    "artikler": [
+     50355,
+     51358
+    ]
+   },
+   {
+    "ord": "5",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "januar",
+    "status": "treff",
+    "artikler": [
+     27528
+    ]
+   },
+   {
+    "ord": "1923",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "bygdekirken",
+    "status": "ingen treff",
+    "forslag": []
+   }
+  ],
+  "dat03nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "gifta",
+    "status": "treff",
+    "artikler": [
+     24842,
+     24829,
+     24840,
+     24841
+    ]
+   },
+   {
+    "ord": "seg",
+    "status": "treff",
+    "artikler": [
+     64374,
+     64377
+    ]
+   },
+   {
+    "ord": "5",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "januar",
+    "status": "treff",
+    "artikler": [
+     35286
+    ]
+   },
+   {
+    "ord": "1923",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "bygdekyrkja",
+    "status": "ingen treff",
+    "forslag": []
+   }
+  ],
+  "dat04nb": [
+   {
+    "ord": "Flommen",
+    "status": "treff",
+    "artikler": [
+     15454
+    ]
+   },
+   {
+    "ord": "kom",
+    "status": "treff",
+    "artikler": [
+     30960
+    ]
+   },
+   {
+    "ord": "natt",
+    "status": "treff",
+    "artikler": [
+     40234,
+     40241
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "28",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "februar",
+    "status": "treff",
+    "artikler": [
+     14095
+    ]
+   },
+   {
+    "ord": "1990",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "dat04nn": [
+   {
+    "ord": "Flaumen",
+    "status": "treff",
+    "artikler": [
+     18945
+    ]
+   },
+   {
+    "ord": "kom",
+    "status": "treff",
+    "artikler": [
+     40202
+    ]
+   },
+   {
+    "ord": "natt",
+    "status": "treff",
+    "artikler": [
+     52020,
+     52027
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "28",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "februar",
+    "status": "treff",
+    "artikler": [
+     16953
+    ]
+   },
+   {
+    "ord": "1990",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "dat05nb": [
+   {
+    "ord": "Minnesmerket",
+    "status": "treff",
+    "artikler": [
+     38546
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "avduket",
+    "status": "treff",
+    "artikler": [
+     3422
+    ]
+   },
+   {
+    "ord": "8",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "mai",
+    "status": "treff",
+    "artikler": [
+     36582,
+     36584
+    ]
+   },
+   {
+    "ord": "1995",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "dat05nn": [
+   {
+    "ord": "Minnesmerket",
+    "status": "treff",
+    "artikler": [
+     49915
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "avduka",
+    "status": "treff",
+    "artikler": [
+     3471
+    ]
+   },
+   {
+    "ord": "8",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "mai",
+    "status": "treff",
+    "artikler": [
+     47864,
+     47866
+    ]
+   },
+   {
+    "ord": "1995",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "dat06nb": [
+   {
+    "ord": "Rådmannen",
+    "status": "treff",
+    "artikler": [
+     49493
+    ]
+   },
+   {
+    "ord": "skrev",
+    "status": "treff",
+    "artikler": [
+     53574,
+     53575,
+     53628
+    ]
+   },
+   {
+    "ord": "under",
+    "status": "treff",
+    "artikler": [
+     64242,
+     64243
+    ]
+   },
+   {
+    "ord": "11",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "september",
+    "status": "treff",
+    "artikler": [
+     51037
+    ]
+   },
+   {
+    "ord": "1976",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "dat06nn": [
+   {
+    "ord": "Rådmannen",
+    "status": "treff",
+    "artikler": [
+     63065
+    ]
+   },
+   {
+    "ord": "skreiv",
+    "status": "treff",
+    "artikler": [
+     68793
+    ]
+   },
+   {
+    "ord": "under",
+    "status": "treff",
+    "artikler": [
+     84601,
+     84602
+    ]
+   },
+   {
+    "ord": "11",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "september",
+    "status": "treff",
+    "artikler": [
+     65028
+    ]
+   },
+   {
+    "ord": "1976",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "fod01nb": [
+   {
+    "ord": "Mormor",
+    "status": "treff",
+    "artikler": [
+     39118
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "1922",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "husker",
+    "status": "treff",
+    "artikler": [
+     24686,
+     24687,
+     24680,
+     24685
+    ]
+   },
+   {
+    "ord": "krigsårene",
+    "status": "treff",
+    "artikler": [
+     120464
+    ]
+   },
+   {
+    "ord": "godt",
+    "status": "treff",
+    "artikler": [
+     20479,
+     107328,
+     20481,
+     20435
+    ]
+   }
+  ],
+  "fod01nn": [
+   {
+    "ord": "Mormor",
+    "status": "treff",
+    "artikler": [
+     50625
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     89137
+    ]
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "1922",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "hugsar",
+    "status": "treff",
+    "artikler": [
+     31710,
+     31708
+    ]
+   },
+   {
+    "ord": "krigsåra",
+    "status": "treff",
+    "artikler": [
+     41983
+    ]
+   },
+   {
+    "ord": "godt",
+    "status": "treff",
+    "artikler": [
+     26163,
+     26164,
+     26170,
+     26058
+    ]
+   }
+  ],
+  "fod02nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "1947",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "året",
+    "status": "treff",
+    "artikler": [
+     1088,
+     1055
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     114103,
+     13250
+    ]
+   },
+   {
+    "ord": "at",
+    "status": "treff",
+    "artikler": [
+     3024,
+     3023
+    ]
+   },
+   {
+    "ord": "gården",
+    "status": "treff",
+    "artikler": [
+     19096,
+     128322
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "delt",
+    "status": "treff",
+    "artikler": [
+     9604
+    ]
+   }
+  ],
+  "fod02nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "1947",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "året",
+    "status": "treff",
+    "artikler": [
+     92750
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     124618,
+     15840
+    ]
+   },
+   {
+    "ord": "at",
+    "status": "treff",
+    "artikler": [
+     2785,
+     15798
+    ]
+   },
+   {
+    "ord": "garden",
+    "status": "treff",
+    "artikler": [
+     24201,
+     24204,
+     24205,
+     24203
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "delt",
+    "status": "treff",
+    "artikler": [
+     11249
+    ]
+   }
+  ],
+  "fod03nb": [
+   {
+    "ord": "Skuespilleren",
+    "status": "treff",
+    "artikler": [
+     53778
+    ]
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "1962",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "gjest",
+    "status": "treff",
+    "artikler": [
+     19949,
+     19950
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "programmet",
+    "status": "treff",
+    "artikler": [
+     46422
+    ]
+   }
+  ],
+  "fod03nn": [
+   {
+    "ord": "Skodespelaren",
+    "status": "treff",
+    "artikler": [
+     68122
+    ]
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "1962",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "gjest",
+    "status": "treff",
+    "artikler": [
+     25267,
+     25268
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "programmet",
+    "status": "treff",
+    "artikler": [
+     58984
+    ]
+   }
+  ],
+  "fod04nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "1938",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     21804
+    ]
+   },
+   {
+    "ord": "skrevet",
+    "status": "treff",
+    "artikler": [
+     53575,
+     53628,
+     53574
+    ]
+   },
+   {
+    "ord": "bygdebok",
+    "status": "treff",
+    "artikler": [
+     8283
+    ]
+   }
+  ],
+  "fod04nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     89137
+    ]
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "1938",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     28084,
+     29137
+    ]
+   },
+   {
+    "ord": "skrive",
+    "status": "treff",
+    "artikler": [
+     68793
+    ]
+   },
+   {
+    "ord": "bygdebok",
+    "status": "treff",
+    "artikler": [
+     9567
+    ]
+   }
+  ],
+  "fod05nb": [
+   {
+    "ord": "Felespilleren",
+    "status": "treff",
+    "artikler": [
+     14183
+    ]
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "1930",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "spilte",
+    "status": "treff",
+    "artikler": [
+     56053,
+     56060,
+     56061
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "bryllup",
+    "status": "treff",
+    "artikler": [
+     7830
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "hele",
+    "status": "treff",
+    "artikler": [
+     22966,
+     22967,
+     22968,
+     22964,
+     22965,
+     22945
+    ]
+   },
+   {
+    "ord": "dalen",
+    "status": "treff",
+    "artikler": [
+     9160
+    ]
+   }
+  ],
+  "fod05nn": [
+   {
+    "ord": "Felespelaren",
+    "status": "treff",
+    "artikler": [
+     17147
+    ]
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "1930",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "spelte",
+    "status": "treff",
+    "artikler": [
+     72232
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "bryllaup",
+    "status": "treff",
+    "artikler": [
+     8916
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "heile",
+    "status": "treff",
+    "artikler": [
+     29654,
+     29652,
+     29653,
+     29634
+    ]
+   },
+   {
+    "ord": "dalen",
+    "status": "treff",
+    "artikler": [
+     10806
+    ]
+   }
+  ],
+  "fod06nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "1955",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "yngst",
+    "status": "treff",
+    "artikler": [
+     69593,
+     64476
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3340,
+     3341
+    ]
+   },
+   {
+    "ord": "sju",
+    "status": "treff",
+    "artikler": [
+     51987
+    ]
+   },
+   {
+    "ord": "søsken",
+    "status": "treff",
+    "artikler": [
+     59395
+    ]
+   }
+  ],
+  "fod06nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     89137
+    ]
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "1955",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "yngst",
+    "status": "treff",
+    "artikler": [
+     138997,
+     91653,
+     84933
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3389,
+     3390
+    ]
+   },
+   {
+    "ord": "sju",
+    "status": "treff",
+    "artikler": [
+     66341,
+     66355
+    ]
+   },
+   {
+    "ord": "sysken",
+    "status": "treff",
+    "artikler": [
+     76561
+    ]
+   }
+  ],
+  "tel01nb": [
+   {
+    "ord": "Du",
+    "status": "treff",
+    "artikler": [
+     11072
+    ]
+   },
+   {
+    "ord": "kan",
+    "status": "treff",
+    "artikler": [
+     32751
+    ]
+   },
+   {
+    "ord": "ringe",
+    "status": "treff",
+    "artikler": [
+     48612,
+     48613,
+     48610,
+     48611,
+     48603
+    ]
+   },
+   {
+    "ord": "oss",
+    "status": "treff",
+    "artikler": [
+     68146
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "61",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "55",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "03",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "21",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "åpningstiden",
+    "status": "treff",
+    "artikler": [
+     1053
+    ]
+   }
+  ],
+  "tel01nn": [
+   {
+    "ord": "Du",
+    "status": "treff",
+    "artikler": [
+     12984
+    ]
+   },
+   {
+    "ord": "kan",
+    "status": "treff",
+    "artikler": [
+     42881
+    ]
+   },
+   {
+    "ord": "ringje",
+    "status": "treff",
+    "artikler": [
+     61906,
+     61905
+    ]
+   },
+   {
+    "ord": "oss",
+    "status": "treff",
+    "artikler": [
+     89691
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "61",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "55",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "03",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "21",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "opningstida",
+    "status": "treff",
+    "artikler": [
+     54652
+    ]
+   }
+  ],
+  "tel02nb": [
+   {
+    "ord": "Kommunen",
+    "status": "treff",
+    "artikler": [
+     30987
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     21804
+    ]
+   },
+   {
+    "ord": "telefon",
+    "status": "treff",
+    "artikler": [
+     60141
+    ]
+   },
+   {
+    "ord": "41",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "90",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "77",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "12",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "tel02nn": [
+   {
+    "ord": "Kommunen",
+    "status": "treff",
+    "artikler": [
+     40297
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     28084,
+     29137
+    ]
+   },
+   {
+    "ord": "telefon",
+    "status": "treff",
+    "artikler": [
+     78050
+    ]
+   },
+   {
+    "ord": "41",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "90",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "77",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "12",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "tel03nb": [
+   {
+    "ord": "Meld",
+    "status": "treff",
+    "artikler": [
+     37713
+    ]
+   },
+   {
+    "ord": "fra",
+    "status": "treff",
+    "artikler": [
+     114329,
+     17426
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "vaktsentralen",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "95",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "38",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "20",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "46",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     42047,
+     42048,
+     42049
+    ]
+   },
+   {
+    "ord": "du",
+    "status": "treff",
+    "artikler": [
+     11072
+    ]
+   },
+   {
+    "ord": "ser",
+    "status": "treff",
+    "artikler": [
+     50315
+    ]
+   },
+   {
+    "ord": "noe",
+    "status": "treff",
+    "artikler": [
+     40926
+    ]
+   }
+  ],
+  "tel03nn": [
+   {
+    "ord": "Meld",
+    "status": "treff",
+    "artikler": [
+     49091,
+     49095
+    ]
+   },
+   {
+    "ord": "frå",
+    "status": "treff",
+    "artikler": [
+     22617,
+     124787
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "vaktsentralen",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "95",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "38",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "20",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "46",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     54255,
+     54256,
+     54257,
+     54289
+    ]
+   },
+   {
+    "ord": "du",
+    "status": "treff",
+    "artikler": [
+     12984
+    ]
+   },
+   {
+    "ord": "ser",
+    "status": "treff",
+    "artikler": [
+     66809
+    ]
+   },
+   {
+    "ord": "noko",
+    "status": "treff",
+    "artikler": [
+     52899
+    ]
+   }
+  ],
+  "tel04nb": [
+   {
+    "ord": "Bestill",
+    "status": "treff",
+    "artikler": [
+     5554
+    ]
+   },
+   {
+    "ord": "billett",
+    "status": "treff",
+    "artikler": [
+     5969
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "nummer",
+    "status": "treff",
+    "artikler": [
+     41259
+    ]
+   },
+   {
+    "ord": "48",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "11",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "62",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "09",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     18708,
+     114624,
+     18709,
+     18609,
+     18713
+    ]
+   },
+   {
+    "ord": "klokka",
+    "status": "treff",
+    "artikler": [
+     30188,
+     30187
+    ]
+   },
+   {
+    "ord": "tre",
+    "status": "treff",
+    "artikler": [
+     61961,
+     62648,
+     61959,
+     61960
+    ]
+   }
+  ],
+  "tel04nn": [
+   {
+    "ord": "Bestill",
+    "status": "treff",
+    "artikler": [
+     5601
+    ]
+   },
+   {
+    "ord": "billett",
+    "status": "treff",
+    "artikler": [
+     6025
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "nummer",
+    "status": "treff",
+    "artikler": [
+     53275
+    ]
+   },
+   {
+    "ord": "48",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "11",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "62",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "09",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     23356,
+     124998,
+     23357,
+     23261,
+     23374
+    ]
+   },
+   {
+    "ord": "klokka",
+    "status": "treff",
+    "artikler": [
+     39117,
+     38859,
+     39116
+    ]
+   },
+   {
+    "ord": "tre",
+    "status": "treff",
+    "artikler": [
+     102401,
+     80631,
+     80632
+    ]
+   }
+  ],
+  "tel05nb": [
+   {
+    "ord": "Mobilnummeret",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "hennes",
+    "status": "treff",
+    "artikler": [
+     23236
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "99",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "04",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "18",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "73",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "tel05nn": [
+   {
+    "ord": "Mobilnummeret",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "hennar",
+    "status": "treff",
+    "artikler": [
+     30238
+    ]
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     89137
+    ]
+   },
+   {
+    "ord": "99",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "04",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "18",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "73",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "tel06nb": [
+   {
+    "ord": "Send",
+    "status": "treff",
+    "artikler": [
+     50851
+    ]
+   },
+   {
+    "ord": "en",
+    "status": "treff",
+    "artikler": [
+     12572,
+     12570,
+     12571,
+     12573,
+     12640
+    ]
+   },
+   {
+    "ord": "tekstmelding",
+    "status": "treff",
+    "artikler": [
+     99751
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "20",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "66",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "31",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "85",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     15906,
+     15907,
+     15909,
+     15910,
+     15908,
+     13855,
+     16106,
+     16107
+    ]
+   },
+   {
+    "ord": "å",
+    "status": "treff",
+    "artikler": [
+     912,
+     914,
+     916,
+     915
+    ]
+   },
+   {
+    "ord": "delta",
+    "status": "treff",
+    "artikler": [
+     9650,
+     9648,
+     9649
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "konkurransen",
+    "status": "treff",
+    "artikler": [
+     31255
+    ]
+   }
+  ],
+  "tel06nn": [
+   {
+    "ord": "Send",
+    "status": "treff",
+    "artikler": [
+     64786
+    ]
+   },
+   {
+    "ord": "ei",
+    "status": "treff",
+    "artikler": [
+     13943,
+     13944,
+     14065,
+     14066
+    ]
+   },
+   {
+    "ord": "tekstmelding",
+    "status": "treff",
+    "artikler": [
+     106123
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "20",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "66",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "31",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "85",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     19985,
+     19987,
+     19988,
+     19989,
+     19991,
+     19990,
+     19992,
+     16596,
+     20176,
+     20177,
+     20178
+    ]
+   },
+   {
+    "ord": "å",
+    "status": "treff",
+    "artikler": [
+     92453,
+     92455,
+     92458,
+     92456,
+     92457
+    ]
+   },
+   {
+    "ord": "delta",
+    "status": "treff",
+    "artikler": [
+     11285,
+     11283,
+     11284,
+     11249
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "konkurransen",
+    "status": "treff",
+    "artikler": [
+     40709
+    ]
+   }
+  ],
+  "fnr01nb": [
+   {
+    "ord": "Mannen",
+    "status": "treff",
+    "artikler": [
+     36912
+    ]
+   },
+   {
+    "ord": "oppga",
+    "status": "treff",
+    "artikler": [
+     42432
+    ]
+   },
+   {
+    "ord": "041256",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "27119",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     55558
+    ]
+   },
+   {
+    "ord": "fødselsnummer",
+    "status": "treff",
+    "artikler": [
+     18638
+    ]
+   },
+   {
+    "ord": "ved",
+    "status": "treff",
+    "artikler": [
+     67029,
+     67030
+    ]
+   },
+   {
+    "ord": "innmeldingen",
+    "status": "treff",
+    "artikler": [
+     106959
+    ]
+   }
+  ],
+  "fnr01nn": [
+   {
+    "ord": "Mannen",
+    "status": "treff",
+    "artikler": [
+     48207
+    ]
+   },
+   {
+    "ord": "oppgav",
+    "status": "treff",
+    "artikler": [
+     102021
+    ]
+   },
+   {
+    "ord": "041256",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "27119",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     71719,
+     71720
+    ]
+   },
+   {
+    "ord": "fødselsnummer",
+    "status": "treff",
+    "artikler": [
+     23303
+    ]
+   },
+   {
+    "ord": "ved",
+    "status": "treff",
+    "artikler": [
+     88034,
+     88035,
+     88055
+    ]
+   },
+   {
+    "ord": "innmeldinga",
+    "status": "treff",
+    "artikler": [
+     34271
+    ]
+   }
+  ],
+  "fnr02nb": [
+   {
+    "ord": "I",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "skjemaet",
+    "status": "treff",
+    "artikler": [
+     53026
+    ]
+   },
+   {
+    "ord": "står",
+    "status": "treff",
+    "artikler": [
+     58145
+    ]
+   },
+   {
+    "ord": "det",
+    "status": "treff",
+    "artikler": [
+     9917,
+     9918,
+     9919,
+     9920
+    ]
+   },
+   {
+    "ord": "180839",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "34212",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "under",
+    "status": "treff",
+    "artikler": [
+     64242,
+     64243
+    ]
+   },
+   {
+    "ord": "personnummer",
+    "status": "treff",
+    "artikler": [
+     44784
+    ]
+   }
+  ],
+  "fnr02nn": [
+   {
+    "ord": "I",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "skjemaet",
+    "status": "treff",
+    "artikler": [
+     67846
+    ]
+   },
+   {
+    "ord": "står",
+    "status": "treff",
+    "artikler": [
+     75236
+    ]
+   },
+   {
+    "ord": "det",
+    "status": "treff",
+    "artikler": [
+     11528,
+     11527,
+     11529,
+     11530
+    ]
+   },
+   {
+    "ord": "180839",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "34212",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "under",
+    "status": "treff",
+    "artikler": [
+     84601,
+     84602
+    ]
+   },
+   {
+    "ord": "personnummer",
+    "status": "treff",
+    "artikler": [
+     57154
+    ]
+   }
+  ],
+  "fnr03nb": [
+   {
+    "ord": "Arkivet",
+    "status": "treff",
+    "artikler": [
+     2671
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     21804
+    ]
+   },
+   {
+    "ord": "registrert",
+    "status": "treff",
+    "artikler": [
+     47805
+    ]
+   },
+   {
+    "ord": "260771",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "41539",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "feil",
+    "status": "treff",
+    "artikler": [
+     14123,
+     14124,
+     14127
+    ]
+   },
+   {
+    "ord": "person",
+    "status": "treff",
+    "artikler": [
+     44764
+    ]
+   }
+  ],
+  "fnr03nn": [
+   {
+    "ord": "Arkivet",
+    "status": "treff",
+    "artikler": [
+     2410
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     28084,
+     29137
+    ]
+   },
+   {
+    "ord": "registrert",
+    "status": "treff",
+    "artikler": [
+     60795
+    ]
+   },
+   {
+    "ord": "260771",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "41539",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "feil",
+    "status": "treff",
+    "artikler": [
+     17021,
+     17022,
+     17024
+    ]
+   },
+   {
+    "ord": "person",
+    "status": "treff",
+    "artikler": [
+     57132
+    ]
+   }
+  ],
+  "fnr04nb": [
+   {
+    "ord": "Saksbehandleren",
+    "status": "treff",
+    "artikler": [
+     49688
+    ]
+   },
+   {
+    "ord": "leste",
+    "status": "treff",
+    "artikler": [
+     34896
+    ]
+   },
+   {
+    "ord": "opp",
+    "status": "treff",
+    "artikler": [
+     42343
+    ]
+   },
+   {
+    "ord": "091147",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "55851",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "så",
+    "status": "treff",
+    "artikler": [
+     59445,
+     59443,
+     59444,
+     114629,
+     115166,
+     59446,
+     50315
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "det",
+    "status": "treff",
+    "artikler": [
+     9917,
+     9918,
+     9919,
+     9920
+    ]
+   },
+   {
+    "ord": "klart",
+    "status": "treff",
+    "artikler": [
+     29920,
+     29921,
+     29918,
+     119503
+    ]
+   }
+  ],
+  "fnr04nn": [
+   {
+    "ord": "Saksbehandlaren",
+    "status": "treff",
+    "artikler": [
+     63338
+    ]
+   },
+   {
+    "ord": "las",
+    "status": "treff",
+    "artikler": [
+     45348
+    ]
+   },
+   {
+    "ord": "opp",
+    "status": "treff",
+    "artikler": [
+     54654
+    ]
+   },
+   {
+    "ord": "091147",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "55851",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "så",
+    "status": "treff",
+    "artikler": [
+     77045,
+     77042,
+     77043,
+     125002,
+     125302,
+     77044
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "det",
+    "status": "treff",
+    "artikler": [
+     11528,
+     11527,
+     11529,
+     11530
+    ]
+   },
+   {
+    "ord": "klart",
+    "status": "treff",
+    "artikler": [
+     38681,
+     38677,
+     38678
+    ]
+   }
+  ],
+  "fnr05nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "skrev",
+    "status": "treff",
+    "artikler": [
+     53574,
+     53575,
+     53628
+    ]
+   },
+   {
+    "ord": "fødselsnummeret",
+    "status": "treff",
+    "artikler": [
+     18638
+    ]
+   },
+   {
+    "ord": "300684",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "62991",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "lappen",
+    "status": "treff",
+    "artikler": [
+     33877,
+     33878
+    ]
+   }
+  ],
+  "fnr05nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "skreiv",
+    "status": "treff",
+    "artikler": [
+     68793
+    ]
+   },
+   {
+    "ord": "fødselsnummeret",
+    "status": "treff",
+    "artikler": [
+     23303
+    ]
+   },
+   {
+    "ord": "300684",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "62991",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "lappen",
+    "status": "treff",
+    "artikler": [
+     44635,
+     44636
+    ]
+   }
+  ],
+  "fnr06nb": [
+   {
+    "ord": "Pasientens",
+    "status": "ingen treff",
+    "forslag": [
+     "pasientvenn",
+     "ascendens",
+     "parentes",
+     "pasient",
+     "sentens"
+    ]
+   },
+   {
+    "ord": "nummer",
+    "status": "treff",
+    "artikler": [
+     41259
+    ]
+   },
+   {
+    "ord": "130322",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "70342",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "lest",
+    "status": "treff",
+    "artikler": [
+     34934,
+     121742,
+     34896
+    ]
+   },
+   {
+    "ord": "inn",
+    "status": "treff",
+    "artikler": [
+     25968,
+     26274
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "lydbåndet",
+    "status": "treff",
+    "artikler": [
+     36183
+    ]
+   }
+  ],
+  "fnr06nn": [
+   {
+    "ord": "Pasienten",
+    "status": "treff",
+    "artikler": [
+     56655
+    ]
+   },
+   {
+    "ord": "sitt",
+    "status": "treff",
+    "artikler": [
+     66054,
+     65863
+    ]
+   },
+   {
+    "ord": "nummer",
+    "status": "treff",
+    "artikler": [
+     53275
+    ]
+   },
+   {
+    "ord": "130322",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "70342",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "lese",
+    "status": "treff",
+    "artikler": [
+     45348
+    ]
+   },
+   {
+    "ord": "inn",
+    "status": "treff",
+    "artikler": [
+     33568,
+     33933
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "lydbandet",
+    "status": "treff",
+    "artikler": [
+     46098
+    ]
+   }
+  ],
+  "epo01nb": [
+   {
+    "ord": "Skriv",
+    "status": "treff",
+    "artikler": [
+     53626,
+     53628
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "anne.lien@example.net",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "hvis",
+    "status": "treff",
+    "artikler": [
+     24826,
+     24827
+    ]
+   },
+   {
+    "ord": "du",
+    "status": "treff",
+    "artikler": [
+     11072
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     21804
+    ]
+   },
+   {
+    "ord": "bilder",
+    "status": "treff",
+    "artikler": [
+     5880
+    ]
+   }
+  ],
+  "epo01nn": [
+   {
+    "ord": "Skriv",
+    "status": "treff",
+    "artikler": [
+     68787,
+     68793
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "anne.lien@example.net",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "viss",
+    "status": "treff",
+    "artikler": [
+     90564,
+     90565,
+     90568
+    ]
+   },
+   {
+    "ord": "du",
+    "status": "treff",
+    "artikler": [
+     12984
+    ]
+   },
+   {
+    "ord": "har",
+    "status": "treff",
+    "artikler": [
+     28084,
+     29137
+    ]
+   },
+   {
+    "ord": "bilete",
+    "status": "treff",
+    "artikler": [
+     5949
+    ]
+   }
+  ],
+  "epo02nb": [
+   {
+    "ord": "Du",
+    "status": "treff",
+    "artikler": [
+     11072
+    ]
+   },
+   {
+    "ord": "når",
+    "status": "treff",
+    "artikler": [
+     114627,
+     41715,
+     41678
+    ]
+   },
+   {
+    "ord": "programmet",
+    "status": "treff",
+    "artikler": [
+     46422
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "radio@lokalradio.example",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "hele",
+    "status": "treff",
+    "artikler": [
+     22966,
+     22967,
+     22968,
+     22964,
+     22965,
+     22945
+    ]
+   },
+   {
+    "ord": "uka",
+    "status": "treff",
+    "artikler": [
+     64015
+    ]
+   }
+  ],
+  "epo02nn": [
+   {
+    "ord": "Du",
+    "status": "treff",
+    "artikler": [
+     12984
+    ]
+   },
+   {
+    "ord": "når",
+    "status": "treff",
+    "artikler": [
+     125001,
+     53836,
+     53796
+    ]
+   },
+   {
+    "ord": "programmet",
+    "status": "treff",
+    "artikler": [
+     58984
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "radio@lokalradio.example",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "heile",
+    "status": "treff",
+    "artikler": [
+     29654,
+     29652,
+     29653,
+     29634
+    ]
+   },
+   {
+    "ord": "veka",
+    "status": "treff",
+    "artikler": [
+     88342,
+     88343
+    ]
+   }
+  ],
+  "epo03nb": [
+   {
+    "ord": "Meld",
+    "status": "treff",
+    "artikler": [
+     37713
+    ]
+   },
+   {
+    "ord": "deg",
+    "status": "treff",
+    "artikler": [
+     11072
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "via",
+    "status": "treff",
+    "artikler": [
+     68147,
+     68226
+    ]
+   },
+   {
+    "ord": "pamelding@lag.example.org",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "innen",
+    "status": "treff",
+    "artikler": [
+     114625,
+     26363
+    ]
+   },
+   {
+    "ord": "mandag",
+    "status": "treff",
+    "artikler": [
+     36806
+    ]
+   }
+  ],
+  "epo03nn": [
+   {
+    "ord": "Meld",
+    "status": "treff",
+    "artikler": [
+     49091,
+     49095
+    ]
+   },
+   {
+    "ord": "deg",
+    "status": "treff",
+    "artikler": [
+     12984
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "via",
+    "status": "treff",
+    "artikler": [
+     89785,
+     89692
+    ]
+   },
+   {
+    "ord": "pamelding@lag.example.org",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "innan",
+    "status": "treff",
+    "artikler": [
+     124999,
+     33950
+    ]
+   },
+   {
+    "ord": "måndag",
+    "status": "treff",
+    "artikler": [
+     51680
+    ]
+   }
+  ],
+  "epo04nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "bruker",
+    "status": "treff",
+    "artikler": [
+     7700,
+     7697,
+     7693
+    ]
+   },
+   {
+    "ord": "adressen",
+    "status": "treff",
+    "artikler": [
+     226
+    ]
+   },
+   {
+    "ord": "bjorn.hagen@example.com",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "alt",
+    "status": "treff",
+    "artikler": [
+     1370,
+     1371,
+     1372,
+     747,
+     846
+    ]
+   }
+  ],
+  "epo04nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "brukar",
+    "status": "treff",
+    "artikler": [
+     8725,
+     8726,
+     8729,
+     8721
+    ]
+   },
+   {
+    "ord": "adressa",
+    "status": "treff",
+    "artikler": [
+     228
+    ]
+   },
+   {
+    "ord": "bjorn.hagen@example.com",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "alt",
+    "status": "treff",
+    "artikler": [
+     1073,
+     1074,
+     1075,
+     741,
+     14973,
+     864
+    ]
+   }
+  ],
+  "epo05nb": [
+   {
+    "ord": "Send",
+    "status": "treff",
+    "artikler": [
+     50851
+    ]
+   },
+   {
+    "ord": "arkivspørsmål",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "arkiv@bygdemuseet.example",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "så",
+    "status": "treff",
+    "artikler": [
+     59445,
+     59443,
+     59444,
+     114629,
+     115166,
+     59446,
+     50315
+    ]
+   },
+   {
+    "ord": "svarer",
+    "status": "treff",
+    "artikler": [
+     58565,
+     58564
+    ]
+   },
+   {
+    "ord": "vi",
+    "status": "treff",
+    "artikler": [
+     68146,
+     68226
+    ]
+   }
+  ],
+  "epo05nn": [
+   {
+    "ord": "Send",
+    "status": "treff",
+    "artikler": [
+     64786
+    ]
+   },
+   {
+    "ord": "arkivspørsmål",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "arkiv@bygdemuseet.example",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "så",
+    "status": "treff",
+    "artikler": [
+     77045,
+     77042,
+     77043,
+     125002,
+     125302,
+     77044
+    ]
+   },
+   {
+    "ord": "svarer",
+    "status": "treff",
+    "artikler": [
+     75805
+    ]
+   },
+   {
+    "ord": "vi",
+    "status": "treff",
+    "artikler": [
+     89691,
+     89785
+    ]
+   }
+  ],
+  "epo06nb": [
+   {
+    "ord": "Den",
+    "status": "treff",
+    "artikler": [
+     9728,
+     9729,
+     9730
+    ]
+   },
+   {
+    "ord": "gamle",
+    "status": "treff",
+    "artikler": [
+     18979
+    ]
+   },
+   {
+    "ord": "adressen",
+    "status": "treff",
+    "artikler": [
+     226
+    ]
+   },
+   {
+    "ord": "sofie_moen@example.org",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "ikke",
+    "status": "treff",
+    "artikler": [
+     25712
+    ]
+   },
+   {
+    "ord": "lenger",
+    "status": "treff",
+    "artikler": [
+     34836,
+     33833,
+     34834,
+     34835
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "bruk",
+    "status": "treff",
+    "artikler": [
+     7693,
+     7694,
+     7697
+    ]
+   }
+  ],
+  "epo06nn": [
+   {
+    "ord": "Den",
+    "status": "treff",
+    "artikler": [
+     11355,
+     11356
+    ]
+   },
+   {
+    "ord": "gamle",
+    "status": "treff",
+    "artikler": [
+     24036
+    ]
+   },
+   {
+    "ord": "adressa",
+    "status": "treff",
+    "artikler": [
+     228
+    ]
+   },
+   {
+    "ord": "sofie_moen@example.org",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     89137
+    ]
+   },
+   {
+    "ord": "ikkje",
+    "status": "treff",
+    "artikler": [
+     33268
+    ]
+   },
+   {
+    "ord": "lenger",
+    "status": "treff",
+    "artikler": [
+     45259,
+     45264,
+     44588,
+     45263,
+     45257
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "bruk",
+    "status": "treff",
+    "artikler": [
+     8721,
+     8722,
+     8729
+    ]
+   }
+  ],
+  "hel01nb": [
+   {
+    "ord": "Bestemor",
+    "status": "treff",
+    "artikler": [
+     5532
+    ]
+   },
+   {
+    "ord": "fikk",
+    "status": "treff",
+    "artikler": [
+     18820
+    ]
+   },
+   {
+    "ord": "demens",
+    "status": "treff",
+    "artikler": [
+     9682
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "flyttet",
+    "status": "treff",
+    "artikler": [
+     15627
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "sykehjem",
+    "status": "treff",
+    "artikler": [
+     58937
+    ]
+   }
+  ],
+  "hel01nn": [
+   {
+    "ord": "Bestemor",
+    "status": "treff",
+    "artikler": [
+     5584
+    ]
+   },
+   {
+    "ord": "fekk",
+    "status": "treff",
+    "artikler": [
+     23680
+    ]
+   },
+   {
+    "ord": "demens",
+    "status": "treff",
+    "artikler": [
+     11307
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "flytta",
+    "status": "treff",
+    "artikler": [
+     19493,
+     19473,
+     19487
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "sjukeheim",
+    "status": "treff",
+    "artikler": [
+     66380
+    ]
+   }
+  ],
+  "hel02nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "hadde",
+    "status": "treff",
+    "artikler": [
+     21804
+    ]
+   },
+   {
+    "ord": "tuberkulose",
+    "status": "treff",
+    "artikler": [
+     62766
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     55558
+    ]
+   },
+   {
+    "ord": "gutt",
+    "status": "treff",
+    "artikler": [
+     21634
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "lå",
+    "status": "treff",
+    "artikler": [
+     35113
+    ]
+   },
+   {
+    "ord": "lenge",
+    "status": "treff",
+    "artikler": [
+     34834,
+     34835
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "sanatorium",
+    "status": "treff",
+    "artikler": [
+     50064
+    ]
+   }
+  ],
+  "hel02nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "hadde",
+    "status": "treff",
+    "artikler": [
+     28084
+    ]
+   },
+   {
+    "ord": "tuberkulose",
+    "status": "treff",
+    "artikler": [
+     82089
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     71719,
+     71720
+    ]
+   },
+   {
+    "ord": "gut",
+    "status": "treff",
+    "artikler": [
+     27810,
+     27811
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "låg",
+    "status": "treff",
+    "artikler": [
+     47620,
+     47621,
+     45580
+    ]
+   },
+   {
+    "ord": "lenge",
+    "status": "treff",
+    "artikler": [
+     45264,
+     45263,
+     45257
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "sanatorium",
+    "status": "treff",
+    "artikler": [
+     63952
+    ]
+   }
+  ],
+  "hel03nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "døde",
+    "status": "treff",
+    "artikler": [
+     11456,
+     11447,
+     11449
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3340,
+     3341
+    ]
+   },
+   {
+    "ord": "lungebetennelse",
+    "status": "treff",
+    "artikler": [
+     36056
+    ]
+   },
+   {
+    "ord": "våren",
+    "status": "treff",
+    "artikler": [
+     69349
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     114103,
+     13250
+    ]
+   },
+   {
+    "ord": "krigen",
+    "status": "treff",
+    "artikler": [
+     32078
+    ]
+   }
+  ],
+  "hel03nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "døydde",
+    "status": "treff",
+    "artikler": [
+     13648,
+     13650
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3389,
+     3390
+    ]
+   },
+   {
+    "ord": "lungebetennelse",
+    "status": "treff",
+    "artikler": [
+     46807
+    ]
+   },
+   {
+    "ord": "våren",
+    "status": "treff",
+    "artikler": [
+     91349
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     124618,
+     15840
+    ]
+   },
+   {
+    "ord": "krigen",
+    "status": "treff",
+    "artikler": [
+     41902
+    ]
+   }
+  ],
+  "hel04nb": [
+   {
+    "ord": "Faren",
+    "status": "treff",
+    "artikler": [
+     13845,
+     13854
+    ]
+   },
+   {
+    "ord": "fikk",
+    "status": "treff",
+    "artikler": [
+     18820
+    ]
+   },
+   {
+    "ord": "astma",
+    "status": "treff",
+    "artikler": [
+     2983
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "måtte",
+    "status": "treff",
+    "artikler": [
+     40055
+    ]
+   },
+   {
+    "ord": "slutte",
+    "status": "treff",
+    "artikler": [
+     54621
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "skogen",
+    "status": "treff",
+    "artikler": [
+     53218
+    ]
+   }
+  ],
+  "hel04nn": [
+   {
+    "ord": "Faren",
+    "status": "treff",
+    "artikler": [
+     16602,
+     16596,
+     16584,
+     16595
+    ]
+   },
+   {
+    "ord": "fekk",
+    "status": "treff",
+    "artikler": [
+     23680
+    ]
+   },
+   {
+    "ord": "astma",
+    "status": "treff",
+    "artikler": [
+     2741
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "måtte",
+    "status": "treff",
+    "artikler": [
+     51743
+    ]
+   },
+   {
+    "ord": "slutte",
+    "status": "treff",
+    "artikler": [
+     70306,
+     70298
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "skogen",
+    "status": "treff",
+    "artikler": [
+     68134
+    ]
+   }
+  ],
+  "hel05nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "gikk",
+    "status": "treff",
+    "artikler": [
+     21740
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "terapi",
+    "status": "treff",
+    "artikler": [
+     60367
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     114103,
+     13250
+    ]
+   },
+   {
+    "ord": "ulykken",
+    "status": "treff",
+    "artikler": [
+     64165
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "sykmeldt",
+    "status": "treff",
+    "artikler": [
+     58975,
+     58973
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "et",
+    "status": "treff",
+    "artikler": [
+     13208,
+     12570,
+     12571
+    ]
+   },
+   {
+    "ord": "halvt",
+    "status": "treff",
+    "artikler": [
+     22096,
+     22016
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     1055
+    ]
+   }
+  ],
+  "hel05nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "gjekk",
+    "status": "treff",
+    "artikler": [
+     25045,
+     25046,
+     28005
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "terapi",
+    "status": "treff",
+    "artikler": [
+     78413
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     124618,
+     15840
+    ]
+   },
+   {
+    "ord": "ulukka",
+    "status": "treff",
+    "artikler": [
+     84406
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "sjukmeldt",
+    "status": "treff",
+    "artikler": [
+     97055,
+     97054
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "eit",
+    "status": "treff",
+    "artikler": [
+     14065,
+     14066
+    ]
+   },
+   {
+    "ord": "halvt",
+    "status": "treff",
+    "artikler": [
+     28592,
+     28595,
+     28427
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     92748,
+     92749,
+     92750
+    ]
+   }
+  ],
+  "hel06nb": [
+   {
+    "ord": "Mannen",
+    "status": "treff",
+    "artikler": [
+     36912
+    ]
+   },
+   {
+    "ord": "satt",
+    "status": "treff",
+    "artikler": [
+     50239,
+     51169,
+     51758
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "rullestol",
+    "status": "treff",
+    "artikler": [
+     49070
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     114103,
+     13250
+    ]
+   },
+   {
+    "ord": "ryggskaden",
+    "status": "ingen treff",
+    "forslag": [
+     "ryggside"
+    ]
+   }
+  ],
+  "hel06nn": [
+   {
+    "ord": "Mannen",
+    "status": "treff",
+    "artikler": [
+     48207
+    ]
+   },
+   {
+    "ord": "sat",
+    "status": "treff",
+    "artikler": [
+     66054
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "rullestol",
+    "status": "treff",
+    "artikler": [
+     62463
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     124618,
+     15840
+    ]
+   },
+   {
+    "ord": "ryggskaden",
+    "status": "ingen treff",
+    "forslag": [
+     "ryggside"
+    ]
+   }
+  ],
+  "oko01nb": [
+   {
+    "ord": "Familien",
+    "status": "treff",
+    "artikler": [
+     13737
+    ]
+   },
+   {
+    "ord": "tok",
+    "status": "treff",
+    "artikler": [
+     132384,
+     132385,
+     59502
+    ]
+   },
+   {
+    "ord": "opp",
+    "status": "treff",
+    "artikler": [
+     42343
+    ]
+   },
+   {
+    "ord": "lån",
+    "status": "treff",
+    "artikler": [
+     34685,
+     34686,
+     34687
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "pantsatte",
+    "status": "treff",
+    "artikler": [
+     44056
+    ]
+   },
+   {
+    "ord": "skogen",
+    "status": "treff",
+    "artikler": [
+     53218
+    ]
+   }
+  ],
+  "oko01nn": [
+   {
+    "ord": "Familien",
+    "status": "treff",
+    "artikler": [
+     16449
+    ]
+   },
+   {
+    "ord": "tok",
+    "status": "treff",
+    "artikler": [
+     79741,
+     79742,
+     77129
+    ]
+   },
+   {
+    "ord": "opp",
+    "status": "treff",
+    "artikler": [
+     54654
+    ]
+   },
+   {
+    "ord": "lån",
+    "status": "treff",
+    "artikler": [
+     47701,
+     47702,
+     47704
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "pantsette",
+    "status": "treff",
+    "artikler": [
+     56325
+    ]
+   },
+   {
+    "ord": "skogen",
+    "status": "treff",
+    "artikler": [
+     68134
+    ]
+   }
+  ],
+  "oko02nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "skyldte",
+    "status": "treff",
+    "artikler": [
+     53989,
+     54006
+    ]
+   },
+   {
+    "ord": "skatt",
+    "status": "treff",
+    "artikler": [
+     52591,
+     52593
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     15906,
+     15907,
+     15909,
+     15910,
+     15908,
+     13855,
+     16106,
+     16107
+    ]
+   },
+   {
+    "ord": "tre",
+    "status": "treff",
+    "artikler": [
+     61961,
+     62648,
+     61959,
+     61960
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     1055
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "fikk",
+    "status": "treff",
+    "artikler": [
+     18820
+    ]
+   },
+   {
+    "ord": "namsmannen",
+    "status": "treff",
+    "artikler": [
+     40122
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "døra",
+    "status": "treff",
+    "artikler": [
+     11557
+    ]
+   }
+  ],
+  "oko02nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "skulda",
+    "status": "treff",
+    "artikler": [
+     69064,
+     69060
+    ]
+   },
+   {
+    "ord": "skatt",
+    "status": "treff",
+    "artikler": [
+     67160,
+     67163
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     19985,
+     19987,
+     19988,
+     19989,
+     19991,
+     19990,
+     19992,
+     16596,
+     20176,
+     20177,
+     20178
+    ]
+   },
+   {
+    "ord": "tre",
+    "status": "treff",
+    "artikler": [
+     102401,
+     80631,
+     80632
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     92748,
+     92749,
+     92750
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "fekk",
+    "status": "treff",
+    "artikler": [
+     23680
+    ]
+   },
+   {
+    "ord": "namsmannen",
+    "status": "treff",
+    "artikler": [
+     51859
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "døra",
+    "status": "treff",
+    "artikler": [
+     13584
+    ]
+   }
+  ],
+  "oko03nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "fikk",
+    "status": "treff",
+    "artikler": [
+     18820
+    ]
+   },
+   {
+    "ord": "dagpenger",
+    "status": "treff",
+    "artikler": [
+     9117
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     114103,
+     13250
+    ]
+   },
+   {
+    "ord": "at",
+    "status": "treff",
+    "artikler": [
+     3024,
+     3023
+    ]
+   },
+   {
+    "ord": "sagbruket",
+    "status": "treff",
+    "artikler": [
+     49629
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "nedlagt",
+    "status": "treff",
+    "artikler": [
+     40509
+    ]
+   }
+  ],
+  "oko03nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "fekk",
+    "status": "treff",
+    "artikler": [
+     23680
+    ]
+   },
+   {
+    "ord": "dagpengar",
+    "status": "treff",
+    "artikler": [
+     10755
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     124618,
+     15840
+    ]
+   },
+   {
+    "ord": "at",
+    "status": "treff",
+    "artikler": [
+     2785,
+     15798
+    ]
+   },
+   {
+    "ord": "sagbruket",
+    "status": "treff",
+    "artikler": [
+     63265
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "lagt",
+    "status": "treff",
+    "artikler": [
+     45016
+    ]
+   },
+   {
+    "ord": "ned",
+    "status": "treff",
+    "artikler": [
+     52300
+    ]
+   }
+  ],
+  "oko04nb": [
+   {
+    "ord": "Etter",
+    "status": "treff",
+    "artikler": [
+     114103,
+     13250
+    ]
+   },
+   {
+    "ord": "betalingsanmerkningen",
+    "status": "treff",
+    "artikler": [
+     109352
+    ]
+   },
+   {
+    "ord": "fikk",
+    "status": "treff",
+    "artikler": [
+     18820
+    ]
+   },
+   {
+    "ord": "han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "ikke",
+    "status": "treff",
+    "artikler": [
+     25712
+    ]
+   },
+   {
+    "ord": "lån",
+    "status": "treff",
+    "artikler": [
+     34685,
+     34686,
+     34687
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "banken",
+    "status": "treff",
+    "artikler": [
+     4385,
+     4386,
+     4387,
+     4395
+    ]
+   }
+  ],
+  "oko04nn": [
+   {
+    "ord": "Etter",
+    "status": "treff",
+    "artikler": [
+     124618,
+     15840
+    ]
+   },
+   {
+    "ord": "betalingsmerknaden",
+    "status": "treff",
+    "artikler": [
+     120409
+    ]
+   },
+   {
+    "ord": "fekk",
+    "status": "treff",
+    "artikler": [
+     23680
+    ]
+   },
+   {
+    "ord": "han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "ikkje",
+    "status": "treff",
+    "artikler": [
+     33268
+    ]
+   },
+   {
+    "ord": "lån",
+    "status": "treff",
+    "artikler": [
+     47701,
+     47702,
+     47704
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "banken",
+    "status": "treff",
+    "artikler": [
+     4492,
+     4493,
+     4494,
+     4503
+    ]
+   }
+  ],
+  "oko05nb": [
+   {
+    "ord": "Familien",
+    "status": "treff",
+    "artikler": [
+     13737
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "avhengig",
+    "status": "treff",
+    "artikler": [
+     3515
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3340,
+     3341
+    ]
+   },
+   {
+    "ord": "økonomisk",
+    "status": "treff",
+    "artikler": [
+     42685
+    ]
+   },
+   {
+    "ord": "støtte",
+    "status": "treff",
+    "artikler": [
+     58083,
+     58082,
+     58077
+    ]
+   },
+   {
+    "ord": "fra",
+    "status": "treff",
+    "artikler": [
+     114329,
+     17426
+    ]
+   },
+   {
+    "ord": "kommunen",
+    "status": "treff",
+    "artikler": [
+     30987
+    ]
+   }
+  ],
+  "oko05nn": [
+   {
+    "ord": "Familien",
+    "status": "treff",
+    "artikler": [
+     16449
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "avhengig",
+    "status": "treff",
+    "artikler": [
+     3566
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3389,
+     3390
+    ]
+   },
+   {
+    "ord": "økonomisk",
+    "status": "treff",
+    "artikler": [
+     92059
+    ]
+   },
+   {
+    "ord": "støtte",
+    "status": "treff",
+    "artikler": [
+     75160,
+     75159
+    ]
+   },
+   {
+    "ord": "frå",
+    "status": "treff",
+    "artikler": [
+     22617,
+     124787
+    ]
+   },
+   {
+    "ord": "kommunen",
+    "status": "treff",
+    "artikler": [
+     40297
+    ]
+   }
+  ],
+  "oko06nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "tynget",
+    "status": "treff",
+    "artikler": [
+     63226
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3340,
+     3341
+    ]
+   },
+   {
+    "ord": "spillegjeld",
+    "status": "treff",
+    "artikler": [
+     115523
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "solgte",
+    "status": "treff",
+    "artikler": [
+     50593
+    ]
+   },
+   {
+    "ord": "traktoren",
+    "status": "treff",
+    "artikler": [
+     61767
+    ]
+   }
+  ],
+  "oko06nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "tynga",
+    "status": "treff",
+    "artikler": [
+     83077
+    ]
+   },
+   {
+    "ord": "av",
+    "status": "treff",
+    "artikler": [
+     3389,
+     3390
+    ]
+   },
+   {
+    "ord": "spelegjeld",
+    "status": "treff",
+    "artikler": [
+     135854
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "selde",
+    "status": "treff",
+    "artikler": [
+     64672
+    ]
+   },
+   {
+    "ord": "traktoren",
+    "status": "treff",
+    "artikler": [
+     80399
+    ]
+   }
+  ],
+  "kon01nb": [
+   {
+    "ord": "Striden",
+    "status": "treff",
+    "artikler": [
+     57647
+    ]
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     42047,
+     42048,
+     42049
+    ]
+   },
+   {
+    "ord": "grensegjerdet",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "havnet",
+    "status": "treff",
+    "artikler": [
+     22613,
+     22144
+    ]
+   },
+   {
+    "ord": "hos",
+    "status": "treff",
+    "artikler": [
+     24240
+    ]
+   },
+   {
+    "ord": "lensmannen",
+    "status": "treff",
+    "artikler": [
+     34862
+    ]
+   }
+  ],
+  "kon01nn": [
+   {
+    "ord": "Striden",
+    "status": "treff",
+    "artikler": [
+     74484,
+     74487
+    ]
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     54255,
+     54256,
+     54257,
+     54289
+    ]
+   },
+   {
+    "ord": "grensegjerdet",
+    "status": "ingen treff",
+    "forslag": []
+   },
+   {
+    "ord": "hamna",
+    "status": "treff",
+    "artikler": [
+     28685,
+     28686,
+     28683,
+     28684
+    ]
+   },
+   {
+    "ord": "hos",
+    "status": "treff",
+    "artikler": [
+     115617,
+     31375
+    ]
+   },
+   {
+    "ord": "lensmannen",
+    "status": "treff",
+    "artikler": [
+     45286
+    ]
+   }
+  ],
+  "kon02nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "utsatt",
+    "status": "treff",
+    "artikler": [
+     65700,
+     65712
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     15906,
+     15907,
+     15909,
+     15910,
+     15908,
+     13855,
+     16106,
+     16107
+    ]
+   },
+   {
+    "ord": "trusler",
+    "status": "treff",
+    "artikler": [
+     62562
+    ]
+   },
+   {
+    "ord": "fra",
+    "status": "treff",
+    "artikler": [
+     114329,
+     17426
+    ]
+   },
+   {
+    "ord": "en",
+    "status": "treff",
+    "artikler": [
+     12572,
+     12570,
+     12571,
+     12573,
+     12640
+    ]
+   },
+   {
+    "ord": "tidligere",
+    "status": "treff",
+    "artikler": [
+     60593,
+     132176
+    ]
+   },
+   {
+    "ord": "samboer",
+    "status": "treff",
+    "artikler": [
+     49846,
+     127207
+    ]
+   }
+  ],
+  "kon02nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "utsett",
+    "status": "treff",
+    "artikler": [
+     86465,
+     86449,
+     86463
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     19985,
+     19987,
+     19988,
+     19989,
+     19991,
+     19990,
+     19992,
+     16596,
+     20176,
+     20177,
+     20178
+    ]
+   },
+   {
+    "ord": "truslar",
+    "status": "treff",
+    "artikler": [
+     81617
+    ]
+   },
+   {
+    "ord": "frå",
+    "status": "treff",
+    "artikler": [
+     22617,
+     124787
+    ]
+   },
+   {
+    "ord": "ein",
+    "status": "treff",
+    "artikler": [
+     14067,
+     14065,
+     14066,
+     13943,
+     14098
+    ]
+   },
+   {
+    "ord": "tidlegare",
+    "status": "treff",
+    "artikler": [
+     78722,
+     78721
+    ]
+   },
+   {
+    "ord": "sambuar",
+    "status": "treff",
+    "artikler": [
+     63656,
+     63652
+    ]
+   }
+  ],
+  "kon03nb": [
+   {
+    "ord": "Søsknene",
+    "status": "treff",
+    "artikler": [
+     59395
+    ]
+   },
+   {
+    "ord": "havnet",
+    "status": "treff",
+    "artikler": [
+     22613,
+     22144
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "en",
+    "status": "treff",
+    "artikler": [
+     12572,
+     12570,
+     12571,
+     12573,
+     12640
+    ]
+   },
+   {
+    "ord": "bitter",
+    "status": "treff",
+    "artikler": [
+     6148,
+     6149
+    ]
+   },
+   {
+    "ord": "arvekrangel",
+    "status": "ingen treff",
+    "forslag": [
+     "arvekonge",
+     "rektangel"
+    ]
+   }
+  ],
+  "kon03nn": [
+   {
+    "ord": "Syskena",
+    "status": "treff",
+    "artikler": [
+     76561
+    ]
+   },
+   {
+    "ord": "hamna",
+    "status": "treff",
+    "artikler": [
+     28685,
+     28686,
+     28683,
+     28684
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "ein",
+    "status": "treff",
+    "artikler": [
+     14067,
+     14065,
+     14066,
+     13943,
+     14098
+    ]
+   },
+   {
+    "ord": "bitter",
+    "status": "treff",
+    "artikler": [
+     6280,
+     6281
+    ]
+   },
+   {
+    "ord": "arvekrangel",
+    "status": "ingen treff",
+    "forslag": [
+     "arvekonge",
+     "rektangel"
+    ]
+   }
+  ],
+  "kon04nb": [
+   {
+    "ord": "Saken",
+    "status": "treff",
+    "artikler": [
+     49660,
+     49661
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "anket",
+    "status": "treff",
+    "artikler": [
+     1880
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "lagmannsretten",
+    "status": "treff",
+    "artikler": [
+     33529
+    ]
+   }
+  ],
+  "kon04nn": [
+   {
+    "ord": "Saka",
+    "status": "treff",
+    "artikler": [
+     63304,
+     63305,
+     63302,
+     63301
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "anka",
+    "status": "treff",
+    "artikler": [
+     1661
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "lagmannsretten",
+    "status": "treff",
+    "artikler": [
+     44175
+    ]
+   }
+  ],
+  "kon05nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "utestengt",
+    "status": "treff",
+    "artikler": [
+     134285,
+     65267
+    ]
+   },
+   {
+    "ord": "fra",
+    "status": "treff",
+    "artikler": [
+     114329,
+     17426
+    ]
+   },
+   {
+    "ord": "laget",
+    "status": "treff",
+    "artikler": [
+     33501,
+     33492
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     114103,
+     13250
+    ]
+   },
+   {
+    "ord": "en",
+    "status": "treff",
+    "artikler": [
+     12572,
+     12570,
+     12571,
+     12573,
+     12640
+    ]
+   },
+   {
+    "ord": "slåsskamp",
+    "status": "treff",
+    "artikler": [
+     118924
+    ]
+   }
+  ],
+  "kon05nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "utestengd",
+    "status": "treff",
+    "artikler": [
+     85932
+    ]
+   },
+   {
+    "ord": "frå",
+    "status": "treff",
+    "artikler": [
+     22617,
+     124787
+    ]
+   },
+   {
+    "ord": "laget",
+    "status": "treff",
+    "artikler": [
+     44132
+    ]
+   },
+   {
+    "ord": "etter",
+    "status": "treff",
+    "artikler": [
+     124618,
+     15840
+    ]
+   },
+   {
+    "ord": "ein",
+    "status": "treff",
+    "artikler": [
+     14067,
+     14065,
+     14066,
+     13943,
+     14098
+    ]
+   },
+   {
+    "ord": "slåstkamp",
+    "status": "treff",
+    "artikler": [
+     128038
+    ]
+   }
+  ],
+  "kon06nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "varslet",
+    "status": "treff",
+    "artikler": [
+     66790
+    ]
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     42047,
+     42048,
+     42049
+    ]
+   },
+   {
+    "ord": "trakassering",
+    "status": "treff",
+    "artikler": [
+     61747
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "arbeidsplassen",
+    "status": "treff",
+    "artikler": [
+     108670
+    ]
+   }
+  ],
+  "kon06nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "varsla",
+    "status": "treff",
+    "artikler": [
+     87642,
+     87619
+    ]
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     54255,
+     54256,
+     54257,
+     54289
+    ]
+   },
+   {
+    "ord": "trakassering",
+    "status": "treff",
+    "artikler": [
+     80376
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "arbeidsplassen",
+    "status": "treff",
+    "artikler": [
+     2291
+    ]
+   }
+  ],
+  "rel01nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     37491,
+     37492
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "Indremisjonen",
+    "status": "treff",
+    "artikler": [
+     26067
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "leste",
+    "status": "treff",
+    "artikler": [
+     34896
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "bibelen",
+    "status": "treff",
+    "artikler": [
+     5775
+    ]
+   },
+   {
+    "ord": "hver",
+    "status": "treff",
+    "artikler": [
+     24783
+    ]
+   },
+   {
+    "ord": "kveld",
+    "status": "treff",
+    "artikler": [
+     33116,
+     33117
+    ]
+   }
+  ],
+  "rel01nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     48822,
+     48823,
+     48824,
+     48847
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "Indremisjonen",
+    "status": "treff",
+    "artikler": [
+     33679
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "las",
+    "status": "treff",
+    "artikler": [
+     45348
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "bibelen",
+    "status": "treff",
+    "artikler": [
+     5727
+    ]
+   },
+   {
+    "ord": "kvar",
+    "status": "treff",
+    "artikler": [
+     43236,
+     43237,
+     43238,
+     43258
+    ]
+   },
+   {
+    "ord": "kveld",
+    "status": "treff",
+    "artikler": [
+     43395,
+     43396
+    ]
+   }
+  ],
+  "rel02nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "døpte",
+    "status": "treff",
+    "artikler": [
+     11551
+    ]
+   },
+   {
+    "ord": "barna",
+    "status": "treff",
+    "artikler": [
+     4546
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "Den",
+    "status": "treff",
+    "artikler": [
+     9728,
+     9729,
+     9730
+    ]
+   },
+   {
+    "ord": "norske",
+    "status": "treff",
+    "artikler": [
+     41126,
+     123845,
+     41120
+    ]
+   },
+   {
+    "ord": "kirke",
+    "status": "treff",
+    "artikler": [
+     29317
+    ]
+   }
+  ],
+  "rel02nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "døypte",
+    "status": "treff",
+    "artikler": [
+     13658
+    ]
+   },
+   {
+    "ord": "borna",
+    "status": "treff",
+    "artikler": [
+     5353,
+     4655
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "Den",
+    "status": "treff",
+    "artikler": [
+     11355,
+     11356
+    ]
+   },
+   {
+    "ord": "norske",
+    "status": "treff",
+    "artikler": [
+     53136,
+     102221,
+     53129
+    ]
+   },
+   {
+    "ord": "kyrkja",
+    "status": "treff",
+    "artikler": [
+     43835,
+     43834
+    ]
+   }
+  ],
+  "rel03nb": [
+   {
+    "ord": "Familien",
+    "status": "treff",
+    "artikler": [
+     13737
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "buddhister",
+    "status": "treff",
+    "artikler": [
+     7971
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "reiste",
+    "status": "treff",
+    "artikler": [
+     47911,
+     47912
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "tempelet",
+    "status": "treff",
+    "artikler": [
+     60272
+    ]
+   },
+   {
+    "ord": "hvert",
+    "status": "treff",
+    "artikler": [
+     24783
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     1055
+    ]
+   }
+  ],
+  "rel03nn": [
+   {
+    "ord": "Familien",
+    "status": "treff",
+    "artikler": [
+     16449
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "buddhistar",
+    "status": "treff",
+    "artikler": [
+     9140
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "reiste",
+    "status": "treff",
+    "artikler": [
+     60979,
+     60980,
+     60945,
+     60946
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "tempelet",
+    "status": "treff",
+    "artikler": [
+     78233
+    ]
+   },
+   {
+    "ord": "kvart",
+    "status": "treff",
+    "artikler": [
+     43266,
+     43267,
+     43274,
+     43236,
+     43237
+    ]
+   },
+   {
+    "ord": "år",
+    "status": "treff",
+    "artikler": [
+     92748,
+     92749,
+     92750
+    ]
+   }
+  ],
+  "rel04nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "baptist",
+    "status": "treff",
+    "artikler": [
+     4462
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     55558
+    ]
+   },
+   {
+    "ord": "ung",
+    "status": "treff",
+    "artikler": [
+     64476
+    ]
+   },
+   {
+    "ord": "mann",
+    "status": "treff",
+    "artikler": [
+     36912,
+     36926
+    ]
+   }
+  ],
+  "rel04nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "baptist",
+    "status": "treff",
+    "artikler": [
+     4568
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     71719,
+     71720
+    ]
+   },
+   {
+    "ord": "ung",
+    "status": "treff",
+    "artikler": [
+     84933
+    ]
+   },
+   {
+    "ord": "mann",
+    "status": "treff",
+    "artikler": [
+     48207,
+     48222
+    ]
+   }
+  ],
+  "rel05nb": [
+   {
+    "ord": "De",
+    "status": "treff",
+    "artikler": [
+     9410,
+     9412,
+     9413,
+     9414
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "kvekere",
+    "status": "treff",
+    "artikler": [
+     33105
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "nektet",
+    "status": "treff",
+    "artikler": [
+     40616
+    ]
+   },
+   {
+    "ord": "å",
+    "status": "treff",
+    "artikler": [
+     912,
+     914,
+     916,
+     915
+    ]
+   },
+   {
+    "ord": "sverge",
+    "status": "treff",
+    "artikler": [
+     58681
+    ]
+   },
+   {
+    "ord": "ed",
+    "status": "treff",
+    "artikler": [
+     11640
+    ]
+   }
+  ],
+  "rel05nn": [
+   {
+    "ord": "Dei",
+    "status": "treff",
+    "artikler": [
+     11141,
+     11140,
+     11142
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "kvekarar",
+    "status": "treff",
+    "artikler": [
+     43379
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "nekta",
+    "status": "treff",
+    "artikler": [
+     52495
+    ]
+   },
+   {
+    "ord": "å",
+    "status": "treff",
+    "artikler": [
+     92453,
+     92455,
+     92458,
+     92456,
+     92457
+    ]
+   },
+   {
+    "ord": "sverje",
+    "status": "treff",
+    "artikler": [
+     76003
+    ]
+   },
+   {
+    "ord": "eid",
+    "status": "treff",
+    "artikler": [
+     13948,
+     13949
+    ]
+   }
+  ],
+  "rel06nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "konverterte",
+    "status": "treff",
+    "artikler": [
+     31514
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "jødedommen",
+    "status": "treff",
+    "artikler": [
+     28096
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "voksen",
+    "status": "treff",
+    "artikler": [
+     134618,
+     68949,
+     68942
+    ]
+   },
+   {
+    "ord": "alder",
+    "status": "treff",
+    "artikler": [
+     720
+    ]
+   }
+  ],
+  "rel06nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "konverterte",
+    "status": "treff",
+    "artikler": [
+     41103
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "jødedommen",
+    "status": "treff",
+    "artikler": [
+     36082
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "vaksen",
+    "status": "treff",
+    "artikler": [
+     139389,
+     86984,
+     88378
+    ]
+   },
+   {
+    "ord": "alder",
+    "status": "treff",
+    "artikler": [
+     707,
+     699,
+     700
+    ]
+   }
+  ],
+  "pol01nb": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "satt",
+    "status": "treff",
+    "artikler": [
+     50239,
+     51169,
+     51758
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "kommunestyret",
+    "status": "treff",
+    "artikler": [
+     30991
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     15906,
+     15907,
+     15909,
+     15910,
+     15908,
+     13855,
+     16106,
+     16107
+    ]
+   },
+   {
+    "ord": "Høyre",
+    "status": "treff",
+    "artikler": [
+     98077,
+     25315,
+     25316
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "to",
+    "status": "treff",
+    "artikler": [
+     61287,
+     61288,
+     61320
+    ]
+   },
+   {
+    "ord": "perioder",
+    "status": "treff",
+    "artikler": [
+     44674
+    ]
+   }
+  ],
+  "pol01nn": [
+   {
+    "ord": "Han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "sat",
+    "status": "treff",
+    "artikler": [
+     66054
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "kommunestyret",
+    "status": "treff",
+    "artikler": [
+     40309
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     19985,
+     19987,
+     19988,
+     19989,
+     19991,
+     19990,
+     19992,
+     16596,
+     20176,
+     20177,
+     20178
+    ]
+   },
+   {
+    "ord": "Høgre",
+    "status": "treff",
+    "artikler": [
+     32577,
+     32578,
+     32579,
+     32480
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "to",
+    "status": "treff",
+    "artikler": [
+     79629,
+     79630,
+     79631
+    ]
+   },
+   {
+    "ord": "periodar",
+    "status": "treff",
+    "artikler": [
+     57035
+    ]
+   }
+  ],
+  "pol02nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "aktiv",
+    "status": "treff",
+    "artikler": [
+     601,
+     602
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "Rødt",
+    "status": "treff",
+    "artikler": [
+     49332,
+     49294
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "fagbevegelsen",
+    "status": "treff",
+    "artikler": [
+     13569
+    ]
+   }
+  ],
+  "pol02nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "aktiv",
+    "status": "treff",
+    "artikler": [
+     594,
+     595
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "Raudt",
+    "status": "treff",
+    "artikler": [
+     60527,
+     60456
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "fagrørsla",
+    "status": "treff",
+    "artikler": [
+     16289
+    ]
+   }
+  ],
+  "pol03nb": [
+   {
+    "ord": "Bestefar",
+    "status": "treff",
+    "artikler": [
+     5526
+    ]
+   },
+   {
+    "ord": "stemte",
+    "status": "treff",
+    "artikler": [
+     56969,
+     56970
+    ]
+   },
+   {
+    "ord": "Venstre",
+    "status": "treff",
+    "artikler": [
+     98071,
+     67638,
+     67639
+    ]
+   },
+   {
+    "ord": "helt",
+    "status": "treff",
+    "artikler": [
+     23105,
+     22968,
+     23013,
+     22945
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "han",
+    "status": "treff",
+    "artikler": [
+     22170
+    ]
+   },
+   {
+    "ord": "døde",
+    "status": "treff",
+    "artikler": [
+     11456,
+     11447,
+     11449
+    ]
+   }
+  ],
+  "pol03nn": [
+   {
+    "ord": "Bestefar",
+    "status": "treff",
+    "artikler": [
+     5574
+    ]
+   },
+   {
+    "ord": "stemde",
+    "status": "treff",
+    "artikler": [
+     73544,
+     73545
+    ]
+   },
+   {
+    "ord": "Venstre",
+    "status": "treff",
+    "artikler": [
+     88816,
+     88817,
+     88818
+    ]
+   },
+   {
+    "ord": "heilt",
+    "status": "treff",
+    "artikler": [
+     29634
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "han",
+    "status": "treff",
+    "artikler": [
+     28742
+    ]
+   },
+   {
+    "ord": "døydde",
+    "status": "treff",
+    "artikler": [
+     13648,
+     13650
+    ]
+   }
+  ],
+  "pol04nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "meldte",
+    "status": "treff",
+    "artikler": [
+     37713
+    ]
+   },
+   {
+    "ord": "seg",
+    "status": "treff",
+    "artikler": [
+     50355,
+     51358
+    ]
+   },
+   {
+    "ord": "inn",
+    "status": "treff",
+    "artikler": [
+     25968,
+     26274
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "Sosialistisk",
+    "status": "treff",
+    "artikler": [
+     55692
+    ]
+   },
+   {
+    "ord": "Venstreparti",
+    "status": "treff",
+    "artikler": [
+     67655
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     55558
+    ]
+   },
+   {
+    "ord": "student",
+    "status": "treff",
+    "artikler": [
+     57845
+    ]
+   }
+  ],
+  "pol04nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "melde",
+    "status": "treff",
+    "artikler": [
+     49095,
+     49093,
+     49094
+    ]
+   },
+   {
+    "ord": "seg",
+    "status": "treff",
+    "artikler": [
+     64374,
+     64377
+    ]
+   },
+   {
+    "ord": "inn",
+    "status": "treff",
+    "artikler": [
+     33568,
+     33933
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "Sosialistisk",
+    "status": "treff",
+    "artikler": [
+     71913
+    ]
+   },
+   {
+    "ord": "Venstreparti",
+    "status": "treff",
+    "artikler": [
+     88838
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     71719,
+     71720
+    ]
+   },
+   {
+    "ord": "student",
+    "status": "treff",
+    "artikler": [
+     74767
+    ]
+   }
+  ],
+  "pol05nb": [
+   {
+    "ord": "Hun",
+    "status": "treff",
+    "artikler": [
+     24520,
+     24521
+    ]
+   },
+   {
+    "ord": "stilte",
+    "status": "treff",
+    "artikler": [
+     57162,
+     57186,
+     57187
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     115344,
+     60685
+    ]
+   },
+   {
+    "ord": "valg",
+    "status": "treff",
+    "artikler": [
+     66225
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     15906,
+     15907,
+     15909,
+     15910,
+     15908,
+     13855,
+     16106,
+     16107
+    ]
+   },
+   {
+    "ord": "Miljøpartiet",
+    "status": "treff",
+    "artikler": [
+     70380
+    ]
+   },
+   {
+    "ord": "De",
+    "status": "treff",
+    "artikler": [
+     9410,
+     9412,
+     9413,
+     9414
+    ]
+   },
+   {
+    "ord": "Grønne",
+    "status": "treff",
+    "artikler": [
+     21329
+    ]
+   }
+  ],
+  "pol05nn": [
+   {
+    "ord": "Ho",
+    "status": "treff",
+    "artikler": [
+     31038,
+     31039,
+     31040,
+     31055
+    ]
+   },
+   {
+    "ord": "stilte",
+    "status": "treff",
+    "artikler": [
+     73771,
+     73797,
+     73798
+    ]
+   },
+   {
+    "ord": "til",
+    "status": "treff",
+    "artikler": [
+     125455,
+     78878,
+     78877
+    ]
+   },
+   {
+    "ord": "val",
+    "status": "treff",
+    "artikler": [
+     87048,
+     87049,
+     87050,
+     88560
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     19985,
+     19987,
+     19988,
+     19989,
+     19991,
+     19990,
+     19992,
+     16596,
+     20176,
+     20177,
+     20178
+    ]
+   },
+   {
+    "ord": "Miljøpartiet",
+    "status": "treff",
+    "artikler": [
+     99605
+    ]
+   },
+   {
+    "ord": "Dei",
+    "status": "treff",
+    "artikler": [
+     11141,
+     11140,
+     11142
+    ]
+   },
+   {
+    "ord": "Grøne",
+    "status": "treff",
+    "artikler": [
+     27404,
+     27397
+    ]
+   }
+  ],
+  "pol06nb": [
+   {
+    "ord": "Bestefaren",
+    "status": "treff",
+    "artikler": [
+     5526
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     66620,
+     66621,
+     66622,
+     66098,
+     66637,
+     66638,
+     69211
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     37491,
+     37492
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "Bondepartiet",
+    "status": "treff",
+    "artikler": [
+     113961
+    ]
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     18708,
+     114624,
+     18709,
+     18609,
+     18713
+    ]
+   },
+   {
+    "ord": "krigen",
+    "status": "treff",
+    "artikler": [
+     32078
+    ]
+   }
+  ],
+  "pol06nn": [
+   {
+    "ord": "Bestefaren",
+    "status": "treff",
+    "artikler": [
+     5574
+    ]
+   },
+   {
+    "ord": "var",
+    "status": "treff",
+    "artikler": [
+     87388,
+     87389,
+     87390,
+     86891,
+     87418,
+     87419,
+     89137,
+     89171
+    ]
+   },
+   {
+    "ord": "med",
+    "status": "treff",
+    "artikler": [
+     48822,
+     48823,
+     48824,
+     48847
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "Bondepartiet",
+    "status": "treff",
+    "artikler": [
+     7587
+    ]
+   },
+   {
+    "ord": "før",
+    "status": "treff",
+    "artikler": [
+     23356,
+     124998,
+     23357,
+     23261,
+     23374
+    ]
+   },
+   {
+    "ord": "krigen",
+    "status": "treff",
+    "artikler": [
+     41902
+    ]
+   }
+  ],
+  "kom01nb": [
+   {
+    "ord": "Reidun",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Hovdesæter",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "1936",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "Kvam",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "fikk",
+    "status": "treff",
+    "artikler": [
+     18820
+    ]
+   },
+   {
+    "ord": "revmatisme",
+    "status": "treff",
+    "artikler": [
+     48432
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     55558
+    ]
+   },
+   {
+    "ord": "ung",
+    "status": "treff",
+    "artikler": [
+     64476
+    ]
+   }
+  ],
+  "kom01nn": [
+   {
+    "ord": "Reidun",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Hovdesæter",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "1936",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "Kvam",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "fekk",
+    "status": "treff",
+    "artikler": [
+     23680
+    ]
+   },
+   {
+    "ord": "revmatisme",
+    "status": "treff",
+    "artikler": [
+     61639
+    ]
+   },
+   {
+    "ord": "som",
+    "status": "treff",
+    "artikler": [
+     71719,
+     71720
+    ]
+   },
+   {
+    "ord": "ung",
+    "status": "treff",
+    "artikler": [
+     84933
+    ]
+   }
+  ],
+  "kom02nb": [
+   {
+    "ord": "Sverre",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Bakkelien",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "ringte",
+    "status": "treff",
+    "artikler": [
+     48612
+    ]
+   },
+   {
+    "ord": "97",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "14",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "52",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "80",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "den",
+    "status": "treff",
+    "artikler": [
+     9728,
+     9729,
+     9730
+    ]
+   },
+   {
+    "ord": "21",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "mars",
+    "status": "treff",
+    "artikler": [
+     37168
+    ]
+   },
+   {
+    "ord": "1988",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     42047,
+     42048,
+     42049
+    ]
+   },
+   {
+    "ord": "arvestriden",
+    "status": "ingen treff",
+    "forslag": []
+   }
+  ],
+  "kom02nn": [
+   {
+    "ord": "Sverre",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Bakkelien",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "ringde",
+    "status": "treff",
+    "artikler": [
+     61906
+    ]
+   },
+   {
+    "ord": "97",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "14",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "52",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "80",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "den",
+    "status": "treff",
+    "artikler": [
+     11355,
+     11356
+    ]
+   },
+   {
+    "ord": "21",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "mars",
+    "status": "treff",
+    "artikler": [
+     48481
+    ]
+   },
+   {
+    "ord": "1988",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "om",
+    "status": "treff",
+    "artikler": [
+     54255,
+     54256,
+     54257,
+     54289
+    ]
+   },
+   {
+    "ord": "arvestriden",
+    "status": "ingen treff",
+    "forslag": [
+     "angstriden"
+    ]
+   }
+  ],
+  "kom03nb": [
+   {
+    "ord": "Torunn",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Skjelbrekke",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "fra",
+    "status": "treff",
+    "artikler": [
+     114329,
+     17426
+    ]
+   },
+   {
+    "ord": "Garmo",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "kveker",
+    "status": "treff",
+    "artikler": [
+     33105,
+     33104
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "stemmer",
+    "status": "treff",
+    "artikler": [
+     56980,
+     56969,
+     56970,
+     98468,
+     56968
+    ]
+   },
+   {
+    "ord": "Venstre",
+    "status": "treff",
+    "artikler": [
+     98071,
+     67638,
+     67639
+    ]
+   }
+  ],
+  "kom03nn": [
+   {
+    "ord": "Torunn",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Skjelbrekke",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "frå",
+    "status": "treff",
+    "artikler": [
+     22617,
+     124787
+    ]
+   },
+   {
+    "ord": "Garmo",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     89137
+    ]
+   },
+   {
+    "ord": "kvekar",
+    "status": "treff",
+    "artikler": [
+     43379
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "stemmer",
+    "status": "treff",
+    "artikler": [
+     73544,
+     73545,
+     73543
+    ]
+   },
+   {
+    "ord": "Venstre",
+    "status": "treff",
+    "artikler": [
+     88816,
+     88817,
+     88818
+    ]
+   }
+  ],
+  "kom04nb": [
+   {
+    "ord": "Arne",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Oddvollen",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     25541,
+     25544
+    ]
+   },
+   {
+    "ord": "1958",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "bor",
+    "status": "treff",
+    "artikler": [
+     6994,
+     6995,
+     6996,
+     6740,
+     7022
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "Nedre",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Frya",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "fikk",
+    "status": "treff",
+    "artikler": [
+     18820
+    ]
+   },
+   {
+    "ord": "dagpenger",
+    "status": "treff",
+    "artikler": [
+     9117
+    ]
+   }
+  ],
+  "kom04nn": [
+   {
+    "ord": "Arne",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Oddvollen",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "i",
+    "status": "treff",
+    "artikler": [
+     33033,
+     33035
+    ]
+   },
+   {
+    "ord": "1958",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "bur",
+    "status": "treff",
+    "artikler": [
+     9345,
+     9346,
+     9121,
+     9349,
+     121614
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "Nedre",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Frya",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "fekk",
+    "status": "treff",
+    "artikler": [
+     23680
+    ]
+   },
+   {
+    "ord": "dagpengar",
+    "status": "treff",
+    "artikler": [
+     10755
+    ]
+   }
+  ],
+  "kom05nb": [
+   {
+    "ord": "Liv",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Brekkeslåen",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "Bjorli",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "ble",
+    "status": "treff",
+    "artikler": [
+     6390
+    ]
+   },
+   {
+    "ord": "anmeldt",
+    "status": "treff",
+    "artikler": [
+     1951
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     15906,
+     15907,
+     15909,
+     15910,
+     15908,
+     13855,
+     16106,
+     16107
+    ]
+   },
+   {
+    "ord": "trusler",
+    "status": "treff",
+    "artikler": [
+     62562
+    ]
+   },
+   {
+    "ord": "14",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "juli",
+    "status": "treff",
+    "artikler": [
+     28005
+    ]
+   },
+   {
+    "ord": "1993",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "kom05nn": [
+   {
+    "ord": "Liv",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Brekkeslåen",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "Bjorli",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "vart",
+    "status": "treff",
+    "artikler": [
+     6666,
+     87419,
+     87651,
+     89171,
+     89382,
+     87390
+    ]
+   },
+   {
+    "ord": "meld",
+    "status": "treff",
+    "artikler": [
+     49091,
+     49095
+    ]
+   },
+   {
+    "ord": "for",
+    "status": "treff",
+    "artikler": [
+     19985,
+     19987,
+     19988,
+     19989,
+     19991,
+     19990,
+     19992,
+     16596,
+     20176,
+     20177,
+     20178
+    ]
+   },
+   {
+    "ord": "truslar",
+    "status": "treff",
+    "artikler": [
+     81617
+    ]
+   },
+   {
+    "ord": "14",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "juli",
+    "status": "treff",
+    "artikler": [
+     35991
+    ]
+   },
+   {
+    "ord": "1993",
+    "status": "hoppet over (tall eller e-post)"
+   }
+  ],
+  "kom06nb": [
+   {
+    "ord": "Magnus",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Rudisæter",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "født",
+    "status": "treff",
+    "artikler": [
+     18611
+    ]
+   },
+   {
+    "ord": "1949",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     69211
+    ]
+   },
+   {
+    "ord": "buddhist",
+    "status": "treff",
+    "artikler": [
+     7971
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     41860,
+     41861
+    ]
+   },
+   {
+    "ord": "bor",
+    "status": "treff",
+    "artikler": [
+     6994,
+     6995,
+     6996,
+     6740,
+     7022
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     47043
+    ]
+   },
+   {
+    "ord": "Hafjell",
+    "status": "hoppet over (egennavn)"
+   }
+  ],
+  "kom06nn": [
+   {
+    "ord": "Magnus",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "Rudisæter",
+    "status": "hoppet over (egennavn)"
+   },
+   {
+    "ord": "fødd",
+    "status": "treff",
+    "artikler": [
+     23261
+    ]
+   },
+   {
+    "ord": "1949",
+    "status": "hoppet over (tall eller e-post)"
+   },
+   {
+    "ord": "er",
+    "status": "treff",
+    "artikler": [
+     89137
+    ]
+   },
+   {
+    "ord": "buddhist",
+    "status": "treff",
+    "artikler": [
+     9140
+    ]
+   },
+   {
+    "ord": "og",
+    "status": "treff",
+    "artikler": [
+     54014,
+     54015
+    ]
+   },
+   {
+    "ord": "bur",
+    "status": "treff",
+    "artikler": [
+     9345,
+     9346,
+     9121,
+     9349,
+     121614
+    ]
+   },
+   {
+    "ord": "på",
+    "status": "treff",
+    "artikler": [
+     59712
+    ]
+   },
+   {
+    "ord": "Hafjell",
+    "status": "hoppet over (egennavn)"
+   }
+  ]
+ }
+}

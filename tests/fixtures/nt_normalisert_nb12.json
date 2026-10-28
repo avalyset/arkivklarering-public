@@ -1,0 +1,423 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Volumes/Vault/arkivklarering/modeller/nb-whisper-large.ggml-model.bin",
+		"language": "no",
+		"translate": false
+	},
+	"result": {
+		"language": "no"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:30,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 30000
+			},
+			"text": " Vi skal nærme oss hva Norden er, og kanskje til og med hva Norden skal bli.",
+			"tokens": [
+				{
+					"text": " Vi",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,950"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 950
+					},
+					"id": 6626,
+					"p": 0.906943,
+					"t_dtw": 2
+				},
+				{
+					"text": " skal",
+					"timestamps": {
+						"from": "00:00:00,950",
+						"to": "00:00:02,850"
+					},
+					"offsets": {
+						"from": 950,
+						"to": 2850
+					},
+					"id": 16890,
+					"p": 0.817039,
+					"t_dtw": 20
+				},
+				{
+					"text": " n",
+					"timestamps": {
+						"from": "00:00:02,850",
+						"to": "00:00:03,320"
+					},
+					"offsets": {
+						"from": 2850,
+						"to": 3320
+					},
+					"id": 297,
+					"p": 0.990178,
+					"t_dtw": 44
+				},
+				{
+					"text": "ær",
+					"timestamps": {
+						"from": "00:00:03,320",
+						"to": "00:00:03,480"
+					},
+					"offsets": {
+						"from": 3320,
+						"to": 3480
+					},
+					"id": 32011,
+					"p": 0.670373,
+					"t_dtw": 58
+				},
+				{
+					"text": "me",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 1398,
+					"p": 0.995366,
+					"t_dtw": 66
+				},
+				{
+					"text": " oss",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 19508,
+					"p": 0.51553,
+					"t_dtw": 72
+				},
+				{
+					"text": " h",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 276,
+					"p": 0.925037,
+					"t_dtw": 84
+				},
+				{
+					"text": "va",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 2757,
+					"p": 0.825835,
+					"t_dtw": 94
+				},
+				{
+					"text": " Nord",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 16229,
+					"p": 0.801291,
+					"t_dtw": 108
+				},
+				{
+					"text": "en",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 268,
+					"p": 0.999692,
+					"t_dtw": 128
+				},
+				{
+					"text": " er",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 1189,
+					"p": 0.653875,
+					"t_dtw": 154
+				},
+				{
+					"text": ",",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 11,
+					"p": 0.99883,
+					"t_dtw": 168
+				},
+				{
+					"text": " og",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 5360,
+					"p": 0.630816,
+					"t_dtw": 178
+				},
+				{
+					"text": " kans",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 16030,
+					"p": 0.771303,
+					"t_dtw": 190
+				},
+				{
+					"text": "k",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 74,
+					"p": 0.999107,
+					"t_dtw": 196
+				},
+				{
+					"text": "je",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 2884,
+					"p": 0.999277,
+					"t_dtw": 200
+				},
+				{
+					"text": " til",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 8440,
+					"p": 0.812704,
+					"t_dtw": 208
+				},
+				{
+					"text": " og",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 5360,
+					"p": 0.63227,
+					"t_dtw": 218
+				},
+				{
+					"text": " med",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 1205,
+					"p": 0.774967,
+					"t_dtw": 224
+				},
+				{
+					"text": " h",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 276,
+					"p": 0.92366,
+					"t_dtw": 230
+				},
+				{
+					"text": "va",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 2757,
+					"p": 0.830126,
+					"t_dtw": 242
+				},
+				{
+					"text": " Nord",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 16229,
+					"p": 0.806529,
+					"t_dtw": 262
+				},
+				{
+					"text": "en",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 268,
+					"p": 0.999629,
+					"t_dtw": 288
+				},
+				{
+					"text": " skal",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 16890,
+					"p": 0.818615,
+					"t_dtw": 314
+				},
+				{
+					"text": " bli",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 27182,
+					"p": 0.529245,
+					"t_dtw": 338
+				},
+				{
+					"text": ".",
+					"timestamps": {
+						"from": "00:00:03,590",
+						"to": "00:00:03,590"
+					},
+					"offsets": {
+						"from": 3590,
+						"to": 3590
+					},
+					"id": 13,
+					"p": 0.998798,
+					"t_dtw": 344
+				},
+				{
+					"text": "[_EOT_]",
+					"timestamps": {
+						"from": "00:00:30,000",
+						"to": "00:00:30,000"
+					},
+					"offsets": {
+						"from": 30000,
+						"to": 30000
+					},
+					"id": 50257,
+					"p": 0.998553,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

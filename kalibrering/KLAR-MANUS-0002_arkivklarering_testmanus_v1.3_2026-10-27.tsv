@@ -1,0 +1,162 @@
+# arkivklarering testmanus KLAR-MANUS-0002 v1.3: radiolignende setninger per kategori, hver på bokmål og nynorsk.
+# STATUS: urørt testmateriale for H4 i KLAR-PREREG-0001. IKKE kjørt gjennom rørledningen, mønstrene eller ordlistene. H4 gjennomføres ikke i v1.0 (AV-27). v1.3 (AV-29) bytter bare de sju telefonnumrene; sha256 for den registrerte v1.2 står i preregistreringen.
+# Personnavn er oppdiktede. Fødselsnumre har riktig format, fiktive sifre og bevisst ugyldig kontrollsiffer. Telefonnumre er fiktive og ligger i Nkoms serie for TV- og filmproduksjon, 68 05 00 00–68 05 99 99 (v1.3, AV-29: alle byttet dit), e-postadresser bruker reserverte eksempeldomener.
+# elementer: det som må flagges, {type: kategori, former: [skriveformer]}. Tall skrives som sifre; utdata normaliseres (tallord -> sifre) før sammenligning (vendor/norsk_tale/score.py).
+# dialektutvalg=ja: setningene som leses inn av talere med dialekt (norsk-tale-riggens dialektmodus).
+id	malform	klasse	setning	elementer	dialektutvalg
+per01nb	nb	person	Programleder Gunnhild Bjerkås intervjuet bonden i studio.	[{"type": "person", "former": ["Gunnhild Bjerkås"]}]	nei
+per01nn	nn	person	Programleiar Gunnhild Bjerkås intervjua bonden i studio.	[{"type": "person", "former": ["Gunnhild Bjerkås"]}]	nei
+per02nb	nb	person	Kirkekoret ble ledet av Ivar Rustad i mange år.	[{"type": "person", "former": ["Ivar Rustad"]}]	nei
+per02nn	nn	person	Kyrkjekoret vart leidd av Ivar Rustad i mange år.	[{"type": "person", "former": ["Ivar Rustad"]}]	nei
+per03nb	nb	person	Marit Sandbu og Knut Aaseth var sammen om å starte lokallaget.	[{"type": "person", "former": ["Marit Sandbu"]}, {"type": "person", "former": ["Knut Aaseth"]}]	nei
+per03nn	nn	person	Marit Sandbu og Knut Aaseth stod saman om å starte lokallaget.	[{"type": "person", "former": ["Marit Sandbu"]}, {"type": "person", "former": ["Knut Aaseth"]}]	nei
+per04nb	nb	person	Mange husker læreren Synnøve Lien fra småskolen.	[{"type": "person", "former": ["Synnøve Lien"]}]	nei
+per04nn	nn	person	Mange hugsar læraren Synnøve Lien frå småskulen.	[{"type": "person", "former": ["Synnøve Lien"]}]	nei
+per05nb	nb	person	Vi hører nå et opptak med Halfdan Moen på fele.	[{"type": "person", "former": ["Halfdan Moen"]}]	nei
+per05nn	nn	person	Vi høyrer no eit opptak med Halfdan Moen på fele.	[{"type": "person", "former": ["Halfdan Moen"]}]	nei
+per06nb	nb	person	Sangen ble skrevet av Berit Kolstad til bryllupet.	[{"type": "person", "former": ["Berit Kolstad"]}]	nei
+per06nn	nn	person	Songen vart skriven av Berit Kolstad til bryllaupet.	[{"type": "person", "former": ["Berit Kolstad"]}]	nei
+ste01nb	nb	sted	Været på Dombås er blitt verre utover dagen.	[{"type": "sted", "former": ["Dombås"]}]	nei
+ste01nn	nn	sted	Været på Dombås har vorte verre utover dagen.	[{"type": "sted", "former": ["Dombås"]}]	nei
+ste02nb	nb	sted	Seterdrifta på Øvre Rusten ble lagt ned for lenge siden.	[{"type": "sted", "former": ["Øvre Rusten"]}]	nei
+ste02nn	nn	sted	Seterdrifta på Øvre Rusten vart lagd ned for lenge sidan.	[{"type": "sted", "former": ["Øvre Rusten"]}]	nei
+ste03nb	nb	sted	Toget stanset ved Tretten, Øyer og Harpefoss.	[{"type": "sted", "former": ["Tretten"]}, {"type": "sted", "former": ["Øyer"]}, {"type": "sted", "former": ["Harpefoss"]}]	nei
+ste03nn	nn	sted	Toget stoppa ved Tretten, Øyer og Harpefoss.	[{"type": "sted", "former": ["Tretten"]}, {"type": "sted", "former": ["Øyer"]}, {"type": "sted", "former": ["Harpefoss"]}]	nei
+ste04nb	nb	sted	Elva Sjoa renner gjennom Heidal før den møter Lågen.	[{"type": "sted", "former": ["Sjoa"]}, {"type": "sted", "former": ["Heidal"]}, {"type": "sted", "former": ["Lågen"]}]	nei
+ste04nn	nn	sted	Elva Sjoa renn gjennom Heidal før ho møter Lågen.	[{"type": "sted", "former": ["Sjoa"]}, {"type": "sted", "former": ["Heidal"]}, {"type": "sted", "former": ["Lågen"]}]	nei
+ste05nb	nb	sted	Vi besøkte Vågå, Lom og Skjåk i sommer.	[{"type": "sted", "former": ["Vågå"]}, {"type": "sted", "former": ["Lom"]}, {"type": "sted", "former": ["Skjåk"]}]	nei
+ste05nn	nn	sted	Vi besøkte Vågå, Lom og Skjåk i sommar.	[{"type": "sted", "former": ["Vågå"]}, {"type": "sted", "former": ["Lom"]}, {"type": "sted", "former": ["Skjåk"]}]	nei
+ste06nb	nb	sted	Han overnattet på Follebu før turen til Lesja.	[{"type": "sted", "former": ["Follebu"]}, {"type": "sted", "former": ["Lesja"]}]	nei
+ste06nn	nn	sted	Han overnatta på Follebu før turen til Lesja.	[{"type": "sted", "former": ["Follebu"]}, {"type": "sted", "former": ["Lesja"]}]	nei
+dat01nb	nb	dato	Skolen åpnet 17. oktober 1957 med femti elever.	[{"type": "dato", "former": ["17. oktober 1957"]}]	nei
+dat01nn	nn	dato	Skulen opna 17. oktober 1957 med femti elevar.	[{"type": "dato", "former": ["17. oktober 1957"]}]	nei
+dat02nb	nb	dato	Dåpen står oppført med dato 02.08.1984 i kirkeboka.	[{"type": "dato", "former": ["02.08.1984", "2. august 1984"]}]	nei
+dat02nn	nn	dato	Dåpen står oppført med dato 02.08.1984 i kyrkjeboka.	[{"type": "dato", "former": ["02.08.1984", "2. august 1984"]}]	nei
+dat03nb	nb	dato	Hun giftet seg 5. januar 1923 i bygdekirken.	[{"type": "dato", "former": ["5. januar 1923"]}]	nei
+dat03nn	nn	dato	Ho gifta seg 5. januar 1923 i bygdekyrkja.	[{"type": "dato", "former": ["5. januar 1923"]}]	nei
+dat04nb	nb	dato	Flommen kom natt til 28. februar 1990.	[{"type": "dato", "former": ["28. februar 1990"]}]	nei
+dat04nn	nn	dato	Flaumen kom natt til 28. februar 1990.	[{"type": "dato", "former": ["28. februar 1990"]}]	nei
+dat05nb	nb	dato	Minnesmerket ble avduket 8. mai 1995.	[{"type": "dato", "former": ["8. mai 1995"]}]	nei
+dat05nn	nn	dato	Minnesmerket vart avduka 8. mai 1995.	[{"type": "dato", "former": ["8. mai 1995"]}]	nei
+dat06nb	nb	dato	Rådmannen skrev under 11. september 1976.	[{"type": "dato", "former": ["11. september 1976"]}]	nei
+dat06nn	nn	dato	Rådmannen skreiv under 11. september 1976.	[{"type": "dato", "former": ["11. september 1976"]}]	nei
+fod01nb	nb	fødselsår	Mormor er født i 1922 og husker krigsårene godt.	[{"type": "fødselsår", "former": ["1922"]}]	nei
+fod01nn	nn	fødselsår	Mormor er fødd i 1922 og hugsar krigsåra godt.	[{"type": "fødselsår", "former": ["1922"]}]	nei
+fod02nb	nb	fødselsår	Han ble født i 1947, året etter at gården ble delt.	[{"type": "fødselsår", "former": ["1947"]}]	nei
+fod02nn	nn	fødselsår	Han vart fødd i 1947, året etter at garden vart delt.	[{"type": "fødselsår", "former": ["1947"]}]	nei
+fod03nb	nb	fødselsår	Skuespilleren, født 1962, var gjest i programmet.	[{"type": "fødselsår", "former": ["1962"]}]	nei
+fod03nn	nn	fødselsår	Skodespelaren, fødd 1962, var gjest i programmet.	[{"type": "fødselsår", "former": ["1962"]}]	nei
+fod04nb	nb	fødselsår	Hun er født i 1938 og har skrevet bygdebok.	[{"type": "fødselsår", "former": ["1938"]}]	nei
+fod04nn	nn	fødselsår	Ho er fødd i 1938 og har skrive bygdebok.	[{"type": "fødselsår", "former": ["1938"]}]	nei
+fod05nb	nb	fødselsår	Felespilleren, født i 1930, spilte på bryllup i hele dalen.	[{"type": "fødselsår", "former": ["1930"]}]	nei
+fod05nn	nn	fødselsår	Felespelaren, fødd i 1930, spelte på bryllaup i heile dalen.	[{"type": "fødselsår", "former": ["1930"]}]	nei
+fod06nb	nb	fødselsår	Han er født i 1955 og var yngst av sju søsken.	[{"type": "fødselsår", "former": ["1955"]}]	nei
+fod06nn	nn	fødselsår	Han er fødd i 1955 og var yngst av sju sysken.	[{"type": "fødselsår", "former": ["1955"]}]	nei
+tel01nb	nb	telefon	Du kan ringe oss på 68 05 03 21 i åpningstiden.	[{"type": "telefon", "former": ["68050321", "68 05 03 21"]}]	nei
+tel01nn	nn	telefon	Du kan ringje oss på 68 05 03 21 i opningstida.	[{"type": "telefon", "former": ["68050321", "68 05 03 21"]}]	nei
+tel02nb	nb	telefon	Kommunen har telefon 68 05 77 12.	[{"type": "telefon", "former": ["68057712", "68 05 77 12"]}]	nei
+tel02nn	nn	telefon	Kommunen har telefon 68 05 77 12.	[{"type": "telefon", "former": ["68057712", "68 05 77 12"]}]	nei
+tel03nb	nb	telefon	Meld fra til vaktsentralen på 68 05 20 46 om du ser noe.	[{"type": "telefon", "former": ["68052046", "68 05 20 46"]}]	nei
+tel03nn	nn	telefon	Meld frå til vaktsentralen på 68 05 20 46 om du ser noko.	[{"type": "telefon", "former": ["68052046", "68 05 20 46"]}]	nei
+tel04nb	nb	telefon	Bestill billett på nummer 68 05 62 09 før klokka tre.	[{"type": "telefon", "former": ["68056209", "68 05 62 09"]}]	nei
+tel04nn	nn	telefon	Bestill billett på nummer 68 05 62 09 før klokka tre.	[{"type": "telefon", "former": ["68056209", "68 05 62 09"]}]	nei
+tel05nb	nb	telefon	Mobilnummeret hennes er 68 05 18 73.	[{"type": "telefon", "former": ["68051873", "68 05 18 73"]}]	nei
+tel05nn	nn	telefon	Mobilnummeret hennar er 68 05 18 73.	[{"type": "telefon", "former": ["68051873", "68 05 18 73"]}]	nei
+tel06nb	nb	telefon	Send en tekstmelding til 68 05 31 85 for å delta i konkurransen.	[{"type": "telefon", "former": ["68053185", "68 05 31 85"]}]	nei
+tel06nn	nn	telefon	Send ei tekstmelding til 68 05 31 85 for å delta i konkurransen.	[{"type": "telefon", "former": ["68053185", "68 05 31 85"]}]	nei
+fnr01nb	nb	fødselsnummer	Mannen oppga 041256 27119 som fødselsnummer ved innmeldingen.	[{"type": "fødselsnummer", "former": ["04125627119", "041256 27119"]}]	nei
+fnr01nn	nn	fødselsnummer	Mannen oppgav 041256 27119 som fødselsnummer ved innmeldinga.	[{"type": "fødselsnummer", "former": ["04125627119", "041256 27119"]}]	nei
+fnr02nb	nb	fødselsnummer	I skjemaet står det 180839 34212 under personnummer.	[{"type": "fødselsnummer", "former": ["18083934212", "180839 34212"]}]	nei
+fnr02nn	nn	fødselsnummer	I skjemaet står det 180839 34212 under personnummer.	[{"type": "fødselsnummer", "former": ["18083934212", "180839 34212"]}]	nei
+fnr03nb	nb	fødselsnummer	Arkivet har registrert 260771 41539 på feil person.	[{"type": "fødselsnummer", "former": ["26077141539", "260771 41539"]}]	nei
+fnr03nn	nn	fødselsnummer	Arkivet har registrert 260771 41539 på feil person.	[{"type": "fødselsnummer", "former": ["26077141539", "260771 41539"]}]	nei
+fnr04nb	nb	fødselsnummer	Saksbehandleren leste opp 091147 55851, og så var det klart.	[{"type": "fødselsnummer", "former": ["09114755851", "091147 55851"]}]	nei
+fnr04nn	nn	fødselsnummer	Saksbehandlaren las opp 091147 55851, og så var det klart.	[{"type": "fødselsnummer", "former": ["09114755851", "091147 55851"]}]	nei
+fnr05nb	nb	fødselsnummer	Hun skrev fødselsnummeret 300684 62991 på lappen.	[{"type": "fødselsnummer", "former": ["30068462991", "300684 62991"]}]	nei
+fnr05nn	nn	fødselsnummer	Ho skreiv fødselsnummeret 300684 62991 på lappen.	[{"type": "fødselsnummer", "former": ["30068462991", "300684 62991"]}]	nei
+fnr06nb	nb	fødselsnummer	Pasientens nummer, 130322 70342, ble lest inn på lydbåndet.	[{"type": "fødselsnummer", "former": ["13032270342", "130322 70342"]}]	nei
+fnr06nn	nn	fødselsnummer	Pasienten sitt nummer, 130322 70342, vart lese inn på lydbandet.	[{"type": "fødselsnummer", "former": ["13032270342", "130322 70342"]}]	nei
+epo01nb	nb	e-post	Skriv til anne.lien@example.net hvis du har bilder.	[{"type": "e-post", "former": ["anne.lien@example.net"]}]	nei
+epo01nn	nn	e-post	Skriv til anne.lien@example.net viss du har bilete.	[{"type": "e-post", "former": ["anne.lien@example.net"]}]	nei
+epo02nb	nb	e-post	Du når programmet på radio@lokalradio.example hele uka.	[{"type": "e-post", "former": ["radio@lokalradio.example"]}]	nei
+epo02nn	nn	e-post	Du når programmet på radio@lokalradio.example heile veka.	[{"type": "e-post", "former": ["radio@lokalradio.example"]}]	nei
+epo03nb	nb	e-post	Meld deg på via pamelding@lag.example.org innen mandag.	[{"type": "e-post", "former": ["pamelding@lag.example.org"]}]	nei
+epo03nn	nn	e-post	Meld deg på via pamelding@lag.example.org innan måndag.	[{"type": "e-post", "former": ["pamelding@lag.example.org"]}]	nei
+epo04nb	nb	e-post	Han bruker adressen bjorn.hagen@example.com til alt.	[{"type": "e-post", "former": ["bjorn.hagen@example.com"]}]	nei
+epo04nn	nn	e-post	Han brukar adressa bjorn.hagen@example.com til alt.	[{"type": "e-post", "former": ["bjorn.hagen@example.com"]}]	nei
+epo05nb	nb	e-post	Send arkivspørsmål til arkiv@bygdemuseet.example, så svarer vi.	[{"type": "e-post", "former": ["arkiv@bygdemuseet.example"]}]	nei
+epo05nn	nn	e-post	Send arkivspørsmål til arkiv@bygdemuseet.example, så svarer vi.	[{"type": "e-post", "former": ["arkiv@bygdemuseet.example"]}]	nei
+epo06nb	nb	e-post	Den gamle adressen sofie_moen@example.org er ikke lenger i bruk.	[{"type": "e-post", "former": ["sofie_moen@example.org"]}]	nei
+epo06nn	nn	e-post	Den gamle adressa sofie_moen@example.org er ikkje lenger i bruk.	[{"type": "e-post", "former": ["sofie_moen@example.org"]}]	nei
+hel01nb	nb	helse	Bestemor fikk demens og flyttet til sykehjem.	[{"type": "helse", "former": ["demens"]}, {"type": "helse", "former": ["sykehjem"]}]	nei
+hel01nn	nn	helse	Bestemor fekk demens og flytta til sjukeheim.	[{"type": "helse", "former": ["demens"]}, {"type": "helse", "former": ["sjukeheim", "sykehjem"]}]	nei
+hel02nb	nb	helse	Han hadde tuberkulose som gutt og lå lenge på sanatorium.	[{"type": "helse", "former": ["tuberkulose"]}, {"type": "helse", "former": ["sanatorium"]}]	nei
+hel02nn	nn	helse	Han hadde tuberkulose som gut og låg lenge på sanatorium.	[{"type": "helse", "former": ["tuberkulose"]}, {"type": "helse", "former": ["sanatorium"]}]	nei
+hel03nb	nb	helse	Hun døde av lungebetennelse våren etter krigen.	[{"type": "helse", "former": ["lungebetennelse"]}]	nei
+hel03nn	nn	helse	Ho døydde av lungebetennelse våren etter krigen.	[{"type": "helse", "former": ["lungebetennelse"]}]	nei
+hel04nb	nb	helse	Faren fikk astma og måtte slutte i skogen.	[{"type": "helse", "former": ["astma"]}]	nei
+hel04nn	nn	helse	Faren fekk astma og måtte slutte i skogen.	[{"type": "helse", "former": ["astma"]}]	nei
+hel05nb	nb	helse	Hun gikk i terapi etter ulykken og var sykmeldt i et halvt år.	[{"type": "helse", "former": ["terapi"]}, {"type": "helse", "former": ["sykmeldt"]}]	nei
+hel05nn	nn	helse	Ho gjekk i terapi etter ulukka og var sjukmeldt i eit halvt år.	[{"type": "helse", "former": ["terapi"]}, {"type": "helse", "former": ["sjukmeldt", "sykmeldt"]}]	nei
+hel06nb	nb	helse	Mannen satt i rullestol etter ryggskaden.	[{"type": "helse", "former": ["rullestol"]}, {"type": "helse", "former": ["ryggskaden", "ryggskade"]}]	nei
+hel06nn	nn	helse	Mannen sat i rullestol etter ryggskaden.	[{"type": "helse", "former": ["rullestol"]}, {"type": "helse", "former": ["ryggskaden", "ryggskade"]}]	nei
+oko01nb	nb	økonomi	Familien tok opp lån og pantsatte skogen.	[{"type": "økonomi", "former": ["lån"]}, {"type": "økonomi", "former": ["pantsatte", "pantsette"]}]	nei
+oko01nn	nn	økonomi	Familien tok opp lån og pantsette skogen.	[{"type": "økonomi", "former": ["lån"]}, {"type": "økonomi", "former": ["pantsatte", "pantsette"]}]	nei
+oko02nb	nb	økonomi	Han skyldte skatt for tre år og fikk namsmannen på døra.	[{"type": "økonomi", "former": ["namsmannen", "namsmann"]}]	nei
+oko02nn	nn	økonomi	Han skulda skatt for tre år og fekk namsmannen på døra.	[{"type": "økonomi", "former": ["namsmannen", "namsmann"]}]	nei
+oko03nb	nb	økonomi	Hun fikk dagpenger etter at sagbruket ble nedlagt.	[{"type": "økonomi", "former": ["dagpenger", "dagpengar"]}]	nei
+oko03nn	nn	økonomi	Ho fekk dagpengar etter at sagbruket vart lagt ned.	[{"type": "økonomi", "former": ["dagpenger", "dagpengar"]}]	nei
+oko04nb	nb	økonomi	Etter betalingsanmerkningen fikk han ikke lån i banken.	[{"type": "økonomi", "former": ["betalingsanmerkningen", "betalingsanmerkning"]}]	nei
+oko04nn	nn	økonomi	Etter betalingsmerknaden fekk han ikkje lån i banken.	[{"type": "økonomi", "former": ["betalingsmerknaden", "betalingsmerknad", "betalingsanmerkninga", "betalingsanmerkningen"]}]	nei
+oko05nb	nb	økonomi	Familien var avhengig av økonomisk støtte fra kommunen.	[{"type": "økonomi", "former": ["økonomisk støtte"]}]	nei
+oko05nn	nn	økonomi	Familien var avhengig av økonomisk støtte frå kommunen.	[{"type": "økonomi", "former": ["økonomisk støtte"]}]	nei
+oko06nb	nb	økonomi	Han ble tynget av spillegjeld og solgte traktoren.	[{"type": "økonomi", "former": ["spillegjeld", "spelegjeld"]}]	nei
+oko06nn	nn	økonomi	Han var tynga av spelegjeld og selde traktoren.	[{"type": "økonomi", "former": ["spillegjeld", "spelegjeld"]}]	nei
+kon01nb	nb	konflikt	Striden om grensegjerdet havnet hos lensmannen.	[{"type": "konflikt", "former": ["striden", "strid"]}, {"type": "konflikt", "former": ["lensmannen", "lensmann"]}]	nei
+kon01nn	nn	konflikt	Striden om grensegjerdet hamna hos lensmannen.	[{"type": "konflikt", "former": ["striden", "strid"]}, {"type": "konflikt", "former": ["lensmannen", "lensmann"]}]	nei
+kon02nb	nb	konflikt	Hun ble utsatt for trusler fra en tidligere samboer.	[{"type": "konflikt", "former": ["trusler", "truslar"]}]	nei
+kon02nn	nn	konflikt	Ho vart utsett for truslar frå ein tidlegare sambuar.	[{"type": "konflikt", "former": ["trusler", "truslar"]}]	nei
+kon03nb	nb	konflikt	Søsknene havnet i en bitter arvekrangel.	[{"type": "konflikt", "former": ["arvekrangel"]}]	nei
+kon03nn	nn	konflikt	Syskena hamna i ein bitter arvekrangel.	[{"type": "konflikt", "former": ["arvekrangel"]}]	nei
+kon04nb	nb	konflikt	Saken ble anket til lagmannsretten.	[{"type": "konflikt", "former": ["anket", "anke", "anka"]}, {"type": "konflikt", "former": ["lagmannsretten", "lagmannsrett"]}]	nei
+kon04nn	nn	konflikt	Saka vart anka til lagmannsretten.	[{"type": "konflikt", "former": ["anket", "anke", "anka"]}, {"type": "konflikt", "former": ["lagmannsretten", "lagmannsrett"]}]	nei
+kon05nb	nb	konflikt	Han ble utestengt fra laget etter en slåsskamp.	[{"type": "konflikt", "former": ["slåsskamp", "slåstkamp"]}]	nei
+kon05nn	nn	konflikt	Han vart utestengd frå laget etter ein slåstkamp.	[{"type": "konflikt", "former": ["slåsskamp", "slåstkamp"]}]	nei
+kon06nb	nb	konflikt	Hun varslet om trakassering på arbeidsplassen.	[{"type": "konflikt", "former": ["trakassering"]}]	nei
+kon06nn	nn	konflikt	Ho varsla om trakassering på arbeidsplassen.	[{"type": "konflikt", "former": ["trakassering"]}]	nei
+rel01nb	nb	religion	Han var med i Indremisjonen og leste i bibelen hver kveld.	[{"type": "religion", "former": ["Indremisjonen"]}]	nei
+rel01nn	nn	religion	Han var med i Indremisjonen og las i bibelen kvar kveld.	[{"type": "religion", "former": ["Indremisjonen"]}]	nei
+rel02nb	nb	religion	Hun døpte barna i Den norske kirke.	[{"type": "religion", "former": ["Den norske kirke"]}]	nei
+rel02nn	nn	religion	Ho døypte borna i Den norske kyrkja.	[{"type": "religion", "former": ["Den norske kyrkja", "Den norske kirke"]}]	nei
+rel03nb	nb	religion	Familien var buddhister og reiste til tempelet hvert år.	[{"type": "religion", "former": ["buddhister"]}]	nei
+rel03nn	nn	religion	Familien var buddhistar og reiste til tempelet kvart år.	[{"type": "religion", "former": ["buddhistar", "buddhister"]}]	nei
+rel04nb	nb	religion	Han ble baptist som ung mann.	[{"type": "religion", "former": ["baptist"]}]	nei
+rel04nn	nn	religion	Han vart baptist som ung mann.	[{"type": "religion", "former": ["baptist"]}]	nei
+rel05nb	nb	religion	De var kvekere og nektet å sverge ed.	[{"type": "religion", "former": ["kvekere"]}]	nei
+rel05nn	nn	religion	Dei var kvekarar og nekta å sverje eid.	[{"type": "religion", "former": ["kvekarar", "kvekere"]}]	nei
+rel06nb	nb	religion	Hun konverterte til jødedommen i voksen alder.	[{"type": "religion", "former": ["jødedommen", "jødedom"]}]	nei
+rel06nn	nn	religion	Ho konverterte til jødedommen i vaksen alder.	[{"type": "religion", "former": ["jødedommen", "jødedom"]}]	nei
+pol01nb	nb	politikk	Han satt i kommunestyret for Høyre i to perioder.	[{"type": "politikk", "former": ["Høyre"]}]	nei
+pol01nn	nn	politikk	Han sat i kommunestyret for Høgre i to periodar.	[{"type": "politikk", "former": ["Høgre", "Høyre"]}]	nei
+pol02nb	nb	politikk	Hun var aktiv i Rødt og i fagbevegelsen.	[{"type": "politikk", "former": ["Rødt"]}]	nei
+pol02nn	nn	politikk	Ho var aktiv i Raudt og i fagrørsla.	[{"type": "politikk", "former": ["Raudt", "Rødt"]}]	nei
+pol03nb	nb	politikk	Bestefar stemte Venstre helt til han døde.	[{"type": "politikk", "former": ["Venstre"]}]	nei
+pol03nn	nn	politikk	Bestefar stemde Venstre heilt til han døydde.	[{"type": "politikk", "former": ["Venstre"]}]	nei
+pol04nb	nb	politikk	Hun meldte seg inn i Sosialistisk Venstreparti som student.	[{"type": "politikk", "former": ["Sosialistisk Venstreparti"]}]	nei
+pol04nn	nn	politikk	Ho melde seg inn i Sosialistisk Venstreparti som student.	[{"type": "politikk", "former": ["Sosialistisk Venstreparti"]}]	nei
+pol05nb	nb	politikk	Hun stilte til valg for Miljøpartiet De Grønne.	[{"type": "politikk", "former": ["Miljøpartiet De Grønne"]}]	nei
+pol05nn	nn	politikk	Ho stilte til val for Miljøpartiet Dei Grøne.	[{"type": "politikk", "former": ["Miljøpartiet Dei Grøne", "Miljøpartiet De Grønne"]}]	nei
+pol06nb	nb	politikk	Bestefaren var med i Bondepartiet før krigen.	[{"type": "politikk", "former": ["Bondepartiet"]}]	nei
+pol06nn	nn	politikk	Bestefaren var med i Bondepartiet før krigen.	[{"type": "politikk", "former": ["Bondepartiet"]}]	nei
+kom01nb	nb	kombinert	Reidun Hovdesæter, født i 1936 på Kvam, fikk revmatisme som ung.	[{"type": "person", "former": ["Reidun Hovdesæter"]}, {"type": "fødselsår", "former": ["1936"]}, {"type": "sted", "former": ["Kvam"]}, {"type": "helse", "former": ["revmatisme"]}]	ja
+kom01nn	nn	kombinert	Reidun Hovdesæter, fødd i 1936 på Kvam, fekk revmatisme som ung.	[{"type": "person", "former": ["Reidun Hovdesæter"]}, {"type": "fødselsår", "former": ["1936"]}, {"type": "sted", "former": ["Kvam"]}, {"type": "helse", "former": ["revmatisme"]}]	ja
+kom02nb	nb	kombinert	Sverre Bakkelien ringte 68 05 52 80 den 21. mars 1988 om arvestriden.	[{"type": "person", "former": ["Sverre Bakkelien"]}, {"type": "telefon", "former": ["68055280", "68 05 52 80"]}, {"type": "dato", "former": ["21. mars 1988"]}, {"type": "konflikt", "former": ["arvestriden", "arvestrid"]}]	ja
+kom02nn	nn	kombinert	Sverre Bakkelien ringde 68 05 52 80 den 21. mars 1988 om arvestriden.	[{"type": "person", "former": ["Sverre Bakkelien"]}, {"type": "telefon", "former": ["68055280", "68 05 52 80"]}, {"type": "dato", "former": ["21. mars 1988"]}, {"type": "konflikt", "former": ["arvestriden", "arvestrid"]}]	ja
+kom03nb	nb	kombinert	Torunn Skjelbrekke fra Garmo er kveker og stemmer Venstre.	[{"type": "person", "former": ["Torunn Skjelbrekke"]}, {"type": "sted", "former": ["Garmo"]}, {"type": "religion", "former": ["kveker"]}, {"type": "politikk", "former": ["Venstre"]}]	ja
+kom03nn	nn	kombinert	Torunn Skjelbrekke frå Garmo er kvekar og stemmer Venstre.	[{"type": "person", "former": ["Torunn Skjelbrekke"]}, {"type": "sted", "former": ["Garmo"]}, {"type": "religion", "former": ["kvekar", "kveker"]}, {"type": "politikk", "former": ["Venstre"]}]	ja
+kom04nb	nb	kombinert	Arne Oddvollen, født i 1958, bor på Nedre Frya og fikk dagpenger.	[{"type": "person", "former": ["Arne Oddvollen"]}, {"type": "fødselsår", "former": ["1958"]}, {"type": "sted", "former": ["Nedre Frya"]}, {"type": "økonomi", "former": ["dagpenger"]}]	ja
+kom04nn	nn	kombinert	Arne Oddvollen, fødd i 1958, bur på Nedre Frya og fekk dagpengar.	[{"type": "person", "former": ["Arne Oddvollen"]}, {"type": "fødselsår", "former": ["1958"]}, {"type": "sted", "former": ["Nedre Frya"]}, {"type": "økonomi", "former": ["dagpengar", "dagpenger"]}]	ja
+kom05nb	nb	kombinert	Liv Brekkeslåen på Bjorli ble anmeldt for trusler 14. juli 1993.	[{"type": "person", "former": ["Liv Brekkeslåen"]}, {"type": "sted", "former": ["Bjorli"]}, {"type": "konflikt", "former": ["anmeldt", "anmeldte"]}, {"type": "konflikt", "former": ["trusler"]}, {"type": "dato", "former": ["14. juli 1993"]}]	ja
+kom05nn	nn	kombinert	Liv Brekkeslåen på Bjorli vart meld for truslar 14. juli 1993.	[{"type": "person", "former": ["Liv Brekkeslåen"]}, {"type": "sted", "former": ["Bjorli"]}, {"type": "konflikt", "former": ["meld", "anmeldt"]}, {"type": "konflikt", "former": ["truslar", "trusler"]}, {"type": "dato", "former": ["14. juli 1993"]}]	ja
+kom06nb	nb	kombinert	Magnus Rudisæter, født 1949, er buddhist og bor på Hafjell.	[{"type": "person", "former": ["Magnus Rudisæter"]}, {"type": "fødselsår", "former": ["1949"]}, {"type": "religion", "former": ["buddhist"]}, {"type": "sted", "former": ["Hafjell"]}]	ja
+kom06nn	nn	kombinert	Magnus Rudisæter, fødd 1949, er buddhist og bur på Hafjell.	[{"type": "person", "former": ["Magnus Rudisæter"]}, {"type": "fødselsår", "former": ["1949"]}, {"type": "religion", "former": ["buddhist"]}, {"type": "sted", "former": ["Hafjell"]}]	ja

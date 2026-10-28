@@ -1,0 +1,162 @@
+# arkivklarering justeringsmanus KLAR-MANUS-0001 v1.2: radiolignende setninger per kategori, hver på bokmål og nynorsk.
+# STATUS: brukt til mønsterjustering (KLAR-EVAL-0008), IKKE til testing. Mønstrene og tersklene er justert mot dette manuset; testmaterialet for H4 er KLAR-MANUS-0002.
+# Personnavn er oppdiktede. Fødselsnumre har riktig format, fiktive sifre og bevisst ugyldig kontrollsiffer. Telefonnumre er fiktive og ligger i Nkoms serie for TV- og filmproduksjon, 68 05 00 00–68 05 99 99 (v1.2, AV-29: alle byttet dit), e-postadresser bruker reserverte eksempeldomener.
+# elementer: det som må flagges, {type: kategori, former: [skriveformer]}. Tall skrives som sifre; utdata normaliseres (tallord -> sifre) før sammenligning (vendor/norsk_tale/score.py).
+# dialektutvalg=ja: setningene som leses inn av talere med dialekt (norsk-tale-riggens dialektmodus).
+id	malform	klasse	setning	elementer	dialektutvalg
+per01nb	nb	person	Ordføreren ønsket Halvor Brekkebu velkommen til jubileet.	[{"type": "person", "former": ["Halvor Brekkebu"]}]	nei
+per01nn	nn	person	Ordføraren ønskte Halvor Brekkebu velkommen til jubileet.	[{"type": "person", "former": ["Halvor Brekkebu"]}]	nei
+per02nb	nb	person	Reportasjen handler om Sigrun Haugvold og hesten hennes.	[{"type": "person", "former": ["Sigrun Haugvold"]}]	nei
+per02nn	nn	person	Reportasjen handlar om Sigrun Haugvold og hesten hennar.	[{"type": "person", "former": ["Sigrun Haugvold"]}]	nei
+per03nb	nb	person	Vi snakket med Torbjørn Stuvstad etter konserten.	[{"type": "person", "former": ["Torbjørn Stuvstad"]}]	nei
+per03nn	nn	person	Vi snakka med Torbjørn Stuvstad etter konserten.	[{"type": "person", "former": ["Torbjørn Stuvstad"]}]	nei
+per04nb	nb	person	Eli Marit Vinstra leste dikt fra scenen.	[{"type": "person", "former": ["Eli Marit Vinstra"]}]	nei
+per04nn	nn	person	Eli Marit Vinstra las dikt frå scena.	[{"type": "person", "former": ["Eli Marit Vinstra"]}]	nei
+per05nb	nb	person	Ragnhild Dalsegg og Anders Fjellheim fortalte om oppveksten.	[{"type": "person", "former": ["Ragnhild Dalsegg"]}, {"type": "person", "former": ["Anders Fjellheim"]}]	nei
+per05nn	nn	person	Ragnhild Dalsegg og Anders Fjellheim fortalde om oppveksten.	[{"type": "person", "former": ["Ragnhild Dalsegg"]}, {"type": "person", "former": ["Anders Fjellheim"]}]	nei
+per06nb	nb	person	Takk til Oddvar Granheim som kom innom studio i dag.	[{"type": "person", "former": ["Oddvar Granheim"]}]	nei
+per06nn	nn	person	Takk til Oddvar Granheim som kom innom studio i dag.	[{"type": "person", "former": ["Oddvar Granheim"]}]	nei
+ste01nb	nb	sted	Vi sender direkte fra Vinstra i kveld.	[{"type": "sted", "former": ["Vinstra"]}]	nei
+ste01nn	nn	sted	Vi sender direkte frå Vinstra i kveld.	[{"type": "sted", "former": ["Vinstra"]}]	nei
+ste02nb	nb	sted	Gården Nordre Brenden ligger like ved Hundorp.	[{"type": "sted", "former": ["Nordre Brenden"]}, {"type": "sted", "former": ["Hundorp"]}]	nei
+ste02nn	nn	sted	Garden Nordre Brenden ligg like ved Hundorp.	[{"type": "sted", "former": ["Nordre Brenden"]}, {"type": "sted", "former": ["Hundorp"]}]	nei
+ste03nb	nb	sted	Veien over Gålåvatnet var stengt fra Espedalen til Skåbu.	[{"type": "sted", "former": ["Gålåvatnet"]}, {"type": "sted", "former": ["Espedalen"]}, {"type": "sted", "former": ["Skåbu"]}]	nei
+ste03nn	nn	sted	Vegen over Gålåvatnet var stengd frå Espedalen til Skåbu.	[{"type": "sted", "former": ["Gålåvatnet"]}, {"type": "sted", "former": ["Espedalen"]}, {"type": "sted", "former": ["Skåbu"]}]	nei
+ste04nb	nb	sted	Han vokste opp på Bjølstad i Sør-Fron.	[{"type": "sted", "former": ["Bjølstad"]}, {"type": "sted", "former": ["Sør-Fron", "Sørfron"]}]	nei
+ste04nn	nn	sted	Han voks opp på Bjølstad i Sør-Fron.	[{"type": "sted", "former": ["Bjølstad"]}, {"type": "sted", "former": ["Sør-Fron", "Sørfron"]}]	nei
+ste05nb	nb	sted	Markedet på Otta samler folk fra hele Sel og Dovre.	[{"type": "sted", "former": ["Otta"]}, {"type": "sted", "former": ["Sel"]}, {"type": "sted", "former": ["Dovre"]}]	nei
+ste05nn	nn	sted	Marknaden på Otta samlar folk frå heile Sel og Dovre.	[{"type": "sted", "former": ["Otta"]}, {"type": "sted", "former": ["Sel"]}, {"type": "sted", "former": ["Dovre"]}]	nei
+ste06nb	nb	sted	Skolebussen går fra Fåvang til Ringebu hver morgen.	[{"type": "sted", "former": ["Fåvang"]}, {"type": "sted", "former": ["Ringebu"]}]	nei
+ste06nn	nn	sted	Skulebussen går frå Fåvang til Ringebu kvar morgon.	[{"type": "sted", "former": ["Fåvang"]}, {"type": "sted", "former": ["Ringebu"]}]	nei
+dat01nb	nb	dato	Møtet ble holdt 3. november 1965 i bygdehuset.	[{"type": "dato", "former": ["3. november 1965"]}]	nei
+dat01nn	nn	dato	Møtet vart halde 3. november 1965 i bygdehuset.	[{"type": "dato", "former": ["3. november 1965"]}]	nei
+dat02nb	nb	dato	Brevet er datert 15.03.1972 og ligger i arkivet.	[{"type": "dato", "former": ["15.03.1972", "15. mars 1972"]}]	nei
+dat02nn	nn	dato	Brevet er datert 15.03.1972 og ligg i arkivet.	[{"type": "dato", "former": ["15.03.1972", "15. mars 1972"]}]	nei
+dat03nb	nb	dato	Den 12. juni 1948 kom jernbanen til bygda.	[{"type": "dato", "former": ["12. juni 1948"]}]	nei
+dat03nn	nn	dato	Den 12. juni 1948 kom jernbana til bygda.	[{"type": "dato", "former": ["12. juni 1948"]}]	nei
+dat04nb	nb	dato	Skjenkebevillingen utløp 1. desember 1999.	[{"type": "dato", "former": ["1. desember 1999"]}]	nei
+dat04nn	nn	dato	Skjenkeløyvet gjekk ut 1. desember 1999.	[{"type": "dato", "former": ["1. desember 1999"]}]	nei
+dat05nb	nb	dato	Gudstjenesten 24. desember 1957 ble sendt på radio.	[{"type": "dato", "former": ["24. desember 1957"]}]	nei
+dat05nn	nn	dato	Gudstenesta 24. desember 1957 vart sendt på radio.	[{"type": "dato", "former": ["24. desember 1957"]}]	nei
+dat06nb	nb	dato	Protokollen fra 9. mai 1981 mangler to sider.	[{"type": "dato", "former": ["9. mai 1981"]}]	nei
+dat06nn	nn	dato	Protokollen frå 9. mai 1981 manglar to sider.	[{"type": "dato", "former": ["9. mai 1981"]}]	nei
+fod01nb	nb	fødselsår	Hun er født i 1934 og har bodd i bygda hele livet.	[{"type": "fødselsår", "former": ["1934"]}]	nei
+fod01nn	nn	fødselsår	Ho er fødd i 1934 og har budd i bygda heile livet.	[{"type": "fødselsår", "former": ["1934"]}]	nei
+fod02nb	nb	fødselsår	Han var født 1951 og vokste opp på en liten gård.	[{"type": "fødselsår", "former": ["1951"]}]	nei
+fod02nn	nn	fødselsår	Han var fødd 1951 og voks opp på ein liten gard.	[{"type": "fødselsår", "former": ["1951"]}]	nei
+fod03nb	nb	fødselsår	Bestemoren min er født i 1928.	[{"type": "fødselsår", "former": ["1928"]}]	nei
+fod03nn	nn	fødselsår	Bestemora mi er fødd i 1928.	[{"type": "fødselsår", "former": ["1928"]}]	nei
+fod04nb	nb	fødselsår	Sangeren, født i 1969, slipper plate i høst.	[{"type": "fødselsår", "former": ["1969"]}]	nei
+fod04nn	nn	fødselsår	Songaren, fødd i 1969, gir ut plate i haust.	[{"type": "fødselsår", "former": ["1969"]}]	nei
+fod05nb	nb	fødselsår	Han ble født i 1943, midt under krigen.	[{"type": "fødselsår", "former": ["1943"]}]	nei
+fod05nn	nn	fødselsår	Han vart fødd i 1943, midt under krigen.	[{"type": "fødselsår", "former": ["1943"]}]	nei
+fod06nb	nb	fødselsår	Kunstneren, født i 1957, har utstilling i Lillehammer.	[{"type": "fødselsår", "former": ["1957"]}, {"type": "sted", "former": ["Lillehammer"]}]	nei
+fod06nn	nn	fødselsår	Kunstnaren, fødd i 1957, har utstilling i Lillehammer.	[{"type": "fødselsår", "former": ["1957"]}, {"type": "sted", "former": ["Lillehammer"]}]	nei
+tel01nb	nb	telefon	Ring oss på 68 05 45 67 hvis du vet mer.	[{"type": "telefon", "former": ["68054567", "68 05 45 67"]}]	nei
+tel01nn	nn	telefon	Ring oss på 68 05 45 67 viss du veit meir.	[{"type": "telefon", "former": ["68054567", "68 05 45 67"]}]	nei
+tel02nb	nb	telefon	Nummeret til redaksjonen er 68 05 33 44.	[{"type": "telefon", "former": ["68053344", "68 05 33 44"]}]	nei
+tel02nn	nn	telefon	Nummeret til redaksjonen er 68 05 33 44.	[{"type": "telefon", "former": ["68053344", "68 05 33 44"]}]	nei
+tel03nb	nb	telefon	Legevakten svarer på 68 05 12 34 hele døgnet.	[{"type": "telefon", "former": ["68051234", "68 05 12 34"]}]	nei
+tel03nn	nn	telefon	Legevakta svarer på 68 05 12 34 heile døgnet.	[{"type": "telefon", "former": ["68051234", "68 05 12 34"]}]	nei
+tel04nb	nb	telefon	Send en SMS til 68 05 76 54 og få svar i morgen.	[{"type": "telefon", "former": ["68057654", "68 05 76 54"]}]	nei
+tel04nn	nn	telefon	Send ein SMS til 68 05 76 54 og få svar i morgon.	[{"type": "telefon", "former": ["68057654", "68 05 76 54"]}]	nei
+tel05nb	nb	telefon	Du når meg på mobil 68 05 34 56 etter klokka fire.	[{"type": "telefon", "former": ["68053456", "68 05 34 56"]}]	nei
+tel05nn	nn	telefon	Du når meg på mobil 68 05 34 56 etter klokka fire.	[{"type": "telefon", "former": ["68053456", "68 05 34 56"]}]	nei
+tel06nb	nb	telefon	Kontoret har nummer 68 05 11 22.	[{"type": "telefon", "former": ["68051122", "68 05 11 22"]}]	nei
+tel06nn	nn	telefon	Kontoret har nummer 68 05 11 22.	[{"type": "telefon", "former": ["68051122", "68 05 11 22"]}]	nei
+fnr01nb	nb	fødselsnummer	Fødselsnummeret hans er 010163 12371.	[{"type": "fødselsnummer", "former": ["01016312371", "010163 12371"]}]	nei
+fnr01nn	nn	fødselsnummer	Fødselsnummeret hans er 010163 12371.	[{"type": "fødselsnummer", "former": ["01016312371", "010163 12371"]}]	nei
+fnr02nb	nb	fødselsnummer	Oppgi fødselsnummer 150575 45615 i skjemaet.	[{"type": "fødselsnummer", "former": ["15057545615", "150575 45615"]}]	nei
+fnr02nn	nn	fødselsnummer	Oppgi fødselsnummer 150575 45615 i skjemaet.	[{"type": "fødselsnummer", "former": ["15057545615", "150575 45615"]}]	nei
+fnr03nb	nb	fødselsnummer	Saken gjelder personen med fødselsnummer 230248 78913.	[{"type": "fødselsnummer", "former": ["23024878913", "230248 78913"]}]	nei
+fnr03nn	nn	fødselsnummer	Saka gjeld personen med fødselsnummer 230248 78913.	[{"type": "fødselsnummer", "former": ["23024878913", "230248 78913"]}]	nei
+fnr04nb	nb	fødselsnummer	Journalen er merket 311290 32117.	[{"type": "fødselsnummer", "former": ["31129032117", "311290 32117"]}]	nei
+fnr04nn	nn	fødselsnummer	Journalen er merkt 311290 32117.	[{"type": "fødselsnummer", "former": ["31129032117", "311290 32117"]}]	nei
+fnr05nb	nb	fødselsnummer	Hun oppga 070854 65489 som sitt personnummer.	[{"type": "fødselsnummer", "former": ["07085465489", "070854 65489"]}]	nei
+fnr05nn	nn	fødselsnummer	Ho oppgav 070854 65489 som sitt personnummer.	[{"type": "fødselsnummer", "former": ["07085465489", "070854 65489"]}]	nei
+fnr06nb	nb	fødselsnummer	Registeret har nummeret 120300 98707 to ganger.	[{"type": "fødselsnummer", "former": ["12030098707", "120300 98707"]}]	nei
+fnr06nn	nn	fødselsnummer	Registeret har nummeret 120300 98707 to gonger.	[{"type": "fødselsnummer", "former": ["12030098707", "120300 98707"]}]	nei
+epo01nb	nb	e-post	Send meldingen til ola.hansen@example.org innen fredag.	[{"type": "e-post", "former": ["ola.hansen@example.org"]}]	nei
+epo01nn	nn	e-post	Send meldinga til ola.hansen@example.org innan fredag.	[{"type": "e-post", "former": ["ola.hansen@example.org"]}]	nei
+epo02nb	nb	e-post	Adressen er kari.bakken@example.com hvis du vil skrive.	[{"type": "e-post", "former": ["kari.bakken@example.com"]}]	nei
+epo02nn	nn	e-post	Adressa er kari.bakken@example.com viss du vil skrive.	[{"type": "e-post", "former": ["kari.bakken@example.com"]}]	nei
+epo03nb	nb	e-post	Redaksjonen svarer på post@eksempel.test hver dag.	[{"type": "e-post", "former": ["post@eksempel.test"]}]	nei
+epo03nn	nn	e-post	Redaksjonen svarer på post@eksempel.test kvar dag.	[{"type": "e-post", "former": ["post@eksempel.test"]}]	nei
+epo04nb	nb	e-post	Skriv til hilde.dalen@example.net med emnet radioarkiv.	[{"type": "e-post", "former": ["hilde.dalen@example.net"]}]	nei
+epo04nn	nn	e-post	Skriv til hilde.dalen@example.net med emnet radioarkiv.	[{"type": "e-post", "former": ["hilde.dalen@example.net"]}]	nei
+epo05nb	nb	e-post	Tips kan sendes til tips@example.org uten navn.	[{"type": "e-post", "former": ["tips@example.org"]}]	nei
+epo05nn	nn	e-post	Tips kan sendast til tips@example.org utan namn.	[{"type": "e-post", "former": ["tips@example.org"]}]	nei
+epo06nb	nb	e-post	Min e-post er per.berg@example.com, og den er ny.	[{"type": "e-post", "former": ["per.berg@example.com"]}]	nei
+epo06nn	nn	e-post	Mi e-postadresse er per.berg@example.com, og ho er ny.	[{"type": "e-post", "former": ["per.berg@example.com"]}]	nei
+hel01nb	nb	helse	Han var syk i flere år før han døde i 1952.	[{"type": "helse", "former": ["syk"]}, {"type": "fødselsår", "former": ["1952"]}]	nei
+hel01nn	nn	helse	Han var sjuk i fleire år før han døydde i 1952.	[{"type": "helse", "former": ["sjuk"]}, {"type": "fødselsår", "former": ["1952"]}]	nei
+hel02nb	nb	helse	Hun ble innlagt på sykehus etter hjerneslaget.	[{"type": "helse", "former": ["sykehus"]}, {"type": "helse", "former": ["hjerneslaget", "hjerneslag"]}]	nei
+hel02nn	nn	helse	Ho vart innlagd på sjukehus etter hjerneslaget.	[{"type": "helse", "former": ["sjukehus"]}, {"type": "helse", "former": ["hjerneslaget", "hjerneslag"]}]	nei
+hel03nb	nb	helse	Legen stilte diagnosen kreft i fjor.	[{"type": "helse", "former": ["diagnosen", "diagnose"]}, {"type": "helse", "former": ["kreft"]}]	nei
+hel03nn	nn	helse	Legen sette diagnosen kreft i fjor.	[{"type": "helse", "former": ["diagnosen", "diagnose"]}, {"type": "helse", "former": ["kreft"]}]	nei
+hel04nb	nb	helse	Naboen slet med depresjon og angst i mange år.	[{"type": "helse", "former": ["depresjon"]}, {"type": "helse", "former": ["angst"]}]	nei
+hel04nn	nn	helse	Naboen sleit med depresjon og angst i mange år.	[{"type": "helse", "former": ["depresjon"]}, {"type": "helse", "former": ["angst"]}]	nei
+hel05nb	nb	helse	Hun har diabetes og går til legetime hver måned.	[{"type": "helse", "former": ["diabetes"]}, {"type": "helse", "former": ["legetime"]}]	nei
+hel05nn	nn	helse	Ho har diabetes og går til legetime kvar månad.	[{"type": "helse", "former": ["diabetes"]}, {"type": "helse", "former": ["legetime"]}]	nei
+hel06nb	nb	helse	Han ble operert for hjerteinfarkt på Lillehammer.	[{"type": "helse", "former": ["operert"]}, {"type": "helse", "former": ["hjerteinfarkt"]}, {"type": "sted", "former": ["Lillehammer"]}]	nei
+hel06nn	nn	helse	Han vart operert for hjerteinfarkt på Lillehammer.	[{"type": "helse", "former": ["operert"]}, {"type": "helse", "former": ["hjerteinfarkt"]}, {"type": "sted", "former": ["Lillehammer"]}]	nei
+oko01nb	nb	økonomi	Gården gikk konkurs, og familien satt igjen med stor gjeld.	[{"type": "økonomi", "former": ["konkurs"]}, {"type": "økonomi", "former": ["gjeld"]}]	nei
+oko01nn	nn	økonomi	Garden gjekk konkurs, og familien sat att med stor gjeld.	[{"type": "økonomi", "former": ["konkurs"]}, {"type": "økonomi", "former": ["gjeld"]}]	nei
+oko02nb	nb	økonomi	Han fikk inkasso fordi regningen ikke ble betalt.	[{"type": "økonomi", "former": ["inkasso"]}]	nei
+oko02nn	nn	økonomi	Han fekk inkasso fordi rekninga ikkje vart betalt.	[{"type": "økonomi", "former": ["inkasso"]}]	nei
+oko03nb	nb	økonomi	Mange i bygda levde på sosialhjelp på åttitallet.	[{"type": "økonomi", "former": ["sosialhjelp"]}]	nei
+oko03nn	nn	økonomi	Mange i bygda levde på sosialhjelp på åttitalet.	[{"type": "økonomi", "former": ["sosialhjelp"]}]	nei
+oko04nb	nb	økonomi	Hun var arbeidsledig og hadde økonomiske problemer.	[{"type": "økonomi", "former": ["arbeidsledig"]}, {"type": "økonomi", "former": ["økonomiske problemer", "økonomiske problem"]}]	nei
+oko04nn	nn	økonomi	Ho var arbeidsledig og hadde økonomiske problem.	[{"type": "økonomi", "former": ["arbeidsledig"]}, {"type": "økonomi", "former": ["økonomiske problemer", "økonomiske problem"]}]	nei
+oko05nb	nb	økonomi	Banken tok tvangssalg av huset i 1991.	[{"type": "økonomi", "former": ["tvangssalg", "tvangssal"]}]	nei
+oko05nn	nn	økonomi	Banken tok tvangssal av huset i 1991.	[{"type": "økonomi", "former": ["tvangssalg", "tvangssal"]}]	nei
+oko06nb	nb	økonomi	De snakket åpent om svart arbeid og svindel.	[{"type": "økonomi", "former": ["svart arbeid"]}, {"type": "økonomi", "former": ["svindel"]}]	nei
+oko06nn	nn	økonomi	Dei snakka ope om svart arbeid og svindel.	[{"type": "økonomi", "former": ["svart arbeid"]}, {"type": "økonomi", "former": ["svindel"]}]	nei
+kon01nb	nb	konflikt	Rettssaken mot naboen varte i tre uker.	[{"type": "konflikt", "former": ["rettssaken", "rettssak"]}]	nei
+kon01nn	nn	konflikt	Rettssaka mot naboen varte i tre veker.	[{"type": "konflikt", "former": ["rettssaka", "rettssak"]}]	nei
+kon02nb	nb	konflikt	Han ble dømt for vold og satt i fengsel.	[{"type": "konflikt", "former": ["dømt"]}, {"type": "konflikt", "former": ["vold"]}, {"type": "konflikt", "former": ["fengsel"]}]	nei
+kon02nn	nn	konflikt	Han vart dømd for vald og sett i fengsel.	[{"type": "konflikt", "former": ["dømd", "dømt"]}, {"type": "konflikt", "former": ["vald"]}, {"type": "konflikt", "former": ["fengsel"]}]	nei
+kon03nb	nb	konflikt	Konflikten mellom grendene endte med en tvist om vegen.	[{"type": "konflikt", "former": ["konflikten", "konflikt"]}, {"type": "konflikt", "former": ["tvist"]}]	nei
+kon03nn	nn	konflikt	Konflikten mellom grendene enda med ein tvist om vegen.	[{"type": "konflikt", "former": ["konflikten", "konflikt"]}, {"type": "konflikt", "former": ["tvist"]}]	nei
+kon04nb	nb	konflikt	Hun anmeldte mobbingen til politiet.	[{"type": "konflikt", "former": ["anmeldte", "anmeldt"]}, {"type": "konflikt", "former": ["mobbingen", "mobbing"]}]	nei
+kon04nn	nn	konflikt	Ho melde mobbinga til politiet.	[{"type": "konflikt", "former": ["mobbinga", "mobbing"]}]	nei
+kon05nb	nb	konflikt	Barnevernet overtok omsorgen etter skilsmissen.	[{"type": "konflikt", "former": ["barnevernet"]}, {"type": "konflikt", "former": ["skilsmissen", "skilsmisse"]}]	nei
+kon05nn	nn	konflikt	Barnevernet tok over omsorga etter skilsmissa.	[{"type": "konflikt", "former": ["barnevernet"]}, {"type": "konflikt", "former": ["skilsmissa", "skilsmisse"]}]	nei
+kon06nb	nb	konflikt	Naboene trakk saken inn for forliksrådet.	[{"type": "konflikt", "former": ["forliksrådet", "forliksråd"]}]	nei
+kon06nn	nn	konflikt	Naboane trekte saka inn for forliksrådet.	[{"type": "konflikt", "former": ["forliksrådet", "forliksråd"]}]	nei
+rel01nb	nb	religion	Familien var aktive i frikirken og pinsemenigheten.	[{"type": "religion", "former": ["frikirken", "frikirke"]}]	nei
+rel01nn	nn	religion	Familien var aktive i frikyrkja og pinsemenigheita.	[{"type": "religion", "former": ["frikyrkja", "frikirke"]}]	nei
+rel02nb	nb	religion	Han konverterte til islam og ble muslim.	[{"type": "religion", "former": ["muslim"]}]	nei
+rel02nn	nn	religion	Han konverterte til islam og vart muslim.	[{"type": "religion", "former": ["muslim"]}]	nei
+rel03nb	nb	religion	Mange av dem var lestadianere fra Nord-Norge.	[{"type": "religion", "former": ["lestadianere", "lestadiansk"]}]	nei
+rel03nn	nn	religion	Mange av dei var lestadianarar frå Nord-Norge.	[{"type": "religion", "former": ["lestadianarar", "lestadiansk"]}]	nei
+rel04nb	nb	religion	Hun er katolikk og går til messe hver søndag.	[{"type": "religion", "former": ["katolikk"]}]	nei
+rel04nn	nn	religion	Ho er katolikk og går til messe kvar sundag.	[{"type": "religion", "former": ["katolikk"]}]	nei
+rel05nb	nb	religion	De sluttet seg til Jehovas vitner i sytti-årene.	[{"type": "religion", "former": ["jehovas vitner", "jehovas vitne"]}]	nei
+rel05nn	nn	religion	Dei slutta seg til Jehovas vitne på sytti-talet.	[{"type": "religion", "former": ["jehovas vitner", "jehovas vitne"]}]	nei
+rel06nb	nb	religion	Han var ateist og meldte seg ut av trossamfunnet.	[{"type": "religion", "former": ["ateist"]}, {"type": "religion", "former": ["trossamfunnet", "trossamfunn"]}]	nei
+rel06nn	nn	religion	Han var ateist og melde seg ut av trusamfunnet.	[{"type": "religion", "former": ["ateist"]}, {"type": "religion", "former": ["trusamfunnet", "trusamfunn"]}]	nei
+pol01nb	nb	politikk	Han stemte på Arbeiderpartiet i alle år.	[{"type": "politikk", "former": ["Arbeiderpartiet"]}]	nei
+pol01nn	nn	politikk	Han stemde på Arbeiderpartiet i alle år.	[{"type": "politikk", "former": ["Arbeiderpartiet"]}]	nei
+pol02nb	nb	politikk	Hun var medlem av Senterpartiet og ledet lokallaget.	[{"type": "politikk", "former": ["Senterpartiet"]}]	nei
+pol02nn	nn	politikk	Ho var medlem av Senterpartiet og leidde lokallaget.	[{"type": "politikk", "former": ["Senterpartiet"]}]	nei
+pol03nb	nb	politikk	Under krigen var han nazist og medlem av Nasjonal Samling.	[{"type": "politikk", "former": ["nazist"]}, {"type": "politikk", "former": ["Nasjonal Samling"]}]	nei
+pol03nn	nn	politikk	Under krigen var han nazist og medlem av Nasjonal Samling.	[{"type": "politikk", "former": ["nazist"]}, {"type": "politikk", "former": ["Nasjonal Samling"]}]	nei
+pol04nb	nb	politikk	Han ble kjent som kommunist og aktivist.	[{"type": "politikk", "former": ["kommunist"]}, {"type": "politikk", "former": ["aktivist"]}]	nei
+pol04nn	nn	politikk	Han vart kjend som kommunist og aktivist.	[{"type": "politikk", "former": ["kommunist"]}, {"type": "politikk", "former": ["aktivist"]}]	nei
+pol05nb	nb	politikk	De diskuterte politiske meninger og Fremskrittspartiet.	[{"type": "politikk", "former": ["Fremskrittspartiet"]}]	nei
+pol05nn	nn	politikk	Dei diskuterte politiske meiningar og Framstegspartiet.	[{"type": "politikk", "former": ["Framstegspartiet", "Fremskrittspartiet"]}]	nei
+pol06nb	nb	politikk	Hun gikk til valg for Kristelig Folkeparti.	[{"type": "politikk", "former": ["Kristelig Folkeparti"]}]	nei
+pol06nn	nn	politikk	Ho gjekk til val for Kristeleg Folkeparti.	[{"type": "politikk", "former": ["Kristeleg Folkeparti", "Kristelig Folkeparti"]}]	nei
+kom01nb	nb	kombinert	Anders Fjellheim, født i 1938 på Bjølstad, var syk i flere år.	[{"type": "person", "former": ["Anders Fjellheim"]}, {"type": "fødselsår", "former": ["1938"]}, {"type": "sted", "former": ["Bjølstad"]}, {"type": "helse", "former": ["syk"]}]	ja
+kom01nn	nn	kombinert	Anders Fjellheim, fødd i 1938 på Bjølstad, var sjuk i fleire år.	[{"type": "person", "former": ["Anders Fjellheim"]}, {"type": "fødselsår", "former": ["1938"]}, {"type": "sted", "former": ["Bjølstad"]}, {"type": "helse", "former": ["sjuk"]}]	ja
+kom02nb	nb	kombinert	Eli Marit Vinstra ringte 68 05 45 67 den 3. november 1965 om rettssaken.	[{"type": "person", "former": ["Eli Marit Vinstra"]}, {"type": "telefon", "former": ["68054567", "68 05 45 67"]}, {"type": "dato", "former": ["3. november 1965"]}, {"type": "konflikt", "former": ["rettssaken", "rettssak"]}]	ja
+kom02nn	nn	kombinert	Eli Marit Vinstra ringde 68 05 45 67 den 3. november 1965 om rettssaka.	[{"type": "person", "former": ["Eli Marit Vinstra"]}, {"type": "telefon", "former": ["68054567", "68 05 45 67"]}, {"type": "dato", "former": ["3. november 1965"]}, {"type": "konflikt", "former": ["rettssaka", "rettssak"]}]	ja
+kom03nb	nb	kombinert	Halvor Brekkebu fra Otta gikk konkurs og stemte på Senterpartiet.	[{"type": "person", "former": ["Halvor Brekkebu"]}, {"type": "sted", "former": ["Otta"]}, {"type": "økonomi", "former": ["konkurs"]}, {"type": "politikk", "former": ["Senterpartiet"]}]	ja
+kom03nn	nn	kombinert	Halvor Brekkebu frå Otta gjekk konkurs og stemde på Senterpartiet.	[{"type": "person", "former": ["Halvor Brekkebu"]}, {"type": "sted", "former": ["Otta"]}, {"type": "økonomi", "former": ["konkurs"]}, {"type": "politikk", "former": ["Senterpartiet"]}]	ja
+kom04nb	nb	kombinert	Sigrun Haugvold i Sør-Fron er katolikk og har diabetes.	[{"type": "person", "former": ["Sigrun Haugvold"]}, {"type": "sted", "former": ["Sør-Fron", "Sørfron"]}, {"type": "religion", "former": ["katolikk"]}, {"type": "helse", "former": ["diabetes"]}]	ja
+kom04nn	nn	kombinert	Sigrun Haugvold i Sør-Fron er katolikk og har diabetes.	[{"type": "person", "former": ["Sigrun Haugvold"]}, {"type": "sted", "former": ["Sør-Fron", "Sørfron"]}, {"type": "religion", "former": ["katolikk"]}, {"type": "helse", "former": ["diabetes"]}]	ja
+kom05nb	nb	kombinert	Torbjørn Stuvstad, født i 1951, bor på Nordre Brenden og har gjeld.	[{"type": "person", "former": ["Torbjørn Stuvstad"]}, {"type": "fødselsår", "former": ["1951"]}, {"type": "sted", "former": ["Nordre Brenden"]}, {"type": "økonomi", "former": ["gjeld"]}]	ja
+kom05nn	nn	kombinert	Torbjørn Stuvstad, fødd i 1951, bur på Nordre Brenden og har gjeld.	[{"type": "person", "former": ["Torbjørn Stuvstad"]}, {"type": "fødselsår", "former": ["1951"]}, {"type": "sted", "former": ["Nordre Brenden"]}, {"type": "økonomi", "former": ["gjeld"]}]	ja
+kom06nb	nb	kombinert	Ragnhild Dalsegg på Dovre ble anmeldt for vold i 1987.	[{"type": "person", "former": ["Ragnhild Dalsegg"]}, {"type": "sted", "former": ["Dovre"]}, {"type": "konflikt", "former": ["anmeldt", "anmeldte"]}, {"type": "konflikt", "former": ["vold"]}]	ja
+kom06nn	nn	kombinert	Ragnhild Dalsegg på Dovre vart melde for vald i 1987.	[{"type": "person", "former": ["Ragnhild Dalsegg"]}, {"type": "sted", "former": ["Dovre"]}, {"type": "konflikt", "former": ["vald"]}]	ja

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Hvis du bruker arkivklarering, siter det slik. If you use arkivklarering, please cite it as below."
+title: "arkivklarering: klarering før publisering av norske lydarkiv (utkast og maskinforslag for menneskelig vurdering)"
+type: software
+version: 1.0.0
+date-released: 2026-10-27
+license: AGPL-3.0-or-later
+authors:
+  - family-names: Botten Nicolaysen
+    given-names: Eirik
+    affiliation: EcoDeco AS
+    orcid: "https://orcid.org/0009-0001-9188-6788"
+abstract: >-
+  Lokalt verktøy som foreslår hva et menneske må vurdere før et norsk lokalradio- eller fortellerarkiv publiseres:
+  segmentering, transkripsjon i to lag, personvernflagg og utkast til katalogpost. Verktøyet klarerer ikke noe selv.
+identifiers:
+  - type: url
+    value: "https://osf.io/hc83q/"
+    description: "OSF-preregistrering av målingene på testdelene, KLAR-PREREG-0001 (under embargo til 2027-10-26)"
+  - type: url
+    value: "https://osf.io/fbme7/"
+    description: "OSF-metoderegistrering, KLAR-REG-0001 (under embargo til 2027-10-26)"
+keywords:
+  - arkivklarering
+  - lydarkiv
+  - personvern
+  - NB-Whisper
+  - norsk

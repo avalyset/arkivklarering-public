@@ -1,0 +1,11 @@
+Vendor-kopi (ikke endret) fra avalyset/norsk-tale, Apache-2.0.
+
+kilde:        https://github.com/avalyset/norsk-tale (kalibrering/norm.py, kalibrering/score.py; LICENSE)
+commit (HEAD og origin/main da kopien ble tatt, 2026-10-26): bcfef63d1be49ac239956dfb67784c002cecf310
+sist endret i: 519fc11d05d8a19e5d934e363744d1e5af4276ad
+sha256:
+  70826a80cdb8b02810e1f70ad57509c1675f2a004fb114342d4bee917bbe6283  norm.py
+  90859617b4d1d59c88d0b2d95466f6c3f6b3626c4cff787ed835f36088aebfec  score.py
+Begrunnelse: KLAR-ADR-0014. Filene endres aldri her; en ny versjon tas inn ved å kopiere på nytt og oppdatere denne fila og
+ADR-en. tests/test_vendor.py feiler hvis sha256 ikke stemmer med denne fila.
+norsk-tale er ellers bare referanse (KLAR-ADR-0001).

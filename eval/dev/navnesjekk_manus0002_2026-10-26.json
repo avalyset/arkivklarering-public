@@ -1,0 +1,361 @@
+{
+ "kilde": "https://www.ssb.no/_/service/mimir/nameSearch?name=",
+ "regel": "alle navn med mer enn tre bærere gir treff; ingen treff = 0–3 bærere",
+ "dato": "2026-10-26",
+ "manus": "KLAR-MANUS-0002_arkivklarering_testmanus_v1.2_2026-10-26.tsv",
+ "manus_sha256": "9a3d12d1e2438b09f9fcb6aa43300ace406888732d058e3cbabf70cb0ad963b1",
+ "sensitive_setninger_med_person": 12,
+ "av_dem_med_treff": 0,
+ "oppslag": [
+  {
+   "id": "per01nb",
+   "navn": "Gunnhild Bjerkås",
+   "etternavn": "Bjerkås",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 322
+    },
+    {
+     "type": "middleandfamily",
+     "count": 88
+    }
+   ]
+  },
+  {
+   "id": "per01nn",
+   "navn": "Gunnhild Bjerkås",
+   "etternavn": "Bjerkås",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 322
+    },
+    {
+     "type": "middleandfamily",
+     "count": 88
+    }
+   ]
+  },
+  {
+   "id": "per02nb",
+   "navn": "Ivar Rustad",
+   "etternavn": "Rustad",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 1522
+    },
+    {
+     "type": "middleandfamily",
+     "count": 578
+    }
+   ]
+  },
+  {
+   "id": "per02nn",
+   "navn": "Ivar Rustad",
+   "etternavn": "Rustad",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 1522
+    },
+    {
+     "type": "middleandfamily",
+     "count": 578
+    }
+   ]
+  },
+  {
+   "id": "per03nb",
+   "navn": "Marit Sandbu",
+   "etternavn": "Sandbu",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 169
+    },
+    {
+     "type": "middleandfamily",
+     "count": 59
+    }
+   ]
+  },
+  {
+   "id": "per03nb",
+   "navn": "Knut Aaseth",
+   "etternavn": "Aaseth",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 218
+    },
+    {
+     "type": "middleandfamily",
+     "count": 74
+    }
+   ]
+  },
+  {
+   "id": "per03nn",
+   "navn": "Marit Sandbu",
+   "etternavn": "Sandbu",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 169
+    },
+    {
+     "type": "middleandfamily",
+     "count": 59
+    }
+   ]
+  },
+  {
+   "id": "per03nn",
+   "navn": "Knut Aaseth",
+   "etternavn": "Aaseth",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 218
+    },
+    {
+     "type": "middleandfamily",
+     "count": 74
+    }
+   ]
+  },
+  {
+   "id": "per04nb",
+   "navn": "Synnøve Lien",
+   "etternavn": "Lien",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 4,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 6356
+    },
+    {
+     "type": "firstgiven",
+     "count": 80
+    },
+    {
+     "type": "onlygiven",
+     "count": 24
+    },
+    {
+     "type": "middleandfamily",
+     "count": 2243
+    }
+   ]
+  },
+  {
+   "id": "per04nn",
+   "navn": "Synnøve Lien",
+   "etternavn": "Lien",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 4,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 6356
+    },
+    {
+     "type": "firstgiven",
+     "count": 80
+    },
+    {
+     "type": "onlygiven",
+     "count": 24
+    },
+    {
+     "type": "middleandfamily",
+     "count": 2243
+    }
+   ]
+  },
+  {
+   "id": "per05nb",
+   "navn": "Halfdan Moen",
+   "etternavn": "Moen",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 9910
+    },
+    {
+     "type": "middleandfamily",
+     "count": 3469
+    }
+   ]
+  },
+  {
+   "id": "per05nn",
+   "navn": "Halfdan Moen",
+   "etternavn": "Moen",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 9910
+    },
+    {
+     "type": "middleandfamily",
+     "count": 3469
+    }
+   ]
+  },
+  {
+   "id": "per06nb",
+   "navn": "Berit Kolstad",
+   "etternavn": "Kolstad",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 2155
+    },
+    {
+     "type": "middleandfamily",
+     "count": 791
+    }
+   ]
+  },
+  {
+   "id": "per06nn",
+   "navn": "Berit Kolstad",
+   "etternavn": "Kolstad",
+   "i_setning_med_sensitiv_kategori": false,
+   "treff": 2,
+   "bærere": [
+    {
+     "type": "family",
+     "count": 2155
+    },
+    {
+     "type": "middleandfamily",
+     "count": 791
+    }
+   ]
+  },
+  {
+   "id": "kom01nb",
+   "navn": "Reidun Hovdesæter",
+   "etternavn": "Hovdesæter",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom01nn",
+   "navn": "Reidun Hovdesæter",
+   "etternavn": "Hovdesæter",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom02nb",
+   "navn": "Sverre Bakkelien",
+   "etternavn": "Bakkelien",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom02nn",
+   "navn": "Sverre Bakkelien",
+   "etternavn": "Bakkelien",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom03nb",
+   "navn": "Torunn Skjelbrekke",
+   "etternavn": "Skjelbrekke",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom03nn",
+   "navn": "Torunn Skjelbrekke",
+   "etternavn": "Skjelbrekke",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom04nb",
+   "navn": "Arne Oddvollen",
+   "etternavn": "Oddvollen",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom04nn",
+   "navn": "Arne Oddvollen",
+   "etternavn": "Oddvollen",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom05nb",
+   "navn": "Liv Brekkeslåen",
+   "etternavn": "Brekkeslåen",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom05nn",
+   "navn": "Liv Brekkeslåen",
+   "etternavn": "Brekkeslåen",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom06nb",
+   "navn": "Magnus Rudisæter",
+   "etternavn": "Rudisæter",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  },
+  {
+   "id": "kom06nn",
+   "navn": "Magnus Rudisæter",
+   "etternavn": "Rudisæter",
+   "i_setning_med_sensitiv_kategori": true,
+   "treff": 0,
+   "bærere": []
+  }
+ ]
+}

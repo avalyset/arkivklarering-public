@@ -1,0 +1,19 @@
+{
+  "_merknad": "Forventet sha256 og størrelse per ggml-fil, slik Hugging Face publiserer dem (LFS oid), hentet 2026-10-26 via /api/models/<repo>?blobs=true. Vektene ligger aldri i repoet. Avvik = stopp. «standardsti» er relativ til datarota ARKIVKLARERING_DATA (standard /Volumes/Vault/arkivklarering når Vault er montert, se arkivklarering/miljo.py): begge filene ligger under $ARKIVKLARERING_DATA/modeller/ (på Vault: normalisert lag er en APFS-klone av norsk-tales fil, uavhengig av den), og koden løser stien mot datarota (arkivklarering/transkriber.py, standard_modellsti); det trengs ingen symlink i repoet.",
+  "ra": {
+    "lag": "rålag, verbatim",
+    "repo": "NbAiLab/nb-whisper-large-verbatim",
+    "fil": "ggml-model.bin",
+    "bytes": 3095033483,
+    "sha256": "0227866ef47189f79d04347a080c73fcd8267c8e2255da5f77803506ab4ffc7d",
+    "standardsti": "modeller/nb-whisper-large-verbatim.ggml-model.bin"
+  },
+  "normalisert": {
+    "lag": "normalisert lag, ikke verbatim",
+    "repo": "NbAiLab/nb-whisper-large",
+    "fil": "ggml-model.bin",
+    "bytes": 3095033483,
+    "sha256": "0f2f66f22e11a7c7da3c582d8e5c89cb2c0011753ba9c7c9731e320a4ba33e76",
+    "standardsti": "modeller/nb-whisper-large.ggml-model.bin"
+  }
+}

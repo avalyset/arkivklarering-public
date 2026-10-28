@@ -1,0 +1,463 @@
+{
+  "merknad": "DEV, ikke pilot",
+  "datasett": "nbsamtale",
+  "splitt": "validation",
+  "seed": 20261026,
+  "lyd_sek": 398,
+  "segmenter": 60,
+  "ikke_malt": [
+    "helse",
+    "økonomi",
+    "konflikt",
+    "religion",
+    "politikk",
+    "dato",
+    "fødselsår",
+    "telefon",
+    "fødselsnummer",
+    "e-post"
+  ],
+  "ordtider": "DTW (-nfa -dtw large.v3), paring på ordspenn med toleranse 0.5 s",
+  "resultat": {
+    "nb": {
+      "segmenter": 38,
+      "referanseflagg": {
+        "person": 8,
+        "sted": 10,
+        "organisasjon": 2
+      },
+      "segmenter_med_referanseflagg": {
+        "person": 6,
+        "sted": 6,
+        "organisasjon": 2
+      },
+      "union_per_kildelag": {
+        "normalisert": 17,
+        "begge": 11,
+        "ra": 6
+      },
+      "kategorier": {
+        "ra|person": {
+          "ref": 8,
+          "overlevd_a": 7,
+          "overlevelse_a": 0.875,
+          "overlevelse_a_ki95": [
+            0.529,
+            0.978
+          ],
+          "overlevd_b": 6,
+          "overlevelse_b": 0.75,
+          "overlevelse_b_ki95": [
+            0.409,
+            0.929
+          ],
+          "pipeline": 9,
+          "ekstra_a": 2,
+          "ekstra_andel_a": 0.222,
+          "ekstra_b": 3,
+          "ekstra_andel_b": 0.333
+        },
+        "ra|sted": {
+          "ref": 10,
+          "overlevd_a": 6,
+          "overlevelse_a": 0.6,
+          "overlevelse_a_ki95": [
+            0.313,
+            0.832
+          ],
+          "overlevd_b": 6,
+          "overlevelse_b": 0.6,
+          "overlevelse_b_ki95": [
+            0.313,
+            0.832
+          ],
+          "pipeline": 8,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 2,
+          "ekstra_andel_b": 0.25
+        },
+        "ra|organisasjon": {
+          "ref": 2,
+          "overlevd_a": 0,
+          "overlevelse_a": 0.0,
+          "overlevelse_a_ki95": [
+            0.0,
+            0.658
+          ],
+          "overlevd_b": 0,
+          "overlevelse_b": 0.0,
+          "overlevelse_b_ki95": [
+            0.0,
+            0.658
+          ],
+          "pipeline": 0,
+          "ekstra_a": 0,
+          "ekstra_andel_a": null,
+          "ekstra_b": 0,
+          "ekstra_andel_b": null
+        },
+        "normalisert|person": {
+          "ref": 8,
+          "overlevd_a": 8,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.676,
+            1.0
+          ],
+          "overlevd_b": 8,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.676,
+            1.0
+          ],
+          "pipeline": 12,
+          "ekstra_a": 3,
+          "ekstra_andel_a": 0.25,
+          "ekstra_b": 4,
+          "ekstra_andel_b": 0.333
+        },
+        "normalisert|sted": {
+          "ref": 10,
+          "overlevd_a": 10,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.722,
+            1.0
+          ],
+          "overlevd_b": 7,
+          "overlevelse_b": 0.7,
+          "overlevelse_b_ki95": [
+            0.397,
+            0.892
+          ],
+          "pipeline": 10,
+          "ekstra_a": 1,
+          "ekstra_andel_a": 0.1,
+          "ekstra_b": 2,
+          "ekstra_andel_b": 0.2
+        },
+        "normalisert|organisasjon": {
+          "ref": 2,
+          "overlevd_a": 2,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.342,
+            1.0
+          ],
+          "overlevd_b": 2,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.342,
+            1.0
+          ],
+          "pipeline": 5,
+          "ekstra_a": 3,
+          "ekstra_andel_a": 0.6,
+          "ekstra_b": 3,
+          "ekstra_andel_b": 0.6
+        },
+        "normalisert|økonomi": {
+          "ref": 0,
+          "overlevd_a": 0,
+          "overlevelse_a": null,
+          "overlevelse_a_ki95": [
+            null,
+            null
+          ],
+          "overlevd_b": 0,
+          "overlevelse_b": null,
+          "overlevelse_b_ki95": [
+            null,
+            null
+          ],
+          "pipeline": 1,
+          "ekstra_a": 1,
+          "ekstra_andel_a": 1.0,
+          "ekstra_b": 1,
+          "ekstra_andel_b": 1.0
+        },
+        "union|person": {
+          "ref": 8,
+          "overlevd_a": 8,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.676,
+            1.0
+          ],
+          "overlevd_b": 8,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.676,
+            1.0
+          ],
+          "pipeline": 14,
+          "ekstra_a": 4,
+          "ekstra_andel_a": 0.286,
+          "ekstra_b": 5,
+          "ekstra_andel_b": 0.357
+        },
+        "union|sted": {
+          "ref": 10,
+          "overlevd_a": 10,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.722,
+            1.0
+          ],
+          "overlevd_b": 10,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.722,
+            1.0
+          ],
+          "pipeline": 14,
+          "ekstra_a": 1,
+          "ekstra_andel_a": 0.071,
+          "ekstra_b": 3,
+          "ekstra_andel_b": 0.214
+        },
+        "union|organisasjon": {
+          "ref": 2,
+          "overlevd_a": 2,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.342,
+            1.0
+          ],
+          "overlevd_b": 2,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.342,
+            1.0
+          ],
+          "pipeline": 5,
+          "ekstra_a": 3,
+          "ekstra_andel_a": 0.6,
+          "ekstra_b": 3,
+          "ekstra_andel_b": 0.6
+        },
+        "union|økonomi": {
+          "ref": 0,
+          "overlevd_a": 0,
+          "overlevelse_a": null,
+          "overlevelse_a_ki95": [
+            null,
+            null
+          ],
+          "overlevd_b": 0,
+          "overlevelse_b": null,
+          "overlevelse_b_ki95": [
+            null,
+            null
+          ],
+          "pipeline": 1,
+          "ekstra_a": 1,
+          "ekstra_andel_a": 1.0,
+          "ekstra_b": 1,
+          "ekstra_andel_b": 1.0
+        }
+      }
+    },
+    "nn": {
+      "segmenter": 22,
+      "referanseflagg": {
+        "organisasjon": 1,
+        "person": 9,
+        "sted": 4
+      },
+      "segmenter_med_referanseflagg": {
+        "organisasjon": 1,
+        "person": 7,
+        "sted": 3
+      },
+      "union_per_kildelag": {
+        "begge": 6,
+        "normalisert": 4,
+        "ra": 2
+      },
+      "kategorier": {
+        "ra|person": {
+          "ref": 9,
+          "overlevd_a": 5,
+          "overlevelse_a": 0.556,
+          "overlevelse_a_ki95": [
+            0.267,
+            0.811
+          ],
+          "overlevd_b": 5,
+          "overlevelse_b": 0.556,
+          "overlevelse_b_ki95": [
+            0.267,
+            0.811
+          ],
+          "pipeline": 4,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 0,
+          "ekstra_andel_b": 0.0
+        },
+        "ra|sted": {
+          "ref": 4,
+          "overlevd_a": 4,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.51,
+            1.0
+          ],
+          "overlevd_b": 3,
+          "overlevelse_b": 0.75,
+          "overlevelse_b_ki95": [
+            0.301,
+            0.954
+          ],
+          "pipeline": 3,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 0,
+          "ekstra_andel_b": 0.0
+        },
+        "ra|organisasjon": {
+          "ref": 1,
+          "overlevd_a": 1,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.207,
+            1.0
+          ],
+          "overlevd_b": 1,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.207,
+            1.0
+          ],
+          "pipeline": 1,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 0,
+          "ekstra_andel_b": 0.0
+        },
+        "normalisert|person": {
+          "ref": 9,
+          "overlevd_a": 5,
+          "overlevelse_a": 0.556,
+          "overlevelse_a_ki95": [
+            0.267,
+            0.811
+          ],
+          "overlevd_b": 4,
+          "overlevelse_b": 0.444,
+          "overlevelse_b_ki95": [
+            0.189,
+            0.733
+          ],
+          "pipeline": 6,
+          "ekstra_a": 1,
+          "ekstra_andel_a": 0.167,
+          "ekstra_b": 3,
+          "ekstra_andel_b": 0.5
+        },
+        "normalisert|sted": {
+          "ref": 4,
+          "overlevd_a": 3,
+          "overlevelse_a": 0.75,
+          "overlevelse_a_ki95": [
+            0.301,
+            0.954
+          ],
+          "overlevd_b": 2,
+          "overlevelse_b": 0.5,
+          "overlevelse_b_ki95": [
+            0.15,
+            0.85
+          ],
+          "pipeline": 3,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 1,
+          "ekstra_andel_b": 0.333
+        },
+        "normalisert|organisasjon": {
+          "ref": 1,
+          "overlevd_a": 1,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.207,
+            1.0
+          ],
+          "overlevd_b": 1,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.207,
+            1.0
+          ],
+          "pipeline": 1,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 0,
+          "ekstra_andel_b": 0.0
+        },
+        "union|person": {
+          "ref": 9,
+          "overlevd_a": 6,
+          "overlevelse_a": 0.667,
+          "overlevelse_a_ki95": [
+            0.354,
+            0.879
+          ],
+          "overlevd_b": 6,
+          "overlevelse_b": 0.667,
+          "overlevelse_b_ki95": [
+            0.354,
+            0.879
+          ],
+          "pipeline": 7,
+          "ekstra_a": 1,
+          "ekstra_andel_a": 0.143,
+          "ekstra_b": 2,
+          "ekstra_andel_b": 0.286
+        },
+        "union|sted": {
+          "ref": 4,
+          "overlevd_a": 4,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.51,
+            1.0
+          ],
+          "overlevd_b": 3,
+          "overlevelse_b": 0.75,
+          "overlevelse_b_ki95": [
+            0.301,
+            0.954
+          ],
+          "pipeline": 4,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 1,
+          "ekstra_andel_b": 0.25
+        },
+        "union|organisasjon": {
+          "ref": 1,
+          "overlevd_a": 1,
+          "overlevelse_a": 1.0,
+          "overlevelse_a_ki95": [
+            0.207,
+            1.0
+          ],
+          "overlevd_b": 1,
+          "overlevelse_b": 1.0,
+          "overlevelse_b_ki95": [
+            0.207,
+            1.0
+          ],
+          "pipeline": 1,
+          "ekstra_a": 0,
+          "ekstra_andel_a": 0.0,
+          "ekstra_b": 0,
+          "ekstra_andel_b": 0.0
+        }
+      }
+    }
+  }
+}

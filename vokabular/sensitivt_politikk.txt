@@ -1,0 +1,29 @@
+# Nøkkelord for særlige kategorier: politikk. Små bokstaver, nb og nn, ett uttrykk per linje.
+# Skal ikke inneholde personnavn. Treffene er forslag til menneskelig vurdering, ikke avgjørelser.
+aktivist
+arbeiderpartiet
+fascist
+fremskrittspartiet
+frp
+høyreekstrem
+kommunisme
+kommunist
+krf
+kristelig folkeparti
+miljøpartiet
+nasjonal samling
+nasjonalsosialist
+nazi
+nazisme
+nazist
+partimedlem
+partipolitikk
+politisk
+politiske
+senterpartiet
+sosialisme
+sosialist
+sosialistisk venstreparti
+stemmegivning
+stemte
+venstreradikal

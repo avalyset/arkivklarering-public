@@ -1,0 +1,733 @@
+{
+  "merknad": "DEV, ikke pilot. Konstruert sammenstilling av ytringer (ikke hele opptak).",
+  "modell": "pyannote/speaker-diarization-community-1",
+  "enhet": "cpu",
+  "datasett": "Sprakbanken/nb_samtale, validation (CC0)",
+  "kilder": 35,
+  "lengde_min": 174.1,
+  "kjoretid_s": 7697,
+  "samlet": {
+    "collar_0.25": {
+      "der": 0.1658,
+      "total_s": 8032.6,
+      "missed": 0.0744,
+      "false_alarm": 0.0311,
+      "confusion": 0.0603
+    },
+    "collar_0.0": {
+      "der": 0.1905,
+      "total_s": 8330.7,
+      "missed": 0.0879,
+      "false_alarm": 0.0372,
+      "confusion": 0.0654
+    }
+  },
+  "talerantall": {
+    "riktig": 11,
+    "for_mange": 21,
+    "for_faa": 3,
+    "n": 35
+  },
+  "per_kilde": {
+    "50f-10": {
+      "lengde_s": 148.2,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 19,
+      "collar_0.25": {
+        "der": 0.2392,
+        "total": 109.74,
+        "missed": 3.49,
+        "false_alarm": 9.86,
+        "confusion": 12.9
+      },
+      "collar_0.0": {
+        "der": 0.2641,
+        "total": 114.49,
+        "missed": 5.17,
+        "false_alarm": 10.85,
+        "confusion": 14.21
+      }
+    },
+    "50f-11": {
+      "lengde_s": 168.6,
+      "talere_referanse": 3,
+      "talere_estimert": 3,
+      "ytringer": 19,
+      "collar_0.25": {
+        "der": 0.0874,
+        "total": 133.28,
+        "missed": 9.74,
+        "false_alarm": 1.44,
+        "confusion": 0.47
+      },
+      "collar_0.0": {
+        "der": 0.1075,
+        "total": 138.03,
+        "missed": 12.26,
+        "false_alarm": 1.97,
+        "confusion": 0.61
+      }
+    },
+    "50f-14": {
+      "lengde_s": 194.9,
+      "talere_referanse": 3,
+      "talere_estimert": 3,
+      "ytringer": 27,
+      "collar_0.25": {
+        "der": 0.1279,
+        "total": 143.23,
+        "missed": 6.1,
+        "false_alarm": 2.87,
+        "confusion": 9.34
+      },
+      "collar_0.0": {
+        "der": 0.1625,
+        "total": 149.98,
+        "missed": 7.51,
+        "false_alarm": 4.89,
+        "confusion": 11.96
+      }
+    },
+    "50f-15": {
+      "lengde_s": 205.0,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 31,
+      "collar_0.25": {
+        "der": 0.1637,
+        "total": 146.98,
+        "missed": 6.62,
+        "false_alarm": 8.24,
+        "confusion": 9.2
+      },
+      "collar_0.0": {
+        "der": 0.2039,
+        "total": 154.73,
+        "missed": 9.26,
+        "false_alarm": 11.18,
+        "confusion": 11.1
+      }
+    },
+    "50f-16": {
+      "lengde_s": 278.8,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 31,
+      "collar_0.25": {
+        "der": 0.084,
+        "total": 218.29,
+        "missed": 10.86,
+        "false_alarm": 2.51,
+        "confusion": 4.96
+      },
+      "collar_0.0": {
+        "der": 0.1069,
+        "total": 226.04,
+        "missed": 14.09,
+        "false_alarm": 4.94,
+        "confusion": 5.13
+      }
+    },
+    "50f-17": {
+      "lengde_s": 212.9,
+      "talere_referanse": 3,
+      "talere_estimert": 3,
+      "ytringer": 28,
+      "collar_0.25": {
+        "der": 0.1209,
+        "total": 153.8,
+        "missed": 9.06,
+        "false_alarm": 6.86,
+        "confusion": 2.68
+      },
+      "collar_0.0": {
+        "der": 0.1506,
+        "total": 160.8,
+        "missed": 13.83,
+        "false_alarm": 7.57,
+        "confusion": 2.81
+      }
+    },
+    "50f-18": {
+      "lengde_s": 219.8,
+      "talere_referanse": 3,
+      "talere_estimert": 2,
+      "ytringer": 38,
+      "collar_0.25": {
+        "der": 0.2203,
+        "total": 142.63,
+        "missed": 7.33,
+        "false_alarm": 0.6,
+        "confusion": 23.5
+      },
+      "collar_0.0": {
+        "der": 0.2592,
+        "total": 152.13,
+        "missed": 10.75,
+        "false_alarm": 2.49,
+        "confusion": 26.2
+      }
+    },
+    "50f-25": {
+      "lengde_s": 183.9,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 24,
+      "collar_0.25": {
+        "der": 0.2219,
+        "total": 139.12,
+        "missed": 9.17,
+        "false_alarm": 5.35,
+        "confusion": 16.35
+      },
+      "collar_0.0": {
+        "der": 0.2546,
+        "total": 145.12,
+        "missed": 10.37,
+        "false_alarm": 7.92,
+        "confusion": 18.65
+      }
+    },
+    "50f-32": {
+      "lengde_s": 263.0,
+      "talere_referanse": 3,
+      "talere_estimert": 2,
+      "ytringer": 27,
+      "collar_0.25": {
+        "der": 0.0721,
+        "total": 211.49,
+        "missed": 8.62,
+        "false_alarm": 4.25,
+        "confusion": 2.39
+      },
+      "collar_0.0": {
+        "der": 0.0934,
+        "total": 218.24,
+        "missed": 11.54,
+        "false_alarm": 6.02,
+        "confusion": 2.81
+      }
+    },
+    "50f-34": {
+      "lengde_s": 265.7,
+      "talere_referanse": 3,
+      "talere_estimert": 5,
+      "ytringer": 32,
+      "collar_0.25": {
+        "der": 0.217,
+        "total": 202.87,
+        "missed": 26.28,
+        "false_alarm": 0.15,
+        "confusion": 17.58
+      },
+      "collar_0.0": {
+        "der": 0.2432,
+        "total": 210.87,
+        "missed": 31.36,
+        "false_alarm": 0.94,
+        "confusion": 18.99
+      }
+    },
+    "50f-6": {
+      "lengde_s": 148.9,
+      "talere_referanse": 2,
+      "talere_estimert": 3,
+      "ytringer": 15,
+      "collar_0.25": {
+        "der": 0.1084,
+        "total": 118.97,
+        "missed": 10.6,
+        "false_alarm": 0.51,
+        "confusion": 1.78
+      },
+      "collar_0.0": {
+        "der": 0.1316,
+        "total": 122.72,
+        "missed": 12.55,
+        "false_alarm": 1.06,
+        "confusion": 2.54
+      }
+    },
+    "50f-7": {
+      "lengde_s": 248.6,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 35,
+      "collar_0.25": {
+        "der": 0.2024,
+        "total": 180.49,
+        "missed": 8.49,
+        "false_alarm": 9.84,
+        "confusion": 18.21
+      },
+      "collar_0.0": {
+        "der": 0.2422,
+        "total": 189.11,
+        "missed": 11.93,
+        "false_alarm": 12.58,
+        "confusion": 21.29
+      }
+    },
+    "50f-9": {
+      "lengde_s": 244.2,
+      "talere_referanse": 3,
+      "talere_estimert": 3,
+      "ytringer": 22,
+      "collar_0.25": {
+        "der": 0.0818,
+        "total": 202.17,
+        "missed": 6.41,
+        "false_alarm": 8.01,
+        "confusion": 2.11
+      },
+      "collar_0.0": {
+        "der": 0.0982,
+        "total": 207.67,
+        "missed": 8.95,
+        "false_alarm": 9.09,
+        "confusion": 2.36
+      }
+    },
+    "nb-1": {
+      "lengde_s": 443.1,
+      "talere_referanse": 5,
+      "talere_estimert": 7,
+      "ytringer": 54,
+      "collar_0.25": {
+        "der": 0.2575,
+        "total": 330.8,
+        "missed": 14.07,
+        "false_alarm": 31.06,
+        "confusion": 40.05
+      },
+      "collar_0.0": {
+        "der": 0.2866,
+        "total": 344.24,
+        "missed": 16.96,
+        "false_alarm": 35.17,
+        "confusion": 46.54
+      }
+    },
+    "nb-12": {
+      "lengde_s": 143.1,
+      "talere_referanse": 2,
+      "talere_estimert": 3,
+      "ytringer": 21,
+      "collar_0.25": {
+        "der": 0.1195,
+        "total": 103.21,
+        "missed": 7.12,
+        "false_alarm": 1.05,
+        "confusion": 4.17
+      },
+      "collar_0.0": {
+        "der": 0.1557,
+        "total": 108.46,
+        "missed": 9.88,
+        "false_alarm": 2.1,
+        "confusion": 4.91
+      }
+    },
+    "nb-13": {
+      "lengde_s": 433.8,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 54,
+      "collar_0.25": {
+        "der": 0.2335,
+        "total": 321.56,
+        "missed": 16.91,
+        "false_alarm": 27.5,
+        "confusion": 30.69
+      },
+      "collar_0.0": {
+        "der": 0.2563,
+        "total": 335.06,
+        "missed": 20.06,
+        "false_alarm": 30.86,
+        "confusion": 34.97
+      }
+    },
+    "nb-19": {
+      "lengde_s": 212.9,
+      "talere_referanse": 2,
+      "talere_estimert": 2,
+      "ytringer": 21,
+      "collar_0.25": {
+        "der": 0.1525,
+        "total": 171.26,
+        "missed": 6.44,
+        "false_alarm": 11.4,
+        "confusion": 8.27
+      },
+      "collar_0.0": {
+        "der": 0.1694,
+        "total": 176.51,
+        "missed": 8.88,
+        "false_alarm": 12.39,
+        "confusion": 8.65
+      }
+    },
+    "nb-2": {
+      "lengde_s": 137.0,
+      "talere_referanse": 2,
+      "talere_estimert": 2,
+      "ytringer": 15,
+      "collar_0.25": {
+        "der": 0.1238,
+        "total": 107.07,
+        "missed": 7.54,
+        "false_alarm": 2.33,
+        "confusion": 3.38
+      },
+      "collar_0.0": {
+        "der": 0.1473,
+        "total": 110.82,
+        "missed": 9.37,
+        "false_alarm": 3.17,
+        "confusion": 3.78
+      }
+    },
+    "nb-20": {
+      "lengde_s": 354.7,
+      "talere_referanse": 2,
+      "talere_estimert": 4,
+      "ytringer": 47,
+      "collar_0.25": {
+        "der": 0.3047,
+        "total": 255.6,
+        "missed": 27.12,
+        "false_alarm": 16.16,
+        "confusion": 34.61
+      },
+      "collar_0.0": {
+        "der": 0.3316,
+        "total": 267.35,
+        "missed": 31.33,
+        "false_alarm": 19.13,
+        "confusion": 38.21
+      }
+    },
+    "nb-21": {
+      "lengde_s": 301.2,
+      "talere_referanse": 2,
+      "talere_estimert": 2,
+      "ytringer": 28,
+      "collar_0.25": {
+        "der": 0.1048,
+        "total": 245.64,
+        "missed": 21.99,
+        "false_alarm": 2.85,
+        "confusion": 0.9
+      },
+      "collar_0.0": {
+        "der": 0.1232,
+        "total": 252.64,
+        "missed": 25.83,
+        "false_alarm": 4.15,
+        "confusion": 1.15
+      }
+    },
+    "nb-22": {
+      "lengde_s": 549.5,
+      "talere_referanse": 5,
+      "talere_estimert": 8,
+      "ytringer": 71,
+      "collar_0.25": {
+        "der": 0.2357,
+        "total": 393.76,
+        "missed": 36.43,
+        "false_alarm": 8.76,
+        "confusion": 47.6
+      },
+      "collar_0.0": {
+        "der": 0.2657,
+        "total": 411.38,
+        "missed": 45.16,
+        "false_alarm": 11.42,
+        "confusion": 52.71
+      }
+    },
+    "nb-23": {
+      "lengde_s": 477.0,
+      "talere_referanse": 4,
+      "talere_estimert": 6,
+      "ytringer": 45,
+      "collar_0.25": {
+        "der": 0.124,
+        "total": 382.97,
+        "missed": 26.18,
+        "false_alarm": 2.56,
+        "confusion": 18.75
+      },
+      "collar_0.0": {
+        "der": 0.1407,
+        "total": 394.22,
+        "missed": 30.18,
+        "false_alarm": 4.3,
+        "confusion": 20.99
+      }
+    },
+    "nb-24": {
+      "lengde_s": 317.6,
+      "talere_referanse": 2,
+      "talere_estimert": 3,
+      "ytringer": 35,
+      "collar_0.25": {
+        "der": 0.0999,
+        "total": 242.62,
+        "missed": 18.23,
+        "false_alarm": 0.47,
+        "confusion": 5.53
+      },
+      "collar_0.0": {
+        "der": 0.1232,
+        "total": 251.37,
+        "missed": 23.58,
+        "false_alarm": 1.2,
+        "confusion": 6.18
+      }
+    },
+    "nb-26": {
+      "lengde_s": 140.2,
+      "talere_referanse": 2,
+      "talere_estimert": 2,
+      "ytringer": 12,
+      "collar_0.25": {
+        "der": 0.1284,
+        "total": 117.02,
+        "missed": 14.44,
+        "false_alarm": 0.59,
+        "confusion": 0.0
+      },
+      "collar_0.0": {
+        "der": 0.1429,
+        "total": 120.02,
+        "missed": 16.45,
+        "false_alarm": 0.7,
+        "confusion": 0.01
+      }
+    },
+    "nb-27": {
+      "lengde_s": 606.4,
+      "talere_referanse": 4,
+      "talere_estimert": 6,
+      "ytringer": 73,
+      "collar_0.25": {
+        "der": 0.2263,
+        "total": 462.71,
+        "missed": 39.63,
+        "false_alarm": 19.35,
+        "confusion": 45.73
+      },
+      "collar_0.0": {
+        "der": 0.2531,
+        "total": 480.96,
+        "missed": 48.72,
+        "false_alarm": 23.23,
+        "confusion": 49.79
+      }
+    },
+    "nb-28": {
+      "lengde_s": 338.1,
+      "talere_referanse": 4,
+      "talere_estimert": 3,
+      "ytringer": 29,
+      "collar_0.25": {
+        "der": 0.1137,
+        "total": 278.45,
+        "missed": 17.79,
+        "false_alarm": 7.02,
+        "confusion": 6.84
+      },
+      "collar_0.0": {
+        "der": 0.1291,
+        "total": 285.7,
+        "missed": 20.92,
+        "false_alarm": 8.72,
+        "confusion": 7.24
+      }
+    },
+    "nb-29": {
+      "lengde_s": 172.7,
+      "talere_referanse": 2,
+      "talere_estimert": 3,
+      "ytringer": 20,
+      "collar_0.25": {
+        "der": 0.1374,
+        "total": 131.57,
+        "missed": 5.6,
+        "false_alarm": 6.3,
+        "confusion": 6.17
+      },
+      "collar_0.0": {
+        "der": 0.1664,
+        "total": 136.57,
+        "missed": 7.98,
+        "false_alarm": 7.55,
+        "confusion": 7.18
+      }
+    },
+    "nb-3": {
+      "lengde_s": 340.0,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 50,
+      "collar_0.25": {
+        "der": 0.3596,
+        "total": 234.94,
+        "missed": 12.18,
+        "false_alarm": 23.15,
+        "confusion": 49.15
+      },
+      "collar_0.0": {
+        "der": 0.3909,
+        "total": 247.4,
+        "missed": 15.6,
+        "false_alarm": 26.17,
+        "confusion": 54.94
+      }
+    },
+    "nb-30": {
+      "lengde_s": 309.7,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 33,
+      "collar_0.25": {
+        "der": 0.2517,
+        "total": 243.25,
+        "missed": 37.42,
+        "false_alarm": 10.81,
+        "confusion": 12.99
+      },
+      "collar_0.0": {
+        "der": 0.2734,
+        "total": 251.5,
+        "missed": 41.84,
+        "false_alarm": 12.89,
+        "confusion": 14.02
+      }
+    },
+    "nb-33": {
+      "lengde_s": 521.7,
+      "talere_referanse": 5,
+      "talere_estimert": 6,
+      "ytringer": 46,
+      "collar_0.25": {
+        "der": 0.1822,
+        "total": 423.82,
+        "missed": 52.24,
+        "false_alarm": 11.03,
+        "confusion": 13.95
+      },
+      "collar_0.0": {
+        "der": 0.1991,
+        "total": 435.32,
+        "missed": 59.19,
+        "false_alarm": 12.06,
+        "confusion": 15.43
+      }
+    },
+    "nb-35": {
+      "lengde_s": 142.9,
+      "talere_referanse": 2,
+      "talere_estimert": 2,
+      "ytringer": 15,
+      "collar_0.25": {
+        "der": 0.1119,
+        "total": 112.91,
+        "missed": 12.56,
+        "false_alarm": 0.0,
+        "confusion": 0.07
+      },
+      "collar_0.0": {
+        "der": 0.1334,
+        "total": 116.66,
+        "missed": 15.04,
+        "false_alarm": 0.2,
+        "confusion": 0.32
+      }
+    },
+    "nb-4": {
+      "lengde_s": 952.6,
+      "talere_referanse": 7,
+      "talere_estimert": 8,
+      "ytringer": 102,
+      "collar_0.25": {
+        "der": 0.0967,
+        "total": 742.29,
+        "missed": 48.56,
+        "false_alarm": 4.08,
+        "confusion": 19.13
+      },
+      "collar_0.0": {
+        "der": 0.1212,
+        "total": 767.76,
+        "missed": 62.79,
+        "false_alarm": 7.97,
+        "confusion": 22.26
+      }
+    },
+    "nb-5": {
+      "lengde_s": 479.2,
+      "talere_referanse": 3,
+      "talere_estimert": 3,
+      "ytringer": 41,
+      "collar_0.25": {
+        "der": 0.0794,
+        "total": 397.97,
+        "missed": 25.64,
+        "false_alarm": 0.0,
+        "confusion": 5.97
+      },
+      "collar_0.0": {
+        "der": 0.0963,
+        "total": 408.22,
+        "missed": 31.43,
+        "false_alarm": 1.54,
+        "confusion": 6.35
+      }
+    },
+    "tr-31": {
+      "lengde_s": 155.0,
+      "talere_referanse": 3,
+      "talere_estimert": 4,
+      "ytringer": 21,
+      "collar_0.25": {
+        "der": 0.1798,
+        "total": 118.75,
+        "missed": 14.86,
+        "false_alarm": 0.0,
+        "confusion": 6.5
+      },
+      "collar_0.0": {
+        "der": 0.2066,
+        "total": 124.0,
+        "missed": 17.66,
+        "false_alarm": 0.47,
+        "confusion": 7.49
+      }
+    },
+    "tr-8": {
+      "lengde_s": 135.0,
+      "talere_referanse": 2,
+      "talere_estimert": 2,
+      "ytringer": 13,
+      "collar_0.25": {
+        "der": 0.1523,
+        "total": 111.39,
+        "missed": 11.54,
+        "false_alarm": 2.85,
+        "confusion": 2.57
+      },
+      "collar_0.0": {
+        "der": 0.1704,
+        "total": 114.64,
+        "missed": 13.87,
+        "false_alarm": 2.9,
+        "confusion": 2.77
+      }
+    }
+  }
+}

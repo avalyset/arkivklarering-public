@@ -1,0 +1,303 @@
+{
+  "merknad": "DEV, ikke pilot",
+  "datasett": "NbAiLab/norne",
+  "revisjon": "1ca12d437b84f65a34c454d339317d39d35c8149",
+  "splitt": "validation",
+  "motor": {
+    "spacy": "nb_core_news_md",
+    "bert": "NbAiLab/nb-bert-base-ner",
+    "terskel": 0.0
+  },
+  "setninger_hoppet_over_pga_tokenjustering": {},
+  "resultat": {
+    "nb|person|bert|original": {
+      "gull": 611,
+      "predikert": 621,
+      "recall_overlapp": 0.993,
+      "recall_overlapp_ki95": [
+        0.983,
+        0.997
+      ],
+      "recall_noyaktig": 0.989,
+      "presisjon_overlapp": 0.977,
+      "presisjon_noyaktig": 0.973
+    },
+    "nb|person|bert|små": {
+      "gull": 611,
+      "predikert": 324,
+      "recall_overlapp": 0.527,
+      "recall_overlapp_ki95": [
+        0.487,
+        0.566
+      ],
+      "recall_noyaktig": 0.367,
+      "presisjon_overlapp": 0.988,
+      "presisjon_noyaktig": 0.691
+    },
+    "nb|person|kombinert|original": {
+      "gull": 611,
+      "predikert": 661,
+      "recall_overlapp": 0.997,
+      "recall_overlapp_ki95": [
+        0.988,
+        0.999
+      ],
+      "recall_noyaktig": 0.982,
+      "presisjon_overlapp": 0.921,
+      "presisjon_noyaktig": 0.908
+    },
+    "nb|person|kombinert|små": {
+      "gull": 611,
+      "predikert": 484,
+      "recall_overlapp": 0.715,
+      "recall_overlapp_ki95": [
+        0.678,
+        0.75
+      ],
+      "recall_noyaktig": 0.596,
+      "presisjon_overlapp": 0.901,
+      "presisjon_noyaktig": 0.752
+    },
+    "nb|person|spacy|original": {
+      "gull": 611,
+      "predikert": 612,
+      "recall_overlapp": 0.93,
+      "recall_overlapp_ki95": [
+        0.907,
+        0.947
+      ],
+      "recall_noyaktig": 0.903,
+      "presisjon_overlapp": 0.93,
+      "presisjon_noyaktig": 0.902
+    },
+    "nb|person|spacy|små": {
+      "gull": 611,
+      "predikert": 401,
+      "recall_overlapp": 0.592,
+      "recall_overlapp_ki95": [
+        0.553,
+        0.631
+      ],
+      "recall_noyaktig": 0.498,
+      "presisjon_overlapp": 0.89,
+      "presisjon_noyaktig": 0.758
+    },
+    "nb|sted|bert|original": {
+      "gull": 368,
+      "predikert": 373,
+      "recall_overlapp": 0.946,
+      "recall_overlapp_ki95": [
+        0.918,
+        0.965
+      ],
+      "recall_noyaktig": 0.94,
+      "presisjon_overlapp": 0.936,
+      "presisjon_noyaktig": 0.928
+    },
+    "nb|sted|bert|små": {
+      "gull": 368,
+      "predikert": 126,
+      "recall_overlapp": 0.312,
+      "recall_overlapp_ki95": [
+        0.267,
+        0.362
+      ],
+      "recall_noyaktig": 0.277,
+      "presisjon_overlapp": 0.921,
+      "presisjon_noyaktig": 0.81
+    },
+    "nb|sted|kombinert|original": {
+      "gull": 368,
+      "predikert": 408,
+      "recall_overlapp": 0.97,
+      "recall_overlapp_ki95": [
+        0.947,
+        0.983
+      ],
+      "recall_noyaktig": 0.967,
+      "presisjon_overlapp": 0.875,
+      "presisjon_noyaktig": 0.873
+    },
+    "nb|sted|kombinert|små": {
+      "gull": 368,
+      "predikert": 322,
+      "recall_overlapp": 0.739,
+      "recall_overlapp_ki95": [
+        0.692,
+        0.781
+      ],
+      "recall_noyaktig": 0.698,
+      "presisjon_overlapp": 0.848,
+      "presisjon_noyaktig": 0.798
+    },
+    "nb|sted|spacy|original": {
+      "gull": 368,
+      "predikert": 357,
+      "recall_overlapp": 0.87,
+      "recall_overlapp_ki95": [
+        0.831,
+        0.9
+      ],
+      "recall_noyaktig": 0.867,
+      "presisjon_overlapp": 0.896,
+      "presisjon_noyaktig": 0.894
+    },
+    "nb|sted|spacy|små": {
+      "gull": 368,
+      "predikert": 280,
+      "recall_overlapp": 0.647,
+      "recall_overlapp_ki95": [
+        0.597,
+        0.694
+      ],
+      "recall_noyaktig": 0.617,
+      "presisjon_overlapp": 0.85,
+      "presisjon_noyaktig": 0.811
+    },
+    "nn|person|bert|original": {
+      "gull": 481,
+      "predikert": 466,
+      "recall_overlapp": 0.95,
+      "recall_overlapp_ki95": [
+        0.927,
+        0.966
+      ],
+      "recall_noyaktig": 0.948,
+      "presisjon_overlapp": 0.981,
+      "presisjon_noyaktig": 0.979
+    },
+    "nn|person|bert|små": {
+      "gull": 481,
+      "predikert": 206,
+      "recall_overlapp": 0.418,
+      "recall_overlapp_ki95": [
+        0.375,
+        0.462
+      ],
+      "recall_noyaktig": 0.283,
+      "presisjon_overlapp": 0.971,
+      "presisjon_noyaktig": 0.66
+    },
+    "nn|person|kombinert|original": {
+      "gull": 481,
+      "predikert": 597,
+      "recall_overlapp": 0.954,
+      "recall_overlapp_ki95": [
+        0.932,
+        0.97
+      ],
+      "recall_noyaktig": 0.933,
+      "presisjon_overlapp": 0.769,
+      "presisjon_noyaktig": 0.752
+    },
+    "nn|person|kombinert|små": {
+      "gull": 481,
+      "predikert": 402,
+      "recall_overlapp": 0.599,
+      "recall_overlapp_ki95": [
+        0.554,
+        0.642
+      ],
+      "recall_noyaktig": 0.48,
+      "presisjon_overlapp": 0.714,
+      "presisjon_noyaktig": 0.575
+    },
+    "nn|person|spacy|original": {
+      "gull": 481,
+      "predikert": 534,
+      "recall_overlapp": 0.834,
+      "recall_overlapp_ki95": [
+        0.798,
+        0.864
+      ],
+      "recall_noyaktig": 0.788,
+      "presisjon_overlapp": 0.751,
+      "presisjon_noyaktig": 0.71
+    },
+    "nn|person|spacy|små": {
+      "gull": 481,
+      "predikert": 324,
+      "recall_overlapp": 0.447,
+      "recall_overlapp_ki95": [
+        0.403,
+        0.492
+      ],
+      "recall_noyaktig": 0.347,
+      "presisjon_overlapp": 0.648,
+      "presisjon_noyaktig": 0.515
+    },
+    "nn|sted|bert|original": {
+      "gull": 280,
+      "predikert": 302,
+      "recall_overlapp": 0.968,
+      "recall_overlapp_ki95": [
+        0.94,
+        0.983
+      ],
+      "recall_noyaktig": 0.961,
+      "presisjon_overlapp": 0.897,
+      "presisjon_noyaktig": 0.891
+    },
+    "nn|sted|bert|små": {
+      "gull": 280,
+      "predikert": 85,
+      "recall_overlapp": 0.246,
+      "recall_overlapp_ki95": [
+        0.2,
+        0.3
+      ],
+      "recall_noyaktig": 0.236,
+      "presisjon_overlapp": 0.812,
+      "presisjon_noyaktig": 0.776
+    },
+    "nn|sted|kombinert|original": {
+      "gull": 280,
+      "predikert": 374,
+      "recall_overlapp": 0.986,
+      "recall_overlapp_ki95": [
+        0.964,
+        0.994
+      ],
+      "recall_noyaktig": 0.971,
+      "presisjon_overlapp": 0.738,
+      "presisjon_noyaktig": 0.727
+    },
+    "nn|sted|kombinert|små": {
+      "gull": 280,
+      "predikert": 195,
+      "recall_overlapp": 0.504,
+      "recall_overlapp_ki95": [
+        0.445,
+        0.562
+      ],
+      "recall_noyaktig": 0.493,
+      "presisjon_overlapp": 0.723,
+      "presisjon_noyaktig": 0.708
+    },
+    "nn|sted|spacy|original": {
+      "gull": 280,
+      "predikert": 291,
+      "recall_overlapp": 0.729,
+      "recall_overlapp_ki95": [
+        0.674,
+        0.777
+      ],
+      "recall_noyaktig": 0.707,
+      "presisjon_overlapp": 0.701,
+      "presisjon_noyaktig": 0.68
+    },
+    "nn|sted|spacy|små": {
+      "gull": 280,
+      "predikert": 166,
+      "recall_overlapp": 0.443,
+      "recall_overlapp_ki95": [
+        0.386,
+        0.501
+      ],
+      "recall_noyaktig": 0.425,
+      "presisjon_overlapp": 0.747,
+      "presisjon_noyaktig": 0.717
+    }
+  },
+  "sekunder": 661
+}

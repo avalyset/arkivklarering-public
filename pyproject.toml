@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arkivklarering"
+version = "1.0.0"
+description = "Klarering før publisering av norske lydarkiv: segmentering, transkripsjon i to lag, personvernflagg, katalogutkast og eksport (utkast og maskinforslag for menneskelig vurdering)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Eirik Botten Nicolaysen", email = "eirik@ecodeco.no" }]
+# Standard segmentering er inaSpeechSegmenter (KLAR-ADR-0019 v1.1). Den (med TensorFlow) installeres IKKE herfra, men i et eget venv
+# fra requirements-inaseg.lock (se arkivklarering/segment_inaseg.py), så TensorFlow aldri havner i analysemiljøet.
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+eval = ["jiwer"]
+tidsstempel = ["opentimestamps-client"]
+eksport = ["lxml", "mmif-python", "iiif-prezi3", "webvtt-py"]
+personvern = ["presidio-analyzer", "spacy", "transformers", "torch", "pyarrow"]  # + nb_core_news_md, se README. torch: transformers-pipeline (kom før bare via inaVAMOS)
+# inaVAMOS har Pantagruel Research-only License: bare forskning, art. 3 forbyr bruk i kommersiell aktivitet. Med bare for å reprodusere
+# de preregistrerte kjøringene H1 og H2 (ARKIVKLARERING_SEGMENTERING=inavamos; KLAR-ADR-0019 v1.1, AV-25). Ikke en del av standardinstallasjonen.
+reproduksjon-h1h2 = ["inaVAMOS>=0.1.1"]
+
+[project.scripts]
+arkivklarering = "arkivklarering.cli:main"
+
+[tool.setuptools]
+packages = ["arkivklarering", "arkivklarering._vendor", "arkivklarering._vendor.norsk_tale"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["tung: krever modeller og kjører Whisper (kjør med -m tung)"]
+addopts = "-m 'not tung'"

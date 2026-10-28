@@ -1,0 +1,1102 @@
+{
+ "nbsamtale_validation": {
+  "filer": 60,
+  "sekunder_sammenlignet": 396.92,
+  "enighet_streng_andel": 0.9291,
+  "enighet_tale_ekvivalent_andel": 0.9434,
+  "per_gammel_etikett": {
+   "speech": {
+    "sekunder": 363.04,
+    "ny": {
+     "speech": 362.78,
+     "music": 0,
+     "other": 0.26
+    },
+    "andel_ny": {
+     "speech": 0.9993,
+     "music": 0.0,
+     "other": 0.0007
+    },
+    "enig_streng": 0.9993,
+    "enig_tale_ekvivalent": 0.9993
+   },
+   "speech+music": {
+    "sekunder": 5.66,
+    "ny": {
+     "speech": 5.66,
+     "music": 0,
+     "other": 0
+    },
+    "andel_ny": {
+     "speech": 1.0,
+     "music": 0.0,
+     "other": 0.0
+    },
+    "enig_streng": 0.0,
+    "enig_tale_ekvivalent": 1.0
+   },
+   "music": {
+    "sekunder": 0.72,
+    "ny": {
+     "speech": 0.72,
+     "music": 0,
+     "other": 0
+    },
+    "andel_ny": {
+     "speech": 1.0,
+     "music": 0.0,
+     "other": 0.0
+    },
+    "enig_streng": 0.0,
+    "enig_tale_ekvivalent": 0.0
+   },
+   "other": {
+    "sekunder": 27.5,
+    "ny": {
+     "speech": 21.5,
+     "music": 0,
+     "other": 6.0
+    },
+    "andel_ny": {
+     "speech": 0.7818,
+     "music": 0.0,
+     "other": 0.2182
+    },
+    "enig_streng": 0.2182,
+    "enig_tale_ekvivalent": 0.2182
+   }
+  },
+  "transkripsjon": {
+   "filer_binaer_ulik": 0,
+   "filer_med_minst_0_5_s_forskjell": 15,
+   "sekunder_bare_inavamos": 0.78,
+   "sekunder_bare_ny": 22.22,
+   "segmenter_bare_inavamos_transkribert": 0,
+   "segmenter_bare_ny_transkribert": 0,
+   "per_fil": [
+    {
+     "id": "nb-12_0573349-0575627",
+     "transkribert_gammel_s": 2.28,
+     "transkribert_ny_s": 2.26,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-22_1200080-1202315",
+     "transkribert_gammel_s": 1.96,
+     "transkribert_ny_s": 2.22,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.26,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-5_2153953-2162645",
+     "transkribert_gammel_s": 7.78,
+     "transkribert_ny_s": 8.4,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.62,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-13_0586185-0596752",
+     "transkribert_gammel_s": 10.57,
+     "transkribert_ny_s": 10.56,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-3_1868765-1875040",
+     "transkribert_gammel_s": 6.06,
+     "transkribert_ny_s": 6.26,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.2,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-27_1400610-1408275",
+     "transkribert_gammel_s": 7.42,
+     "transkribert_ny_s": 7.66,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.24,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-30_1957204-1961408",
+     "transkribert_gammel_s": 2.48,
+     "transkribert_ny_s": 2.74,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.26,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-34_0700930-0710140",
+     "transkribert_gammel_s": 8.12,
+     "transkribert_ny_s": 8.72,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.6,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-27_1284895-1295198",
+     "transkribert_gammel_s": 9.84,
+     "transkribert_ny_s": 10.28,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.46,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-33_2350240-2357030",
+     "transkribert_gammel_s": 5.66,
+     "transkribert_ny_s": 6.58,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.92,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-24_2284000-2286140",
+     "transkribert_gammel_s": 2.14,
+     "transkribert_ny_s": 2.12,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-17_0153187-0162201",
+     "transkribert_gammel_s": 8.7,
+     "transkribert_ny_s": 9.0,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.3,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-17_0223701-0231310",
+     "transkribert_gammel_s": 7.2,
+     "transkribert_ny_s": 7.6,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.4,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-16_0174830-0181970",
+     "transkribert_gammel_s": 7.14,
+     "transkribert_ny_s": 7.12,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-7_0046906-0054600",
+     "transkribert_gammel_s": 7.69,
+     "transkribert_ny_s": 7.68,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-6_0816695-0827100",
+     "transkribert_gammel_s": 6.58,
+     "transkribert_ny_s": 10.4,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 3.82,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-16_1201530-1208013",
+     "transkribert_gammel_s": 6.24,
+     "transkribert_ny_s": 6.46,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.24,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-25_1193460-1201083",
+     "transkribert_gammel_s": 7.62,
+     "transkribert_ny_s": 7.6,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-9_1023585-1035165",
+     "transkribert_gammel_s": 11.3,
+     "transkribert_ny_s": 11.56,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.28,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-9_1012680-1023585",
+     "transkribert_gammel_s": 10.36,
+     "transkribert_ny_s": 10.9,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.54,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-17_0785093-0793793",
+     "transkribert_gammel_s": 8.18,
+     "transkribert_ny_s": 8.68,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.5,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-11_1150695-1156260",
+     "transkribert_gammel_s": 5.57,
+     "transkribert_ny_s": 5.56,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-16_0405553-0413160",
+     "transkribert_gammel_s": 7.61,
+     "transkribert_ny_s": 7.6,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-22_4330585-4333333",
+     "transkribert_gammel_s": 1.7,
+     "transkribert_ny_s": 1.76,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.06,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_6986980-6990408",
+     "transkribert_gammel_s": 3.43,
+     "transkribert_ny_s": 3.42,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-18_1563160-1566086",
+     "transkribert_gammel_s": 2.93,
+     "transkribert_ny_s": 2.92,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-5_3313160-3315610",
+     "transkribert_gammel_s": 2.45,
+     "transkribert_ny_s": 2.44,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-18_0857780-0860440",
+     "transkribert_gammel_s": 2.18,
+     "transkribert_ny_s": 2.64,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.48,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-27_0315157-0317186",
+     "transkribert_gammel_s": 2.03,
+     "transkribert_ny_s": 2.02,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-27_2163006-2169401",
+     "transkribert_gammel_s": 6.13,
+     "transkribert_ny_s": 6.38,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.26,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-22_2996442-3002640",
+     "transkribert_gammel_s": 6.08,
+     "transkribert_ny_s": 6.18,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.1,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-1_1384537-1388501",
+     "transkribert_gammel_s": 3.96,
+     "transkribert_ny_s": 3.94,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-27_1438679-1445834",
+     "transkribert_gammel_s": 6.72,
+     "transkribert_ny_s": 7.14,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.42,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-27_4392382-4404345",
+     "transkribert_gammel_s": 11.72,
+     "transkribert_ny_s": 11.94,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.24,
+     "binaer_ulik": false
+    },
+    {
+     "id": "tr-31_0414716-0420715",
+     "transkribert_gammel_s": 6.0,
+     "transkribert_ny_s": 5.98,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "tr-31_0019850-0022397",
+     "transkribert_gammel_s": 2.55,
+     "transkribert_ny_s": 2.54,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-7_1332180-1343733",
+     "transkribert_gammel_s": 10.8,
+     "transkribert_ny_s": 11.54,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.74,
+     "binaer_ulik": false
+    },
+    {
+     "id": "tr-8_1253360-1255910",
+     "transkribert_gammel_s": 1.78,
+     "transkribert_ny_s": 2.54,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.76,
+     "binaer_ulik": false
+    },
+    {
+     "id": "tr-31_0763656-0769603",
+     "transkribert_gammel_s": 5.95,
+     "transkribert_ny_s": 5.94,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-21_0946545-0953400",
+     "transkribert_gammel_s": 6.66,
+     "transkribert_ny_s": 6.62,
+     "bare_gammel_s": 0.24,
+     "bare_ny_s": 0.2,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-21_1124060-1131216",
+     "transkribert_gammel_s": 4.2,
+     "transkribert_ny_s": 7.14,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 2.94,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-21_0981400-0991608",
+     "transkribert_gammel_s": 9.38,
+     "transkribert_ny_s": 10.2,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.82,
+     "binaer_ulik": false
+    },
+    {
+     "id": "tr-8_0055280-0060950",
+     "transkribert_gammel_s": 4.86,
+     "transkribert_ny_s": 5.66,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.8,
+     "binaer_ulik": false
+    },
+    {
+     "id": "tr-8_1042040-1047037",
+     "transkribert_gammel_s": 5.0,
+     "transkribert_ny_s": 4.98,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-21_2788286-2792913",
+     "transkribert_gammel_s": 4.32,
+     "transkribert_ny_s": 4.62,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.3,
+     "binaer_ulik": false
+    },
+    {
+     "id": "tr-31_0985797-0990645",
+     "transkribert_gammel_s": 4.28,
+     "transkribert_ny_s": 4.58,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.32,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_1070615-1081500",
+     "transkribert_gammel_s": 10.88,
+     "transkribert_ny_s": 10.88,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_0519760-0531266",
+     "transkribert_gammel_s": 9.79,
+     "transkribert_ny_s": 11.5,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 1.72,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-23_0212400-0220800",
+     "transkribert_gammel_s": 8.1,
+     "transkribert_ny_s": 8.08,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "50f-11_0497826-0500500",
+     "transkribert_gammel_s": 2.67,
+     "transkribert_ny_s": 2.66,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-20_0747601-0749853",
+     "transkribert_gammel_s": 1.36,
+     "transkribert_ny_s": 2.24,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.88,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_3248580-3258035",
+     "transkribert_gammel_s": 9.21,
+     "transkribert_ny_s": 9.44,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.24,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-23_0635190-0644340",
+     "transkribert_gammel_s": 8.73,
+     "transkribert_ny_s": 8.82,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.1,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_3302200-3313800",
+     "transkribert_gammel_s": 10.26,
+     "transkribert_ny_s": 10.8,
+     "bare_gammel_s": 0.0,
+     "bare_ny_s": 0.54,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_6930310-6941793",
+     "transkribert_gammel_s": 10.96,
+     "transkribert_ny_s": 11.2,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.26,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-23_1151583-1157120",
+     "transkribert_gammel_s": 5.54,
+     "transkribert_ny_s": 5.52,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_1681735-1686499",
+     "transkribert_gammel_s": 4.38,
+     "transkribert_ny_s": 4.74,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.38,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-23_2107641-2114270",
+     "transkribert_gammel_s": 6.63,
+     "transkribert_ny_s": 6.62,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-12_0038680-0043036",
+     "transkribert_gammel_s": 3.6,
+     "transkribert_ny_s": 3.6,
+     "bare_gammel_s": 0.02,
+     "bare_ny_s": 0.02,
+     "binaer_ulik": false
+    },
+    {
+     "id": "nb-4_8680050-8683538",
+     "transkribert_gammel_s": 3.49,
+     "transkribert_ny_s": 3.48,
+     "bare_gammel_s": 0.01,
+     "bare_ny_s": 0.0,
+     "binaer_ulik": false
+    }
+   ]
+  },
+  "speech_music_intervaller": [
+   {
+    "id": "nb-33_2350240-2357030",
+    "start": 0.0,
+    "stopp": 0.96,
+    "varighet_s": 0.96,
+    "musikk_under_tale": [],
+    "ny_etikett_pa_segmentet_s": {
+     "speech": 0.96
+    },
+    "ny_etikett_pa_musikkintervallene_s": {},
+    "ny_disposisjon_transkriber_s": 0.96
+   },
+   {
+    "id": "nb-33_2350240-2357030",
+    "start": 1.68,
+    "stopp": 6.38,
+    "varighet_s": 4.7,
+    "musikk_under_tale": [],
+    "ny_etikett_pa_segmentet_s": {
+     "speech": 4.7
+    },
+    "ny_etikett_pa_musikkintervallene_s": {},
+    "ny_disposisjon_transkriber_s": 4.7
+   }
+  ]
+ },
+ "fart": {
+  "filer": 60,
+  "lyd_s": 397.7,
+  "tid_60_filer_s": 20.0,
+  "tid_1_fil_s": 6.7,
+  "marginal_s_per_fil": 0.226,
+  "marginal_s_per_lydsekund": 0.0337,
+  "oppstart_s": 6.5
+ },
+ "rokytest": {
+  "rokytest": {
+   "filer": 1,
+   "sekunder_sammenlignet": 39.98,
+   "enighet_streng_andel": 0.7544,
+   "enighet_tale_ekvivalent_andel": 0.969,
+   "per_gammel_etikett": {
+    "speech": {
+     "sekunder": 0,
+     "ny": {
+      "speech": 0,
+      "music": 0,
+      "other": 0
+     },
+     "andel_ny": {
+      "speech": null,
+      "music": null,
+      "other": null
+     },
+     "enig_streng": null,
+     "enig_tale_ekvivalent": null
+    },
+    "speech+music": {
+     "sekunder": 8.58,
+     "ny": {
+      "speech": 8.58,
+      "music": 0,
+      "other": 0
+     },
+     "andel_ny": {
+      "speech": 1.0,
+      "music": 0.0,
+      "other": 0.0
+     },
+     "enig_streng": 0.0,
+     "enig_tale_ekvivalent": 1.0
+    },
+    "music": {
+     "sekunder": 20.7,
+     "ny": {
+      "speech": 0.66,
+      "music": 20.04,
+      "other": 0
+     },
+     "andel_ny": {
+      "speech": 0.0319,
+      "music": 0.9681,
+      "other": 0.0
+     },
+     "enig_streng": 0.9681,
+     "enig_tale_ekvivalent": 0.9681
+    },
+    "other": {
+     "sekunder": 10.7,
+     "ny": {
+      "speech": 0.58,
+      "music": 0,
+      "other": 10.12
+     },
+     "andel_ny": {
+      "speech": 0.0542,
+      "music": 0.0,
+      "other": 0.9458
+     },
+     "enig_streng": 0.9458,
+     "enig_tale_ekvivalent": 0.9458
+    }
+   },
+   "transkripsjon": {
+    "filer_binaer_ulik": 0,
+    "filer_med_minst_0_5_s_forskjell": 1,
+    "sekunder_bare_inavamos": 0.0,
+    "sekunder_bare_ny": 1.38,
+    "segmenter_bare_inavamos_transkribert": 0,
+    "segmenter_bare_ny_transkribert": 0,
+    "per_fil": [
+     {
+      "id": "rokytest",
+      "transkribert_gammel_s": 8.44,
+      "transkribert_ny_s": 9.82,
+      "bare_gammel_s": 0.0,
+      "bare_ny_s": 1.38,
+      "binaer_ulik": false
+     }
+    ]
+   },
+   "speech_music_intervaller": [
+    {
+     "id": "rokytest",
+     "start": 20.24,
+     "stopp": 20.38,
+     "varighet_s": 0.14,
+     "musikk_under_tale": [
+      [
+       20.24,
+       20.38
+      ]
+     ],
+     "ny_etikett_pa_segmentet_s": {
+      "speech": 0.14
+     },
+     "ny_etikett_pa_musikkintervallene_s": {
+      "speech": 0.14
+     },
+     "ny_disposisjon_transkriber_s": 0.14
+    },
+    {
+     "id": "rokytest",
+     "start": 20.48,
+     "stopp": 22.84,
+     "varighet_s": 2.36,
+     "musikk_under_tale": [
+      [
+       20.52,
+       20.82
+      ],
+      [
+       21.28,
+       21.54
+      ],
+      [
+       22.12,
+       22.66
+      ]
+     ],
+     "ny_etikett_pa_segmentet_s": {
+      "speech": 2.36
+     },
+     "ny_etikett_pa_musikkintervallene_s": {
+      "speech": 1.1
+     },
+     "ny_disposisjon_transkriber_s": 2.36
+    },
+    {
+     "id": "rokytest",
+     "start": 23.72,
+     "stopp": 29.8,
+     "varighet_s": 6.08,
+     "musikk_under_tale": [
+      [
+       23.72,
+       24.62
+      ],
+      [
+       24.78,
+       25.0
+      ]
+     ],
+     "ny_etikett_pa_segmentet_s": {
+      "speech": 6.08
+     },
+     "ny_etikett_pa_musikkintervallene_s": {
+      "speech": 1.12
+     },
+     "ny_disposisjon_transkriber_s": 6.08
+    }
+   ],
+   "ny_tidslinje": [
+    [
+     "music",
+     0.0,
+     20.04,
+     "foreslått klipp"
+    ],
+    [
+     "speech",
+     20.04,
+     29.86,
+     "transkriber"
+    ],
+    [
+     "other",
+     29.86,
+     39.98,
+     "ingen handling"
+    ]
+   ],
+   "gammel_tidslinje": [
+    [
+     "music",
+     0.0,
+     20.24,
+     "foreslått klipp"
+    ],
+    [
+     "speech+music",
+     20.24,
+     20.38,
+     "menneskelig vurdering"
+    ],
+    [
+     "music",
+     20.38,
+     20.4,
+     "foreslått klipp"
+    ],
+    [
+     "other",
+     20.4,
+     20.48,
+     "ingen handling"
+    ],
+    [
+     "speech+music",
+     20.48,
+     22.84,
+     "transkriber"
+    ],
+    [
+     "other",
+     22.84,
+     23.0,
+     "ingen handling"
+    ],
+    [
+     "music",
+     23.0,
+     23.2,
+     "foreslått klipp"
+    ],
+    [
+     "other",
+     23.2,
+     23.48,
+     "ingen handling"
+    ],
+    [
+     "music",
+     23.48,
+     23.72,
+     "foreslått klipp"
+    ],
+    [
+     "speech+music",
+     23.72,
+     29.8,
+     "transkriber"
+    ],
+    [
+     "other",
+     29.8,
+     40.0,
+     "ingen handling"
+    ]
+   ]
+  },
+  "rokytest_personvern": {
+   "filer": 1,
+   "sekunder_sammenlignet": 39.98,
+   "enighet_streng_andel": 0.7289,
+   "enighet_tale_ekvivalent_andel": 0.978,
+   "per_gammel_etikett": {
+    "speech": {
+     "sekunder": 0,
+     "ny": {
+      "speech": 0,
+      "music": 0,
+      "other": 0
+     },
+     "andel_ny": {
+      "speech": null,
+      "music": null,
+      "other": null
+     },
+     "enig_streng": null,
+     "enig_tale_ekvivalent": null
+    },
+    "speech+music": {
+     "sekunder": 9.96,
+     "ny": {
+      "speech": 9.96,
+      "music": 0,
+      "other": 0
+     },
+     "andel_ny": {
+      "speech": 1.0,
+      "music": 0.0,
+      "other": 0.0
+     },
+     "enig_streng": 0.0,
+     "enig_tale_ekvivalent": 1.0
+    },
+    "music": {
+     "sekunder": 20.5,
+     "ny": {
+      "speech": 0.4,
+      "music": 20.1,
+      "other": 0
+     },
+     "andel_ny": {
+      "speech": 0.0195,
+      "music": 0.9805,
+      "other": 0.0
+     },
+     "enig_streng": 0.9805,
+     "enig_tale_ekvivalent": 0.9805
+    },
+    "other": {
+     "sekunder": 9.52,
+     "ny": {
+      "speech": 0.48,
+      "music": 0,
+      "other": 9.04
+     },
+     "andel_ny": {
+      "speech": 0.0504,
+      "music": 0.0,
+      "other": 0.9496
+     },
+     "enig_streng": 0.9496,
+     "enig_tale_ekvivalent": 0.9496
+    }
+   },
+   "transkripsjon": {
+    "filer_binaer_ulik": 0,
+    "filer_med_minst_0_5_s_forskjell": 1,
+    "sekunder_bare_inavamos": 0.0,
+    "sekunder_bare_ny": 0.88,
+    "segmenter_bare_inavamos_transkribert": 0,
+    "segmenter_bare_ny_transkribert": 0,
+    "per_fil": [
+     {
+      "id": "rokytest_personvern",
+      "transkribert_gammel_s": 9.96,
+      "transkribert_ny_s": 10.84,
+      "bare_gammel_s": 0.0,
+      "bare_ny_s": 0.88,
+      "binaer_ulik": false
+     }
+    ]
+   },
+   "speech_music_intervaller": [
+    {
+     "id": "rokytest_personvern",
+     "start": 20.22,
+     "stopp": 21.68,
+     "varighet_s": 1.46,
+     "musikk_under_tale": [
+      [
+       20.22,
+       20.46
+      ],
+      [
+       20.82,
+       21.68
+      ]
+     ],
+     "ny_etikett_pa_segmentet_s": {
+      "speech": 1.46
+     },
+     "ny_etikett_pa_musikkintervallene_s": {
+      "speech": 1.1
+     },
+     "ny_disposisjon_transkriber_s": 1.46
+    },
+    {
+     "id": "rokytest_personvern",
+     "start": 21.78,
+     "stopp": 22.88,
+     "varighet_s": 1.1,
+     "musikk_under_tale": [
+      [
+       21.78,
+       21.82
+      ],
+      [
+       22.14,
+       22.44
+      ],
+      [
+       22.58,
+       22.88
+      ]
+     ],
+     "ny_etikett_pa_segmentet_s": {
+      "speech": 1.1
+     },
+     "ny_etikett_pa_musikkintervallene_s": {
+      "speech": 0.64
+     },
+     "ny_disposisjon_transkriber_s": 1.1
+    },
+    {
+     "id": "rokytest_personvern",
+     "start": 22.96,
+     "stopp": 23.78,
+     "varighet_s": 0.82,
+     "musikk_under_tale": [
+      [
+       22.96,
+       23.78
+      ]
+     ],
+     "ny_etikett_pa_segmentet_s": {
+      "speech": 0.82
+     },
+     "ny_etikett_pa_musikkintervallene_s": {
+      "speech": 0.82
+     },
+     "ny_disposisjon_transkriber_s": 0.82
+    },
+    {
+     "id": "rokytest_personvern",
+     "start": 24.34,
+     "stopp": 30.92,
+     "varighet_s": 6.58,
+     "musikk_under_tale": [
+      [
+       26.82,
+       26.96
+      ]
+     ],
+     "ny_etikett_pa_segmentet_s": {
+      "speech": 6.58
+     },
+     "ny_etikett_pa_musikkintervallene_s": {
+      "speech": 0.14
+     },
+     "ny_disposisjon_transkriber_s": 6.58
+    }
+   ],
+   "ny_tidslinje": [
+    [
+     "music",
+     0.0,
+     20.1,
+     "foreslått klipp"
+    ],
+    [
+     "speech",
+     20.1,
+     30.94,
+     "transkriber"
+    ],
+    [
+     "other",
+     30.94,
+     39.98,
+     "ingen handling"
+    ]
+   ],
+   "gammel_tidslinje": [
+    [
+     "music",
+     0.0,
+     20.22,
+     "foreslått klipp"
+    ],
+    [
+     "speech+music",
+     20.22,
+     21.68,
+     "transkriber"
+    ],
+    [
+     "music",
+     21.68,
+     21.78,
+     "foreslått klipp"
+    ],
+    [
+     "speech+music",
+     21.78,
+     22.88,
+     "transkriber"
+    ],
+    [
+     "music",
+     22.88,
+     22.96,
+     "foreslått klipp"
+    ],
+    [
+     "speech+music",
+     22.96,
+     23.78,
+     "transkriber"
+    ],
+    [
+     "music",
+     23.78,
+     23.88,
+     "foreslått klipp"
+    ],
+    [
+     "other",
+     23.88,
+     24.34,
+     "ingen handling"
+    ],
+    [
+     "speech+music",
+     24.34,
+     30.92,
+     "transkriber"
+    ],
+    [
+     "other",
+     30.92,
+     40.0,
+     "ingen handling"
+    ]
+   ]
+  }
+ },
+ "merknad": "DEV og røyktest, ikke testdata. inaVAMOS ble ikke kjørt: gamle utdata er lest fra filene som lå på disk (tidslinje etter bygg_tidslinje). Nye utdata er inaSpeechSegmenter 0.8.0 (smn, uten kjønn) → etikettkart → samme bygg_tidslinje.",
+ "laget": "2026-10-27T16:49:49"
+}

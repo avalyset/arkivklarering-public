@@ -1,0 +1,36 @@
+# Nøkkelord for særlige kategorier: religion. Små bokstaver, nb og nn, ett uttrykk per linje.
+# Skal ikke inneholde personnavn. Treffene er forslag til menneskelig vurdering, ikke avgjørelser.
+ateist
+ateistisk
+buddhisme
+buddhist
+frikirke
+gudstro
+hindu
+hinduisme
+humanist
+jehovas vitner
+jøde
+jøder
+jødisk
+katolikk
+katolsk
+kirkesamfunn
+kristen
+kristendom
+kristne
+lestadianer
+lestadiansk
+moské
+muslim
+muslimer
+muslimsk
+pinsevenn
+pinsevenner
+protestant
+religion
+religiøs
+religiøse
+synagoge
+trossamfunn
+trusamfunn

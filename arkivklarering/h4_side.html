@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Innlesing av testmanus</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f6f6f4; --kort:#fff; --tekst:#1d1d1f; --dim:#6b6b70; --strek:#ddd; --aksent:#1f4fa8; --rod:#b3261e; --gronn:#2e7d32; --gul:#c9a227; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181d; --kort:#1f2229; --tekst:#e8e6e3; --dim:#9a9ea7; --strek:#30343d; --aksent:#7aa2ff; --rod:#ff8a80; --gronn:#81c784; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--tekst); font:15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 0 0 12px; }
+  .dim { color: var(--dim); }
+  .kort { background: var(--kort); border: 1px solid var(--strek); border-radius: 12px; padding: 18px; margin: 16px 0; }
+  .instruks { border-color: var(--aksent); font-size: 18px; }
+  .rad { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  button, select, textarea { font: inherit; border: 1px solid var(--strek); background: var(--kort); color: var(--tekst); border-radius: 8px; padding: 8px 14px; }
+  button { cursor: pointer; }
+  button.hoved { background: var(--aksent); border-color: var(--aksent); color: #fff; }
+  button:disabled { opacity: .4; cursor: default; }
+  textarea { width: 100%; min-height: 70px; }
+  label { display: block; margin: 8px 0 4px; }
+  .setning { font-size: 32px; line-height: 1.35; margin: 12px 0 16px; }
+  .merke { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--strek); color: var(--dim); }
+  .maler { height: 12px; border-radius: 6px; background: var(--strek); overflow: hidden; margin: 10px 0; }
+  .maler > div { height: 100%; width: 0; background: var(--gronn); transition: width .05s linear; }
+  .feil { color: var(--rod); }
+  .ok { color: var(--gronn); }
+  .skjult { display: none; }
+  .prikker { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 12px; }
+  .prikker span { width: 10px; height: 10px; border-radius: 3px; background: var(--strek); cursor: pointer; }
+  .prikker span.tatt { background: var(--gronn); }
+  .prikker span.her { outline: 2px solid var(--aksent); }
+  .banner, .statuslinje { position: sticky; top: 0; z-index: 5; padding: 10px 14px; border-radius: 8px; margin: 0 0 12px; font-weight: 600; }
+  .banner { background: var(--rod); color: #fff; }
+  .statuslinje { background: var(--gronn); color: #fff; }
+</style>
+</head>
+<body>
+<div id="ikkeServert">
+  <h1>Innlesing av testmanus</h1>
+  <p class="feil"><b>Denne siden kan ikke åpnes som fil. Den må åpnes av innleseren (scripts/rigg_manus.py).</b></p>
+</div>
+<main id="app" hidden>
+  <div id="banner" class="banner">Ingen runde startet – ingenting lagres. Fyll ut og trykk Start ny runde.</div>
+  <div id="statuslinje" class="statuslinje skjult"></div>
+  <h1>Innlesing av testmanus</h1>
+  <div class="kort instruks" id="instruks"></div>
+
+  <div class="kort" id="kortOppsett">
+    <h2>1. Oppsett</h2>
+    <p class="dim">Opptakene lagres bare på denne maskinens eksterne disk: <code id="rot"></code>.</p>
+    <div class="rad">
+      <label><input type="radio" name="modus" value="fullt" checked> <span id="fulltEtikett"></span></label>
+      <label><input type="radio" name="modus" value="dialekt"> <span id="dialektEtikett"></span></label>
+    </div>
+    <div class="rad">
+      <label>Målform <select id="malform"><option value="">–</option><option value="nb">bokmål</option><option value="nn">nynorsk</option></select></label>
+      <label>Dialektregion <select id="region"><option value="">ikke oppgitt</option></select></label>
+      <label>Dialektkilde <select id="kilde" disabled><option value="">–</option></select></label>
+    </div>
+    <label for="rom">Rom og mikrofon (fritekst, føres én gang for runden)</label>
+    <textarea id="rom" placeholder="For eksempel: kontor, lukket dør, innebygd mikrofon i MacBook, ca. 30 cm"></textarea>
+    <label><input type="checkbox" id="lest"> Jeg har lest instruksen over.</label>
+    <div class="rad" style="margin-top:12px"><button class="hoved" id="nyRunde">Start ny runde</button><span id="oppsettFeil" class="feil"></span></div>
+    <div id="tidligere" style="margin-top:12px"></div>
+  </div>
+
+  <div class="kort" id="kortMik">
+    <h2>2. Mikrofonsjekk</h2>
+    <p class="dim">Nivåmåleren skal bevege seg når du snakker. Ingenting tas opp eller lagres i mikrofonsjekken.</p>
+    <div class="maler"><div id="nivaa"></div></div>
+    <p class="setning" id="testsetning" style="font-size:20px"></p>
+    <div class="rad">
+      <button id="mikStart" class="hoved">Start mikrofonsjekk</button>
+    </div>
+    <p id="mikStatus" class="dim"></p>
+  </div>
+
+  <div class="kort skjult" id="kortOpptak">
+    <h2>3. Les inn</h2>
+    <p class="dim" id="instruks2"></p>
+    <div class="rad"><span id="fremdrift"></span> <span class="merke" id="info"></span></div>
+    <p class="setning" id="setning"></p>
+    <div class="rad">
+      <button class="hoved" id="opp">Ta opp</button>
+      <button id="stopp" disabled>Stopp</button>
+      <button id="spill" disabled>Spill av</button>
+      <button id="forrige">Forrige</button>
+      <button id="neste">Neste</button>
+    </div>
+    <div class="rad skjult" id="omtak" style="margin-top:10px">
+      <label for="grunn" style="margin:0">Ta om bare ved feillesing. Grunn:</label>
+      <select id="grunn"></select>
+      <button id="taom" disabled>Ta om</button>
+    </div>
+    <p id="oppStatus" class="dim"></p>
+    <div class="prikker" id="prikker"></div>
+  </div>
+
+  <div class="rad"><button id="avslutt">Avslutt innleseren</button></div>
+</main>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const TOKEN = new URLSearchParams(location.search).get("token") || "";
+const medToken = sti => sti + (sti.includes("?") ? "&" : "?") + "token=" + encodeURIComponent(TOKEN);
+let OPPSETT = null, RUNDE = null, RADER = [], POS = 0;
+let strom = null, opptaker = null, biter = [];
+
+async function api(sti, valg) {
+  const r = await fetch(medToken("/api/" + sti), valg);
+  const ct = r.headers.get("Content-Type") || "";
+  const data = ct.includes("json") ? await r.json() : await r.blob();
+  if (!r.ok) throw new Error((data && data.feil) || ("HTTP " + r.status));
+  return data;
+}
+const post = (sti, kropp, ctype) => api(sti, { method: "POST", body: kropp === undefined ? "{}" : kropp,
+  headers: { "Content-Type": ctype || "application/json" } });
+const q = s => encodeURIComponent(s);
+
+async function start() {
+  if (!TOKEN || location.protocol === "file:") return;
+  $("ikkeServert").hidden = true; $("app").hidden = false;
+  OPPSETT = await api("oppsett");
+  $("instruks").textContent = OPPSETT.instruks; $("instruks2").textContent = OPPSETT.instruks;
+  $("rot").textContent = OPPSETT.opptaksrot;
+  $("testsetning").textContent = "Si for eksempel: «" + OPPSETT.testsetning + "»";
+  $("fulltEtikett").textContent = `Fullt manus (${OPPSETT.manus.length} opptak)`;
+  $("dialektEtikett").textContent = `Dialektrunde (${OPPSETT.manus.filter(m => m.dialektutvalg).length} setninger)`;
+  for (const r of OPPSETT.regioner) $("region").add(new Option(r, r));
+  for (const k of OPPSETT.kilder) $("kilde").add(new Option(k, k));
+  $("grunn").add(new Option("velg grunn …", ""));
+  for (const g of OPPSETT.grunner) $("grunn").add(new Option(g, g));
+  visTidligere();
+}
+function visTidligere() {
+  const el = $("tidligere");
+  if (!OPPSETT.runder.length) { el.innerHTML = ""; return; }
+  el.textContent = "Tidligere runder (fortsett der du slapp):";
+  for (const r of OPPSETT.runder) {
+    const b = document.createElement("button");
+    b.textContent = `${r.opprettet.replace("T", " ")} · ${r.modus === "dialekt" ? "dialektrunde" : "fullt manus"} · ${r.antall_opptak} opptak`;
+    b.onclick = () => aapneRunde(r.id);
+    b.style.margin = "6px 6px 0 0";
+    el.appendChild(b);
+  }
+}
+$("region").onchange = () => { const paa = !!$("region").value; $("kilde").disabled = !paa; if (!paa) $("kilde").value = ""; };
+$("nyRunde").onclick = async () => {
+  $("oppsettFeil").textContent = "";
+  const region = $("region").value || null, kilde = $("kilde").value || null;
+  if (region && !kilde) { $("oppsettFeil").textContent = "Velg dialektkilde: morsmål eller imitert."; return; }
+  if (!$("rom").value.trim()) { $("oppsettFeil").textContent = "Beskriv rom og mikrofon."; return; }
+  if (!$("lest").checked) { $("oppsettFeil").textContent = "Bekreft at du har lest instruksen."; return; }
+  try {
+    const r = await post("runde", JSON.stringify({ modus: document.querySelector("input[name=modus]:checked").value,
+      dialektregion: region, dialektkilde: kilde, malform: $("malform").value || null,
+      rom_og_mikrofon: $("rom").value, instruks_lest: true }));
+    OPPSETT.runder.push(Object.assign({ antall_opptak: 0 }, r));
+    visTidligere();
+    await aapneRunde(r.id);
+  } catch (e) { $("oppsettFeil").textContent = e.message; }
+};
+
+// --------------------------------------------------------------- mikrofon
+function mikFeil(e) {
+  if (e.name === "NotAllowedError" || e.name === "SecurityError")
+    return "Mikrofontilgang ble nektet. Tillat mikrofon for dette nettstedet i nettleseren, og for nettleseren i macOS-innstillingene.";
+  if (e.name === "NotFoundError") return "Fant ingen mikrofon. Koble til en, og prøv igjen.";
+  return "Mikrofonen kunne ikke åpnes: " + e.message;
+}
+async function aapneMik() {
+  if (strom) return strom;
+  if (!navigator.mediaDevices || !window.MediaRecorder) throw new Error("Nettleseren støtter ikke opptak.");
+  strom = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: true } });
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
+  const analyse = ctx.createAnalyser(); analyse.fftSize = 1024;
+  ctx.createMediaStreamSource(strom).connect(analyse);
+  const buf = new Float32Array(analyse.fftSize);
+  (function tegn() {
+    analyse.getFloatTimeDomainData(buf);
+    let s = 0; for (const x of buf) s += x * x;
+    $("nivaa").style.width = Math.min(100, Math.sqrt(s / buf.length) * 400) + "%";
+    requestAnimationFrame(tegn);
+  })();
+  return strom;
+}
+function mime() {
+  for (const m of ["audio/webm;codecs=opus", "audio/webm", "audio/mp4", "audio/ogg;codecs=opus"])
+    if (MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(m)) return m;
+  return "";
+}
+function nyOpptaker(ferdig) {
+  const m = mime();
+  const rec = new MediaRecorder(strom, m ? { mimeType: m } : undefined);
+  biter = [];
+  rec.ondataavailable = e => { if (e.data.size) biter.push(e.data); };
+  rec.onstop = () => ferdig(new Blob(biter, { type: rec.mimeType || m || "audio/webm" }));
+  rec.start();
+  return rec;
+}
+$("mikStart").onclick = async () => {
+  try { await aapneMik(); $("mikStatus").textContent = "Mikrofonen er åpen. Si noe og se på måleren."; $("mikStatus").className = "ok";
+        $("mikStart").disabled = true; }
+  catch (e) { $("mikStatus").textContent = mikFeil(e); $("mikStatus").className = "feil"; }
+};
+
+// ----------------------------------------------------------------- runde
+async function aapneRunde(id) {
+  const st = await api("runde?runde=" + q(id));
+  RUNDE = st.runde; RADER = st.rader;
+  const neste = RADER.findIndex(r => !r.opptak);
+  POS = neste === -1 ? 0 : neste;
+  $("kortOpptak").classList.remove("skjult");
+  visStatus();
+  visRad();
+}
+function antallLagret() { return RADER.filter(x => x.opptak).length; }
+function visStatus() {  // kalles bare etter serversvar (åpning av runde, lagret opptak)
+  $("banner").classList.toggle("skjult", !!RUNDE);
+  const s = $("statuslinje");
+  s.classList.toggle("skjult", !RUNDE);
+  if (RUNDE) s.textContent = `Runde ${RUNDE.id} – lagret ${antallLagret()} av ${RADER.length}`;
+}
+function fasit(id) { return OPPSETT.manus.find(m => m.id === id); }
+function visRad() {
+  const r = RADER[POS], m = fasit(r.id);
+  $("fremdrift").textContent = `Setning ${POS + 1} av ${RADER.length}`;
+  $("info").textContent = `${m.id} · ${m.malform === "nn" ? "nynorsk" : "bokmål"}`;
+  $("setning").textContent = m.setning;
+  $("opp").disabled = r.opptak; $("spill").disabled = !r.opptak; $("stopp").disabled = true;
+  $("omtak").classList.toggle("skjult", !r.opptak);
+  $("grunn").value = ""; $("taom").disabled = true;
+  $("oppStatus").className = "dim"; $("oppStatus").textContent = r.opptak ? "Tatt opp." : "";
+  const p = $("prikker"); p.innerHTML = "";
+  RADER.forEach((x, i) => { const s = document.createElement("span");
+    s.className = (x.opptak ? "tatt" : "") + (i === POS ? " her" : "");
+    s.title = x.id; s.onclick = () => { POS = i; visRad(); }; p.appendChild(s); });
+}
+$("grunn").onchange = () => { $("taom").disabled = !$("grunn").value; };
+async function taOpp(grunn) {
+  try { await aapneMik(); } catch (e) { $("oppStatus").textContent = mikFeil(e); $("oppStatus").className = "feil"; return; }
+  const id = RADER[POS].id;
+  $("oppStatus").className = "dim"; $("oppStatus").textContent = "Tar opp … les setningen, trykk Stopp.";
+  $("opp").disabled = true; $("taom").disabled = true; $("stopp").disabled = false;
+  opptaker = nyOpptaker(blob => lagreOpptak(id, blob, grunn));
+}
+async function lagreOpptak(id, blob, grunn) {  // opptaket regnes som lagret først når serveren har svart ok
+  $("oppStatus").textContent = "Lagrer …";
+  try {
+    const svar = await post("opptak?runde=" + q(RUNDE.id) + "&id=" + q(id) + (grunn ? "&grunn=" + q(grunn) : ""), blob, blob.type);
+    const rad = RADER.find(x => x.id === id); rad.opptak = true;
+    visStatus();
+    if (RADER[POS].id === id) visRad();
+    $("oppStatus").textContent = "Lagret (forsøk " + svar.forsok + ").";
+  } catch (e) { $("oppStatus").textContent = "Kunne ikke lagre: " + e.message; $("oppStatus").className = "feil"; $("opp").disabled = RADER[POS].opptak; }
+}
+$("opp").onclick = () => taOpp(null);
+$("taom").onclick = () => { if ($("grunn").value) taOpp($("grunn").value); };
+$("stopp").onclick = () => { if (opptaker && opptaker.state === "recording") opptaker.stop(); $("stopp").disabled = true; };
+$("spill").onclick = async () => {
+  const b = await api("opptak?runde=" + q(RUNDE.id) + "&id=" + q(RADER[POS].id));
+  new Audio(URL.createObjectURL(b)).play();
+};
+$("neste").onclick = () => { if (POS < RADER.length - 1) { POS++; visRad(); } };
+$("forrige").onclick = () => { if (POS > 0) { POS--; visRad(); } };
+$("avslutt").onclick = async () => {
+  const melding = RUNDE ? `Avslutte innleseren? ${antallLagret()} av ${RADER.length} opptak er lagret i denne runden. Du kan fortsette senere.`
+                        : "Avslutte? Ingen runde er startet.";
+  if (!confirm(melding)) return;
+  try { await post("avslutt"); } catch (e) {} document.body.innerHTML = "<main><p>Innleseren er stoppet. Du kan lukke fanen.</p></main>"; };
+start().catch(e => { document.body.innerHTML = "<main><p class='feil'>" + String(e.message).replace(/[<>&]/g, "") + "</p></main>"; });
+</script>
+</body>
+</html>
