@@ -1,7 +1,7 @@
 {
   "title": "arkivklarering: klarering før publisering av norske lydarkiv (utkast og maskinforslag for menneskelig vurdering)",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creators": [
     {
       "name": "Botten Nicolaysen, Eirik",
@@ -33,7 +33,12 @@
       "identifier": "10.5281/zenodo.23723450",
       "relation": "isSupplementedBy",
       "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23723667",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
     }
   ],
-  "notes": "Versjon 1.0.0: DOI 10.5281/zenodo.23723667 (konsept-DOI 10.5281/zenodo.23723666). Full git-historikk (tilgangsstyrt, tilgang på forespørsel): DOI 10.5281/zenodo.23723450."
+  "notes": "Konsept-DOI (alle versjoner): 10.5281/zenodo.23723666. v1.0.0: DOI 10.5281/zenodo.23723667. Full git-historikk (tilgangsstyrt, tilgang på forespørsel): DOI 10.5281/zenodo.23723450."
 }

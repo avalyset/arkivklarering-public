@@ -1,6 +1,6 @@
 # KLAR-LOG-0002: Tidsstempler (OpenTimestamps)
 
-Versjon 1.35, 2026-10-28. Ført av `scripts/stempel.py`; ikke rediger for hånd.
+Versjon 1.36, 2026-10-28. Ført av `scripts/stempel.py`; ikke rediger for hånd.
 
 Stempelet beviser at en fil med denne sha256-en fantes senest da Bitcoin-blokken ble funnet, uavhengig av GitHub, Vault og Master Dok. Det beviser ikke forfatterskap. Bare sha256-sammendraget er sendt til kalendertjenestene. Et stempel er «ventende» til en kalender har fått det inn i en Bitcoin-blokk (vanligvis noen timer); `ots upgrade` kjøres av `scripts/speil.sh` hver gang og fører bekreftelsen under.
 Verifiser: `ots verify -f docs/<fil> docs/stempler/<ots-fil>`.
@@ -307,6 +307,35 @@ Verifiser: `ots verify -f docs/<fil> docs/stempler/<ots-fil>`.
 | 2026-10-28 00:21:03 | docs/adr/KLAR-ADR-0015_arkivklarering_tunge-data-kun-paa-vault_v1.1_2026-10-27.md | 9b5a1d3a39db9a556b5a6b0782af98db47986ffb118438ebe0b346f5e16da22b | KLAR-ADR-0015_arkivklarering_tunge-data-kun-paa-vault_v1.1_2026-10-27.md.9b5a1d3a39db.ots |
 | 2026-10-28 00:21:03 | docs/adr/KLAR-ADR-0019_arkivklarering_inaseg-erstatning_v1.4_2026-10-27.md | e044ad43c22fcb50f5cc7d3dad9cd7a3126011bc1c28b1399bd5f9e22d705fff | KLAR-ADR-0019_arkivklarering_inaseg-erstatning_v1.4_2026-10-27.md.e044ad43c22f.ots |
 | 2026-10-28 00:21:03 | docs/adr/KLAR-ADR-0020_arkivklarering_lisens-agpl_v1.0_2026-10-27.md | a69e1dc5577ace73f44faa26d192f2b97029f4c06b7b98cc07d80c779f973ede | KLAR-ADR-0020_arkivklarering_lisens-agpl_v1.0_2026-10-27.md.a69e1dc5577a.ots |
+| 2026-10-28 08:08:16 | HEAD_7b0346ae45ca.txt (git HEAD 7b0346a) | c5c461762785b9842a9e0cf112b49106775a356915c4332c7f06b3e3b6ff0fac | HEAD_7b0346ae45ca.txt.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0001_arkivklarering_arkitektur_v1.10_2026-10-28.md | e0f100dd0bdcfbe6f692c0dc220c8dadb527c7604c5060326e189751c146ca10 | KLAR-ARK-0001_arkivklarering_arkitektur_v1.10_2026-10-28.md.e0f100dd0bdc.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0002_arkivklarering_navnekonvensjon_v1.6_2026-10-28.md | fa5a4b15b8ac131d0088f8884177056dfc8b74b9231d1a508b9d1df9ba2985ac | KLAR-ARK-0002_arkivklarering_navnekonvensjon_v1.6_2026-10-28.md.fa5a4b15b8ac.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0003_arkivklarering_nummerregister_v1.27_2026-10-28.md | 148da1e96a1d9078ad7f88f1cca6a363f51d8ade53c6fc86623335ab24cd2e78 | KLAR-ARK-0003_arkivklarering_nummerregister_v1.27_2026-10-28.md.148da1e96a1d.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0004_arkivklarering_modellkort_v1.9_2026-10-28.md | 3bbd3f6032a2ad4d750d133950b53348700b8ac9b667c6a427d147514f2b7e3d | KLAR-ARK-0004_arkivklarering_modellkort_v1.9_2026-10-28.md.3bbd3f6032a2.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0005_arkivklarering_datablad-manus_v1.12_2026-10-28.md | 521ce6ec25f118a26712debae6b356f6983a85b61fa650b939683d0d1121a3ad | KLAR-ARK-0005_arkivklarering_datablad-manus_v1.12_2026-10-28.md.521ce6ec25f1.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0006_arkivklarering_veikart_v1.13_2026-10-28.md | 79d79815da3960506c032f3d2dece441a48008196ae12ad273e24635ef4926cf | KLAR-ARK-0006_arkivklarering_veikart_v1.13_2026-10-28.md.79d79815da39.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0008_arkivklarering_avklaringer-foer-frys_v1.15_2026-10-28.md | 1228e9f733f428148030b42af2371ffdc3e31029d71c9b50eff07a93e615f958 | KLAR-ARK-0008_arkivklarering_avklaringer-foer-frys_v1.15_2026-10-28.md.1228e9f733f4.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-ARK-0009_arkivklarering_artikkelutkast-joss_v0.15_2026-10-28.md | 92eb6992c2a3ba014ce1b141d716c6f2478d6eea7b1ec618d43eac7243c51e86 | KLAR-ARK-0009_arkivklarering_artikkelutkast-joss_v0.15_2026-10-28.md.92eb6992c2a3.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-EVAL-0001_arkivklarering_oppdiktet-tekst-maaling_v1.5_2026-10-28.md | 1ffeebf35fcd4ba218be40e94660922ad594dd0341b0144a814b7c59afbe2bdc | KLAR-EVAL-0001_arkivklarering_oppdiktet-tekst-maaling_v1.5_2026-10-28.md.1ffeebf35fcd.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-EVAL-0008_arkivklarering_syntetisk-kjede_v1.5_2026-10-28.md | ed932f263c33a2de61407f61d7097d41f51941b147461fdc7e8dfd1ca8f0f98c | KLAR-EVAL-0008_arkivklarering_syntetisk-kjede_v1.5_2026-10-28.md.ed932f263c33.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-EVAL-0010_arkivklarering_degradering-dev_v1.5_2026-10-28.md | 8483f99bdcb9631fd11bdeefd73b7a5018ae9e91352c4ef2fa5546b95f702813 | KLAR-EVAL-0010_arkivklarering_degradering-dev_v1.5_2026-10-28.md.8483f99bdcb9.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-GT-0001_arkivklarering_ground-truth_v1.35_2026-10-28.md | b6a96d1da7676c7c6caec9f630e120ccb9679e11ab3618cb22b58ec59655e97e | KLAR-GT-0001_arkivklarering_ground-truth_v1.35_2026-10-28.md.b6a96d1da767.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-KILDE-0001_arkivklarering_kilderegister_v1.19_2026-10-28.md | 35fd3af9e6a8c91dbc479c8861f575c9538b09f9c091ececf4b672f6d7483a76 | KLAR-KILDE-0001_arkivklarering_kilderegister_v1.19_2026-10-28.md.35fd3af9e6a8.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-LOG-0001_arkivklarering_avvik-og-hendelser_v1.53_2026-10-28.md | 77b97d7b7574b8281eea44a574c211644adff8b00f4761ad1681c2c7efc91898 | KLAR-LOG-0001_arkivklarering_avvik-og-hendelser_v1.53_2026-10-28.md.77b97d7b7574.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-LOG-0003_arkivklarering_avvikstabell_v1.22_2026-10-28.md | 13de1b3b491ed3056521f4113e343d6fbb6a29ef999163a745622d42782c4be1 | KLAR-LOG-0003_arkivklarering_avvikstabell_v1.22_2026-10-28.md.13de1b3b491e.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-LOG-0004_arkivklarering_portfunn-runde2_v1.0_2026-10-28.md | f299ce81e254bd1d66cf00c17c5fb56224212a1472c0134cc41843fa24662cb5 | KLAR-LOG-0004_arkivklarering_portfunn-runde2_v1.0_2026-10-28.md.f299ce81e254.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-LOG-0005_arkivklarering_portfunn-runde3_v1.0_2026-10-28.md | 2590b0e2d8ea82dcdc914418e3b1ead2a9a6070aa887887d7f2d273efd4846b2 | KLAR-LOG-0005_arkivklarering_portfunn-runde3_v1.0_2026-10-28.md.2590b0e2d8ea.ots |
+| 2026-10-28 08:08:16 | docs/KLAR-PREREG-0001_arkivklarering_testdeler_v1.33_2026-10-28.md | cb400934097b2edca1e072212b20f6ba508560cff7c9584c25e832ba6a2db1cd | KLAR-PREREG-0001_arkivklarering_testdeler_v1.33_2026-10-28.md.cb400934097b.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0004_arkivklarering_segmentregel_v1.5_2026-10-28.md | 9ce5ab5d7e7d726261af69bf766e79cd320ac1fae0c0e6ac947157411a42f0a6 | KLAR-ADR-0004_arkivklarering_segmentregel_v1.5_2026-10-28.md.9ce5ab5d7e7d.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0005_arkivklarering_to-lag-nb-whisper-large_v1.3_2026-10-28.md | c46df7d6323a2b3033de1107b156ce98ae3bcebe420d3483a78af30ee4e2105a | KLAR-ADR-0005_arkivklarering_to-lag-nb-whisper-large_v1.3_2026-10-28.md.c46df7d6323a.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0012_arkivklarering_recall-foran-presisjon_v1.4_2026-10-28.md | 9d8646297404ccb0b20a3f789cbd6376ade1330973f740239db3a7187c5d8242 | KLAR-ADR-0012_arkivklarering_recall-foran-presisjon_v1.4_2026-10-28.md.9d8646297404.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0013_arkivklarering_katalogmodell_v1.1_2026-10-28.md | 57519d7d80536a208bf8404af24ce93bbaf7d863b23dfb686ecaf787d83d8341 | KLAR-ADR-0013_arkivklarering_katalogmodell_v1.1_2026-10-28.md.57519d7d8053.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0016_arkivklarering_talerinndeling-pyannote_v1.1_2026-10-28.md | 69b69ce62068cebdb7bc1a29d971d6131cebbb39cdde0ecc3003bd9723e1e3e3 | KLAR-ADR-0016_arkivklarering_talerinndeling-pyannote_v1.1_2026-10-28.md.69b69ce62068.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0017_arkivklarering_nt-for-raalaget_v1.1_2026-10-28.md | 2ebb6d1157b4e9a7174a538c2f670a0b0d2ab394b6a192c31a74d113a48d0cab | KLAR-ADR-0017_arkivklarering_nt-for-raalaget_v1.1_2026-10-28.md.2ebb6d1157b4.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0018_arkivklarering_innspillingsprotokoll-h4_v1.2_2026-10-28.md | 265c23afb83ab6d6ec69407f345647e004c537a53048de550419f4290d10b338 | KLAR-ADR-0018_arkivklarering_innspillingsprotokoll-h4_v1.2_2026-10-28.md.265c23afb83a.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0019_arkivklarering_inaseg-erstatning_v1.6_2026-10-28.md | 4ec22b48771442b59f3938ffa0974cd1c1ca6130c70f519ec83a2ff901cde347 | KLAR-ADR-0019_arkivklarering_inaseg-erstatning_v1.6_2026-10-28.md.4ec22b487714.ots |
+| 2026-10-28 08:08:16 | docs/adr/KLAR-ADR-0020_arkivklarering_lisens-agpl_v1.4_2026-10-28.md | 29ddd813e7811d295c3a16d8c023a05d9794b080da9e4feea85d07aa1efa8bb1 | KLAR-ADR-0020_arkivklarering_lisens-agpl_v1.4_2026-10-28.md.29ddd813e781.ots |
+| 2026-10-28 08:08:16 | docs/gt_fast.md | bc349343548cb6c38416b206f0304709153258640e2914c75d9072cb149df94e | gt_fast.md.bc349343548c.ots |
 
 ## Bitcoin-bekreftelser
 
@@ -576,3 +605,37 @@ Verifiser: `ots verify -f docs/<fil> docs/stempler/<ots-fil>`.
 | 2026-10-28 00:21:03 | KLAR-REG-0001_arkivklarering_osf-metode_v1.1_2026-10-27.md.112cc24c7a11.ots | bekreftet i Bitcoin-blokk |
 | 2026-10-28 00:21:03 | KLAR-REG-0001_arkivklarering_osf-metode_v1.2_2026-10-27.md.9212ad68545b.ots | bekreftet i Bitcoin-blokk |
 | 2026-10-28 00:29:10 | KLAR-ARK-0005_arkivklarering_datablad-manus_v1.2_2026-10-27.md.958238da0a88.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | HEAD_058f3ff86969.txt.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0004_arkivklarering_segmentregel_v1.3_2026-10-27.md.f31a25ec986a.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0007_arkivklarering_lokal-prosessering_v1.1_2026-10-27.md.7cb25f107a95.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0008_arkivklarering_personvernflagg-presidio-nbbert_v1.3_2026-10-27.md.24e20227b86d.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0009_arkivklarering_eksport-webvtt-iiif_v1.1_2026-10-27.md.5114c9975db0.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0012_arkivklarering_recall-foran-presisjon_v1.3_2026-10-27.md.9bcdd6e74624.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0014_arkivklarering_vendor-fra-norsk-tale_v1.1_2026-10-27.md.22de5ddf5604.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0015_arkivklarering_tunge-data-kun-paa-vault_v1.1_2026-10-27.md.9b5a1d3a39db.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0019_arkivklarering_inaseg-erstatning_v1.4_2026-10-27.md.e044ad43c22f.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ADR-0020_arkivklarering_lisens-agpl_v1.0_2026-10-27.md.a69e1dc5577a.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0001_arkivklarering_arkitektur_v1.8_2026-10-27.md.3c7d10a5619d.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0003_arkivklarering_nummerregister_v1.23_2026-10-27.md.681a9d212910.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0004_arkivklarering_modellkort_v1.2_2026-10-27.md.4f4754a4c7e2.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0004_arkivklarering_modellkort_v1.4_2026-10-27.md.5f95bf57fb61.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0005_arkivklarering_datablad-manus_v1.3_2026-10-27.md.dc54ed54c88a.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0005_arkivklarering_datablad-manus_v1.4_2026-10-27.md.19bf53e17682.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0005_arkivklarering_datablad-manus_v1.6_2026-10-27.md.5638c617ef3b.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0006_arkivklarering_veikart_v1.10_2026-10-27.md.5be7903fada0.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0008_arkivklarering_avklaringer-foer-frys_v1.3_2026-10-27.md.afb6435d20ed.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0008_arkivklarering_avklaringer-foer-frys_v1.7_2026-10-28.md.f112a06bc4f8.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0009_arkivklarering_artikkelutkast-joss_v0.3_2026-10-27.md.55e8097a44f8.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0009_arkivklarering_artikkelutkast-joss_v0.4_2026-10-27.md.38a38a4071c5.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-ARK-0009_arkivklarering_artikkelutkast-joss_v0.8_2026-10-27.md.dd633dd429ed.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-EVAL-0008_arkivklarering_syntetisk-kjede_v1.3_2026-10-27.md.2ea345b7cd93.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-GT-0001_arkivklarering_ground-truth_v1.34_2026-10-28.md.a098e469a109.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-KILDE-0001_arkivklarering_kilderegister_v1.11_2026-10-27.md.7fa7d0270bd2.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-KILDE-0001_arkivklarering_kilderegister_v1.7_2026-10-27.md.3cd4997aa97d.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-LOG-0001_arkivklarering_avvik-og-hendelser_v1.46_2026-10-28.md.83242938cf1d.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-LOG-0003_arkivklarering_avvikstabell_v1.12_2026-10-27.md.3a52cebbb0ba.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-LOG-0003_arkivklarering_avvikstabell_v1.13_2026-10-27.md.f3115877bc07.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-LOG-0003_arkivklarering_avvikstabell_v1.16_2026-10-27.md.04548a35a606.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-PREREG-0001_arkivklarering_testdeler_v1.24_2026-10-27.md.58c7ac9d197f.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-PREREG-0001_arkivklarering_testdeler_v1.25_2026-10-27.md.3a4ade48b585.ots | bekreftet i Bitcoin-blokk |
+| 2026-10-28 08:08:16 | KLAR-PREREG-0001_arkivklarering_testdeler_v1.27_2026-10-27.md.f6300a0ee258.ots | bekreftet i Bitcoin-blokk |

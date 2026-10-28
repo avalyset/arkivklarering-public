@@ -2,6 +2,10 @@
 
 Format etter [Keep a Changelog](https://keepachangelog.com/no/1.1.0/); versjonene følger `pyproject.toml`. Alt er utviklet 2026-10-26–28 (ett arbeidsløp). Kvalitetspåstander står bare i KLAR-EVAL-dokumentene; avvik og hendelser i `docs/KLAR-LOG-0001_*`.
 
+## [1.0.1] - 2026-10-28
+
+- Kilderader for Zenodo-adressene og DOI-er i CITATION.cff, .zenodo.json og README. Ingen endring i kode, analyse eller resultater. v1.0.0 er arkivert før disse rettingene; kildesjekken feiler der på to adresser (se LOG-0001).
+
 ## [1.0.0] - 2026-10-27
 
 ### Endret

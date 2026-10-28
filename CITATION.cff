@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "Hvis du bruker arkivklarering, siter det slik. If you use arkivklarering, please cite it as below."
 title: "arkivklarering: klarering før publisering av norske lydarkiv (utkast og maskinforslag for menneskelig vurdering)"
 type: software
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-28
 license: AGPL-3.0-or-later
-doi: 10.5281/zenodo.23723667
+doi: 10.5281/zenodo.23723666
 repository-code: "https://github.com/avalyset/arkivklarering-public"
 authors:
   - family-names: Botten Nicolaysen
@@ -18,10 +18,7 @@ abstract: >-
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23723667
-    description: "Zenodo, versjon 1.0.0"
-  - type: doi
-    value: 10.5281/zenodo.23723666
-    description: "Zenodo, alle versjoner (konsept-DOI)"
+    description: "v1.0.0"
   - type: doi
     value: 10.5281/zenodo.23723450
     description: "Full git-historikk (git bundle), tilgangsstyrt: tilgang på forespørsel"
