@@ -14,6 +14,9 @@ Regler:
   2. Hver slik henvisning, merket eller ikke, skal finnes i treet eller i git-historikken (`git log --all`); ellers er den en skrivefeil.
   3. En fil:linje-peker skal vise til en linje som finnes i den fila (i treet, eller ved siste commit der fila fantes).
 
+Regel 2, og regel 3 for filer som bare finnes i historikken, prøves bare når den private historikken finnes i repoet (commiten BUNDLE_COMMIT);
+i det offentlige repoet gjelder regel 1 og regel 3 for filer i treet.
+
     python3 scripts/sjekk_pekere.py      # skriver ett brudd per linje; avslutter med 1 hvis det finnes brudd
 """
 import functools
@@ -24,6 +27,7 @@ import sys
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
 MERKE = "(i git-historikken)"
+BUNDLE_COMMIT = "e7ee2fcbcf998da55d1b0a287de0410dae7e155c"  # siste commit i den tilgangsstyrte bundlen (KLAR-LOG-0001, steg 4.3)
 TYPER = "ARK|ADR|EVAL|LOG|KILDE|PREREG|MANUS|REG|GT"
 LANG = re.compile(r"KLAR-[A-Z]+-\d{4}_[a-z0-9_-]+?_v(\d+\.\d+)_\d{4}-\d{2}-\d{2}(?:_[a-z_]+)?(?:\.[a-z0-9]+)+")
 ELIDERT = re.compile(r"KLAR-([A-Z]+)-(\d{4})_…_v(\d+\.\d+)_\d{4}-\d{2}-\d{2}(?:_[a-z_]+)?(?:\.[a-z0-9]+)+")  # «KLAR-ADR-0019_…_v1.5_….md»
@@ -48,9 +52,10 @@ def tre():
 
 @functools.lru_cache(None)
 def har_historikk():
-    """Uten historikk (ett commit, som i det offentlige repoet fra et rent tre) kan regel 2 og regel 3 for historiske filer ikke prøves;
-    historikken ligger da i den tilgangsstyrte deponeringen, og bare regel 1 og regel 3 for filer i treet gjelder."""
-    return int(git("rev-list", "--count", "--all").strip() or 0) > 1
+    """Finnes den private historikken i repoet? Kjennetegnet er siste commit i den tilgangsstyrte bundlen (BUNDLE_COMMIT). Uten den (som i
+    det offentlige repoet, som er laget fra et rent tre og har egne commits) kan regel 2 og regel 3 for historiske filer ikke prøves; historikken
+    ligger da i den tilgangsstyrte deponeringen (DOI 10.5281/zenodo.23723450), og bare regel 1 og regel 3 for filer i treet gjelder."""
+    return subprocess.run(["git", "cat-file", "-e", f"{BUNDLE_COMMIT}^{{commit}}"], cwd=REPO, capture_output=True).returncode == 0
 
 
 @functools.lru_cache(None)

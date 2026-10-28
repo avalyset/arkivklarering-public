@@ -40,6 +40,7 @@ def lite_repo(tmp_path, monkeypatch):
     git(r, "mv", str(gammel), str(r / "docs" / "KLAR-ARK-0001_x_arkitektur_v1.1_2026-10-27.md"))
     git(r, "commit", "-q", "-m", "v1.1")
     monkeypatch.setattr(sp, "REPO", r)
+    monkeypatch.setattr(sp, "BUNDLE_COMMIT", git(r, "rev-parse", "HEAD~1").strip())  # «privat historikk» = første commit
     tøm_cacher()
     yield r
     tøm_cacher()
@@ -68,3 +69,19 @@ def test_skrivefeil_og_linje_som_ikke_finnes(lite_repo):
 def test_versjonsnotat_og_kodeblokk_er_unntatt(lite_repo):
     skriv(lite_repo, "# B\n\nVersjon 1.0, 2026-10-27 (v1.0: bygger på KLAR-ARK-0001 v1.0).\n\n```\nKLAR-ARK-0001 v1.0\n```\n\n## C\n")
     assert sp.sjekk() == []
+
+
+def test_uten_den_private_historikken_proves_bare_merking_og_linjer_i_treet(lite_repo, monkeypatch):
+    """Som i det offentlige repoet: egne commits, men ikke bundle-commiten. Merkede henvisninger godtas, umerkede er fortsatt brudd."""
+    monkeypatch.setattr(sp, "BUNDLE_COMMIT", "0" * 40)
+    tøm_cacher()
+    skriv(lite_repo, "# B\n\nSe KLAR-ARK-0001 v1.7:99 (i git-historikken). Gjeldende er KLAR-ARK-0001 v1.1:4.\n")
+    assert sp.har_historikk() is False and sp.sjekk() == []
+    tøm_cacher()
+    skriv(lite_repo, "# B\n\nSe KLAR-ARK-0001 v1.0:3.\n")
+    assert [b.split(": ", 1)[1] for b in sp.sjekk()] == ["ikke i treet og ikke merket (i git-historikken): KLAR-ARK-0001 v1.0"]
+
+
+def test_det_private_repoet_har_bundle_commiten():
+    tøm_cacher()
+    assert sp.har_historikk() is True

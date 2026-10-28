@@ -18,7 +18,7 @@
 #   alle = H1, H2, H3, H4 i den rekkefølgen (H4 til sist: opptakene må være innlest og scoret først, se PREREG).
 #
 # Før hver del: (1) `git status --porcelain` må være helt tom (også usporede filer), ellers kjøres ingenting (exit 1); (2) koden må være uendret siden
-# taggen `testkjoring-v10` (`git diff --quiet testkjoring-v10 -- arkivklarering kalibrering tests scripts` og alle .py-filer under eval/), ellers kjøres
+# taggen `testkjoring-v11` (`git diff --quiet testkjoring-v11 -- arkivklarering kalibrering tests scripts` og alle .py-filer under eval/), ellers kjøres
 # ingenting (exit 5; mangler taggen, er det også exit 5). Kravet er IKKE at HEAD er taggen: resultat-commitene (docs/, eval/test/) er tillatt. Etter hver del skrives
 # <resultat>_kjoring_meta.json (commit-SHA ved start, tom porcelain, kommando, tider, returkode, resultatfiler, SHA-ene til taggene og sha256 for PREREG-
 # og MANUS-fila). Så: commit av resultat og metafil, push, speil. Stopper hele kjøringen (ingen neste del) hvis en del feiler, hvis en SPORET fil er
@@ -86,7 +86,7 @@ rent_eller_stopp() {
 }
 
 kode_uendret_eller_stopp() {
-  local TAGG="${KLAR_KODETAGG:-testkjoring-v10}"
+  local TAGG="${KLAR_KODETAGG:-testkjoring-v11}"
   if ! git rev-parse -q --verify "refs/tags/$TAGG^{commit}" >/dev/null; then
     echo "FEIL: taggen $TAGG finnes ikke; kan ikke vise at koden er uendret. Kjører ikke." >&2
     exit 5
@@ -140,8 +140,8 @@ for d in "${DELER[@]}"; do
   export META SHA START SLUTT RC KMD PRE MAN RES DEL_NAVN="$d" NYE
   export TAG_PREREG="$(git rev-parse -q --verify 'refs/tags/prereg-v1^{commit}' || echo mangler)"
   export TAG_H4="$(git rev-parse -q --verify 'refs/tags/h4-script-v2^{commit}' || echo mangler)"
-  export TAG_KODE="$(git rev-parse -q --verify "refs/tags/${KLAR_KODETAGG:-testkjoring-v10}^{commit}" || echo mangler)"
-  export TAG_KODE_NAVN="${KLAR_KODETAGG:-testkjoring-v10}"
+  export TAG_KODE="$(git rev-parse -q --verify "refs/tags/${KLAR_KODETAGG:-testkjoring-v11}^{commit}" || echo mangler)"
+  export TAG_KODE_NAVN="${KLAR_KODETAGG:-testkjoring-v11}"
   export TAG_KODE_V1="$(git rev-parse -q --verify 'refs/tags/testkjoring-v1^{commit}' || echo mangler)"
   export SHA_PRE="$(shasum -a 256 "$PRE" | cut -d' ' -f1)" SHA_MAN="$(shasum -a 256 "$MAN" | cut -d' ' -f1)"
   "$PY" - <<'PYEOF'

@@ -55,6 +55,7 @@ def lag_repo(tmp_path):
     git(r, "tag", "testkjoring-v8")
     git(r, "tag", "testkjoring-v9")
     git(r, "tag", "testkjoring-v10")
+    git(r, "tag", "testkjoring-v11")
     bart = tmp_path / "origin.git"
     subprocess.run(["git", "init", "-q", "--bare", "-b", "main", str(bart)], check=True)
     git(r, "remote", "add", "origin", str(bart))
@@ -97,7 +98,7 @@ def test_en_del_committer_pusher_og_speiler_med_meta_ved_siden_av_resultatet(tmp
     assert kjort(r) == ["kjor_h4 --prereg-id KLAR-PREREG-0001 --opptak /Volumes/Vault/arkivklarering/lyd/h4"]
     d = json.loads((r / "docs" / "KLAR-EVAL-kjor_h4_v1.0_2026-10-27_kjoring_meta.json").read_text())
     assert d["commit"] == start and d["git_status_porcelain_ved_start"] == [] and d["returkode"] == 0 and d["del"] == "H4"
-    assert d["tag_testkjoring"] == {"navn": "testkjoring-v10", "commit": start} and d["tag_testkjoring_v1"] == start and d["kode_uendret_siden_tagg"] is True
+    assert d["tag_testkjoring"] == {"navn": "testkjoring-v11", "commit": start} and d["tag_testkjoring_v1"] == start and d["kode_uendret_siden_tagg"] is True
     assert d["tag_prereg_v1"] == start == d["tag_h4_script_v2"] and d["preregistrering"]["fil"].endswith("_v1.10_2026-10-27.md")  # versjonssortering
     assert d["resultatfil"] == "docs/KLAR-EVAL-kjor_h4_v1.0_2026-10-27.json"
     assert git(r, "status", "--porcelain") == "" and git(r, "rev-parse", "HEAD") != start
@@ -173,16 +174,16 @@ def test_resultatfiler_og_andre_filtyper_under_eval_tillates(tmp_path):
 
 def test_manglende_tagg_stopper(tmp_path):
     r, bart = lag_repo(tmp_path)
-    git(r, "tag", "-d", "testkjoring-v10")
+    git(r, "tag", "-d", "testkjoring-v11")
     p = kjor(r, "H4", "--prereg-id", "KLAR-PREREG-0001")
-    assert p.returncode == 5 and "testkjoring-v10" in p.stderr and "finnes ikke" in p.stderr and kjort(r) == []  # v1–v9 finnes, men teller ikke
+    assert p.returncode == 5 and "testkjoring-v11" in p.stderr and "finnes ikke" in p.stderr and kjort(r) == []  # v1–v10 finnes, men teller ikke
 
 
 def test_to_testdeler_etter_hverandre_med_kodesjekk_for_hver(tmp_path):
     r, bart = lag_repo(tmp_path)
     p1 = kjor(r, "H1", "--prereg-id", "KLAR-PREREG-0001")
     assert p1.returncode == 0, p1.stderr
-    assert git(r, "rev-parse", "HEAD") != git(r, "rev-parse", "testkjoring-v10")  # HEAD har flyttet seg (resultat-commit), koden ikke
+    assert git(r, "rev-parse", "HEAD") != git(r, "rev-parse", "testkjoring-v11")  # HEAD har flyttet seg (resultat-commit), koden ikke
     p2 = kjor(r, "H2", "--prereg-id", "KLAR-PREREG-0001")
     assert p2.returncode == 0, p2.stderr
     assert [x.split()[0] for x in kjort(r)] == ["kjor_dev", "kjor_flaggoverlevelse_ord"]
